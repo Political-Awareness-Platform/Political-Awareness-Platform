@@ -1,5 +1,6 @@
 <template>
   <v-layout column justify-center align-center>
+<<<<<<< HEAD
     <v-flex xs12 sm8 md8>
       <p class="text-justify">
         This platform created to heal the relationship problem
@@ -38,6 +39,10 @@
         to focus on, and what to avoid the most. Therefore, political parties
         can see what citizens care about the most and the least.
       </p>
+=======
+    <v-flex xs12 sm8 md6>
+      <div class="text-center">hello</div>
+>>>>>>> 068dea6f99c81861d9df4b744f14f60a99f2f3ca
     </v-flex>
     <v-flex xs12 sm8 md8 class="mt-12">
       <h2 class="text-justify font-weight-bold">Available countries</h2>
