@@ -91,4 +91,4 @@ sw.*
 
 # others
 .prettierrc
-.vscode
+.vscode/
