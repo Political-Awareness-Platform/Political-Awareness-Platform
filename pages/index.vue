@@ -1,6 +1,5 @@
 <template>
   <v-layout column justify-center align-center>
-<<<<<<< HEAD
     <v-flex xs12 sm8 md8>
       <p class="text-justify">
         This platform created to heal the relationship problem
@@ -39,10 +38,6 @@
         to focus on, and what to avoid the most. Therefore, political parties
         can see what citizens care about the most and the least.
       </p>
-=======
-    <v-flex xs12 sm8 md6>
-      <div class="text-center">hello</div>
->>>>>>> 068dea6f99c81861d9df4b744f14f60a99f2f3ca
     </v-flex>
     <v-flex xs12 sm8 md8 class="mt-12">
       <h2 class="text-justify font-weight-bold">Available countries</h2>
@@ -50,7 +45,7 @@
 
     <v-container>
       <v-row>
-        <v-card class="mx-auto ma-3" max-width="300" to="/inspire">
+        <v-card class="mx-auto ma-3" max-width="300" nuxt-link to="/turkey">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -58,10 +53,10 @@
           >
           </v-img>
           <v-card-text class="text--primary text-center">
-            <div>Turkey</div>
+            <h2>Turkey</h2>
           </v-card-text>
         </v-card>
-        <v-card class="mx-auto ma-3" max-width="300">
+        <v-card class="mx-auto ma-3" max-width="300" nuxt-link to="/germany">
           <v-img
             class="white--text align-end"
             height="200px"
@@ -69,7 +64,7 @@
           >
           </v-img>
           <v-card-text class="text--primary text-center">
-            <div>Germany</div>
+            <h2>Germany</h2>
           </v-card-text>
         </v-card>
       </v-row>
