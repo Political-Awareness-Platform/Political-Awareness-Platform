@@ -1,27 +1,31 @@
 <template>
-  <div>
-    <div><p>Demokrat Parti</p></div>
-    <div>
-      <br />
-      Amblemi <br />
-      Adi <br />
-      Kisalmasi <br />
-      Kurulus tarihi<br />
-      Kurucu lider <br />
-      Fiziksek adresi Internet adresi <br />
-      Telefon numarasi <br />
-      Genel baskani <br />
-      Iletisim sozcusu <br />
-      Uye sayisi <br />
-      Sosyal medya linkleri <br />
-      Tuzukteki kurulus amaci <br />
-      Secim vaadleri
-    </div>
-    <hr>
-    <div>
-      pozitif & negatif yorum alani
-    </div>
-  </div>
+  <v-layout column justify-center align-center>
+    <v-flex d-flex flex-wrap align-items xs12 sm10 md10 class="mt-8">
+      <v-img
+        contain
+        max-width="300"
+        class="mt-7"
+        height="200px"
+        src="/party_logos/turkey/demokrat_parti_logo.png"
+      >
+      </v-img>
+      <v-layout column justify-center class="ml-12 mt-6">
+        <p><b>Adi :</b> Demokrat Parti</p>
+        <p><b>Kisalmasi :</b></p>
+        <p><b>Kurulus tarihi :</b></p>
+        <p><b>Kurucu lider :</b></p>
+        <p><b>Fiziksek adresi :</b></p>
+        <p><b>Internet adresi :</b></p>
+        <p><b>Telefon numarasi :</b></p>
+        <p><b>Genel baskani :</b></p>
+        <p><b>Iletisim sozcusu :</b></p>
+        <p><b>Uye sayisi :</b></p>
+        <p><b>Sosyal medya linkleri :</b></p>
+        <p><b>Tuzukteki kurulus amaci:</b></p>
+        <p><b>Secim vaadleri :</b></p>
+      </v-layout>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
