@@ -83,5 +83,15 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  /*
+  ** Progressive Web App 
+  */
+  pwa: {
+    workbox: {
+      /* workbox options */
+      offline: false,
+      cacheAssets: false,
+    }
   }
 }

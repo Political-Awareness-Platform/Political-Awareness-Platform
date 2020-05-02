@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app >
     <v-app-bar app flat class="blue lighten-5">
       <v-spacer></v-spacer>
       <nuxt-link to="/" style="text-decoration:none;">
