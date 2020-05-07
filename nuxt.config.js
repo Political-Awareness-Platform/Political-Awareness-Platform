@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+require('dotenv').config()
 
 export default {
   mode: 'universal',
@@ -46,6 +47,27 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    'nuxt-material-design-icons',
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: process.env.APIKEY,
+          authDomain: process.env.AUTHDOMAIN,
+          databaseURL: process.env.DATABASEURL,
+          projectId: process.env.PROJECTID,
+          storageBucket: process.env.STORAGEBUCKET,
+          messagingSenderId: process.env.MESSAGINGSENDERID,
+          appId: process.env.APPID
+        },
+        services: {
+          auth: true,
+          firestore: true,
+          functions: true,
+        }
+      }
+    ]
+
   ],
   /*
   ** Axios module configuration

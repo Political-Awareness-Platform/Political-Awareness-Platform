@@ -10,7 +10,7 @@
       <p class="text-justify font-weight-light">
         There are 3 goals of this platform :
       </p>
-      <v-row justify="center mt-5">
+      <v-row class="center mt-5">
         <v-expansion-panels accordion>
           <v-expansion-panel>
             <v-expansion-panel-header>Goal I</v-expansion-panel-header>

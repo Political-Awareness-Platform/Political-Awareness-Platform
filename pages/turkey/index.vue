@@ -1,7 +1,7 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex d-flex flex-wrap align-items xs12 sm10 md10 class="mt-8">
-      <v-img class="mt-7" height="200px" src="/flags/turkey_flag.png"> </v-img>
+      <v-img class="mt-7" height="200px" src="/flags/turkey_flag.png"></v-img>
       <v-layout column justify-center class="ml-12 mt-6">
         <p><b>Faliyette olan parti sayisi :</b> 83</p>
         <br />
@@ -26,8 +26,12 @@
             :key="party.party_name"
           >
             <v-card max-width="300" class="mx-2" nuxt-link :to="party.link">
-              <v-img contain height="100px" width="180px" :src="party.logo">
-              </v-img>
+              <v-img
+                contain
+                height="100px"
+                width="180px"
+                :src="party.logo"
+              ></v-img>
               <v-card-text class="text--primary text-center">
                 <p>{{ party.party_name }}</p>
               </v-card-text>
@@ -39,6 +43,24 @@
 
     <v-flex mt-6>
       <h2>Ideal Parti Bolumu</h2>
+
+      <v-btn text small @click.native="test">Normal</v-btn>
+    </v-flex>
+
+    <v-flex mt-6>
+      <section class="content">
+        <h1>Tutorial Requests</h1>
+        <ul class="request-list">
+          <li>
+            <span class="text">Laravel 6 tutorial</span>
+            <div>
+              <span class="votes">125</span>
+              <i class="material-icons upvote">arrow_upward</i>
+            </div>
+          </li>
+        </ul>
+        {{ list }}
+      </section>
     </v-flex>
   </v-layout>
 </template>
@@ -63,11 +85,53 @@ export default {
           link: "/turkey/milletpartisi",
           logo: "/party_logos/turkey/millet_partisi_logo.png"
         }
-      ]
+      ],
+      list: ""
     };
   },
-  fetch() {}
+
+  methods: {
+    test: function() {
+      // alert('alert worx');
+      console.log("console worx too");
+      const sayHello = this.$fireFunc.httpsCallable("sayHello");
+      sayHello().then(result => {
+        this.list = result.data;
+      });
+    }
+  }
 };
 </script>
 
-<style></style>
+<style>
+/* content styles */
+.content {
+  max-width: 800px;
+  margin: 40px auto 0;
+}
+
+/* request list styles */
+.request-list li {
+  padding: 20px;
+  margin: 10px auto;
+  list-style-type: none;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+.request-list .votes {
+  position: relative;
+  top: -5px;
+  z-index: 0;
+}
+.request-list .upvote {
+  cursor: pointer;
+  border-radius: 50%;
+}
+.request-list .upvote:active {
+  color: black;
+  background: #ffe100;
+}
+</style>

@@ -21,9 +21,11 @@
         <p><b>Iletisim sozcusu :</b></p>
         <p><b>Uye sayisi :</b></p>
         <p><b>Sosyal medya linkleri :</b></p>
-        <p><b>Tuzukteki kurulus amaci:</b></p>
-        <p><b>Secim vaadleri :</b></p>
       </v-layout>
+    </v-flex>
+    <v-flex align-items xs12 sm10 md10 class="mt-8">
+      <p><b>Tuzukteki kurulus amaci:</b></p>
+      <p><b>Secim vaadleri :</b></p>
     </v-flex>
   </v-layout>
 </template>

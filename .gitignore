@@ -92,3 +92,8 @@ sw.*
 # others
 .prettierrc
 .vscode/
+functions
+.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
