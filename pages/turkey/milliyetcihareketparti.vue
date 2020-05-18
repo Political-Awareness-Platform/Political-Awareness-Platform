@@ -9,7 +9,7 @@
         src="/party_logos/turkey/mhp_logo.png"
       >
       </v-img>
-      <v-layout column justify-center class="ml-12 mt-6">
+      <v-layout column justify-center class="mt-6">
         <p><b>Adi :</b> Milliyetci Hareket Partisi</p>
         <p><b>Kisalmasi :</b></p>
         <p><b>Kurulus tarihi :</b></p>
