@@ -1,37 +1,31 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex d-flex flex-wrap align-items xs12 sm10 md10 class="mt-8">
-      <v-img
-        contain
-        class="mt-7"
-        max-width="300"
-        height="200px"
-        src="/party_logos/turkey/millet_partisi_logo.png"
-      >
-      </v-img>
-      <v-layout column justify-center class="ml-12 mt-6">
-        <p><b>Adi :</b> Millet Partisi</p>
-        <p><b>Kisalmasi :</b></p>
-        <p><b>Kurulus tarihi :</b></p>
-        <p><b>Kurucu lider :</b></p>
-        <p><b>Fiziksek adresi :</b></p>
-        <p><b>Internet adresi :</b></p>
-        <p><b>Telefon numarasi :</b></p>
-        <p><b>Genel baskani :</b></p>
-        <p><b>Iletisim sozcusu :</b></p>
-        <p><b>Uye sayisi :</b></p>
-        <p><b>Sosyal medya linkleri :</b></p>
-      </v-layout>
-    </v-flex>
-    <v-flex align-items xs12 sm10 md10 class="mt-8">
-      <p><b>Tuzukteki kurulus amaci:</b></p>
-      <p><b>Secim vaadleri :</b></p>
-    </v-flex>
-  </v-layout>
+  <div>
+    <p><b>Adi : </b> millet partisi </p>
+    <p><b>Kisalmasi : </b> </p>
+    <p><b>Kurulus tarihi : </b> </p>
+    <p><b>Kurucu lider : </b> </p>
+    <p>
+      <b>Fiziksek adresi : </b> 
+    </p>
+    <p><b>Internet adresi : </b> -</p>
+    <p><b>Telefon numarasi : </b> 8</p>
+    <p><b>Genel baskani : </b> </p>
+    <p><b>Iletisim sozcusu : </b> -</p>
+    <p><b>Guncel Uye sayisi : </b> </p>
+    <p><b>Sosyal medya linkleri : </b> </p>
+    <p>
+      <b>Sosyal medya linkleri : </b> 
+    </p>
+    <p><b>Sosyal medya linkleri : </b> </p>
+    <p><b>Tuzukteki kurulus amaci: </b> -</p>
+    <p><b>Secim vaadleri : </b> -</p>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  pageTransition: 'page'
+}
 </script>
 
 <style></style>

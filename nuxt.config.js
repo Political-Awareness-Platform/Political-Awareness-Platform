@@ -1,4 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
 require('dotenv').config()
 
 export default {
@@ -7,7 +6,6 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
@@ -25,18 +23,16 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: ['@/assets/css/main.scss','@/assets/css/main.css'],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
+  plugins: [{src: '~/plugins/firebaseConfig.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-    '@nuxtjs/vuetify',
+  buildModules: ['@nuxtjs/dotenv'
   ],
   /*
   ** Nuxt.js modules
@@ -44,30 +40,8 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    'nuxt-material-design-icons',
-    [
-      '@nuxtjs/firebase',
-      {
-        config: {
-          apiKey: process.env.APIKEY,
-          authDomain: process.env.AUTHDOMAIN,
-          databaseURL: process.env.DATABASEURL,
-          projectId: process.env.PROJECTID,
-          storageBucket: process.env.STORAGEBUCKET,
-          messagingSenderId: process.env.MESSAGINGSENDERID,
-          appId: process.env.APPID
-        },
-        services: {
-          auth: true,
-          firestore: true,
-          functions: true,
-        }
-      }
-    ]
-
   ],
   /*
   ** Axios module configuration
@@ -76,44 +50,23 @@ export default {
   axios: {
   },
   /*
-  ** vuetify module configuration
-  ** https://github.com/nuxt-community/vuetify-module
-  */
-  vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: false,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
-  },
-  /*
   ** Build configuration
   */
   build: {
     /*
     ** You can extend webpack config here
     */
+    
     extend (config, ctx) {
     }
   },
-  /*
-  ** Progressive Web App 
-  */
-  pwa: {
-    workbox: {
-      /* workbox options */
-      offline: false,
-      cacheAssets: false,
-    }
+  env: {
+    apiKey: process.env.APIKEY,
+    authDomain: process.env.AUTHDOMAIN,
+    databaseURL: process.env.DATABASEURL,
+    projectId: process.env.PROJECTID,
+    storageBucket: process.env.STORAGEBUCKET,
+    messagingSenderId: process.env.MESSAGINGSENDERID,
+    appId: process.env.APPID
   }
 }

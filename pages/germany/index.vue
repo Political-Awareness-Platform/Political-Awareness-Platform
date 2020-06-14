@@ -1,48 +1,13 @@
 <template>
-  <div>
-    <div>
-      <p>Germany</p>
-    </div>
-    <div>
-      <br />
-      <p>
-        Faliyette olan parti sayisi / Active Parties number
-      </p>
-      <br />
-      <p>
-        <b></b>
-      </p>
-      <br />
-      <p>
-        <b></b>
-      </p>
-      <br />
-      <p>
-        <b></b>
-      </p>
-      <br />
-      <p>
-        <b></b>
-      </p>
-      <br />
-
-      <li>Meclisteki parti sayisi / Number of the parties in parlament</li>
-      <li>Secmen sayisi / Voter count</li>
-      <li>Secime katilim yuzdesi / Contibution percentage</li>
-    </div>
-    <hr />
-    <section>
-      <h2>Parti Kartlari / Party cards</h2>
-    </section>
-    <hr />
-    <section>
-      <h2>Ideal Parti Bolumu / Ideal Party Section</h2>
-    </section>
-  </div>
+  <h1>Germany</h1>
 </template>
 
 <script>
-export default {};
+export default {
+
+}
 </script>
 
-<style></style>
+<style>
+
+</style>
