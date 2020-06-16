@@ -38,18 +38,20 @@
         care about the most and the least.
       </p>
     </div>
-    <div class="countries">
-      <nuxt-link to="/turkey">
-        <div class="country-card">
-          <img src="~/assets/flags/tr.svg" />
-        </div>
-      </nuxt-link>
-      <nuxt-link to="/germany">
-        <div class="country-card">
-          <img src="~/assets/flags/de.svg" />
-        </div>
-      </nuxt-link>
-    </div>
+    <section class="party-card-section">
+      <div class="party-card">
+        <nuxt-link to="/turkey">
+          <img src="~/assets/flags/tr.svg" /> <br>
+          <b>Turkiye</b>
+        </nuxt-link>
+      </div>
+      <div class="party-card">
+        <nuxt-link to="/germany">
+          <img src="~/assets/flags/de.svg" /> <br>
+          <b>Deutschland</b>
+        </nuxt-link>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -82,11 +84,35 @@ export default {
     align-items: center;
     justify-content: center;
 
-    .country-card {
-      margin-right: 20px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .party-card-section {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    .party-card {
+      margin: 5px;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+      a {
+        text-decoration: none;
+      }
+
       img {
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 100px;
       }
     }
   }

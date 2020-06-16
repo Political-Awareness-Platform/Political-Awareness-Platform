@@ -21,9 +21,7 @@
     <section class="party-card-section">
       <div v-for="party in parties" :key="party.party_name" class="party-card">
         <nuxt-link :to="party.link">
-          <div class="party-name">
-            <b>{{ party.party_name }}</b>
-          </div>
+          <b>{{ party.party_name }}</b>
         </nuxt-link>
       </div>
     </section>
@@ -230,7 +228,9 @@ export default {
       }
     },
     upvoteapositivecomment(commentID) {
-      const likeapositivecomment = firebase.functions().httpsCallable('likeapositivecomment')
+      const likeapositivecomment = firebase
+        .functions()
+        .httpsCallable('likeapositivecomment')
       likeapositivecomment({
         commentID: commentID
       }).catch(error => {
@@ -238,7 +238,9 @@ export default {
       })
     },
     upvoteanegativecomment(commentID) {
-      const likeanegativecomment = firebase.functions().httpsCallable('likeanegativecomment')
+      const likeanegativecomment = firebase
+        .functions()
+        .httpsCallable('likeanegativecomment')
       likeanegativecomment({
         commentID: commentID
       }).catch(error => {
