@@ -349,6 +349,7 @@ export default {
         border-radius: 16px;
 
         textarea {
+          outline: none;
           width: 100%;
           padding: 10px;
           line-height: 1.5;
@@ -382,6 +383,7 @@ export default {
         border-radius: 16px;
 
         textarea {
+          outline: none;
           width: 100%;
           padding: 10px;
           line-height: 1.5;
