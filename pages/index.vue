@@ -52,12 +52,14 @@
         </nuxt-link>
       </div>
     </section>
+    <TheFooter />
   </div>
 </template>
 
 <script>
+import TheFooter from '@/components/TheFooter.vue'
 export default {
-  components: {},
+  components: {TheFooter},
   transition: 'page'
 }
 </script>

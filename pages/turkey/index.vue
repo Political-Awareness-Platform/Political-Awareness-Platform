@@ -28,9 +28,42 @@
 
     <section class="comment-section">
       <div class="positive-comment-section">
-        <button class="niceButton" @click="showModalPositive = true">
+        <button
+          class="niceButton"
+          @click="
+            ;(showModalPositive = true),
+              (showModalPositiveButton = !showModalPositiveButton)
+          "
+          v-if="showModalPositiveButton"
+        >
           Bir partiden yapmasini istediginiz sey nedir?
         </button>
+        <transition name="fade" appear>
+          <div class="modal-positive" v-if="showModalPositive">
+            <textarea
+              style="width:100%;height: 100px;"
+              type="text"
+              placeholder="Bir partiden ne yapmasini isterdiniz?"
+              v-model="positivecomment"
+            />
+            <button
+              style="padding:10px;"
+              type="submit"
+              @click="submitPositiveComment"
+            >
+              Gonder
+            </button>
+
+            <button
+              class="niceButton"
+              @click="
+                ;(showModalPositive = false), (showModalPositiveButton = true)
+              "
+            >
+              Kapat
+            </button>
+          </div>
+        </transition>
         <h1 style=" margin: 1em auto;">
           Positive Comments
         </h1>
@@ -50,9 +83,42 @@
       </div>
 
       <div class="negative-comment-section">
-        <button class="niceButton" @click="showModalNegative = true">
+        <button
+          class="niceButton"
+          @click="
+            ;(showModalNegative = true),
+              (showModalNegativeButton = !showModalNegativeButton)
+          "
+          v-if="showModalNegativeButton"
+        >
           Bir partiden yapmamasini istediginiz sey nedir?
         </button>
+        <transition name="fade" appear>
+          <div class="modal-negative" v-if="showModalNegative">
+            <textarea
+              style="width:100%;height: 100px;"
+              type="text"
+              placeholder="Bir partiden ne yapmamasini isterdiniz?"
+              v-model="negativecomment"
+            />
+            <button
+              style="padding:10px;"
+              type="submit"
+              @click="submitNegativeComment"
+            >
+              Gonder
+            </button>
+
+            <button
+              class="niceButton"
+              @click="
+                ;(showModalNegative = false), (showModalNegativeButton = true)
+              "
+            >
+              Kapat
+            </button>
+          </div>
+        </transition>
         <h1 style=" margin: 1em auto;">
           Negatif Yaptiklari
         </h1>
@@ -71,56 +137,6 @@
         </ul>
       </div>
     </section>
-
-    <transition name="fade" appear>
-      <div
-        class="modal-overlay"
-        v-if="showModalPositive | showModalNegative"
-        @click=";(showModalPositive = false), (showModalNegative = false)"
-      ></div>
-    </transition>
-
-    <transition name="slide" appear>
-      <div class="modal-positive" v-if="showModalPositive">
-        <form @submit.prevent="submitPositiveComment">
-          <textarea
-            style="width:100%;height: 100px;"
-            type="text"
-            placeholder="Bir partiden ne yapmasini isterdiniz?"
-            v-model="positivecomment"
-          />
-          <button type="submit">Gonder</button>
-        </form>
-        <button
-          class="niceButton"
-          style="float:right;"
-          @click="showModalPositive = false"
-        >
-          Kapat
-        </button>
-      </div>
-    </transition>
-
-    <transition name="slide" appear>
-      <div class="modal-negative" v-if="showModalNegative">
-        <form @submit.prevent="submitNegativeComment">
-          <textarea
-            style="width:100%;height: 100px;"
-            type="text"
-            placeholder="Sizce bir parti neleri yapmaktan kacinmali ?"
-            v-model="negativecomment"
-          />
-          <button type="submit">Gonder</button>
-        </form>
-        <button
-          class="niceButton"
-          style="float:right;"
-          @click="showModalNegative = false"
-        >
-          Kapat
-        </button>
-      </div>
-    </transition>
   </div>
 </template>
 
@@ -132,6 +148,9 @@ export default {
   data() {
     return {
       showModalPositive: false,
+      showModalNegative: false,
+      showModalPositiveButton: true,
+      showModalNegativeButton: true,
       showModalNegative: false,
       positivecommentList: [],
       positivecomment: '',
@@ -201,6 +220,10 @@ export default {
           .catch(function(error) {
             console.error('Error writing document: ', error)
           })
+
+        this.positiveComments = ''
+        this.showModalPositive = false
+        this.showModalPositiveButton = true
       } else {
         this.$router.push('/login')
       }
@@ -223,6 +246,10 @@ export default {
           .catch(function(error) {
             console.error('Error writing document: ', error)
           })
+
+        this.positiveComments = ''
+        this.showModalPositive = false
+        this.showModalPositiveButton = true
       } else {
         this.$router.push('/login')
       }
@@ -315,10 +342,21 @@ export default {
 
     .positive-comment-section {
       margin-top: 1em;
-      form {
-        display: flex;
-      }
+      
+      .modal-positive {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 16px;
 
+        textarea {
+          width: 100%;
+          padding: 10px;
+          line-height: 1.5;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          box-shadow: 1px 1px 1px #999;
+        }
+      }
       .request-list {
         margin: 0;
         padding: 0;
@@ -337,13 +375,26 @@ export default {
 
     .negative-comment-section {
       margin-top: 1em;
-      form {
-        display: flex;
+
+      .modal-negative {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 16px;
+
+        textarea {
+          width: 100%;
+          padding: 10px;
+          line-height: 1.5;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          box-shadow: 1px 1px 1px #999;
+        }
       }
 
       .request-list {
         margin: 0;
         padding: 0;
+
         li {
           padding: 20px;
           margin: 10px auto;
@@ -376,61 +427,15 @@ export default {
       box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
     }
   }
-  .modal-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 98;
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-
-  .modal-positive {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 99;
-    width: 100%;
-    max-width: 400px;
-    background-color: #fff;
-    border-radius: 16px;
-    border: 1px solid gray;
-    padding: 20px;
-  }
-  .modal-negative {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 99;
-    width: 100%;
-    max-width: 400px;
-    background-color: #fff;
-    border-radius: 16px;
-    border: 1px solid gray;
-    padding: 20px;
-  }
 
   .fade-enter-active,
   .fade-leave-active {
-    transition: opacity 0.5s;
+    transition: opacity 1;
   }
 
   .fade-enter,
   .fade-leave-to {
     transition: opacity 0;
-  }
-
-  .slide-enter-active,
-  .slide-leave-active {
-    transition: transform 0.5s;
-  }
-
-  .slide-enter,
-  .slide-leave-to {
-    transform: translateY(-50%) translateX(100vw);
   }
 }
 

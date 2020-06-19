@@ -13,21 +13,20 @@ export default {}
 </script>
 <style lang="scss" scoped>
 footer {
-  width: 100%;
   padding: 10px;
   text-align: center;
   position: fixed;
   bottom: 0;
-  background-color: azure;
   p {
     height: auto;
     text-align: center;
-    max-width: 1000px;
     margin: auto;
+    font-weight: 500;
   }
 
   @media only screen and (max-width: 425px) {
     position: relative;
+    margin-top: 60px;
   }
 }
 </style>
