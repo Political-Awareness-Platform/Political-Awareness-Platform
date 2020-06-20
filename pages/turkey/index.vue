@@ -28,6 +28,17 @@
 
     <section class="comment-section">
       <div class="positive-comment-section">
+        <h1 style=" margin: 1em auto;">
+          Top Positive Comments
+        </h1>
+        <ul class="request-list">
+          <li v-for="i in positivecommentListTop" :key="i.id">
+            <span class="text">{{ i.doc.positivecomment }}</span>
+            <div>
+              <span class="votes">{{ i.doc.like }}</span>
+            </div>
+          </li>
+        </ul>
         <button
           class="niceButton"
           @click="
@@ -153,6 +164,7 @@ export default {
       showModalNegativeButton: true,
       showModalNegative: false,
       positivecommentList: [],
+      positivecommentListTop: [],
       positivecomment: '',
       negativecommentList: [],
       negativecomment: '',
@@ -180,10 +192,16 @@ export default {
       .collection('positiveComments')
       .onSnapshot(snapshot => {
         this.positivecommentList = []
+        this.positivecommentListTop = []
+
         snapshot.forEach(doc => {
-          console.log(doc.id, '=>', doc.data())
           this.positivecommentList.push({ id: doc.id, doc: doc.data() })
+          this.positivecommentListTop.push({ id: doc.id, doc: doc.data() })
         })
+        console.log(this.positivecommentList)
+        this.positivecommentListTop = this.positivecommentListTop
+          .sort((a, b) => b.doc.like - a.doc.like)
+          .slice(0, 5)
       })
 
     this.negativecommentList = await firebase
@@ -194,9 +212,9 @@ export default {
       .onSnapshot(snapshot => {
         this.negativecommentList = []
         snapshot.forEach(doc => {
-          console.log(doc.id, '=>', doc.data())
           this.negativecommentList.push({ id: doc.id, doc: doc.data() })
         })
+        console.log(this.negativecommentList)
       })
   },
   fetchOnServer: false,
@@ -342,7 +360,7 @@ export default {
 
     .positive-comment-section {
       margin-top: 1em;
-      
+
       .modal-positive {
         width: 100%;
         background-color: #fff;
