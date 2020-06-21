@@ -1,5 +1,8 @@
 <template>
-  <nav><nuxt-link to="/">Political Awareness Platform</nuxt-link></nav>
+  <nav>
+    <nuxt-link to="/">Political Awareness Platform</nuxt-link>
+    
+  </nav>
 </template>
 
 <script>
@@ -12,5 +15,7 @@ nav {
   top: 0;
   z-index: 1;
   height: 60px;
+
+  
 }
 </style>

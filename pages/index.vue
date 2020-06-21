@@ -41,25 +41,27 @@
     <section class="party-card-section">
       <div class="party-card">
         <nuxt-link to="/turkey">
-          <img src="~/assets/flags/tr.svg" /> <br>
+          <img src="~/assets/flags/tr.svg" /> <br />
           <b>Turkiye</b>
         </nuxt-link>
       </div>
       <div class="party-card">
         <nuxt-link to="/germany">
-          <img src="~/assets/flags/de.svg" /> <br>
+          <img src="~/assets/flags/de.svg" /> <br />
           <b>Deutschland</b>
         </nuxt-link>
       </div>
     </section>
-    <TheFooter />
+    <section class="party-card-section">
+      <TheFooter />
+    </section>
   </div>
 </template>
 
 <script>
 import TheFooter from '@/components/TheFooter.vue'
 export default {
-  components: {TheFooter},
+  components: { TheFooter },
   transition: 'page'
 }
 </script>

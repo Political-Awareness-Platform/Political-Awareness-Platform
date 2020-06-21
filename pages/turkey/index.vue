@@ -29,9 +29,9 @@
     <section class="comment-section">
       <div class="positive-comment-section">
         <h1 style=" margin: 1em auto;">
-          Top Positive Comments
+          En iyi yaptigi 5 sey
         </h1>
-        <ul class="request-list">
+        <ul class="comment-list">
           <li v-for="i in positivecommentListTop" :key="i.id">
             <span class="text">{{ i.doc.positivecomment }}</span>
             <div>
@@ -54,6 +54,8 @@
             <textarea
               style="width:100%;height: 100px;"
               type="text"
+              minlength="5"
+              maxlength="1000"
               placeholder="Bir partiden ne yapmasini isterdiniz?"
               v-model="positivecomment"
             />
@@ -76,9 +78,9 @@
           </div>
         </transition>
         <h1 style=" margin: 1em auto;">
-          Positive Comments
+          Pozitif yorumlar
         </h1>
-        <ul class="request-list">
+        <ul class="comment-list">
           <li
             v-for="pc in positivecommentList"
             :key="pc.id"
@@ -115,6 +117,8 @@
             <button
               style="padding:10px;"
               type="submit"
+              minlength="5"
+              maxlength="1000"
               @click="submitNegativeComment"
             >
               Gonder
@@ -133,7 +137,7 @@
         <h1 style=" margin: 1em auto;">
           Negatif Yaptiklari
         </h1>
-        <ul class="request-list">
+        <ul class="comment-list">
           <li
             v-for="nc in negativecommentList"
             :key="nc.id"
@@ -169,17 +173,27 @@ export default {
       negativecommentList: [],
       negativecomment: '',
       parties: [
-        {
-          party_name: 'Demokrat Parti',
-          link: '/turkey/demokratparti'
-        },
+        
         {
           party_name: 'Milliyetci Hareket Parti',
           link: '/turkey/milliyetcihareketparti'
         },
         {
-          party_name: 'Millet Partisi',
-          link: '/turkey/milletpartisi'
+          party_name: 'AK Parti',
+          link: '/turkey/akparti'
+        }
+        ,
+        {
+          party_name: 'Deva Parti',
+          link: '/turkey/devaparti'
+        },
+        {
+          party_name: 'Cumhuriyet Halk Partisi',
+          link: '/turkey/cumhuriyethalkpartisi'
+        },
+        {
+          party_name: 'IYI Parti',
+          link: '/turkey/iyiparti'
         }
       ]
     }
@@ -339,10 +353,12 @@ export default {
     flex-direction: row wrap;
     justify-content: center;
     align-items: stretch;
+    overflow: auto;
+    white-space: nowrap;
 
     .party-card {
       margin: 5px;
-      padding: 15px;
+      padding: 10px;
       border-radius: 10px;
       text-align: center;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
@@ -376,7 +392,7 @@ export default {
           box-shadow: 1px 1px 1px #999;
         }
       }
-      .request-list {
+      .comment-list {
         margin: 0;
         padding: 0;
         li {
@@ -411,7 +427,7 @@ export default {
         }
       }
 
-      .request-list {
+      .comment-list {
         margin: 0;
         padding: 0;
 
@@ -465,28 +481,28 @@ export default {
 }
 
 /* request list styles */
-.request-list li {
-  padding: 20px;
-  margin: 10px auto;
-  list-style-type: none;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: space-between;
+.comment-list li {
+  // padding: 20px;
+  // margin: 10px auto;
+  // list-style-type: none;
+  // background: white;
+  // border-radius: 10px;
+  // box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  // display: flex;
+  // justify-content: space-between;
 }
-.request-list .votes {
-  position: relative;
-  top: -5px;
-  z-index: 0;
+.comment-list .votes {
+  // position: relative;
+  // top: -5px;
+  // z-index: 0;
 }
-.request-list .upvote {
-  cursor: pointer;
-  border-radius: 50%;
+.comment-list .upvote {
+  // cursor: pointer;
+  // border-radius: 50%;
 }
-.request-list .upvote:active {
-  color: black;
-  background: #ffe100;
+.comment-list .upvote:active {
+  // color: black;
+  // background: #ffe100;
 }
 
 /* form element styles */

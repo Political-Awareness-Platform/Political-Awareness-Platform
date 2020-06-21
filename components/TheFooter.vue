@@ -5,6 +5,13 @@
       achieve new victories in the fight against knotty democracy. Join us and
       have a global impact.
     </p>
+    <br /><br />
+    <div class="user" v-show="this.$store.state.userUID === null">
+      <nuxt-link to="/login">Login 🚪 </nuxt-link>
+    </div>
+    <div class="user" v-show="this.$store.state.userUID">
+      🟢
+    </div>
   </footer>
 </template>
 
@@ -14,9 +21,15 @@ export default {}
 <style lang="scss" scoped>
 footer {
   padding: 10px;
-  text-align: center;
+  margin: auto;
   position: fixed;
   bottom: 0;
+  margin-top: 50vh;
+
+  @media only screen and (max-width: 425px) {
+    position: relative;
+    margin-top: 60px;
+  }
   p {
     height: auto;
     text-align: center;
@@ -24,9 +37,11 @@ footer {
     font-weight: 500;
   }
 
-  @media only screen and (max-width: 425px) {
-    position: relative;
-    margin-top: 60px;
+  .user {
+    text-align: center;
+    a {
+      text-decoration: none;
+    }
   }
 }
 </style>
