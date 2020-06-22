@@ -1,5 +1,6 @@
 <template>
   <div class="single-party-page">
+    <div class="party-logo"><img src="~/assets/logos/akparti_logo.png" /></div>
     <Party :partyDetails="partyDetails" />
   </div>
 </template>
@@ -42,6 +43,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.single-party-page {
-}
+
 </style>

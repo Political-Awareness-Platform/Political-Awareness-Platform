@@ -26,10 +26,13 @@
       </div>
     </section>
 
+    <div style="margin:20px 0px; text-align: center;">
+      <h1><b>Ideal / Hayali Parti</b></h1>
+    </div>
     <section class="comment-section">
       <div class="positive-comment-section">
         <h1 style=" margin: 1em auto;">
-          En iyi yaptigi 5 sey
+          En iyi yapmasi gereken 5 sey
         </h1>
         <ul class="comment-list">
           <li v-for="i in positivecommentListTop" :key="i.id">
@@ -78,7 +81,7 @@
           </div>
         </transition>
         <h1 style=" margin: 1em auto;">
-          Pozitif yorumlar
+          Yapmasi gereken
         </h1>
         <ul class="comment-list">
           <li
@@ -96,6 +99,17 @@
       </div>
 
       <div class="negative-comment-section">
+         <h1 style=" margin: 1em auto;">
+          En uzak durulmasi gerekli 5 sey
+        </h1>
+        <ul class="comment-list">
+          <li v-for="tnc in negativecommentListTop" :key="tnc.id">
+            <span class="text">{{ tnc.doc.negativecomment }}</span>
+            <div>
+              <span class="votes">{{ tnc.doc.like }}</span>
+            </div>
+          </li>
+        </ul>
         <button
           class="niceButton"
           @click="
@@ -135,7 +149,7 @@
           </div>
         </transition>
         <h1 style=" margin: 1em auto;">
-          Negatif Yaptiklari
+          Yapmamasi Gereken
         </h1>
         <ul class="comment-list">
           <li
@@ -171,6 +185,7 @@ export default {
       positivecommentListTop: [],
       positivecomment: '',
       negativecommentList: [],
+      negativecommentListTop: [],
       negativecomment: '',
       parties: [
         
@@ -225,10 +240,15 @@ export default {
       .collection('negativeComments')
       .onSnapshot(snapshot => {
         this.negativecommentList = []
+        this.negativecommentListTop = []
         snapshot.forEach(doc => {
           this.negativecommentList.push({ id: doc.id, doc: doc.data() })
+          this.negativecommentListTop.push({ id: doc.id, doc: doc.data() })
         })
         console.log(this.negativecommentList)
+        this.negativecommentListTop = this.negativecommentListTop
+          .sort((a, b) => b.doc.like - a.doc.like)
+          .slice(0, 5)
       })
   },
   fetchOnServer: false,
@@ -351,7 +371,6 @@ export default {
   .party-card-section {
     display: flex;
     flex-direction: row wrap;
-    justify-content: center;
     align-items: stretch;
     overflow: auto;
     white-space: nowrap;
@@ -369,7 +388,7 @@ export default {
   }
 
   .comment-section {
-    margin-top: 3em;
+    margin-top: 1em;
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: auto auto;

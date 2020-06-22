@@ -1,7 +1,6 @@
 <template>
   <div class="single-party-page">
     <div class="party-intro">
-      <div class="party-logo"><img src="~/assets/logos/mhp_logo.png" /></div>
       <div class="party-details">
         <p><b>Adi : </b>{{ partyDetails.adi }}</p>
         <p><b>Kisalmasi : </b>{{ partyDetails.kisaltmasi }}</p>
@@ -17,9 +16,17 @@
         <p><b>Twitter : </b>{{ partyDetails.twitter }}</p>
       </div>
     </div>
-    <div class="party-purpose" v-for="amac in partyDetails.kurulus_amaci" :key="amac.index">
-      <p>{{ amac }}</p>
+    <div style="margin-top:2em;">
+      <h1 style="text-align:center;">Kurulus Amaci</h1>
     </div>
+    <div
+      class="party-purpose"
+      v-for="amac in partyDetails.kurulus_amaci"
+      :key="amac.index"
+    >
+      <p> {{ amac }}</p>
+    </div>
+
     <div class="comment-section">
       <div class="positive-section">
         <h1 style=" margin: 1em auto;">
@@ -41,7 +48,7 @@
           "
           v-if="showModalPositiveButton"
         >
-          Bir partiden yapmasini istediginiz sey nedir?
+          Bu partinin yaptigi guzel seyler nelerdir?
         </button>
         <transition name="fade" appear>
           <div class="comment-input-section" v-if="showModalPositive">
@@ -107,7 +114,7 @@
           "
           v-if="showModalNegativeButton"
         >
-          Bir partiden yapmamasini istediginiz sey nedir?
+          Bu partinin kotu yaptigi kotu sey nedir?
         </button>
         <transition name="fade" appear>
           <div class="comment-input-section" v-if="showModalNegative">
@@ -166,6 +173,7 @@ export default {
   props: ['partyDetails'],
   data() {
     return {
+      logo: '~/assets/logo/deva_logo.svg',
       showModalPositive: false,
       showModalNegative: false,
       showModalPositiveButton: true,
@@ -175,9 +183,7 @@ export default {
       cpositivecommentList: [],
       cpositivecommentListTop: [],
       cnegativecommentList: [],
-      cnegativecommentListTop: [],
-      country: 'turkey',
-      dbcode: 'milleyetcihareketparti'
+      cnegativecommentListTop: []
     }
   },
   async fetch() {
@@ -277,7 +283,9 @@ export default {
         .functions()
         .httpsCallable('likeapositivecomment')
       likeapositivecomment({
-        commentID: commentID
+        commentID: commentID,
+        commentCountry: this.partyDetails.ulke,
+        commentPartyDBCode: this.partyDetails.dbcode
       }).catch(error => {
         console.log(error.message)
       })
@@ -287,7 +295,9 @@ export default {
         .functions()
         .httpsCallable('likeanegativecomment')
       likeanegativecomment({
-        commentID: commentID
+        commentID: commentID,
+        commentCountry: this.partyDetails.ulke,
+        commentPartyDBCode: this.partyDetails.dbcode
       }).catch(error => {
         console.log(error.message)
       })
@@ -306,10 +316,6 @@ export default {
 
     @media only screen and (max-width: 900px) {
       grid-template-columns: auto;
-    }
-
-    .party-logo {
-      margin: auto;
     }
 
     .party-details {

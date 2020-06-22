@@ -92,3 +92,4 @@ sw.*
 functions
 .firebaserc
 .firebase
+.firebase.json
