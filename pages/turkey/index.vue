@@ -2,7 +2,7 @@
   <div class="country-page-container">
     <div class="country-info">
       <div class="country-flag">
-        <img src="~/assets/flags/tr.svg" />
+        <img src="~assets/flags/tr.svg" />
       </div>
       <div class="country-numbers">
         <p><b>Faliyette olan parti sayisi :</b> 83</p>
@@ -31,17 +31,10 @@
     </div>
     <section class="comment-section">
       <div class="positive-comment-section">
-        <h1 style=" margin: 1em auto;">
-          En iyi yapmasi gereken 5 sey
-        </h1>
-        <ul class="comment-list">
-          <li v-for="i in positivecommentListTop" :key="i.id">
-            <span class="text">{{ i.doc.positivecomment }}</span>
-            <div>
-              <span class="votes">{{ i.doc.like }}</span>
-            </div>
-          </li>
-        </ul>
+        <TheTopList
+          headerTitle="En iyi yapmasi gereken 5 sey"
+          :toplistcomments="positivecommentListTop"
+        />
         <button
           class="niceButton"
           @click="
@@ -80,36 +73,19 @@
             </button>
           </div>
         </transition>
-        <h1 style=" margin: 1em auto;">
-          Yapmasi gereken
-        </h1>
-        <ul class="comment-list">
-          <li
-            v-for="pc in positivecommentList"
-            :key="pc.id"
-            @dblclick="upvoteapositivecomment(pc.id)"
-          >
-            <span class="text">{{ pc.doc.positivecomment }}</span>
-            <div>
-              <span class="votes">{{ pc.doc.like }}</span>
-              <!-- <i class="material-icons upvote">arrow_upward</i> -->
-            </div>
-          </li>
-        </ul>
+        <ThePositiveCommentList
+          headerTitle="Yapilmasi gerekenler"
+          :positivecommentlist="positivecommentList"
+          :partyDetails="partyDetails"
+        />
       </div>
 
       <div class="negative-comment-section">
-         <h1 style=" margin: 1em auto;">
-          En uzak durulmasi gerekli 5 sey
-        </h1>
-        <ul class="comment-list">
-          <li v-for="tnc in negativecommentListTop" :key="tnc.id">
-            <span class="text">{{ tnc.doc.negativecomment }}</span>
-            <div>
-              <span class="votes">{{ tnc.doc.like }}</span>
-            </div>
-          </li>
-        </ul>
+        <TheTopList
+          headerTitle="En uzak durulmasi gereken 5 sey"
+          :toplistcomments="negativecommentListTop"
+        />
+
         <button
           class="niceButton"
           @click="
@@ -148,22 +124,11 @@
             </button>
           </div>
         </transition>
-        <h1 style=" margin: 1em auto;">
-          Yapmamasi Gereken
-        </h1>
-        <ul class="comment-list">
-          <li
-            v-for="nc in negativecommentList"
-            :key="nc.id"
-            @dblclick="upvoteanegativecomment(nc.id)"
-          >
-            <span class="text">{{ nc.doc.negativecomment }}</span>
-            <div>
-              <span class="votes">{{ nc.doc.like }}</span>
-              <!-- <i class="material-icons upvote">arrow_upward</i> -->
-            </div>
-          </li>
-        </ul>
+        <TheNegativeCommentList
+          headerTitle="uzak durulmasi gerekenler"
+          :negativecommentlist="negativecommentList"
+          :partyDetails="partyDetails"
+        />
       </div>
     </section>
   </div>
@@ -173,9 +138,17 @@
 import firebase, { firestore } from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/firebase-functions'
+import TheTopList from '@/components/TheTopList'
+import ThePositiveCommentList from '@/components/ThePositiveCommentList'
+import TheNegativeCommentList from '@/components/TheNegativeCommentList'
 export default {
+  components: { TheTopList, ThePositiveCommentList, TheNegativeCommentList },
   data() {
     return {
+      partyDetails: {
+        ulke: 'turkey',
+        dbcode: 'imaginary'
+      },
       showModalPositive: false,
       showModalNegative: false,
       showModalPositiveButton: true,
@@ -188,7 +161,6 @@ export default {
       negativecommentListTop: [],
       negativecomment: '',
       parties: [
-        
         {
           party_name: 'Milliyetci Hareket Parti',
           link: '/turkey/milliyetcihareketparti'
@@ -196,8 +168,7 @@ export default {
         {
           party_name: 'AK Parti',
           link: '/turkey/akparti'
-        }
-        ,
+        },
         {
           party_name: 'Deva Parti',
           link: '/turkey/devaparti'
@@ -305,26 +276,6 @@ export default {
       } else {
         this.$router.push('/login')
       }
-    },
-    upvoteapositivecomment(commentID) {
-      const likeapositivecomment = firebase
-        .functions()
-        .httpsCallable('likeapositivecomment')
-      likeapositivecomment({
-        commentID: commentID
-      }).catch(error => {
-        console.log(error.message)
-      })
-    },
-    upvoteanegativecomment(commentID) {
-      const likeanegativecomment = firebase
-        .functions()
-        .httpsCallable('likeanegativecomment')
-      likeanegativecomment({
-        commentID: commentID
-      }).catch(error => {
-        console.log(error.message)
-      })
     }
   }
 }

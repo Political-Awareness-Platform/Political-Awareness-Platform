@@ -225,6 +225,7 @@ export default {
       })
   },
   fetchOnServer: false,
+  
   methods: {
     submitPositiveComment() {
       if (this.$store.state.userUID) {
