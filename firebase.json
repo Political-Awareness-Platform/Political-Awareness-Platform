@@ -10,5 +10,9 @@
       "enabled": true,
       "port": 1990
     }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
   }
 }

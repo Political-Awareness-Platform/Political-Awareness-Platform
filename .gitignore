@@ -93,3 +93,4 @@ functions
 .firebaserc
 .firebase
 .firebase.json
+firestore.rules

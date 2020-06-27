@@ -319,8 +319,6 @@ export default {
       grid-template-columns: auto;
     }
 
-    .party-details {
-    }
   }
   .party-purpose {
     margin-top: 2em;

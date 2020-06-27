@@ -5,18 +5,28 @@
         <img src="~assets/flags/tr.svg" />
       </div>
       <div class="country-numbers">
-        <p><b>Faliyette olan parti sayisi :</b> 83</p>
+        <p>
+          <b>Faliyette olan parti sayisi :</b> 83
+        </p>
         <br />
-        <p><b>Meclisteki parti sayisi :</b> 11</p>
+        <p>
+          <b>Meclisteki parti sayisi :</b> 11
+        </p>
         <br />
-        <p><b>Secmen sayisi :</b> 57.058.636</p>
+        <p>
+          <b>Secmen sayisi :</b> 57.058.636
+        </p>
         <br />
-        <p><b>Secime katilim yuzdesi :</b> 84,67</p>
+        <p>
+          <b>Secime katilim yuzdesi :</b> 84,67
+        </p>
       </div>
     </div>
 
     <div style="margin:20px 0px; text-align: center;">
-      <h1><b>Partiler</b></h1>
+      <h1>
+        <b>Partiler</b>
+      </h1>
     </div>
     <section class="party-card-section">
       <div v-for="party in parties" :key="party.party_name" class="party-card">
@@ -27,7 +37,9 @@
     </section>
 
     <div style="margin:20px 0px; text-align: center;">
-      <h1><b>Ideal / Hayali Parti</b></h1>
+      <h1>
+        <b>Ideal / Hayali Parti</b>
+      </h1>
     </div>
     <section class="comment-section">
       <div class="positive-comment-section">
@@ -42,9 +54,7 @@
               (showModalPositiveButton = !showModalPositiveButton)
           "
           v-if="showModalPositiveButton"
-        >
-          Bir partiden yapmasini istediginiz sey nedir?
-        </button>
+        >Bir partiden yapmasini istediginiz sey nedir?</button>
         <transition name="fade" appear>
           <div class="modal-positive" v-if="showModalPositive">
             <textarea
@@ -55,22 +65,14 @@
               placeholder="Bir partiden ne yapmasini isterdiniz?"
               v-model="positivecomment"
             />
-            <button
-              style="padding:10px;"
-              type="submit"
-              @click="submitPositiveComment"
-            >
-              Gonder
-            </button>
+            <button style="padding:10px;" type="submit" @click="submitPositiveComment">Gonder</button>
 
             <button
               class="niceButton"
               @click="
                 ;(showModalPositive = false), (showModalPositiveButton = true)
               "
-            >
-              Kapat
-            </button>
+            >Kapat</button>
           </div>
         </transition>
         <ThePositiveCommentList
@@ -93,9 +95,7 @@
               (showModalNegativeButton = !showModalNegativeButton)
           "
           v-if="showModalNegativeButton"
-        >
-          Bir partiden yapmamasini istediginiz sey nedir?
-        </button>
+        >Bir partiden yapmamasini istediginiz sey nedir?</button>
         <transition name="fade" appear>
           <div class="modal-negative" v-if="showModalNegative">
             <textarea
@@ -110,18 +110,14 @@
               minlength="5"
               maxlength="1000"
               @click="submitNegativeComment"
-            >
-              Gonder
-            </button>
+            >Gonder</button>
 
             <button
               class="niceButton"
               @click="
                 ;(showModalNegative = false), (showModalNegativeButton = true)
               "
-            >
-              Kapat
-            </button>
+            >Kapat</button>
           </div>
         </transition>
         <TheNegativeCommentList
@@ -448,31 +444,6 @@ export default {
 .content {
   max-width: 800px;
   margin: 40px auto 0;
-}
-
-/* request list styles */
-.comment-list li {
-  // padding: 20px;
-  // margin: 10px auto;
-  // list-style-type: none;
-  // background: white;
-  // border-radius: 10px;
-  // box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  // display: flex;
-  // justify-content: space-between;
-}
-.comment-list .votes {
-  // position: relative;
-  // top: -5px;
-  // z-index: 0;
-}
-.comment-list .upvote {
-  // cursor: pointer;
-  // border-radius: 50%;
-}
-.comment-list .upvote:active {
-  // color: black;
-  // background: #ffe100;
 }
 
 /* form element styles */
