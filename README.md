@@ -1,7 +1,5 @@
 # Political-Awareness-Platform
 
-> Political Awareness Platfrom
-
 ## Build Setup
 
 ```bash

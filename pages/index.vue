@@ -1,124 +1,73 @@
 <template>
   <div class="container">
-    <div class="intro">
-      <h3>
-        This platform created to heal the relationship problem between citizens
-        and politicians / political parties. Hopefully, this platform may help
-        citizens and political parties to understand each other better.
-      </h3>
-      <br />
-      <h4>Goal I</h4>
-      <p>
-        Understanding each party's purpose. Most of the citizens can only name a
-        few political parties however there are ususaly more than thier
-        aknowlegde registered parties to vote on. Therefore, this platform aims
-        to help citizens to get to know every single option when it comes to
-        voting. Many people do not like politics and do not feel like voting for
-        any party at all because they do not like the popular parties or do not
-        know of the unpopular parties because of the media influence. Therefore,
-        in this platform every party will be portrayed equally and hopefully,
-        citizens will gain access to knowledge of not well-known parties as
-        well.
-      </p>
-      <br />
-      <h4>Goal II</h4>
-      <p>
-        This platform also aims to find out what people think about each party,
-        positively and negatively. Therefore we can see what parties good and
-        bad at according to the citizens. Then we can easily compare parties,
-        and politicians can also understand what citizens think about them in
-        general.
-      </p>
-      <br />
-      <h4>Goal III</h4>
-      <p>
-        Eventually, this platform will also help citizens to express their ideas
-        or desires from an imaginary political party, what to focus on, and what
-        to avoid the most. Therefore, political parties can see what citizens
-        care about the most and the least.
-      </p>
+    <div>
+      <Logo />
+      <h1 class="title">
+        Political-Awareness-Platform
+      </h1>
+      <div class="links">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Documentation
+        </a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--grey"
+        >
+          GitHub
+        </a>
+      </div>
     </div>
-    <section class="party-card-section">
-      <div class="party-card">
-        <nuxt-link to="/turkey">
-          <img src="~assets/flags/tr.svg" /> <br />
-          <b>Turkiye</b>
-        </nuxt-link>
-      </div>
-      <div class="party-card">
-        <nuxt-link to="/germany">
-          <img src="~assets/flags/de.svg" /> <br />
-          <b>Deutschland</b>
-        </nuxt-link>
-      </div>
-    </section>
-    <section class="party-card-section">
-      <TheFooter />
-    </section>
   </div>
 </template>
 
 <script>
-import TheFooter from '@/components/TheFooter.vue'
-export default {
-  components: { TheFooter },
-  transition: 'page'
-}
+export default {}
 </script>
 
-<style lang="scss" scoped>
+<style>
 .container {
-  margin: 20px auto;
-  padding: 10px;
-  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  .intro {
-    line-height: 25px;
+.title {
+  font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
 
-    h3 {
-      text-align: center;
-    }
-  }
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
 
-  .countries {
-    padding-top: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: row wrap;
-    align-items: center;
-    justify-content: center;
-
-    margin: 5px;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-    a {
-      text-decoration: none;
-    }
-  }
-
-  .party-card-section {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: center;
-    align-items: stretch;
-
-    .party-card {
-      margin: 5px;
-      padding: 15px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-      a {
-        text-decoration: none;
-      }
-
-      img {
-        width: 100px;
-        height: 100px;
-      }
-    }
-  }
+.links {
+  padding-top: 15px;
 }
 </style>
