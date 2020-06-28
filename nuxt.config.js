@@ -28,7 +28,7 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
+  css: [ '~/assets/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -44,8 +44,7 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/svg',],
   /*
   ** Nuxt.js modules
   */
@@ -56,5 +55,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    
   }
 }
