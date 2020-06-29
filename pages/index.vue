@@ -50,7 +50,7 @@ export default {
   margin: auto;
   min-height: 100vh;
   text-align: center;
-  max-width: 900px;
+  max-width: 1000px;
   padding:0 10px;
 }
 
@@ -66,6 +66,7 @@ export default {
 
   @media only screen and (max-width: 600px) {
       text-align: left;
+      font-size: 0.8em;
     }
 }
 
@@ -91,6 +92,10 @@ export default {
   color: #2d333f;
   word-spacing: 2px;
   margin: 0;
+   
+  @media only screen and (max-width: 600px) {
+    font-size: 0.8em;
+  }  
 }
 
 h3 {
