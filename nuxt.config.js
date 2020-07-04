@@ -34,7 +34,7 @@ export default {
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
-  plugins: [
+  plugins: [{src: '~/plugins/firebaseConfig.js', mode: 'client' }
   ],
   /*
   ** Auto import components
@@ -56,5 +56,14 @@ export default {
   */
   build: {
     
+  },
+  env: {
+    apiKey: process.env.APIKEY,
+    authDomain: process.env.AUTHDOMAIN,
+    databaseURL: process.env.DATABASEURL,
+    projectId: process.env.PROJECTID,
+    storageBucket: process.env.STORAGEBUCKET,
+    messagingSenderId: process.env.MESSAGINGSENDERID,
+    appId: process.env.APPID
   }
 }

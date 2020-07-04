@@ -1,5 +1,5 @@
 {
-  "name": "Political-Awareness-Platform",
+  "name": "political-awareness-platform",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
+    "firebase": "^7.15.5",
     "nuxt": "^2.13.0"
   },
   "devDependencies": {

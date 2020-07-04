@@ -16,6 +16,23 @@ export default {
         email: '',
         password: ''
     }
+  },
+  methods: {
+    SignIn() {
+      this.$store.dispatch('user/loginUser', { email: this.email, password: this.password })
+    },
+
+    SignUp() {
+      this.$store.dispatch("user/createUser", {
+        email: this.email,
+        password: this.password
+      })
+        .then(() => {
+          this.email = "",
+          this.password = ""
+          this.$router.push('/');
+        });
+    }
   }
 
 }
@@ -33,7 +50,6 @@ export default {
   word-spacing: 2px;
   border-radius: 16px;
 
-
   input {
     width: 90%;
     font-family: 'Quicksand';
@@ -46,11 +62,10 @@ export default {
     border: 1px solid #dedede;
     margin-bottom: 10px;
     border-radius: 12px;
-    box-shadow:  6px 6px 50px #dedede, 
-             -6px -6px 50px #ffffff;
+    box-shadow: 6px 6px 50px #dedede, -6px -6px 50px #ffffff;
   }
 
-  input:focus{
+  input:focus {
     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
   }
 
@@ -63,7 +78,7 @@ export default {
       text-decoration: none;
       padding: 10px 30px;
       font-family: 'Quicksand';
-      font-size: .8em;
+      font-size: 0.8em;
     }
 
     button:hover {

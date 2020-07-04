@@ -27,9 +27,8 @@
       <nuxt-link to="/turkey" class="button--green">Türkiye</nuxt-link>
       <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
     </div>
-    <Authentication />
-
-    <p style="margin-top: 3em">We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
+    <Authentication v-show="!this.$store.state.user.userUID" />
+    <p style="margin-top: 4em">We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
   </div>
 </template>
 
@@ -45,7 +44,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 .container {
   margin: auto;
   min-height: 100vh;
@@ -75,7 +74,7 @@ export default {
   font-size: 2em;
   color: #526488;
   word-spacing: 5px;
-  margin-bottom: 0;
+  margin: 1em;
 }
 
 .links {
