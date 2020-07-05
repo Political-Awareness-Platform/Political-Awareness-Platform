@@ -46,7 +46,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 .container {
   margin: auto;
   min-height: 100vh;
@@ -67,7 +66,7 @@ export default {
 
   @media only screen and (max-width: 600px) {
     text-align: left;
-    font-size: 0.8em;
+    font-size: 15px;
   }
 }
 
@@ -95,7 +94,7 @@ export default {
   margin: 0;
 
   @media only screen and (max-width: 600px) {
-    font-size: 0.8em;
+    font-size: 15px;
   }
 }
 
