@@ -18,7 +18,8 @@ export const actions = {
       .then(data => {
         const userUID = data.user.uid
         vuexContext.commit('setUser', userUID)
-        this.$router.push('/')
+        console.log("🤓 registered");
+        // this.$router.push('/')
       })
       .catch(e => {
         console.log(e)
@@ -30,7 +31,8 @@ export const actions = {
       .then(data => {
         const userUID = data.user.uid
         vuexContext.commit('setUser', userUID)
-        this.$router.push('/')
+        console.log("🤓 logged in");
+        // this.$router.push('/')
       })
       .catch(e => {
         console.log(e)

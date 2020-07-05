@@ -89,8 +89,8 @@ sw.*
 # Vim swap files
 *.swp
 
-functions
+# Firebase files
 .firebaserc
-.firebase
-.firebase.json
+firebase.json
 firestore.rules
+firestore.indexes.json

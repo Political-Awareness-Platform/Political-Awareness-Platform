@@ -1,26 +1,25 @@
 {
   "name": "political-awareness-platform",
   "version": "1.0.0",
-  "description": "Political Awareness Platfrom",
-  "author": "Emre Tinaz",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "export": "nuxt export",
+    "serve": "nuxt serve"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "firebase": "^7.15.0",
-    "nuxt": "^2.0.0"
+    "firebase": "^7.15.5",
+    "nuxt": "^2.13.0"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "node-sass": "^4.14.1",
-    "prettier": "^1.19.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/svg": "^0.1.11",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.9",
     "sass-loader": "^8.0.2"
   }
 }
