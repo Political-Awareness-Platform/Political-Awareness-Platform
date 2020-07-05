@@ -62,7 +62,11 @@ html {
     justify-content: center;
 
     p {
-        line-height: 2em;
+        line-height: 2.5em;
+    }
+
+    @media only screen and (max-width: 900px) {
+        margin-top: 2em;
     }
 }
 
@@ -115,6 +119,10 @@ html {
 .party-flag {
     border-radius: 10px;
     margin: auto;
+
+    img {
+        width: 100%;
+    }
 }
 
 .party-info {
