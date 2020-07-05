@@ -12,13 +12,13 @@
       SubmitButtonText="Gonder"
       CloseButtonText="Kapat"
     />
-    <h3 style=" margin: 1em auto; text-align: center;">{{ headerTitle }}</h3>
+    <h3 style="margin: 1em auto; text-align: center;">{{ headerTitle }}</h3>
     <ul class="comment-list">
       <li
         class="comment"
         v-for="comment in negativecommentList"
         :key="comment.id"
-        @dblclick="upvoteanegativecomment(comment.id)"
+        @dblclick="commentLikeIncrementer(comment.id, 'negativeComments')"
       >
         <span class="text">{{ comment.doc.negativecomment }}</span>
         <div>
@@ -37,22 +37,22 @@ import TheTopList from '@/components/TheTopList'
 export default {
   components: { TheTopList },
   props: ['headerTitle', 'TopHeaderTitle', 'partyDetails'],
-  data(){
+  data() {
     return {
       negativecommentList: [],
       negativecommentListTop: [],
     }
   },
-   async fetch() {
+  async fetch() {
     this.negativecommentList = await firebase
       .firestore()
       .collection(this.partyDetails.country)
       .doc(this.partyDetails.dbcode)
       .collection('negativeComments')
-      .onSnapshot(snapshot => {
+      .onSnapshot((snapshot) => {
         this.negativecommentList = []
         this.negativecommentListTop = []
-        snapshot.forEach(doc => {
+        snapshot.forEach((doc) => {
           this.negativecommentList.push({ id: doc.id, doc: doc.data() })
           this.negativecommentListTop.push({ id: doc.id, doc: doc.data() })
         })
@@ -63,20 +63,21 @@ export default {
       })
   },
   fetchOnServer: false,
-   methods: {
-    upvoteanegativecomment(commentID) {
-      const likeanegativecomment = firebase
+  methods: {
+    commentLikeIncrementer(commentID, commentType) {
+      const commentLikeIncrementer = firebase
         .functions()
-        .httpsCallable('likeanegativecomment')
-      likeanegativecomment({
+        .httpsCallable('commentLikeIncrementer')
+      commentLikeIncrementer({
         commentID: commentID,
-        commentCountry: this.partyDetails.counrty,
-        commentPartyDBCode: this.partyDetails.dbcode
-      }).catch(error => {
+        commentCountry: this.partyDetails.country,
+        commentPartyDBCode: this.partyDetails.dbcode,
+        commentType: commentType,
+      }).catch((error) => {
         console.log(error.message)
       })
-    }
-  }
+    },
+  },
 }
 </script>
 

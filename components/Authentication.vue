@@ -1,7 +1,12 @@
 <template>
   <div class="auth-panel">
     <input type="email" name="email" placeholder="Email" v-model="email" />
-    <input type="password" name="password" placeholder="Password" v-model="password" />
+    <input
+      type="password"
+      name="password"
+      placeholder="Password"
+      v-model="password"
+    />
     <div class="button-section">
       <button @click="SignIn">Sign In</button>
       <button @click="SignUp">Sign Up</button>
@@ -11,30 +16,29 @@
 
 <script>
 export default {
-    data() {
+  data() {
     return {
-        email: '',
-        password: ''
+      email: '',
+      password: '',
     }
   },
   methods: {
     SignIn() {
-      this.$store.dispatch('user/loginUser', { email: this.email, password: this.password })
+      this.$store.dispatch('user/loginUser', {
+        email: this.email,
+        password: this.password,
+      })
+      ;(this.email = ''), (this.password = '')
     },
 
     SignUp() {
-      this.$store.dispatch("user/createUser", {
+      this.$store.dispatch('user/createUser', {
         email: this.email,
-        password: this.password
+        password: this.password,
       })
-        .then(() => {
-          this.email = "",
-          this.password = ""
-          this.$router.push('/');
-        });
-    }
-  }
-
+      ;(this.email = ''), (this.password = '')
+    },
+  },
 }
 </script>
 
@@ -51,7 +55,7 @@ export default {
   border-radius: 16px;
 
   input {
-    width: 90%;
+    width: 95%;
     font-family: 'Quicksand';
     border: none;
     outline: none;

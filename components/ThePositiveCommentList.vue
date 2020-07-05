@@ -12,13 +12,13 @@
       SubmitButtonText="Gonder"
       CloseButtonText="Kapat"
     />
-    <h3 style=" margin: 1em auto; text-align:center;">{{ headerTitle }}</h3>
+    <h3 style="margin: 1em auto; text-align: center;">{{ headerTitle }}</h3>
     <ul class="comment-list">
       <li
         class="comment"
         v-for="comment in positivecommentList"
         :key="comment.id"
-        @dblclick="upvoteapositivecomment(comment.id)"
+        @dblclick="commentLikeIncrementer(comment.id, 'positiveComments')"
       >
         <span class="text">{{ comment.doc.positivecomment }}</span>
         <div>
@@ -37,7 +37,10 @@ export default {
   props: {
     headerTitle: { type: String, required: true },
     TopHeaderTitle: { type: String, required: true },
-    partyDetails: { country: { type: String, required: true }, dbcode: { type: String, required: true } }
+    partyDetails: {
+      country: { type: String, required: true },
+      dbcode: { type: String, required: true },
+    },
   },
   data() {
     return {
@@ -45,41 +48,42 @@ export default {
       positivecommentListTop: [],
     }
   },
-    async fetch() {
+  async fetch() {
+    
       this.positivecommentList = await firebase
-      .firestore()
-      .collection(this.partyDetails.country)
-      .doc(this.partyDetails.dbcode)
-      .collection('positiveComments')
-      .onSnapshot(snapshot => {
-        this.positivecommentList = []
-        this.positivecommentListTop = []
-        snapshot.forEach(doc => {
-          this.positivecommentList.push({ id: doc.id, doc: doc.data() })
-          this.positivecommentListTop.push({ id: doc.id, doc: doc.data() })
+        .firestore()
+        .collection(this.partyDetails.country)
+        .doc(this.partyDetails.dbcode)
+        .collection('positiveComments')
+        .onSnapshot((snapshot) => {
+          this.positivecommentList = []
+          this.positivecommentListTop = []
+          snapshot.forEach((doc) => {
+            this.positivecommentList.push({ id: doc.id, doc: doc.data() })
+            this.positivecommentListTop.push({ id: doc.id, doc: doc.data() })
+          })
+          console.log(this.positivecommentList)
+          this.positivecommentListTop = this.positivecommentListTop
+            .sort((a, b) => b.doc.like - a.doc.like)
+            .slice(0, 5)
         })
-        console.log(this.positivecommentList)
-        this.positivecommentListTop = this.positivecommentListTop
-          .sort((a, b) => b.doc.like - a.doc.like)
-          .slice(0, 5)
-      })
   },
   fetchOnServer: false,
   methods: {
-    
-    upvoteapositivecomment(commentID) {
-      const likeapositivecomment = firebase
+    commentLikeIncrementer(commentID, commentType) {
+      const commentLikeIncrementer = firebase
         .functions()
-        .httpsCallable('likeapositivecomment')
-      likeapositivecomment({
+        .httpsCallable('commentLikeIncrementer')
+      commentLikeIncrementer({
         commentID: commentID,
-        commentCountry: this.partyDetails.counrty,
-        commentPartyDBCode: this.partyDetails.dbcode
-      }).catch(error => {
+        commentCountry: this.partyDetails.country,
+        commentPartyDBCode: this.partyDetails.dbcode,
+        commentType: commentType,
+      }).catch((error) => {
         console.log(error.message)
       })
-    }
-  }
+    },
+  },
 }
 </script>
 

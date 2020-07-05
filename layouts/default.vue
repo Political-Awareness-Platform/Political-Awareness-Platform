@@ -4,7 +4,7 @@
     <nuxt-link to="/" class="home-page-link">Political Awareness Platform</nuxt-link>
     </nav>
     <div class="content">
-      <Nuxt keep-alive />
+      <Nuxt />
     </div>
   </div>
 </template>
@@ -24,6 +24,7 @@
             color: #526488;
             word-spacing: 5px;
             text-decoration: none;
+            margin-top: 10px;
 
             @media only screen and (max-width: 600px) {
                 font-size: 1.3em;

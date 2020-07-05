@@ -11,12 +11,12 @@
     <p
       class="goal-text"
     >Understanding each party's purpose. Most of the citizens can only name a few political parties however there are ususaly more than thier acknowlegde registered parties to vote on. Therefore, this platform aims to help citizens to get to know every single option when it comes to voting. Many people do not like politics and do not feel like voting for any party at all because they do not like the popular parties or do not know of the unpopular parties because of the media influence. Therefore, in this platform every party will be portrayed equally and hopefully, citizens will gain access to knowledge of not well-known parties as well.</p>
-<br>
+    <br />
     <h3>Goal II</h3>
     <p
       class="goal-text"
     >This platform also aims to find out what people think about each party, positively and negatively. Therefore we can see what parties good and bad at according to the citizens. Then we can easily compare parties, and politicians can also understand what citizens think about them in general.</p>
-<br>
+    <br />
     <h3>Goal III</h3>
     <p
       class="goal-text"
@@ -28,7 +28,9 @@
       <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
     </div>
     <Authentication v-show="!this.$store.state.user.userUID" />
-    <p style="margin-top: 4em">We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
+    <p
+      style="margin-top: 4em"
+    >We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
   </div>
 </template>
 
@@ -50,7 +52,7 @@ export default {
   min-height: 100vh;
   text-align: center;
   max-width: 1000px;
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .platform-purpose {
@@ -64,9 +66,9 @@ export default {
   word-spacing: 2px;
 
   @media only screen and (max-width: 600px) {
-      text-align: left;
-      font-size: 0.8em;
-    }
+    text-align: left;
+    font-size: 0.8em;
+  }
 }
 
 .subtitle {
@@ -91,10 +93,10 @@ export default {
   color: #2d333f;
   word-spacing: 2px;
   margin: 0;
-   
+
   @media only screen and (max-width: 600px) {
     font-size: 0.8em;
-  }  
+  }
 }
 
 h3 {

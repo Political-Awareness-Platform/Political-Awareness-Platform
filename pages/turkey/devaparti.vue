@@ -61,7 +61,8 @@
         </div>
       </div>
     </div>
-    <div class="party-comment-section">
+    <Authentication v-show="!this.$store.state.user.userUID" />
+    <div class="party-comment-section" v-if="this.$store.state.user.userUID">
       <div class="positive-section">
         <ThePositiveCommentList
           headerTitle="Yapilmasi Istenenler"
