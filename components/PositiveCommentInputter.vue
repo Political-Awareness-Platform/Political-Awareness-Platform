@@ -111,7 +111,7 @@ export default {
 
 .positive-comment-textarea {
   width: 100%;
-  border: 0;
+  border: 1px silver solid;
 
   padding: 20px;
   font-family: inherit;
