@@ -25,7 +25,7 @@ exports.commentLikeIncrementer = functions.https.onCall((data, context) => {
         if (doc.data().likedBy.includes(context.auth.uid)) {
           throw new functions.https.HttpsError(
             'already-exists',
-            'You already liked it'
+            'already-liked'
           )
           console.info("User Already Liked the Comment")
         } else {

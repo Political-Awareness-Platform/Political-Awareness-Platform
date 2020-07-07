@@ -49,24 +49,23 @@ export default {
     }
   },
   async fetch() {
-    
-      this.positivecommentList = await firebase
-        .firestore()
-        .collection(this.partyDetails.country)
-        .doc(this.partyDetails.dbcode)
-        .collection('positiveComments')
-        .onSnapshot((snapshot) => {
-          this.positivecommentList = []
-          this.positivecommentListTop = []
-          snapshot.forEach((doc) => {
-            this.positivecommentList.push({ id: doc.id, doc: doc.data() })
-            this.positivecommentListTop.push({ id: doc.id, doc: doc.data() })
-          })
-          console.log(this.positivecommentList)
-          this.positivecommentListTop = this.positivecommentListTop
-            .sort((a, b) => b.doc.like - a.doc.like)
-            .slice(0, 5)
+    this.positivecommentList = await firebase
+      .firestore()
+      .collection(this.partyDetails.country)
+      .doc(this.partyDetails.dbcode)
+      .collection('positiveComments')
+      .onSnapshot((snapshot) => {
+        this.positivecommentList = []
+        this.positivecommentListTop = []
+        snapshot.forEach((doc) => {
+          this.positivecommentList.push({ id: doc.id, doc: doc.data() })
+          this.positivecommentListTop.push({ id: doc.id, doc: doc.data() })
         })
+        console.log(this.positivecommentList)
+        this.positivecommentListTop = this.positivecommentListTop
+          .sort((a, b) => b.doc.like - a.doc.like)
+          .slice(0, 5)
+      })
   },
   fetchOnServer: false,
   methods: {
@@ -81,6 +80,15 @@ export default {
         commentType: commentType,
       }).catch((error) => {
         console.log(error.message)
+        if (error.message == 'You already liked it') {
+          this.$notify({
+            message: 'You already 👍 it.',
+            type: 'success',
+            top: true,
+            closeDelay: 1500,
+            hideIcon: true,
+          })
+        }
       })
     },
   },
