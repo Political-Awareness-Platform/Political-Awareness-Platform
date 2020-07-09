@@ -56,19 +56,11 @@ export default {
         },
         {
           party_name: 'AK Parti',
-          link: '/turkey/akparti',
+          link: '/turkey/adaletvekalkinmapartisi',
         },
         {
           party_name: 'Deva Parti',
           link: '/turkey/devaparti',
-        },
-        {
-          party_name: 'Cumhuriyet Halk Partisi',
-          link: '/turkey/cumhuriyethalkpartisi',
-        },
-        {
-          party_name: 'IYI Parti',
-          link: '/turkey/iyiparti',
         },
       ],
     }

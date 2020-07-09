@@ -42,7 +42,7 @@ html {
     grid-template-columns: 1fr 1fr;
     column-gap: 5em;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
         grid-template-columns: auto;
     }
 }
@@ -65,7 +65,7 @@ html {
         line-height: 2.5em;
     }
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
         margin-top: 2em;
     }
 }
@@ -94,7 +94,7 @@ html {
     grid-template-columns: 1fr 1fr;
     column-gap: 2em;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
         grid-template-columns: auto;
     }
 }
@@ -109,9 +109,9 @@ html {
     margin: 1em auto;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    column-gap: 5em;
+    column-gap: 4em;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
         grid-template-columns: auto;
     }
 }
@@ -125,27 +125,12 @@ html {
     }
 }
 
-.party-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 0.5em;
-    margin-top: 1em;
-
-    @media only screen and (max-width: 900px) {
-        grid-template-columns: auto;
-    }
-
-    .icon {
-        width: 32px;
-    }
-}
-
 .party-comment-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2em;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
         grid-template-columns: auto;
     }
 }

@@ -75,6 +75,15 @@ export default {
         commentType: commentType,
       }).catch((error) => {
         console.log(error.message)
+        if (error.message == 'You already liked it') {
+          this.$notify({
+            message: 'You already 👍 it.',
+            type: 'success',
+            top: true,
+            closeDelay: 1500,
+            hideIcon: true,
+          })
+        }
       })
     },
   },
