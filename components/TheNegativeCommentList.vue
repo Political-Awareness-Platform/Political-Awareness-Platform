@@ -7,8 +7,8 @@
     />
     <NegativeCommentInputter
       :partyDetails="partyDetails"
-      MainButtonText="Bir partiden yapmamasini istediginiz sey nedir?"
-      PlaceholderText="Bir partiden ne yapmamasini isterdiniz?"
+      MainButtonText="Bu partiden yapmamasini istediginiz sey nedir?"
+      PlaceholderText="Bu partiden ne yapmamasini isterdiniz?"
       SubmitButtonText="Gonder"
       CloseButtonText="Kapat"
     />

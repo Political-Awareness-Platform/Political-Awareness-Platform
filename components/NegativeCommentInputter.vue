@@ -112,7 +112,7 @@ export default {
 .negative-comment-textarea {
   width: 100%;
   border: 1px silver solid;
-
+  font-size: 1em;
   padding: 20px;
   font-family: inherit;
   border-radius: 10px;
