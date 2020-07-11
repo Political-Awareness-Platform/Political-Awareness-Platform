@@ -9,7 +9,24 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped>// General Settings
+html {
+    font-family: "QuickSand", Arial, sans-serif;
+    background-color: #ffffff;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .window {
     nav {
         display: flex;

@@ -34,8 +34,18 @@ export default {
       background: white;
       border-radius: 10px;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-      display: flex;
-      justify-content: space-between;
+      position: relative;
+      // display: flex;
+      // justify-content: space-between;
+
+      .votes {
+        position: absolute;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding: 4px 10px;
+        right: 0;
+        top: 0;
+      }
     }
   }
 }

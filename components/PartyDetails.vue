@@ -2,41 +2,42 @@
   <div class="party-info">
     <div class="party-details">
       <p>
-        <b>{{ party_name_text }} :</b>
-        {{ party_name_value }}
+        <b>{{ name_text }} :</b>
+        {{ partyInfo.name }}
       </p>
       <p>
-        <b>{{ party_shortname_text }} :</b>
-        {{ party_shortname_value }}
+        <b>{{ shortname_text }} :</b>
+        {{ partyInfo.shortname }}
       </p>
       <p>
-        <b>{{ party_established_text }} :</b>
-        {{ party_established_value }}
+        <b>{{ established_text }} :</b>
+        {{ partyInfo.established }}
       </p>
       <p>
-        <b>{{ party_founder_text }} :</b>
-        {{ party_founder_value }}
+        <b>{{ founder_text }} :</b>
+        {{ partyInfo.founder }}
       </p>
       <p>
-        <b>{{ party_president_text }} :</b>
-        {{ party_president_value }}
+        <b>{{ president_text }} :</b>
+        {{ partyInfo.president }}
       </p>
     </div>
     <div class="party-addresses">
       <p>
-        <b>{{ party_publicrelation_text }} :</b>
-        {{ party_publicrelation_value }}
+        <b>{{ public_relation_text }} :</b>
+        {{ partyInfo.public_relation }}
       </p>
       <p>
-        <b>{{ party_currentmember_text }} :</b>
-        {{ party_currentmember_value }}
+        <b>{{ current_member_text }} :</b>
+        {{ partyInfo.current_member }}
       </p>
       <p>
-        <b>{{ party_internetaddress_text }} :</b>
-        <a :href="party_internetaddress_value" style="text-decoration: none;"
-          >{{ party_internetaddress_value }}
-        </a>
-        <a :href="party_facebook_value">
+        <b>{{ internet_address_text }} :</b>
+        <a
+          :href="partyInfo.internet_address"
+          style="text-decoration: none;"
+        >{{ partyInfo.internet_address }}</a>
+        <a :href="partyInfo.facebook">
           <img
             src="~assets/logos/facebookicon.svg"
             alt="facebook-icon"
@@ -45,7 +46,7 @@
             height="22px"
           />
         </a>
-        <a :href="party_twitter_value">
+        <a :href="partyInfo.twitter">
           <img
             src="~assets/logos/twittericon.svg"
             alt="twitter-icon"
@@ -56,12 +57,12 @@
         </a>
       </p>
       <p>
-        <b>{{ party_telefonnumber_text }} :</b>
-        {{ party_telefonnumber_value }}
+        <b>{{ phone_number_text }} :</b>
+        {{ partyInfo.phone }}
       </p>
       <p>
-        <b>{{ party_address_text }} :</b>
-        {{ party_address_value }}
+        <b>{{ address_text }} :</b>
+        {{ partyInfo.address }}
       </p>
     </div>
   </div>
@@ -69,96 +70,37 @@
 
 <script>
 export default {
-  props: {
-    party_name_text: {
-      type: String,
-      required: true,
-    },
-    party_shortname_text: {
-      type: String,
-      required: true,
-    },
-    party_established_text: {
-      type: String,
-      required: true,
-    },
-    party_founder_text: {
-      type: String,
-      required: true,
-    },
-    party_president_text: {
-      type: String,
-      required: true,
-    },
-    party_publicrelation_text: {
-      type: String,
-      required: true,
-    },
-    party_currentmember_text: {
-      type: String,
-      required: true,
-    },
-    party_internetaddress_text: {
-      type: String,
-      required: true,
-    },
-    party_telefonnumber_text: {
-      type: String,
-      required: true,
-    },
-    party_address_text: {
-      type: String,
-      required: true,
-    },
-    party_name_value: {
-      type: String,
-      required: true,
-    },
-    party_shortname_value: {
-      type: String,
-      required: true,
-    },
-    party_established_value: {
-      type: String,
-      required: true,
-    },
-    party_founder_value: {
-      type: String,
-      required: true,
-    },
-    party_president_value: {
-      type: String,
-      required: true,
-    },
-    party_publicrelation_value: {
-      type: String,
-      required: true,
-    },
-    party_currentmember_value: {
-      type: String,
-      required: true,
-    },
-    party_internetaddress_value: {
-      type: String,
-      required: true,
-    },
-    party_telefonnumber_value: {
-      type: String,
-      required: true,
-    },
-    party_address_value: {
-      type: String,
-      required: true,
-    },
-    party_twitter_value: {
-      type: String,
-      required: true,
-    },
-    party_facebook_value: {
-      type: String,
-      required: true,
-    },
+  props: { partyInfo: { type: Object, required: true }, partyDetails: { type: Object, required: true },
   },
+  data() {
+    return {
+      name_text: "Name",
+      shortname_text: 'Short Name',
+      established_text: 'Established',
+      founder_text: 'Founder',
+      president_text: 'President',
+      public_relation_text: 'Public Relation Person',
+      current_member_text: 'Current Member',
+      internet_address_text: 'Internet Address',
+      phone_number_text: 'Phone Number',
+      address_text: 'Address',
+    }
+  },
+  fetch() {
+    if (this.partyDetails.country == 'turkey') { // Translation to Turkish
+      this.name_text= "Adi",
+      this.shortname_text= 'Kisa Adi',
+      this.established_text= 'Kurulus',
+      this.founder_text= 'Kurucu',
+      this.president_text= 'Baskan',
+      this.public_relation_text= 'Sozcu',
+      this.current_member_text= 'Uye sayisi',
+      this.internet_address_text= 'Internet Adresi',
+      this.phone_number_text= 'Telefon numarasi',
+      this.address_text= 'Adresi'
+    }
+  },
+  fetchOnServer: false,
 }
 </script>
 

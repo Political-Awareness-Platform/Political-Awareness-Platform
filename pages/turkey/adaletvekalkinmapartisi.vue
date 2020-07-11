@@ -4,35 +4,9 @@
       <div class="party-flag">
         <img src="~assets/logos/akparti.png" alt="akp-logo" />
       </div>
-      <PartyDetails
-        party_name_text="Pari Adi"
-        party_shortname_text="Kisaltmasi"
-        party_established_text="Kurulus Tarihi"
-        party_founder_text="Kurucu Lider"
-        party_president_text="Genel Baskan"
-        party_publicrelation_text="Iletisim Sozcusu"
-        party_currentmember_text="Uye sayisi"
-        party_internetaddress_text="Internet Adresi"
-        party_telefonnumber_text="Telefon"
-        party_address_text="Adres"
-        :party_name_value="partyInfo.name"
-        :party_shortname_value="partyInfo.shortname"
-        :party_established_value="partyInfo.established"
-        :party_founder_value="partyInfo.founder"
-        :party_president_value="partyInfo.president"
-        :party_publicrelation_value="partyInfo.public_relation"
-        :party_currentmember_value="partyInfo.current_member"
-        :party_internetaddress_value="partyInfo.internet_address"
-        :party_telefonnumber_value="partyInfo.phone"
-        :party_address_value="partyInfo.address"
-        :party_twitter_value="partyInfo.twitter"
-        :party_facebook_value="partyInfo.facebook"
-      />
+      <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
-    <PartyPurpose
-      :partyPurposeList="partyPurposes"
-      purposeText="Partinin Amaclari"
-    />
+    <PartyPurpose :partyPurposeList="partyPurposes" purposeText="Partinin Amaclari" />
     <Authentication v-show="!this.$store.state.user.userUID" />
     <div class="party-comment-section" v-if="this.$store.state.user.userUID">
       <div class="positive-section">
