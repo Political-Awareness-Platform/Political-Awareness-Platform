@@ -1,5 +1,5 @@
 <template>
-  <h1>Germany</h1>
+  <h1>Germany Coming soon</h1>
 </template>
 
 <script>

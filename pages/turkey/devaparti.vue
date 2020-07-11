@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <img src="~assets/logos/deva.png" alt="deva-logo" />
+        <img src="~assets/logos/turkey/deva.png" alt="deva-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>

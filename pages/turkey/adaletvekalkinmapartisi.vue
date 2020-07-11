@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <img src="~assets/logos/akparti.png" alt="akp-logo" />
+        <img src="~assets/logos/turkey/akparti.png" alt="akp-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>

@@ -6,7 +6,7 @@
     >This platform created to heal the relationship problem between citizens and politicians / political parties. Hopefully, this platform may help citizens and political parties to understand each other better.</p>
 
     <br />
-
+  
     <h3>Goal I</h3>
     <p
       class="goal-text"
@@ -50,7 +50,6 @@ export default {
   min-height: 100vh;
   text-align: center;
   max-width: 1000px;
-  padding: 0 10px;
 }
 
 .platform-purpose {
@@ -70,11 +69,11 @@ export default {
 }
 
 .subtitle {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2em;
   color: #526488;
   word-spacing: 5px;
-  margin: 1em;
+  margin: 1em 0;
 }
 
 .links {
@@ -100,6 +99,7 @@ export default {
 h3 {
   text-align: left;
   margin: 0px;
+  color: #526488;
 }
 
 .button--green {

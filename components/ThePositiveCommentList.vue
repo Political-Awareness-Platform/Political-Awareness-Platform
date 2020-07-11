@@ -7,8 +7,8 @@
     />
     <PositiveCommentInputter
       :partyDetails="partyDetails"
-      MainButtonText="Bir partiden yapmasini istediginiz sey nedir?"
-      PlaceholderText="Bir partiden ne yapmasini isterdiniz?"
+      MainButtonText="Bu partiden yapmasini istediginiz sey nedir?"
+      PlaceholderText="Bu partiden ne yapmasini isterdiniz?"
       SubmitButtonText="Gonder"
       CloseButtonText="Kapat"
     />

@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <img src="~assets/logos/mhp.png" alt="mhp-logo" />
+        <img src="~assets/logos/turkey/mhp.png" alt="mhp-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>

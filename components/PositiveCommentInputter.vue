@@ -115,6 +115,7 @@ export default {
 
   padding: 20px;
   font-family: inherit;
+  font-size: 1em;
   border-radius: 10px;
   background: #ffffff;
   box-shadow: 5px 5px 19px #a6a6a6, -5px -5px 19px #ffffff;
