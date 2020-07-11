@@ -1,12 +1,7 @@
 <template>
   <div class="auth-panel">
     <input type="email" name="email" placeholder="Email" v-model="email" />
-    <input
-      type="password"
-      name="password"
-      placeholder="Password"
-      v-model="password"
-    />
+    <input type="password" name="password" placeholder="Password" v-model="password" />
     <div class="button-section">
       <button @click="SignIn">Sign In</button>
       <button @click="SignUp">Sign Up</button>
@@ -16,6 +11,13 @@
 
 <script>
 export default {
+  head () {
+    return {
+      meta: [
+        { hid: 'mobile', name:"viewport" , content:"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" }
+      ]
+    }
+  },
   data() {
     return {
       email: '',
@@ -24,19 +26,15 @@ export default {
   },
   methods: {
     SignIn() {
-      this.$store.dispatch('user/loginUser', {
-        email: this.email,
-        password: this.password,
-      })
-      ;(this.email = ''), (this.password = '')
+      this.$store.dispatch('user/loginUser', { email: this.email, password: this.password });
+      this.email = '',
+      this.password = ''
     },
 
     SignUp() {
-      this.$store.dispatch('user/createUser', {
-        email: this.email,
-        password: this.password,
-      })
-      ;(this.email = ''), (this.password = '')
+      this.$store.dispatch('user/createUser', { email: this.email, password: this.password });
+      this.email = '',
+      this.password = ''
     },
   },
 }
@@ -58,7 +56,6 @@ export default {
     width: 95%;
     font-family: 'Quicksand';
     border: none;
-    outline: none;
     background: none;
     font-size: 16px;
     color: #555;
@@ -67,10 +64,14 @@ export default {
     margin-bottom: 10px;
     border-radius: 12px;
     box-shadow: 6px 6px 50px #dedede, -6px -6px 50px #ffffff;
+
+    
   }
 
   input:focus {
     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+    border: none;
+    outline: none;
   }
 
   .button-section {
@@ -93,4 +94,8 @@ export default {
     }
   }
 }
+
+@media screen and (device-aspect-ratio: 9/16) {
+       input[type=”email”] {font-size:100%;}
+    }
 </style>

@@ -120,7 +120,7 @@ export default {
   box-shadow: 5px 5px 19px #a6a6a6, -5px -5px 19px #ffffff;
   &:focus {
     outline: none;
-    border: none;
+    border: gray 1px solid;
     box-shadow: inset 5px 5px 10px #a6a6a6, inset -5px -5px 10px #ffffff;
   }
 }
