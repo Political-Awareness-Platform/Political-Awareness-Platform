@@ -1,18 +1,16 @@
 <template>
   <section class="comments-section">
     <TheTopList
-      headerTitle="TopHeaderTitle"
-      :TopHeaderTitle="TopHeaderTitle"
+      :TopHeaderTitle="TheTopListHeaderTitle"
       :toplistcomments="positivecommentListTop"
     />
     <PositiveCommentInputter
       :partyDetails="partyDetails"
-      MainButtonText="Bu partiden yapmasini istediginiz sey nedir?"
-      PlaceholderText="Bu partiden ne yapmasini isterdiniz?"
-      SubmitButtonText="Gonder"
-      CloseButtonText="Kapat"
+      :MainButtonText="MainButtonText"
+      :SubmitButtonText="SubmitButtonText"
+      :CloseButtonText="CloseButtonText"
     />
-    <h3 style="margin: 1em auto; text-align: center;">{{ headerTitle }}</h3>
+    <h3 style="margin: 1em auto; text-align: center;">{{ HeaderTitle }}</h3>
     <ul class="comment-list">
       <li
         class="comment"
@@ -35,8 +33,6 @@ import 'firebase/firestore'
 import 'firebase/firebase-functions'
 export default {
   props: {
-    headerTitle: { type: String, required: true },
-    TopHeaderTitle: { type: String, required: true },
     partyDetails: {
       country: { type: String, required: true },
       dbcode: { type: String, required: true },
@@ -46,9 +42,30 @@ export default {
     return {
       positivecommentList: [],
       positivecommentListTop: [],
+      TheTopListHeaderTitle: 'Top 5 Desired Things from a Political Party',
+      MainButtonText: 'What is the party must do best?',
+      SubmitButtonText: 'Submit',
+      CloseButtonText: 'Close',
+      HeaderTitle: 'Desired Things from a Political Party',
     }
   },
   async fetch() {
+    if (this.partyDetails.country == 'turkey') {
+      this.TheTopListHeaderTitle = 'En cok istenen 5 sey'
+      this.MainButtonText =
+        'Sizce bir partinin en iyi yapmasi gereken sey nedir?'
+      this.SubmitButtonText = 'Gonder'
+      this.CloseButtonText = 'Kapat'
+      this.HeaderTitle = 'Istenenler'
+    } else if (this.partyDetails.country == 'germany') {
+      this.TheTopListHeaderTitle =
+        'Top 5 der gewünschten Dinge einer politischen Partei'
+      this.MainButtonText = 'Was muss die Partei am besten?'
+      this.SubmitButtonText = 'Einreichen'
+      this.CloseButtonText = 'Schließen'
+      this.HeaderTitle = 'Gewünschte Dinge von einer politischen Partei'
+    }
+
     this.positivecommentList = await firebase
       .firestore()
       .collection(this.partyDetails.country)
@@ -118,7 +135,7 @@ export default {
       border-radius: 10px;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
       position: relative;
-      
+
       .votes {
         position: absolute;
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);

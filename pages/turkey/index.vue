@@ -31,18 +31,10 @@
     <Authentication v-show="!this.$store.state.user.userUID" />
     <div class="country-ideal-party" v-if="this.$store.state.user.userUID">
       <div class="positive-section">
-        <ThePositiveCommentList
-          headerTitle="Yapilmasi Istenenler"
-          TopHeaderTitle="En cok istenen"
-          :partyDetails="partyDetails"
-        />
+        <CountryPagePositiveCommentSection :partyDetails="partyDetails" />
       </div>
       <div class="negative-section">
-        <TheNegativeCommentList
-          headerTitle="Istenmeyenler"
-          TopHeaderTitle="En uzak durulmasi gereken"
-          :partyDetails="partyDetails"
-        />
+        <CountryPageNegativeCommentSection :partyDetails="partyDetails" />
       </div>
     </div>
   </div>

@@ -1,18 +1,16 @@
 <template>
   <section class="comments-section">
     <TheTopList
-      headerTitle="TopHeaderTitle"
-      :TopHeaderTitle="TopHeaderTitle"
+      :TopHeaderTitle="TheTopListHeaderTitle"
       :toplistcomments="negativecommentListTop"
     />
     <NegativeCommentInputter
       :partyDetails="partyDetails"
-      MainButtonText="Bu partiden yapmamasini istediginiz sey nedir?"
-      PlaceholderText="Bu partiden ne yapmamasini isterdiniz?"
-      SubmitButtonText="Gonder"
-      CloseButtonText="Kapat"
+      :MainButtonText="MainButtonText"
+      :SubmitButtonText="SubmitButtonText"
+      :CloseButtonText="CloseButtonText"
     />
-    <h3 style="margin: 1em auto; text-align: center;">{{ headerTitle }}</h3>
+    <h3 style="margin: 1em auto; text-align: center;">{{ HeaderTitle }}</h3>
     <ul class="comment-list">
       <li
         class="comment"
@@ -36,14 +34,38 @@ import 'firebase/firebase-functions'
 import TheTopList from '@/components/TheTopList'
 export default {
   components: { TheTopList },
-  props: ['headerTitle', 'TopHeaderTitle', 'partyDetails'],
+  props: {
+    partyDetails: {
+      country: { type: String, required: true },
+      dbcode: { type: String, required: true },
+    },
+  },
   data() {
     return {
       negativecommentList: [],
       negativecommentListTop: [],
+      TheTopListHeaderTitle: 'Top 5 negative comments about this party',
+      MainButtonText: 'What is the negative thing this party does?',
+      SubmitButtonText: 'Submit',
+      CloseButtonText: 'Close',
+      HeaderTitle: 'Negative comments for this party',
     }
   },
   async fetch() {
+    if (this.partyDetails.country == 'turkey') {
+      this.TheTopListHeaderTitle = 'En kotu yaptigi 5 sey'
+      this.MainButtonText = 'Sizce bu partinin en kotu yaptigi sey nedir?'
+      this.SubmitButtonText = 'Gonder'
+      this.CloseButtonText = 'Kapat'
+      this.HeaderTitle = 'Negatif yaptiklari'
+    } else if (this.partyDetails.country == 'germany') {
+      this.TheTopListHeaderTitle = 'Top 5 negative Kommentare zu dieser Party'
+      this.MainButtonText = 'Was ist das Negative, was diese Partei tut?'
+      this.SubmitButtonText = 'Einreichen'
+      this.CloseButtonText = 'Schließen'
+      this.HeaderTitle = 'Negative Kommentare für diese Partei'
+    }
+
     this.negativecommentList = await firebase
       .firestore()
       .collection(this.partyDetails.country)
@@ -113,7 +135,7 @@ export default {
       border-radius: 10px;
       box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
       position: relative;
-      
+
       .votes {
         position: absolute;
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);

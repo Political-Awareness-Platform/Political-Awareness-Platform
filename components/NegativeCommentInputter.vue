@@ -4,7 +4,7 @@
       class="negative-comment-button"
       v-show="!showModalNegative"
       @click="showModalNegative = true"
-    >{{this.MainButtonText}}</button>
+    >{{ this.MainButtonText }}</button>
 
     <textarea
       v-show="showModalNegative"
@@ -12,7 +12,6 @@
       type="text"
       minlength="5"
       maxlength="1000"
-      :placeholder="this.PlaceholderText"
       v-model="negativecomment"
     />
 
@@ -42,12 +41,11 @@ export default {
       MainButtonText: { type: String, required: true },
       SubmitButtonText: { type: String, required: true },
       CloseButtonText: { type: String, required: true },
-      PlaceholderText: { type: String, required: true }
     },
     data() {
         return {
         showModalNegative: false,
-        negativecomment: ''
+        negativecomment: '',
         }
     },
     methods: {
