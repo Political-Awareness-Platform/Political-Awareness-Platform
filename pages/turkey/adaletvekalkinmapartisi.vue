@@ -10,18 +10,10 @@
     <Authentication v-show="!this.$store.state.user.userUID" />
     <div class="party-comment-section" v-if="this.$store.state.user.userUID">
       <div class="positive-section">
-        <ThePositiveCommentList
-          headerTitle="Yapilmasi Istenenler"
-          TopHeaderTitle="En cok istenen"
-          :partyDetails="partyDetails"
-        />
+        <PartyPagePositiveCommentSection :partyDetails="partyDetails" />
       </div>
       <div class="negative-section">
-        <TheNegativeCommentList
-          headerTitle="Istenmeyenler"
-          TopHeaderTitle="En uzak durulmasi gereken"
-          :partyDetails="partyDetails"
-        />
+        <PartyPageNegativeCommentSection :partyDetails="partyDetails" />
       </div>
     </div>
   </div>

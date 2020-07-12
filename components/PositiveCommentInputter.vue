@@ -12,7 +12,6 @@
       type="text"
       minlength="5"
       maxlength="1000"
-      :placeholder="this.PlaceholderText"
       v-model="positivecomment"
     />
 
@@ -42,7 +41,6 @@ export default {
       MainButtonText: { type: String, required: true },
       SubmitButtonText: { type: String, required: true },
       CloseButtonText: { type: String, required: true },
-      PlaceholderText: { type: String, required: true }
     },
     data() {
         return {
