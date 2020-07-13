@@ -67,5 +67,12 @@ export default {
     port: 3000, // default: 3000
     host: '0.0.0.0', // default: localhost,
     timing: false
+  },
+  pwa: {
+    manifest: {
+      name: "Political Awareness Platform",
+      short_name: "PAP",
+      display: "standalone",
+    }
   }
 }
