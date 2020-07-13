@@ -4,9 +4,9 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "Scope": "/",
+  "scope": "/",
   "lang": "en",
-  "start_url": "https://papg.netlify.app/",
+  "start_url": "/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
