@@ -21,9 +21,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel:"manifest", type: 'application/json', href:'manifest.json' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
   ** Global CSS
@@ -34,8 +32,7 @@ export default {
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
-  plugins: [{src: '~/plugins/firebaseConfig.js', mode: 'client' }, {src: '~/plugins/notificationToaster.js', mode: 'client'},
-  {src: '~/plugins/sw.js', mode: 'client'}],
+  plugins: [{src: '~/plugins/firebaseConfig.js', mode: 'client' }, {src: '~/plugins/notificationToaster.js', mode: 'client'}],
   /*
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
