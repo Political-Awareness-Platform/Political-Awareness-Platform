@@ -4,7 +4,9 @@
       class="positive-comment-button"
       v-show="!showModalPositive"
       @click="showModalPositive = true"
-    >{{ this.MainButtonText }}</button>
+    >
+      {{ this.MainButtonText }}
+    </button>
 
     <textarea
       v-show="showModalPositive"
@@ -20,13 +22,17 @@
         class="small-buttons"
         type="submit"
         v-show="showModalPositive"
-        @click="submitPositiveComment(), showModalPositive = false"
-      >{{ this.SubmitButtonText }}</button>
+        @click="submitPositiveComment(), (showModalPositive = false)"
+      >
+        {{ this.SubmitButtonText }}
+      </button>
       <button
         class="small-buttons"
         v-show="showModalPositive"
         @click="showModalPositive = false"
-      >{{ this.CloseButtonText }}</button>
+      >
+        {{ this.CloseButtonText }}
+      </button>
     </div>
   </div>
 </template>
@@ -36,21 +42,29 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/firebase-functions'
 export default {
-    props: {
-      partyDetails: { type: Object, required: true },
-      MainButtonText: { type: String, required: true },
-      SubmitButtonText: { type: String, required: true },
-      CloseButtonText: { type: String, required: true },
-    },
-    data() {
-        return {
-        showModalPositive: false,
-        positivecomment: ''
-        }
-    },
-    methods: {
-        submitPositiveComment() {
-        if (this.$store.state.user.userUID) {
+  props: {
+    partyDetails: { type: Object, required: true },
+    MainButtonText: { type: String, required: true },
+    SubmitButtonText: { type: String, required: true },
+    CloseButtonText: { type: String, required: true },
+  },
+  data() {
+    return {
+      showModalPositive: false,
+      positivecomment: '',
+    }
+  },
+  methods: {
+    submitPositiveComment() {
+      if (this.positivecomment.length < 2) {
+        this.$notify({
+          message: 'No empty comment please!',
+          type: 'success',
+          top: true,
+          closeDelay: 1500,
+          hideIcon: true,
+        })
+      } else if (this.$store.state.user.userUID) {
         firebase
           .firestore()
           .collection(this.partyDetails.country)
@@ -59,22 +73,22 @@ export default {
           .add({
             positivecomment: this.positivecomment,
             like: 0,
-            likedBy: [this.$store.state.user.userUID]
+            likedBy: [this.$store.state.user.userUID],
           })
-          .then(function(data) {
+          .then(function (data) {
             console.log('Document successfully written!', data)
           })
-          .catch(function(error) {
+          .catch(function (error) {
             console.error('Error writing document: ', error)
           })
         this.positivecomment = ''
         this.showModalPositive = false
       } else {
-        console.log("👎", " You must loggin to make a comment❗️");
+        console.log('👎', ' You must loggin to make a comment❗️')
         this.$router.push('/')
       }
     },
-    }
+  },
 }
 </script>
 
