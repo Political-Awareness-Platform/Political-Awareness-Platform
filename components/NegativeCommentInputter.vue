@@ -50,7 +50,15 @@ export default {
     },
     methods: {
         submitNegativeComment() {
-        if (this.$store.state.user.userUID) {
+           if (this.positivecomment.length < 2) {
+        this.$notify({
+          message: 'No empty comment please!',
+          type: 'success',
+          top: true,
+          closeDelay: 1500,
+          hideIcon: true,
+        })
+      } else if (this.$store.state.user.userUID) {
         firebase
           .firestore()
           .collection(this.partyDetails.country)
