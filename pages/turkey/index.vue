@@ -71,6 +71,10 @@ export default {
           link: '/turkey/buyukbirlikpartisi',
         },
         {
+          party_name: 'Saadet Parti',
+          link: '/turkey/saadetparti',
+        },
+        {
           party_name: 'AK Parti',
           link: '/turkey/adaletvekalkinmapartisi',
         },
