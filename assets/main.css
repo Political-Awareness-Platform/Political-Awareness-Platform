@@ -1,23 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-html {
-  font-family: "QuickSand", Arial, sans-serif;
-  background-color: #ffffff;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-}
-
 .page-enter-active,
 .page-leave-active {
   -webkit-transition: opacity 0.5s;
@@ -45,7 +26,7 @@ html {
           column-gap: 5em;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .country-intro {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
@@ -78,7 +59,7 @@ html {
   line-height: 2.5em;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .country-info {
     margin-top: 2em;
   }
@@ -100,12 +81,21 @@ html {
 }
 
 .country-party-card {
-  margin: 5px;
-  padding: 10px;
+  margin: 6px;
+  padding: 4px;
   border-radius: 8px;
   text-align: center;
   -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  max-width: 2000px;
+  min-width: 100px;
+  white-space: normal;
+  font-family: "Quicksand";
+  font-weight: 100;
+  font-size: 14px;
 }
 
 .country-party-card a {
@@ -121,7 +111,7 @@ html {
           column-gap: 2em;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .country-ideal-party {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
@@ -139,11 +129,11 @@ html {
   display: grid;
   -ms-grid-columns: 1fr 3fr;
       grid-template-columns: 1fr 3fr;
-  -webkit-column-gap: 5em;
-          column-gap: 5em;
+  -webkit-column-gap: 4em;
+          column-gap: 4em;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .party-intro {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
@@ -159,27 +149,6 @@ html {
   width: 100%;
 }
 
-.party-info {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -webkit-column-gap: 0.5em;
-          column-gap: 0.5em;
-  margin-top: 1em;
-}
-
-@media only screen and (max-width: 900px) {
-  .party-info {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-  }
-}
-
-.party-info .icon {
-  width: 32px;
-}
-
 .party-comment-section {
   display: -ms-grid;
   display: grid;
@@ -189,7 +158,7 @@ html {
           column-gap: 2em;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .party-comment-section {
     -ms-grid-columns: auto;
         grid-template-columns: auto;

@@ -29,7 +29,7 @@
     </div>
     <Authentication v-show="!this.$store.state.user.userUID" />
     <p
-      style="margin-top: 4em"
+      style="margin-top: 4em; font-family:Quicksand"
     >We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
   </div>
 </template>
@@ -74,10 +74,12 @@ export default {
   color: #526488;
   word-spacing: 5px;
   margin: 1em 0;
+  font-family: 'Quicksand';
 }
 
 .links {
   padding: 15px 0;
+  font-family: 'Quicksand';
 }
 
 .goal-text {

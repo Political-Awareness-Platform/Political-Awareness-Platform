@@ -48,6 +48,10 @@ export default {
           party_name: 'Christlich Demokratische Union Deutschlands',
           link: '/germany/christlichdemokratischeuniondeutschlands',
         },
+        {
+          party_name: 'Sozialdemokratische Partei Deutschlands',
+          link: '/germany/sozialdemokratischeparteideutschlands',
+        },
       ],
     }
   },
