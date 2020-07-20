@@ -18,9 +18,7 @@
         :key="party.party_name"
         class="country-party-card"
       >
-        <nuxt-link :to="party.link">
-          <b>{{ party.party_name }}</b>
-        </nuxt-link>
+        <nuxt-link :to="party.link">{{ party.party_name }}</nuxt-link>
       </div>
     </div>
     <h2 style="text-align: center; margin: 2em 0px;">Ideal / Hayali Parti</h2>

@@ -24,6 +24,7 @@
 
     <h4 class="subtitle">Available Countries</h4>
     <div class="links">
+      <nuxt-link to="/newzealand" class="button--green">New Zealand</nuxt-link>
       <nuxt-link to="/turkey" class="button--green">Türkiye</nuxt-link>
       <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
     </div>
@@ -78,8 +79,9 @@ export default {
 }
 
 .links {
-  padding: 15px 0;
   font-family: 'Quicksand';
+  display: flexbox;
+  flex-direction: row wrap;
 }
 
 .goal-text {
@@ -111,6 +113,7 @@ h3 {
   color: #3b8070;
   text-decoration: none;
   padding: 10px 30px;
+  margin-top: 1em;
 }
 
 .button--green:hover {

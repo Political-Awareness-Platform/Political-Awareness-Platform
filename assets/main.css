@@ -90,11 +90,10 @@
   display: -ms-grid;
   display: grid;
   place-items: center;
-  max-width: 2000px;
-  min-width: 100px;
+  min-width: 160px;
   white-space: normal;
   font-family: "Quicksand";
-  font-weight: 100;
+  font-weight: 500;
   font-size: 14px;
 }
 
