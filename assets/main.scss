@@ -1,5 +1,4 @@
 
-
 // Nuxt Pages Transition
 .page-enter-active,
 .page-leave-active {
@@ -13,7 +12,6 @@
 // Country Pages Specific
 .country-page {
     margin: 2em auto;
-
     padding: 1em;
 }
 
@@ -61,11 +59,18 @@
 }
 
 .country-party-card {
-    margin: 5px;
-    padding: 10px;
+    margin: 6px;
+    padding: 4px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    display: grid;
+    place-items: center;
+    min-width: 160px;
+    white-space: normal;
+    font-family: "Quicksand";
+    font-weight: 500;
+    font-size: 14px;
     a {
         text-decoration: none;
     }

@@ -10,6 +10,7 @@
 </template>
 
 <style lang="scss" scoped>
+
 // General Settings
 html {
   font-family: 'QuickSand', Arial, sans-serif;

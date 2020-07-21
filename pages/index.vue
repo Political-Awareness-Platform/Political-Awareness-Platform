@@ -24,12 +24,13 @@
 
     <h4 class="subtitle">Available Countries</h4>
     <div class="links">
+      <nuxt-link to="/newzealand" class="button--green">New Zealand</nuxt-link>
       <nuxt-link to="/turkey" class="button--green">Türkiye</nuxt-link>
       <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
     </div>
     <Authentication v-show="!this.$store.state.user.userUID" />
     <p
-      style="margin-top: 4em"
+      style="margin-top: 4em; font-family:Quicksand"
     >We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
   </div>
 </template>
@@ -74,10 +75,13 @@ export default {
   color: #526488;
   word-spacing: 5px;
   margin: 1em 0;
+  font-family: 'Quicksand';
 }
 
 .links {
-  padding: 15px 0;
+  font-family: 'Quicksand';
+  display: flexbox;
+  flex-direction: row wrap;
 }
 
 .goal-text {
@@ -109,6 +113,7 @@ h3 {
   color: #3b8070;
   text-decoration: none;
   padding: 10px 30px;
+  margin-top: 1em;
 }
 
 .button--green:hover {
