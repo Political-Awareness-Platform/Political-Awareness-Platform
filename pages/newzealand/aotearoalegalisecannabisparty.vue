@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/newzealand/.png" alt="-logo" /> -->
+        <img src="~assets/logos/newzealand/cannabisparty.jpg" alt="cannabisparty-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'newzealand', dbcode: 'aotearoalegalisecannabisparty' },
       partyInfo: {
         name: 'Aotearoa Legalise Cannabis Party',
-        shortname: '',
-        established: '',
+        shortname: 'The Cannabis Party',
+        established: '30 May 1996',
         founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
+        address: '25 Hanmer Street Christchurch 8141',
+        internet_address: 'www.alcp.org.nz',
+        public_relation: 'Irinka Britnell',
         current_member: '',
         president: '',
         facebook: '',
         twitter: '',
-        phone: '',
+        phone: '022 082 4399',
       },
       partyPurposes: [
         {
