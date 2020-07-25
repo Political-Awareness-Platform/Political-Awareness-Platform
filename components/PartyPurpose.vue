@@ -24,6 +24,7 @@ export default {
     p {
         line-height: 1.5em;
         margin: 1em;
+        font-family: "Quicksand";
     }
 }
 </style>
