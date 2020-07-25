@@ -29,6 +29,8 @@
 
 .country-flag {
     border-radius: 10px;
+    display: grid;
+    place-items: center;
 
     img {
         width: 100%;

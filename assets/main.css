@@ -34,6 +34,9 @@
 
 .country-flag {
   border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
 }
 
 .country-flag img {

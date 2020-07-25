@@ -125,4 +125,6 @@ export default {
     line-height: 2em;
   }
 }
+
+p { font-family: "Quicksand";}
 </style>
