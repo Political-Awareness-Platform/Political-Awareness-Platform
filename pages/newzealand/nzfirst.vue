@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/newzealand/.png" alt="-logo" /> -->
+        <img src="~assets/logos/newzealand/nzfirst.jpg" alt="nzfirst-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'newzealand', dbcode: 'nzfirst' },
       partyInfo: {
-        name: 'NZ First',
-        shortname: '',
-        established: '',
+        name: 'New Zealand First Party',
+        shortname: 'NZ First',
+        established: '20 December 1994',
         founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
+        address: '251E Rawhiti Rd RD4 Northland 0184',
+        internet_address: 'www.nzfirst.org.nz',
+        public_relation: 'Liz Witehira',
         current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        president: 'Rt Hon Winston Peters',
+        facebook: 'https://www.facebook.com/NZFirst',
+        twitter: 'https://twitter.com/NZFirstNews',
+        phone: '027 205 8899',
       },
       partyPurposes: [
         {
