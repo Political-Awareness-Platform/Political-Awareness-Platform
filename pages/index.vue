@@ -30,7 +30,7 @@
     </div>
     <Authentication v-show="!this.$store.state.user.userUID" />
     <p
-      style="margin-top: 4em; font-family:Quicksand"
+      style="margin-top: 5em; font-family:Quicksand"
     >We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
   </div>
 </template>
