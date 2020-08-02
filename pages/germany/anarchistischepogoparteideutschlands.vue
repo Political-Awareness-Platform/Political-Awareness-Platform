@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/appd.png" alt="appd-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,16 +25,16 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'anarchistischepogoparteideutschlands' },
       partyInfo: {
-        name: 'anarchistischepogoparteideutschlands',
-        shortname: '',
-        established: '',
+        name: 'Anarchistische Pogo-Partei Deutschlands',
+        shortname: 'APPD',
+        established: '1981',
         founder: '',
         address: '',
-        internet_address: '',
+        internet_address: 'https://www.pogos.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
+        current_member: '1215',
+        president: 'Andreas Reiter',
+        facebook: 'https://www.facebook.com/PogoPartei/',
         twitter: '',
         phone: '',
       },

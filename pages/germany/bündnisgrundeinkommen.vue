@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/bündnisgrundeinkommen.png" alt="bündnisgrundeinkommen-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,17 +25,17 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'bündnisgrundeinkommen' },
       partyInfo: {
-        name: 'bündnisgrundeinkommen',
-        shortname: '',
-        established: '',
+        name: 'Bündnis Grundeinkommen',
+        shortname: 'BGE',
+        established: '25/09/2016',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Driesener Straße 10 10439 Berlin',
+        internet_address: 'https://www.buendnis-grundeinkommen.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
+        current_member: '300',
+        president: 'Carl-Richard Klütsch',
+        facebook: 'https://www.facebook.com/buendnis.grundeinkommen/',
+        twitter: 'https://twitter.com/bgepartei/',
         phone: '',
       },
       partyPurposes: [

@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'achtsamedemokraten' },
       partyInfo: {
-        name: 'achtsamedemokraten',
-        shortname: '',
-        established: '',
+        name: 'Achtsame Demokraten',
+        shortname: 'Die Achtsamen',
+        established: '2013',
         founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
+        address: 'Süderende 113 18565 Hiddensee OT Vitte',
+        internet_address: 'http://achtsamkeit-2013.de/',
+        public_relation: 'Mr. Jörg Mehrwald',
         current_member: '',
-        president: '',
+        president: 'Ulrike Wachsmuth',
         facebook: '',
         twitter: '',
-        phone: '',
+        phone: '0171 3187897',
       },
       partyPurposes: [
         {
