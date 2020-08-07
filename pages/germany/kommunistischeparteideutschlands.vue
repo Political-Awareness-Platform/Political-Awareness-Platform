@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/kdp.png" alt="kdp-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,15 +26,15 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'kommunistischeparteideutschlands' },
       partyInfo: {
         name: 'Kommunistische Partei Deutschlands',
-        shortname: '',
-        established: '',
-        founder: '',
+        shortname: 'KDP',
+        established: '21/04/1946',
+        founder: 'Rosa Luxemburg , Karl Liebknecht',
         address: '',
-        internet_address: '',
+        internet_address: 'http://www.k-p-d-online.de/',
         public_relation: '',
-        current_member: '',
+        current_member: '360,000',
         president: '',
-        facebook: '',
+        facebook: 'https://www.facebook.com/kpd.1918',
         twitter: '',
         phone: '',
       },

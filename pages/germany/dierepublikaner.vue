@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/rep.png" alt="rep-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,16 +26,16 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'dierepublikaner' },
       partyInfo: {
         name: 'Die Republikaner',
-        shortname: '',
-        established: '',
-        founder: '',
-        address: '',
-        internet_address: '',
+        shortname: 'REP',
+        established: '26/11/1983',
+        founder: 'Franz Schönhuber and Franz Handlos',
+        address: 'Düsseldorf office Box 140407 40074 Düsseldorf',
+        internet_address: 'https://www.die-republikaner.net/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
+        current_member: '4,033',
+        president: 'Tilo Schöne',
+        facebook: 'https://www.facebook.com/Republikaner/',
+        twitter: 'https://twitter.com/republikaner',
         phone: '',
       },
       partyPurposes: [

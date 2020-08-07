@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/tierschutzpartei.png" alt="Tierschutzpartei-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'parteimenschumwelttierschutz' },
       partyInfo: {
-        name: 'parteimenschumwelttierschutz',
-        shortname: '',
-        established: '',
+        name: 'Partei Mensch Umwelt Tierschutz',
+        shortname: 'Tierschutzpartei',
+        established: '13/02/1993',
         founder: '',
         address: '',
-        internet_address: '',
+        internet_address: 'https://www.tierschutzpartei.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '2000',
+        president: '	Matthias Ebner & Robert Gabel',
+        facebook: 'https://www.facebook.com/Tierschutzpartei/',
+        twitter: 'https://twitter.com/tierschutzparte',
+        phone: '037468/5267',
       },
       partyPurposes: [
         {

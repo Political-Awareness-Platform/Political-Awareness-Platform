@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/dierechte.jpg" alt="dietechte-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'dierechte' },
       partyInfo: {
         name: 'Die Rechte',
-        shortname: '',
-        established: '',
-        founder: '',
-        address: '',
-        internet_address: '',
+        shortname: 'Die Rechte',
+        established: '27/05/2012',
+        founder: 'Christian Worch',
+        address: 'Thusneldastr. 3 - 44149 Dortmund',
+        internet_address: 'https://die-rechte.net/',
         public_relation: '',
         current_member: '',
-        president: '',
+        president: 'Sascha Krolzig',
         facebook: '',
-        twitter: '',
-        phone: '',
+        twitter: 'https://twitter.com/dierechtebund',
+        phone: '0231-315 996 10',
       },
       partyPurposes: [
         {

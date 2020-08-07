@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/bündnisc.png" alt="bündnisc-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'christenfürdeutschland' },
       partyInfo: {
-        name: 'christenfürdeutschland',
-        shortname: '',
-        established: '',
+        name: 'Christen für Deutschland',
+        shortname: 'Bündnis C',
+        established: '28/05/2015',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Winterstrasse 29 76137 Karlsruhe',
+        internet_address: 'https://buendnis-c.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '1200',
+        president: 'Karin Heepen',
+        facebook: 'https://www.facebook.com/buendnisC.de/',
+        twitter: 'https://twitter.com/buendnisc?lang=en',
+        phone: '0721-49 55 96',
       },
       partyPurposes: [
         {

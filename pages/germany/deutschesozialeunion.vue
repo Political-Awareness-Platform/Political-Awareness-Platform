@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/dsu.png" alt="dsu-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'deutschesozialeunion' },
       partyInfo: {
-        name: 'deutschesozialeunion',
-        shortname: '',
-        established: '',
+        name: 'Deutsche Soziale Union',
+        shortname: 'DSU',
+        established: '20/01/1990',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Dorfstraße 43 08233 Treuen',
+        internet_address: 'https://www.dsu-deutschland.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
+        current_member: '1060',
+        president: 'Roberto Rink',
+        facebook: 'https://www.facebook.com/DSU.Sachsen/',
         twitter: '',
-        phone: '',
+        phone: '03741/413 869',
       },
       partyPurposes: [
         {

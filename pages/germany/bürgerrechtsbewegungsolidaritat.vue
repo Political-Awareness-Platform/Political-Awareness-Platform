@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/bürgerrechtsbewegung.jpg" alt="bürgerrechtsbewegung-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'bürgerrechtsbewegungsolidaritat' },
       partyInfo: {
-        name: 'bürgerrechtsbewegungsolidaritat',
-        shortname: '',
-        established: '',
-        founder: '',
-        address: '',
-        internet_address: '',
+        name: 'Bürgerrechtsbewegung Solidarität',
+        shortname: 'BüSo',
+        established: '1992',
+        founder: 'Helga Zepp-LaRouche',
+        address: 'BüSo federal office PO Box 424152 12083 Berlin',
+        internet_address: 'https://www.bueso.de/',
         public_relation: '',
         current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        president: 'Helga Zepp-LaRouche',
+        facebook: 'https://www.facebook.com/BueSoDeutschland',
+        twitter: 'https://twitter.com/Bue_So?lang=de',
+        phone: '06131-237384',
       },
       partyPurposes: [
         {

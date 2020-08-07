@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/freiewahler.png" alt="freiewahler-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'freiewahler' },
       partyInfo: {
-        name: 'Freie Wahler',
-        shortname: '',
-        established: '',
+        name: 'Freie Wähler',
+        shortname: 'Freie Wähler',
+        established: '24/01/2009',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Mühlenstraße 13 27777 Ganderkesee',
+        internet_address: 'https://www.freiewaehler.eu/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '4,648',
+        president: 'Hubert Aiwanger',
+        facebook: 'https://www.facebook.com/freie.waehler.bundesvereinigung/',
+        twitter: 'https://twitter.com/FREIEWAEHLER_BV',
+        phone: '(0) 4222 - 209 492 5',
       },
       partyPurposes: [
         {

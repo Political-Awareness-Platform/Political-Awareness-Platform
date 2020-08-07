@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/grünen.png" alt="grünen-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,17 +25,17 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'diegrünen' },
       partyInfo: {
-        name: 'Die Grünen',
-        shortname: '',
-        established: '',
+        name: 'Bündnis 90/Die Grünen',
+        shortname: 'Grüne',
+        established: '13/01/1991',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Platz vor dem Neuen Tor 1 10115 Berlin',
+        internet_address: 'https://www.gruene.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
+        current_member: '101,561',
+        president: 'Annalena Baerbock - Robert Habeck',
+        facebook: 'https://www.facebook.com/B90DieGruenen/',
+        twitter: 'https://twitter.com/die_gruenen',
         phone: '',
       },
       partyPurposes: [

@@ -101,6 +101,19 @@ export default {
       this.phone_number_text= 'Telefon numarasi',
       this.address_text= 'Adresi'
     }
+    if (this.partyDetails.country == 'germany') { // Translation to Deutsche
+      this.name_text= "Name",
+      this.shortname_text= 'Kurzer Name',
+      this.established_text= 'Etabliert',
+      this.founder_text= 'Gründerin',
+      this.president_text= 'derGeneraldirektor',
+      this.public_relation_text= 'PR-Person',
+      this.current_member_text= 'Derzeitiges Mitglied',
+      this.internet_address_text= 'Internetadresse',
+      this.phone_number_text= 'Telefonnummer',
+      this.address_text= 'Adresse'
+    }
+
   },
   fetchOnServer: false,
 }

@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/derIIIweg.jpeg" alt="derIIIweg-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,24 +25,60 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'derIIIweg' },
       partyInfo: {
-        name: 'derIIIweg',
-        shortname: '',
-        established: '',
-        founder: '',
-        address: '',
-        internet_address: '',
+        name: 'Der III. Weg',
+        shortname: 'III. Weg',
+        established: '23/09/2013',
+        founder: 'Klaus Armstroff',
+        address: 'PO Box 11 22 67085 Bad Dürkheim',
+        internet_address: 'https://der-dritte-weg.info/',
         public_relation: '',
-        current_member: '',
-        president: '',
+        current_member: '580',
+        president: 'Klaus Armstroff',
         facebook: '',
-        twitter: '',
-        phone: '',
+        twitter: 'https://twitter.com/der_dritte_weg',
+        phone: '06329-992 265',
       },
       partyPurposes: [
         {
           description:
             '',
-        }
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
+        {
+          description:
+            '',
+        },
       ],
     }
   },

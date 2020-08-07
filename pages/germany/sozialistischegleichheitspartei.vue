@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/sgp.jpg" alt="sgp-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,17 +25,17 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'sozialistischegleichheitspartei' },
       partyInfo: {
-        name: 'sozialistischegleichheitspartei',
-        shortname: '',
-        established: '',
+        name: 'Sozialistische Gleichheitspartei',
+        shortname: 'SGP',
+        established: '1971',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Neuenburger Strasse 13 10969 Berlin',
+        internet_address: 'https://www.gleichheit.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
+        current_member: '273',
+        president: 'Ulrich Rippert',
+        facebook: 'https://www.facebook.com/Gleichheit',
+        twitter: 'https://twitter.com/gleichheit',
         phone: '',
       },
       partyPurposes: [
