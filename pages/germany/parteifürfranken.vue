@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/franken.png" alt="franken-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -27,16 +27,16 @@ export default {
       partyInfo: {
         name: 'Partei für Franken',
         shortname: '',
-        established: '',
+        established: '31/10/2009',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Waldstrasse 55 91154 Roth',
+        internet_address: 'https://www.partei-fuer-franken.de/',
         public_relation: '',
         current_member: '',
         president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        facebook: 'https://www.facebook.com/DieFranken/',
+        twitter: 'https://twitter.com/die_franken',
+        phone: '09171 / 8284-10',
       },
       partyPurposes: [
         {

@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/tierschutz.jpg" alt="Tierschutz-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,17 +25,17 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'aktionparteifürtierschutz' },
       partyInfo: {
-        name: 'aktionparteifürtierschutz',
-        shortname: '',
-        established: '',
+        name: 'Aktion Partei für Tierschutz',
+        shortname: 'Tierschutzliste',
+        established: '28/02/2017',
         founder: '',
         address: '',
-        internet_address: '',
+        internet_address: 'https://tierschutz-hier.de/',
         public_relation: '',
         current_member: '',
         president: '',
-        facebook: '',
-        twitter: '',
+        facebook: 'https://www.facebook.com/tierschutz.hier/',
+        twitter: 'https://twitter.com/tierschutzh',
         phone: '',
       },
       partyPurposes: [

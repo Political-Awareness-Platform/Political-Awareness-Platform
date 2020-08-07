@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/nddp.png" alt="nddp-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'nationaldemokratischeparteideutschlands' },
       partyInfo: {
         name: 'National Demokratische Partei Deutschlands',
-        shortname: '',
-        established: '',
-        founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        shortname: 'NDPD',
+        established: '25/05/1948',
+        founder: 'Lothar Bolz',
+        address: 'P.O. Box 84 01 57 12531 Berlin',
+        internet_address: 'https://npd.de/',
+        public_relation: 'ALEXANDER NEIDLEIN',
+        current_member: '110,000',
+        president: 'Frank Franz',
+        facebook: 'https://www.facebook.com/npd.de/',
+        twitter: 'https://twitter.com/npdde',
+        phone: '(030) 650 11 0',
       },
       partyPurposes: [
         {

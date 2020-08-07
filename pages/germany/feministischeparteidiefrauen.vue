@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/frauen.jpg" alt="frauen-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'feministischeparteidiefrauen' },
       partyInfo: {
         name: 'Feministische Partei die Frauen',
-        shortname: '',
-        established: '',
+        shortname: 'Die Frauen',
+        established: '10/06/1995',
         founder: '',
         address: '',
-        internet_address: '',
+        internet_address: 'http://www.feministischepartei.de/startseite.html',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '400',
+        president: 'Sabine Scherbaum',
+        facebook: 'https://www.facebook.com/feministischeparteidiefrauen/',
+        twitter: 'https://twitter.com/feministischep?lang=en',
+        phone: '069/61009622',
       },
       partyPurposes: [
         {

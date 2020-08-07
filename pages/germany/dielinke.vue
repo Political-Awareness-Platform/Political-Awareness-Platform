@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/dielinke.png" alt="dielinke-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'dielinke' },
       partyInfo: {
         name: 'Die Linke',
-        shortname: '',
-        established: '',
+        shortname: 'Die Linke',
+        established: '16/06/2007',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Kleine Alexanderstraße 28 10178 Berlin',
+        internet_address: 'https://www.die-linke.de/start/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '60,862',
+        president: 'Katja Kipping',
+        facebook: 'https://www.facebook.com/linkspartei/',
+        twitter: 'https://twitter.com/dielinke/',
+        phone: '(030) 24 009 999',
       },
       partyPurposes: [
         {

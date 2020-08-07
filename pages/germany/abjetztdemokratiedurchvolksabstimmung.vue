@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/volksabstimmunglogo.jpg" alt="Volksabstimmung-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,15 +25,15 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'abjetztdemokratiedurchvolksabstimmung' },
       partyInfo: {
-        name: 'abjetztdemokratiedurchvolksabstimmung',
-        shortname: '',
-        established: '',
+        name: 'Ab jetzt … Demokratie durch Volksabstimmung',
+        shortname: 'Volksabstimmung',
+        established: '1997',
         founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
-        current_member: '',
-        president: '',
+        address: 'Gneisenaustrasse 52c 53721 Siegburg NRW',
+        internet_address: 'https://blog.demokratie-durch-volksabstimmung.de/index.php/de/',
+        public_relation: 'Angelika Geerlings',
+        current_member: '1,000',
+        president: 'Helmut Fleck',
         facebook: '',
         twitter: '',
         phone: '',

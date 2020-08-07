@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/afdlogo.png" alt="afdlogo-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'alternativefürdeutschland' },
       partyInfo: {
-        name: 'alternativefürdeutschland',
-        shortname: '',
-        established: '',
-        founder: '',
-        address: '',
-        internet_address: '',
+        name: 'Alternative für Deutschland',
+        shortname: 'AfD',
+        established: '6/02/2013',
+        founder: ' Alexander Gauland , Bernd Lucke , Konrad Adam , Gerd Robanus',
+        address: 'Schillstraße 9 10785 Berlin',
+        internet_address: 'https://www.afd.de/',
         public_relation: '',
         current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        president: 'Jörg Meuthen',
+        facebook: 'https://www.facebook.com/alternativefuerde/',
+        twitter: 'https://twitter.com/AfD',
+        phone: '030 - 2205696-0',
       },
       partyPurposes: [
         {

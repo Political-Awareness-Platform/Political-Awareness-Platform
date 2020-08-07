@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/familien.png" alt="familien-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'familienparteideutschlands' },
       partyInfo: {
-        name: 'Familien Partei Deutschlands',
-        shortname: '',
-        established: '',
+        name: 'Familien-Partei Deutschlands',
+        shortname: 'Familie',
+        established: '17/10/1981',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Mühlenweg 12, 23738 Lensahn',
+        internet_address: 'https://www.xn--whlefamilie-l8a.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
+        current_member: '586',
+        president: 'Helmut Geuking',
+        facebook: 'https://www.facebook.com/FamilienParteiDeutschlands/',
         twitter: '',
-        phone: '',
+        phone: '04363/9037994 ',
       },
       partyPurposes: [
         {

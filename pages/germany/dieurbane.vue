@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/dieurbane.png" alt="dieurbane-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'dieurbane' },
       partyInfo: {
         name: 'Die Urbane',
-        shortname: '',
-        established: '',
+        shortname: 'Die Urbane',
+        established: '01/05/2017',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Ringbahnstrasse 42 12099 Berlin',
+        internet_address: 'https://www.die-urbane.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '261',
+        president: 'Raphael Hillebrand',
+        facebook: 'https://www.facebook.com/DieUrbane/',
+        twitter: 'https://twitter.com/dieurbane',
+        phone: '+49 (0) 30 629 380 71',
       },
       partyPurposes: [
         {

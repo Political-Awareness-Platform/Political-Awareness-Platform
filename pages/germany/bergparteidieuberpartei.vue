@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/berglogo.jpg" alt="berg-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,17 +25,17 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'bergparteidieuberpartei' },
       partyInfo: {
-        name: 'bergparteidieuberpartei',
+        name: 'Bergpartei, die überpartei',
         shortname: '',
-        established: '',
-        founder: '',
+        established: '01/04/2011',
+        founder: 'Jan Theiler',
         address: '',
-        internet_address: '',
+        internet_address: 'http://www.bergpartei.de/',
         public_relation: '',
         current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
+        president: 'Rico Tscharnke ',
+        facebook: 'https://www.facebook.com/Bergpartei/',
+        twitter: 'https://twitter.com/bergpartei',
         phone: '',
       },
       partyPurposes: [

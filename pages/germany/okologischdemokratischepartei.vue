@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/odp.png" alt="odp-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'okologischdemokratischepartei' },
       partyInfo: {
         name: 'Okologisch Demokratische Partei',
-        shortname: '',
-        established: '',
+        shortname: 'ÖDP',
+        established: '24/01/1982',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Pommergasse 1 97070 Wuerzburg',
+        internet_address: 'https://www.oedp.de/startseite/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '8.002 ',
+        president: 'Christoph Raabs',
+        facebook: 'https://www.facebook.com/oedp.de/',
+        twitter: 'https://twitter.com/oedp_de',
+        phone: '0931 - 40486 0',
       },
       partyPurposes: [
         {

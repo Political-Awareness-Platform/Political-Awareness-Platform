@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/bürgerbewegun.png" alt="bürgerbewegun-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,16 +25,16 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'bürgerbewegungprodeutschland' },
       partyInfo: {
-        name: 'bürgerbewegungprodeutschland',
-        shortname: '',
-        established: '',
+        name: 'Bürgerbewegung pro Deutschland',
+        shortname: 'pro Deutschland',
+        established: '20/01/2017',
         founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
+        address: 'Allee der Kosmonauten 26, 12681 Berlin',
+        internet_address: 'https://www.pro-deutschland.de/',
+        public_relation: 'Detlev Schwarz',
+        current_member: '1.122',
+        president: 'Manfred Rouhs',
+        facebook: 'https://www.facebook.com/NRWproDeutschland/',
         twitter: '',
         phone: '',
       },

@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/bayern.png" alt="bayern-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'bayernpartei' },
       partyInfo: {
-        name: 'Bayern Partei',
-        shortname: '',
-        established: '',
+        name: 'Bavaria Party e. V.',
+        shortname: 'BP',
+        established: '28/10/1946',
         founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
+        address: 'Baumkirchner Str. 20 81673 Munich',
+        internet_address: 'https://bayernpartei.de/',
+        public_relation: 'Harold Amann',
         current_member: '',
-        president: '',
+        president: 'Florian Weber',
         facebook: '',
         twitter: '',
-        phone: '',
+        phone: '4524427-00',
       },
       partyPurposes: [
         {

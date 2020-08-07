@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/mut.jpg" alt="mut-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,17 +26,17 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'mut' },
       partyInfo: {
         name: 'MUT',
-        shortname: '',
-        established: '',
+        shortname: 'MUT',
+        established: '06/2017',
         founder: '',
-        address: '',
-        internet_address: '',
+        address: 'Dreimühlenstrasse 32 80469 Munich',
+        internet_address: 'https://www.mut-bayern.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
-        phone: '',
+        current_member: '400',
+        president: 'Claudia Stamm Stephan Lessenich',
+        facebook: 'https://www.facebook.com/mutparteibayern/',
+        twitter: 'https://twitter.com/mut_bayern',
+        phone: '089-215441911',
       },
       partyPurposes: [
         {

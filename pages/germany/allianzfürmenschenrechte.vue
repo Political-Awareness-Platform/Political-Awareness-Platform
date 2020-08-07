@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/tierschutzallianz.jpg" alt="Tierschutzallianz-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,16 +25,16 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'allianzfürmenschenrechte' },
       partyInfo: {
-        name: 'allianzfürmenschenrechte',
-        shortname: '',
-        established: '',
+        name: 'Allianz für Menschenrechte, Tier- und Naturschutz',
+        shortname: 'Tierschutzallianz',
+        established: '2013',
         founder: '',
         address: '',
-        internet_address: '',
+        internet_address: 'https://www.tierschutzallianz.de/',
         public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
+        current_member: '120',
+        president: 'Josef Fassl',
+        facebook: 'https://www.facebook.com/Tierschutzallianz',
         twitter: '',
         phone: '',
       },

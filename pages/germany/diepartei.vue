@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/diepartei.png" alt="diepartei-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,16 +26,16 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'diepartei' },
       partyInfo: {
         name: 'Die Partei',
-        shortname: '',
-        established: '',
-        founder: '',
+        shortname: 'Die Partei',
+        established: '02/08/2004',
+        founder: 'Martin Sonneborn',
         address: '',
-        internet_address: '',
-        public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
+        internet_address: 'https://www.die-partei.de/',
+        public_relation: 'Thomas Hintner',
+        current_member: '43,000',
+        president: 'Martin Sonneborn',
+        facebook: 'https://www.facebook.com/DiePARTEI',
+        twitter: 'https://twitter.com/DiePARTEI',
         phone: '',
       },
       partyPurposes: [

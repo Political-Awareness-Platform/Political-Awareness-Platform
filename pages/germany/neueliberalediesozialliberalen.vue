@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/neueliberale.png" alt="Neue Liberale-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -26,22 +26,22 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'neueliberalediesozialliberalen' },
       partyInfo: {
         name: 'Neue Liberale die Sozialliberalen',
-        shortname: '',
-        established: '',
+        shortname: 'Neue Liberale',
+        established: '14/09/2014',
         founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
-        twitter: '',
+        address: 'Oldenburger Str. 6 10551 Berlin',
+        internet_address: 'https://neueliberale.eu/',
+        public_relation: 'Emine Tunc',
+        current_member: '275',
+        president: 'Dieter Schulz',
+        facebook: 'https://www.facebook.com/parteineueliberale',
+        twitter: 'https://twitter.com/neue_liberale',
         phone: '',
       },
       partyPurposes: [
         {
           description:
-            '',
+            'Der Bürger der Zukunft lebt in einer sauberen Umwelt, ist selbstbestimmt und selbstverantwortlich, fühlt sich dem Gemeinwohl verpflichtet und bringt sich in die Gesellschaft ein, er wird durch unabhängige Medien glaubwürdig informiert und muss ein Scheitern nicht fürchten.',
         }
       ],
     }

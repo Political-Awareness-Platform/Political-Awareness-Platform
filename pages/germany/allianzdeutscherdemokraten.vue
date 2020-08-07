@@ -2,7 +2,7 @@
   <div class="party-page">
     <div class="party-intro">
       <div class="party-flag">
-        <!-- <img src="~assets/logos/germany/.png" alt="-logo" /> -->
+        <img src="~assets/logos/germany/addemocrats.png" alt="addemocrats-logo" />
       </div>
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
@@ -25,18 +25,18 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'allianzdeutscherdemokraten' },
       partyInfo: {
-        name: 'allianzdeutscherdemokraten',
-        shortname: '',
-        established: '',
-        founder: '',
-        address: '',
-        internet_address: '',
-        public_relation: '',
-        current_member: '',
-        president: '',
-        facebook: '',
+        name: 'Allianz Deutscher Demokraten',
+        shortname: 'AD-Demokraten',
+        established: '2016',
+        founder: 'Remzi Aru',
+        address: 'Zebrafinkweg 8 - 13129 Berlin',
+        internet_address: 'https://ad-demokraten.de/',
+        public_relation: 'Uğur Karadağ',
+        current_member: '2500',
+        president: 'Ramazan Akbaş',
+        facebook: 'https://www.facebook.com/ADDemokraten/',
         twitter: '',
-        phone: '',
+        phone: '+49 30 12088267',
       },
       partyPurposes: [
         {

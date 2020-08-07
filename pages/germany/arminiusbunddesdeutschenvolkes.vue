@@ -25,7 +25,7 @@ export default {
     return {
       partyDetails: { country: 'germany', dbcode: 'arminiusbunddesdeutschenvolkes' },
       partyInfo: {
-        name: 'arminiusbunddesdeutschenvolkes',
+        name: 'Arminius Bunddes Deutschen Volkes',
         shortname: '',
         established: '',
         founder: '',
