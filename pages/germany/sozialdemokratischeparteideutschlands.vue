@@ -41,7 +41,7 @@ export default {
       partyPurposes: [
         {
           description:
-            'According to the Hamburg program for the SPD, freedom , justice and solidarity are the basic values ​​of democratic socialism . So social justice is one of their primary political guiding principles. The coordinated social market economy should be strengthened and its earnings distributed fairly, as this is considered necessary for the well-being of the entire population. The SPD continues to believe that a strong state and an effective welfare state are necessary in order to be able to protect weaker sections of the population. To this end, it places value on a financial policythat is “not at the expense of future generations” and will end or reduce government debt in the long term . Under the heading of a preventive welfare state , changes to the social system are welcomed that are intended to strengthen personal responsibility and were implemented within the framework of Agenda 2010. In terms of social policy, the SPD supports its program for civil rights , opening up society and citizen participation. In terms of foreign policy, it wants to strengthen world peace by balancing interests. Globalization should be shaped “through a democratic policy”. It strives to expand and deepen European unification.',
+            '',
         }
       ],
     }
