@@ -10,7 +10,7 @@
     <h3>Goal I</h3>
     <p
       class="goal-text"
-    >Understanding each party's purpose. Most of the citizens can only name a few political parties however there are ususaly more than thier acknowlegde registered parties to vote on. Therefore, this platform aims to help citizens to get to know every single option when it comes to voting. Many people do not like politics and do not feel like voting for any party at all because they do not like the popular parties or do not know of the unpopular parties because of the media influence. Therefore, in this platform every party will be portrayed equally and hopefully, citizens will gain access to knowledge of not well-known parties as well.</p>
+    >Understanding each party's purpose. Most of the citizens can only name a few political parties however there are usually more than thier acknowlegde registered parties to vote on. Therefore, this platform aims to help citizens to get to know every single option when it comes to voting. Many people do not like politics and do not feel like voting for any party at all because they do not like the popular parties or do not know of the unpopular parties because of the media influence. Therefore, in this platform every party will be portrayed equally and hopefully, citizens will gain access to knowledge of not well-known parties as well.</p>
     <br />
     <h3>Goal II</h3>
     <p
