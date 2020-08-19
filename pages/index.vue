@@ -3,7 +3,7 @@
     <!-- <nuxt-link to="/" class="title">Political Awareness Platform</nuxt-link> -->
     <p
       class="platform-purpose"
-    >This platform created to heal the relationship problem between citizens and politicians / political parties. Hopefully, this platform may help citizens and political parties to understand each other better.</p>
+    >This platform is created to heal the relationship problem between citizens and politicians / political parties. Hopefully, this platform may help citizens and political parties to understand each other better.</p>
 
     <br />
   
