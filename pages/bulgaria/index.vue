@@ -2,7 +2,7 @@
   <div class="country-page">
     <div class="country-intro">
       <div class="country-flag">
-        <img src="~assets/flags/nz.svg" alt="bulgaria-flag" />
+        <img src="~assets/flags/bg.svg" style="border: 1px black solid;" alt="bulgaria-flag" />
       </div>
       <div class="country-info">
         <p><b>Active Parties :</b> </p>
@@ -32,7 +32,7 @@ export default {
     return {
       partyDetails: { country: 'bulgaria', dbcode: 'imaginary' },
       parties: [
-        { party_name: 'GERB ', link: '/bulgaria/gerb },
+        { party_name: 'GERB ', link: '/bulgaria/gerb' },
      
       ],
     }
