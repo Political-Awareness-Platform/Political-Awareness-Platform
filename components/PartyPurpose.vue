@@ -1,6 +1,6 @@
 <template>
   <div class="party-purpose">
-      <h3 style="text-align:center;">{{purposeText}}</h3>
+      <h3 style="text-align:center; font-family:Quicksand;">{{purposeText}}</h3>
       <p v-for="purpose in partyPurposeList" :key=purpose.index> {{purpose.description}}</p>
   </div>
 </template>

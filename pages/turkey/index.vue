@@ -22,7 +22,7 @@
       </div>
     </div>
     <h2 style="text-align: center; margin: 2em 0px;">Ideal / Hayali Parti</h2>
-    <Authentication v-show="!this.$store.state.user.userUID" />
+    <!-- <Authentication v-show="!this.$store.state.user.userUID" />
     <div class="country-ideal-party" v-if="this.$store.state.user.userUID">
       <div class="positive-section">
         <CountryPagePositiveCommentSection :partyDetails="partyDetails" />
@@ -30,7 +30,7 @@
       <div class="negative-section">
         <CountryPageNegativeCommentSection :partyDetails="partyDetails" />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

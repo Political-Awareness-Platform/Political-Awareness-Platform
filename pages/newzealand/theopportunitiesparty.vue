@@ -7,15 +7,6 @@
       <PartyDetails :partyInfo="partyInfo" :partyDetails="partyDetails" />
     </div>
     <PartyPurpose :partyPurposeList="partyPurposes" purposeText="Party Purposes" />
-    <Authentication v-show="!this.$store.state.user.userUID" />
-    <div class="party-comment-section" v-if="this.$store.state.user.userUID">
-     <div class="positive-section">
-        <PartyPagePositiveCommentSection :partyDetails="partyDetails" />
-      </div>
-      <div class="negative-section">
-        <PartyPageNegativeCommentSection :partyDetails="partyDetails" />
-      </div>
-    </div>
   </div>
 </template>
 

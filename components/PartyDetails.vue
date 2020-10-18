@@ -125,6 +125,7 @@ export default {
   grid-template-columns: 1fr 1fr;
   column-gap: 0.5em;
   margin-top: 1em;
+  font-family:Quicksand;
 
   @media only screen and (max-width: 900px) {
     grid-template-columns: auto;
@@ -132,6 +133,7 @@ export default {
 
   .party-details {
     line-height: 2em;
+    font-family:Quicksand;
   }
 
   .party-addresses {

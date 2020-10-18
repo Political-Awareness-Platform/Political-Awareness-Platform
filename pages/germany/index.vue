@@ -26,15 +26,6 @@
     <h2 style="text-align: center; margin: 2em 0px;">
       Ideale / imaginäre politische Partei
     </h2>
-    <Authentication v-show="!this.$store.state.user.userUID" />
-    <div class="country-ideal-party" v-if="this.$store.state.user.userUID">
-      <div class="positive-section">
-        <CountryPagePositiveCommentSection :partyDetails="partyDetails" />
-      </div>
-      <div class="negative-section">
-        <CountryPageNegativeCommentSection :partyDetails="partyDetails" />
-      </div>
-    </div>
   </div>
 </template>
 

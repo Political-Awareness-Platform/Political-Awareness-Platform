@@ -28,7 +28,7 @@ export default {
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
-  plugins: [{src: '~/plugins/firebaseConfig.js', mode: 'client' }, {src: '~/plugins/notificationToaster.js', mode: 'client'}],
+  plugins: [],
   /*
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
@@ -49,14 +49,6 @@ export default {
   */
   build: {
     
-  },
-  env: {
-    APIKEY: process.env.APIKEY,
-    PROJECTID: process.env.PROJECTID,
-    AUTHDOMAIN: process.env.AUTHDOMAIN,
-    PROJECTID: process.env.PROJECTID,
-    APPID: process.env.APPID,
-    MEASUREMENTID: process.env.MEASUREMENTID
   },
   server: {
     port: 3000, // default: 3000
