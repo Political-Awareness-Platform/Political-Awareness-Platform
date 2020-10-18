@@ -1,20 +1,22 @@
-import firebase from 'firebase/app'
+import * as firebase from 'firebase/app';
 import 'firebase/firestore'
-import 'firebase/firebase-auth'
-import 'firebase/firebase-functions'
+import 'firebase/auth';
+import 'firebase/functions'
 
 if (!firebase.apps.length) {
-  const config = {
-    apiKey: process.env.apiKey,
-    authDomain: process.env.authDomain,
-    databaseURL: process.env.databaseURL,
-    projectId: process.env.projectId,
-    storageBucket:process.env.storageBucket,
-    messagingSenderId: process.env.messagingSenderId,
-    appId: process.env.appId
-  }
-  firebase.initializeApp(config)
+  var firebaseConfig = {
+  apiKey: process.env.APIKEY,
+  authDomain: process.env.AUTHDOMAIN,
+  projectId: process.env.PROJECTID,
+  appId: process.env.APPID,
+  measurementId: process.env.MEASUREMENTID
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+// firebase.analytics();
 }
+
+
 const fireDb = firebase.firestore()
 const fireAuth = firebase.auth()
 const fireFunc = firebase.functions()

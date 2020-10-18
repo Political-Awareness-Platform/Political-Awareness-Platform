@@ -1,10 +1,6 @@
 
 export default {
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'universal',
+  
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -55,8 +51,12 @@ export default {
     
   },
   env: {
-    apiKey: process.env.APIKEY,
-    appId: process.env.APPID
+    APIKEY: process.env.APIKEY,
+    PROJECTID: process.env.PROJECTID,
+    AUTHDOMAIN: process.env.AUTHDOMAIN,
+    PROJECTID: process.env.PROJECTID,
+    APPID: process.env.APPID,
+    MEASUREMENTID: process.env.MEASUREMENTID
   },
   server: {
     port: 3000, // default: 3000

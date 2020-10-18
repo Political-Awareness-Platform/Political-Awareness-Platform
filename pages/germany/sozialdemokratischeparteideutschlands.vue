@@ -26,7 +26,7 @@ export default {
       partyDetails: { country: 'germany', dbcode: 'sozialdemokratischeparteideutschlands' },
       partyInfo: {
         name: 'Sozialdemokratische Partei Deutschlands',
-        shortname: 'SDP',
+        shortname: 'SPD',
         established: '23 May 1863',
         founder: '?',
         address: 'Wilhelmstrasse 141 10963 Berlin',
