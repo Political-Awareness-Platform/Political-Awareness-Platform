@@ -41,8 +41,8 @@
     <h4 class="subtitle">Available Countries</h4>
     <div class="links">
       <nuxt-link to="/newzealand" class="button--green">New Zealand</nuxt-link>
-      <nuxt-link to="/turkey" class="button--green">Türkiye</nuxt-link>
-      <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
+      <!-- <nuxt-link to="/turkey" class="button--green">Türkiye</nuxt-link> -->
+      <!-- <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link> -->
     </div>
     <p style="margin-top: 5em; font-family: Quicksand">
       We are unleashing the power of the technology and human ingenuity to
