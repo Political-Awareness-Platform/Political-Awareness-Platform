@@ -25,9 +25,10 @@
 </template>
 
 <script>
-import firebase from 'firebase/app'
+import * as firebase from 'firebase/app';
 import 'firebase/firestore'
-import 'firebase/firebase-functions'
+import 'firebase/auth';
+import 'firebase/functions'
 import TheTopList from '@/components/TheTopList'
 export default {
   components: { TheTopList },
