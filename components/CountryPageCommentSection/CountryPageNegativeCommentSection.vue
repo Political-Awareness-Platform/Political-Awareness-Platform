@@ -1,13 +1,16 @@
 <template>
   <section class="comments-section">
-    <TheTopList :TopHeaderTitle="TheTopListHeaderTitle" :toplistcomments="negativecommentListTop" />
+    <TheTopList
+      :TopHeaderTitle="TheTopListHeaderTitle"
+      :toplistcomments="negativecommentListTop"
+    />
     <NegativeCommentInputter
       :partyDetails="partyDetails"
       :MainButtonText="MainButtonText"
       :SubmitButtonText="SubmitButtonText"
       :CloseButtonText="CloseButtonText"
     />
-    <h3 style="margin: 1em auto; text-align: center;">{{ HeaderTitle }}</h3>
+    <h3 style="margin: 1em auto; text-align: center">{{ HeaderTitle }}</h3>
     <ul class="comment-list">
       <li
         class="comment"
@@ -25,43 +28,40 @@
 </template>
 
 <script>
-import * as firebase from 'firebase/app';
-import 'firebase/firestore'
-import 'firebase/auth';
-import 'firebase/functions'
+import { fireDb, fireAuth, fireFunc } from '@/plugins/firebaseConfig.js'
 import TheTopList from '@/components/TheTopList'
 export default {
   components: { TheTopList },
   props: ['headerTitle', 'TopHeaderTitle', 'partyDetails'],
   data() {
     return {
-    negativecommentList: [],
-    negativecommentListTop: [],
-    TheTopListHeaderTitle: 'Top 5 Must Avoid Things for a Political Party',
-    MainButtonText: 'What is the party must avoid most?',
-    SubmitButtonText: 'Submit',
-    CloseButtonText: 'Close',
-    HeaderTitle: 'Things to for a Political Party'
+      negativecommentList: [],
+      negativecommentListTop: [],
+      TheTopListHeaderTitle: 'Top 5 Must Avoid Things for a Political Party',
+      MainButtonText: 'What is the party must avoid most?',
+      SubmitButtonText: 'Submit',
+      CloseButtonText: 'Close',
+      HeaderTitle: 'Things to for a Political Party',
     }
   },
   async fetch() {
-
     if (this.partyDetails.country == 'turkey') {
-        this.TheTopListHeaderTitle = 'Asla yapilmamasi gerekli 5 sey';
-        this.MainButtonText = 'Sizce bir partinin en uzak durmasi gereken sey nedir?';
-        this.SubmitButtonText = 'Gonder';
-        this.CloseButtonText = 'Kapat';
-        this.HeaderTitle = 'Yapilmasi Istenmeyenler'
+      this.TheTopListHeaderTitle = 'Asla yapilmamasi gerekli 5 sey'
+      this.MainButtonText =
+        'Sizce bir partinin en uzak durmasi gereken sey nedir?'
+      this.SubmitButtonText = 'Gonder'
+      this.CloseButtonText = 'Kapat'
+      this.HeaderTitle = 'Yapilmasi Istenmeyenler'
     } else if (this.partyDetails.country == 'germany') {
-        this.TheTopListHeaderTitle = 'Top 5 müssen Dinge für eine politische Partei vermeiden';
-        this.MainButtonText = 'Was muss die Partei am meisten vermeiden?';
-        this.SubmitButtonText = 'Einreichen';
-        this.CloseButtonText = 'Schließen';
-        this.HeaderTitle = 'Dinge für eine politische Partei'
+      this.TheTopListHeaderTitle =
+        'Top 5 müssen Dinge für eine politische Partei vermeiden'
+      this.MainButtonText = 'Was muss die Partei am meisten vermeiden?'
+      this.SubmitButtonText = 'Einreichen'
+      this.CloseButtonText = 'Schließen'
+      this.HeaderTitle = 'Dinge für eine politische Partei'
     }
 
-    this.negativecommentList = await firebase
-      .firestore()
+    this.negativecommentList = await fireDb
       .collection(this.partyDetails.country)
       .doc(this.partyDetails.dbcode)
       .collection('negativeComments')

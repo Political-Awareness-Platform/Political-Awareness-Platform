@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { fireAuth } from '~/plugins/firebaseConfig'
+import {
+  fireAuth
+} from '~/plugins/firebaseConfig'
 
 export const state = () => ({
   userUID: null
@@ -32,6 +34,19 @@ export const actions = {
         const userUID = data.user.uid
         vuexContext.commit('setUser', userUID)
         console.log("🤓 logged in");
+        // this.$router.push('/')
+      })
+      .catch(e => {
+        console.log(e)
+      })
+  },
+  anonymousUser(vuexContext) {
+    fireAuth
+      .signInAnonymously()
+      .then(data => {
+        const userUID = data.user.uid
+        vuexContext.commit('setUser', userUID)
+        console.log("anonymousUser  logged in");
         // this.$router.push('/')
       })
       .catch(e => {

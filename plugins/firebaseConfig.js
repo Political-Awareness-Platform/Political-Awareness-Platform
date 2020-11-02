@@ -21,6 +21,10 @@ const fireDb = firebase.firestore()
 const fireAuth = firebase.auth()
 const fireFunc = firebase.functions()
 
+// if (window.location.hostname == 'localhost') {
+//   fireDb.settings({ssl:false, host: 'localhost:8080'})
+// }
+
 export {
   fireDb,
   fireAuth,

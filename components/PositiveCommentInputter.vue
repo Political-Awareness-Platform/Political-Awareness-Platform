@@ -38,10 +38,7 @@
 </template>
 
 <script>
-import * as firebase from 'firebase/app';
-import 'firebase/firestore'
-import 'firebase/auth';
-import 'firebase/functions'
+import { fireDb, fireAuth, fireFunc } from '@/plugins/firebaseConfig.js'
 export default {
   props: {
     partyDetails: { type: Object, required: true },
@@ -66,8 +63,10 @@ export default {
           hideIcon: true,
         })
       } else if (this.$store.state.user.userUID) {
-        firebase
-          .firestore()
+        // if (window.location.hostname == 'localhost') {
+        //   fireDb.settings({ ssl: false, host: 'localhost:8080' })
+        // }
+        fireDb
           .collection(this.partyDetails.country)
           .doc(this.partyDetails.dbcode)
           .collection('positiveComments')

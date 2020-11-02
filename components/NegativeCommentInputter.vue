@@ -4,7 +4,9 @@
       class="negative-comment-button"
       v-show="!showModalNegative"
       @click="showModalNegative = true"
-    >{{ this.MainButtonText }}</button>
+    >
+      {{ this.MainButtonText }}
+    </button>
 
     <textarea
       v-show="showModalNegative"
@@ -20,38 +22,39 @@
         class="small-buttons"
         type="submit"
         v-show="showModalNegative"
-        @click="submitNegativeComment(), showModalNegative = false"
-      >{{this.SubmitButtonText}}</button>
+        @click="submitNegativeComment(), (showModalNegative = false)"
+      >
+        {{ this.SubmitButtonText }}
+      </button>
       <button
         class="small-buttons"
         v-show="showModalNegative"
         @click="showModalNegative = false"
-      >{{ this.CloseButtonText }}</button>
+      >
+        {{ this.CloseButtonText }}
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-import * as firebase from 'firebase/app';
-import 'firebase/firestore'
-import 'firebase/auth';
-import 'firebase/functions'
+import { fireDb, fireAuth, fireFunc } from '@/plugins/firebaseConfig.js'
 export default {
-     props: {
-      partyDetails: { type: Object, required: true },
-      MainButtonText: { type: String, required: true },
-      SubmitButtonText: { type: String, required: true },
-      CloseButtonText: { type: String, required: true },
-    },
-    data() {
-        return {
-        showModalNegative: false,
-        negativecomment: '',
-        }
-    },
-    methods: {
-        submitNegativeComment() {
-           if (this.positivecomment.length < 2) {
+  props: {
+    partyDetails: { type: Object, required: true },
+    MainButtonText: { type: String, required: true },
+    SubmitButtonText: { type: String, required: true },
+    CloseButtonText: { type: String, required: true },
+  },
+  data() {
+    return {
+      showModalNegative: false,
+      negativecomment: '',
+    }
+  },
+  methods: {
+    submitNegativeComment() {
+      if (this.positivecomment.length < 2) {
         this.$notify({
           message: 'No empty comment please!',
           type: 'success',
@@ -60,30 +63,30 @@ export default {
           hideIcon: true,
         })
       } else if (this.$store.state.user.userUID) {
-        firebase
-          .firestore()
+  
+        fireDb
           .collection(this.partyDetails.country)
           .doc(this.partyDetails.dbcode)
           .collection('negativeComments')
           .add({
             negativecomment: this.negativecomment,
             like: 0,
-            likedBy: [this.$store.state.user.userUID]
+            likedBy: [this.$store.state.user.userUID],
           })
-          .then(function(data) {
+          .then(function (data) {
             console.log('Document successfully written!', data)
           })
-          .catch(function(error) {
+          .catch(function (error) {
             console.error('Error writing document: ', error)
           })
         this.negativecomment = ''
         this.showModalNegative = false
       } else {
-        console.log("👎", " You must loggin to make a comment❗️");
+        console.log('👎', ' You must loggin to make a comment❗️')
         this.$router.push('/')
       }
     },
-    }
+  },
 }
 </script>
 

@@ -1,26 +1,42 @@
 <template>
   <div class="container">
     <!-- <nuxt-link to="/" class="title">Political Awareness Platform</nuxt-link> -->
-    <p
-      class="platform-purpose"
-    >This platform is created to heal the relationship problem between citizens and politicians / political parties. Hopefully, this platform may help citizens and political parties to understand each other better.</p>
+    <p class="platform-purpose">
+      This platform is created to heal the relationship problem between citizens
+      and politicians / political parties. Hopefully, this platform may help
+      citizens and political parties to understand each other better.
+    </p>
 
     <br />
-  
+
     <h3>Goal I</h3>
-    <p
-      class="goal-text"
-    >Understanding each party's purpose. Most of the citizens can only name a few political parties however there are usually more than thier acknowlegde registered parties to vote on. Therefore, this platform aims to help citizens to get to know every single option when it comes to voting. Many people do not like politics and do not feel like voting for any party at all because they do not like the popular parties or do not know of the unpopular parties because of the media influence. Therefore, in this platform every party will be portrayed equally and hopefully, citizens will gain access to knowledge of not well-known parties as well.</p>
+    <p class="goal-text">
+      Understanding each party's purpose. Most of the citizens can only name a
+      few political parties however there are usually more than thier
+      acknowlegde registered parties to vote on. Therefore, this platform aims
+      to help citizens to get to know every single option when it comes to
+      voting. Many people do not like politics and do not feel like voting for
+      any party at all because they do not like the popular parties or do not
+      know of the unpopular parties because of the media influence. Therefore,
+      in this platform every party will be portrayed equally and hopefully,
+      citizens will gain access to knowledge of not well-known parties as well.
+    </p>
     <br />
     <h3>Goal II</h3>
-    <p
-      class="goal-text"
-    >This platform also aims to find out what people think about each party, positively and negatively. Therefore we can see what parties good and bad at according to the citizens. Then we can easily compare parties, and politicians can also understand what citizens think about them in general.</p>
+    <p class="goal-text">
+      This platform also aims to find out what people think about each party,
+      positively and negatively. Therefore we can see what parties good and bad
+      at according to the citizens. Then we can easily compare parties, and
+      politicians can also understand what citizens think about them in general.
+    </p>
     <br />
     <h3>Goal III</h3>
-    <p
-      class="goal-text"
-    >Eventually, this platform will also help citizens to express their ideas or desires from an imaginary political party, what to focus on, and what to avoid the most. Therefore, political parties can see what citizens care about the most and the least.</p>
+    <p class="goal-text">
+      Eventually, this platform will also help citizens to express their ideas
+      or desires from an imaginary political party, what to focus on, and what
+      to avoid the most. Therefore, political parties can see what citizens care
+      about the most and the least.
+    </p>
 
     <h4 class="subtitle">Available Countries</h4>
     <div class="links">
@@ -29,19 +45,25 @@
       <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
     </div>
     <Authentication v-show="!this.$store.state.user.userUID" />
-    <p
-      style="margin-top: 5em; font-family:Quicksand"
-    >We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact.</p>
+    <p style="margin-top: 5em; font-family: Quicksand">
+      We are unleashing the power of the technology and human ingenuity to
+      achieve new victories in the fight against knotty democracy. Join us and
+      have a global impact.
+    </p>
   </div>
 </template>
 
 <script>
+import { fireAuth } from '@/plugins/firebaseConfig.js'
 export default {
   data() {
-    return { 
-
-     }
-  }
+    return {}
+  },
+  mounted() {
+    if (window.location.hostname == 'localhost') {
+      this.$store.dispatch('user/anonymousUser')
+    }
+  },
 }
 </script>
 

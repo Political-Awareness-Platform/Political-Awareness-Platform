@@ -28,10 +28,7 @@
 </template>
 
 <script>
-import * as firebase from 'firebase/app';
-import 'firebase/firestore'
-import 'firebase/auth';
-import 'firebase/functions'
+import { fireDb, fireAuth, fireFunc } from '@/plugins/firebaseConfig.js'
 import TheTopList from '@/components/TheTopList'
 export default {
   components: { TheTopList },
@@ -67,8 +64,7 @@ export default {
       this.HeaderTitle = 'Negative Kommentare für diese Partei'
     }
 
-    this.negativecommentList = await firebase
-      .firestore()
+    this.negativecommentList = await fireDb
       .collection(this.partyDetails.country)
       .doc(this.partyDetails.dbcode)
       .collection('negativeComments')

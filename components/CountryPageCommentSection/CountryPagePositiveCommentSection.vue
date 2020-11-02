@@ -10,7 +10,7 @@
       :SubmitButtonText="SubmitButtonText"
       :CloseButtonText="CloseButtonText"
     />
-    <h3 style="margin: 1em auto; text-align: center;">{{ HeaderTitle }}</h3>
+    <h3 style="margin: 1em auto; text-align: center">{{ HeaderTitle }}</h3>
     <ul class="comment-list">
       <li
         class="comment"
@@ -28,10 +28,7 @@
 </template>
 
 <script>
-import * as firebase from 'firebase/app';
-import 'firebase/firestore'
-import 'firebase/auth';
-import 'firebase/functions'
+import { fireDb, fireAuth, fireFunc } from '@/plugins/firebaseConfig.js'
 export default {
   props: {
     partyDetails: {
@@ -67,8 +64,7 @@ export default {
       this.HeaderTitle = 'Gewünschte Dinge von einer politischen Partei'
     }
 
-    this.positivecommentList = await firebase
-      .firestore()
+    this.positivecommentList = await fireDb
       .collection(this.partyDetails.country)
       .doc(this.partyDetails.dbcode)
       .collection('positiveComments')
