@@ -32,8 +32,11 @@ export default {
     return {
       partyDetails: { country: 'bulgaria', dbcode: 'imaginary' },
       parties: [
-        { party_name: 'GERB ', link: '/bulgaria/gerb' },
-     
+        { party_name: 'Attack', link: '/bulgaria/attack' },
+        { party_name: 'BSP', link: '/bulgaria/bsp' },
+        { party_name: 'BSP', link: '/bulgaria/bsp' },
+        { party_name: 'DSP', link: '/bulgaria/dsp' },
+        { party_name: 'NFSB', link: '/bulgaria/nfsb' },
       ],
     }
   },
