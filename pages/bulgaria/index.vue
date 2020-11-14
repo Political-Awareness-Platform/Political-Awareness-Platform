@@ -12,6 +12,7 @@
       </div>
     </div>
     <h2 style="text-align: center; margin: 2em 0px; font-family:Quicksand;">Parties</h2>
+    <h2 style="text-align: center; margin: 2em 0px; font-family:Quicksand;">Part</h2>
     <div class="country-parties">
       <div
         v-for="party in parties"
