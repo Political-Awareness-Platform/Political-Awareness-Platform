@@ -43,6 +43,8 @@
       <nuxt-link to="/newzealand" class="button--green">New Zealand</nuxt-link>
       <nuxt-link to="/turkey" class="button--green">Türkiye</nuxt-link>
       <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
+      <!-- Its not ready yet -->
+      <!-- <nuxt-link to="/bulgaria" class="button--green">Bulgaria</nuxt-link> -->
     </div>
     <Authentication v-show="!this.$store.state.user.userUID" />
     <p style="margin-top: 5em; font-family: Quicksand">
