@@ -70,11 +70,7 @@ export default {
   },
   env: {
     APIKEY: process.env.APIKEY,
-    PROJECTID: process.env.PROJECTID,
-    AUTHDOMAIN: process.env.AUTHDOMAIN,
-    PROJECTID: process.env.PROJECTID,
-    APPID: process.env.APPID,
-    MEASUREMENTID: process.env.MEASUREMENTID
+    PROJECTID: process.env.PROJECTID
   },
   server: {
     port: 3000, // default: 3000

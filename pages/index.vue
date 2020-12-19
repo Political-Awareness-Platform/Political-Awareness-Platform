@@ -62,9 +62,10 @@ export default {
     return {}
   },
   mounted() {
-    if (window.location.hostname == 'localhost') {
-      this.$store.dispatch('user/anonymousUser')
-    }
+    // if (window.location.hostname === 'localhost') {
+    //   // this.$store.dispatch('user/anonymousUser')
+    // }
+    window.location.hostname === 'localhost' ? this.$store.dispatch('user/anonymousUser') : '';
   },
 }
 </script>
