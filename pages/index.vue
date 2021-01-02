@@ -56,14 +56,18 @@
 </template>
 
 <script>
-import { fireAuth } from '@/plugins/firebaseConfig.js'
+import { fireAuth, fireDb } from '@/plugins/firebaseConfig.js'
 export default {
   data() {
     return {}
   },
   mounted() {
+    // if (window.location.hostname == 'localhost') {
+    //   this.$store.dispatch('user/anonymousUser')
+    // }
     if (window.location.hostname == 'localhost') {
-      this.$store.dispatch('user/anonymousUser')
+      console.log('localhost detected!')
+      fireDb.settings({ ssl: false, host: 'localhost:8080' })
     }
   },
 }

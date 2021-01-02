@@ -6,24 +6,18 @@ import 'firebase/functions'
 if (!firebase.apps.length) {
   var firebaseConfig = {
     apiKey: process.env.APIKEY,
-    authDomain: process.env.AUTHDOMAIN,
     projectId: process.env.PROJECTID,
-    appId: process.env.APPID,
-    measurementId: process.env.MEASUREMENTID
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   // firebase.analytics();
 }
 
-
 const fireDb = firebase.firestore()
 const fireAuth = firebase.auth()
 const fireFunc = firebase.functions()
 
-// if (window.location.hostname == 'localhost') {
-//   fireDb.settings({ssl:false, host: 'localhost:8080'})
-// }
+console.log('from  firebaseconfig 🚀')
 
 export {
   fireDb,

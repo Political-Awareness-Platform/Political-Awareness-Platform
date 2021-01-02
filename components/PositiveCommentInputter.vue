@@ -63,9 +63,10 @@ export default {
           hideIcon: true,
         })
       } else if (this.$store.state.user.userUID) {
-        // if (window.location.hostname == 'localhost') {
-        //   fireDb.settings({ ssl: false, host: 'localhost:8080' })
-        // }
+        if (window.location.hostname === 'localhost') {
+          console.log('localhost detected!')
+          fireDb.useEmulator("localhost", 8080);
+        }
         fireDb
           .collection(this.partyDetails.country)
           .doc(this.partyDetails.dbcode)
@@ -84,7 +85,7 @@ export default {
         this.positivecomment = ''
         this.showModalPositive = false
       } else {
-        console.log('👎', ' You must loggin to make a comment❗️')
+        console.log('👎', ' You must login to make a comment❗️')
         this.$router.push('/')
       }
     },

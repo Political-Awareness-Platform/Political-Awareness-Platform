@@ -11,7 +11,7 @@
         <p><b>Contribution to election :</b> 79.8</p>
       </div>
     </div>
-    <h2 style="text-align: center; margin: 2em 0px;">Parties</h2>
+    <h2 style="text-align: center; margin: 2em 0px; font-family: Quicksand;">Parties</h2>
     <div class="country-parties">
       <div
         v-for="party in parties"
@@ -23,7 +23,7 @@
         </nuxt-link>
       </div>
     </div>
-    <h2 style="text-align: center; margin: 2em 0px;">Ideal / Imaginary Party</h2>
+    <h2 style="text-align: center; margin: 2em 0px; font-family: Quicksand;">Ideal / Imaginary Party</h2>
     <Authentication v-show="!this.$store.state.user.userUID" />
     <div class="country-ideal-party" v-if="this.$store.state.user.userUID">
       <div class="positive-section">
