@@ -33,7 +33,7 @@ export const actions = {
       .then(data => {
         const userUID = data.user.uid
         vuexContext.commit('setUser', userUID)
-        console.log("🤓 logged in");
+        window.location.hostname === 'localhost' ? console.log("🤓 logged in") : "";
         // this.$router.push('/')
       })
       .catch(e => {
@@ -46,7 +46,7 @@ export const actions = {
       .then(data => {
         const userUID = data.user.uid
         vuexContext.commit('setUser', userUID)
-        console.log("anonymousUser  logged in");
+        window.location.hostname === 'localhost' ? console.log("anonymousUser logged in") : "";
         // this.$router.push('/')
       })
       .catch(e => {
