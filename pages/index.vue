@@ -62,20 +62,14 @@ export default {
     return {}
   },
   mounted() {
-<<<<<<< HEAD
-    // if (window.location.hostname == 'localhost') {
-    //   this.$store.dispatch('user/anonymousUser')
+    // if (window.location.hostname === 'localhost') {
+    //   // this.$store.dispatch('user/anonymousUser')
     // }
     if (window.location.hostname == 'localhost') {
       console.log('localhost detected!')
       fireDb.settings({ ssl: false, host: 'localhost:8080' })
     }
-=======
-    // if (window.location.hostname === 'localhost') {
-    //   // this.$store.dispatch('user/anonymousUser')
-    // }
     window.location.hostname === 'localhost' ? this.$store.dispatch('user/anonymousUser') : '';
->>>>>>> 4ca08ec17610750c8ad95d31c39e97afc8fb8a07
   },
 }
 </script>

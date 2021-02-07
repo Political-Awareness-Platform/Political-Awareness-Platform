@@ -70,11 +70,7 @@ export default {
   },
   env: {
     APIKEY: process.env.APIKEY,
-<<<<<<< HEAD
     PROJECTID: process.env.PROJECTID,
-=======
-    PROJECTID: process.env.PROJECTID
->>>>>>> 4ca08ec17610750c8ad95d31c39e97afc8fb8a07
   },
   server: {
     port: 3000, // default: 3000

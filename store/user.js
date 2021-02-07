@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import {
-  fireAuth
-} from '~/plugins/firebaseConfig'
+
+import { fireAuth } from '~/plugins/firebaseConfig'
 
 export const state = () => ({
   userUID: null

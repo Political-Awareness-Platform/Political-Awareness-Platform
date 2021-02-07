@@ -17,10 +17,4 @@ const fireDb = firebase.firestore()
 const fireAuth = firebase.auth()
 const fireFunc = firebase.functions()
 
-console.log('from  firebaseconfig 🚀')
-
-export {
-  fireDb,
-  fireAuth,
-  fireFunc
-}
+export { fireDb, fireAuth, fireFunc }
