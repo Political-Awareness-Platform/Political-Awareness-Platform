@@ -1,0 +1,39 @@
+{
+    "HomePage": {
+        "PageName": "Plattform für politisches Bewusstsein"
+    },
+    "CountryPage": {
+        "ActivePoliticParties": "Aktive politische Parteien",
+        "PartiesinParlament": "Parteien im Parlament",
+        "NumberofVoters": "Anzahl der Wähler",
+        "ContributiontoElection": "Beitrag zur Wahl",
+        "IdealImaginaryPartySectionTitle": "Ideale / imaginäre politische Partei"
+    },
+    "PartyPage": {
+        "PartyName": "Parteinamen",
+        "ShortName": "Kurzer Name",
+        "Established": "Etabliert",
+        "Founder": "Gründer",
+        "President": "derGeneraldirektor",
+        "PublicRelation": "Öffentlichkeitsarbeit",
+        "CurrentMember": "Derzeitiges Mitglied",
+        "PhoneNumber": "Telefonnummer",
+        "Address": "Adresse",
+        "PartyPurposesTitle": "Politische Parteizwecke",
+        "CommentSectionTitle": "Bemerkungen"
+    },
+    "PositiveCommentSection": {
+        "TheTopDesireListTitle": "Top 5 der gewünschten Dinge einer politischen Partei",
+        "DesiredList": "Gewünschte Dinge von einer politischen Partei",
+        "InputterButtonMessage": "Was muss die Partei am besten?",
+        "InputterSubmitButton": "Einreichen",
+        "InputterCloseButton": "Schließen"
+    },
+    "NegativeCommentSection": {
+        "TheTopDesireListTitle": "Top 5 müssen Dinge für eine politische Partei vermeiden",
+        "DesiredList": "Dinge für eine politische Partei",
+        "InputterButtonMessage": "Was muss die Partei am meisten vermeiden?",
+        "InputterSubmitButton": "Einreichen",
+        "InputterCloseButton": "Schließen"
+    }
+}

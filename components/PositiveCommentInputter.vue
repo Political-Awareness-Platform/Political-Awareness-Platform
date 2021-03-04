@@ -1,96 +1,55 @@
 <template>
   <div class="comment-input-section">
-    <button
-      class="positive-comment-button"
-      v-show="!showModalPositive"
-      @click="showModalPositive = true"
-    >
-      {{ this.MainButtonText }}
-    </button>
+     
+    <Authentication v-show="showModalPositive === true && !this.$store.state.user.userUID" />
+    
+    <button class="positive-comment-button" v-show="!showModalPositive" @click="showModalPositive = true" > {{ $t('PositiveCommentSection.InputterButtonMessage')}} </button>
 
-    <textarea
-      v-show="showModalPositive"
-      class="positive-comment-textarea"
-      type="text"
-      minlength="5"
-      maxlength="1000"
-      v-model="positivecomment"
-    />
+    <textarea v-show="showModalPositive && this.$store.state.user.userUID" class="positive-comment-textarea" type="text" minlength="5" maxlength="1000" v-model="positivecomment" />
 
     <div class="buttons">
-      <button
-        class="small-buttons"
-        type="submit"
-        v-show="showModalPositive"
-        @click="submitPositiveComment(), (showModalPositive = false)"
-      >
-        {{ this.SubmitButtonText }}
-      </button>
-      <button
-        class="small-buttons"
-        v-show="showModalPositive"
-        @click="showModalPositive = false"
-      >
-        {{ this.CloseButtonText }}
-      </button>
+      <button class="small-buttons" v-show="showModalPositive && this.$store.state.user.userUID" @click="submitPositiveComment(), (showModalPositive = false)" type="submit" > {{ $t('PositiveCommentSection.InputterSubmitButton')}} </button>
+      <button class="small-buttons" v-show="showModalPositive && this.$store.state.user.userUID" @click="showModalPositive = false" > {{ $t('PositiveCommentSection.InputterCloseButton')}} </button>
     </div>
   </div>
 </template>
 
 <script>
-import { fireDb, fireAuth, fireFunc } from '@/plugins/firebaseConfig.js'
+import { fireDB } from "@/plugins/firebaseConfig.js";
 export default {
   props: {
-    partyDetails: { type: Object, required: true },
-    MainButtonText: { type: String, required: true },
-    SubmitButtonText: { type: String, required: true },
-    CloseButtonText: { type: String, required: true },
+    partyDetails: { type: Object, required: true }
   },
   data() {
     return {
       showModalPositive: false,
-      positivecomment: '',
-    }
+      positivecomment: "",
+    };
   },
   methods: {
     submitPositiveComment() {
       if (this.positivecomment.length < 2) {
-        this.$notify({
-          message: 'No empty comment please!',
-          type: 'success',
-          top: true,
-          closeDelay: 1500,
-          hideIcon: true,
-        })
+  
       } else if (this.$store.state.user.userUID) {
-        if (window.location.hostname === 'localhost') {
-          console.log('localhost detected!')
-          fireDb.useEmulator("localhost", 8080);
-        }
-        fireDb
-          .collection(this.partyDetails.country)
-          .doc(this.partyDetails.dbcode)
-          .collection('positiveComments')
+        
+        fireDB.collection(this.partyDetails.country).doc(this.partyDetails.dbcode).collection("positiveComments")
           .add({
             positivecomment: this.positivecomment,
             like: 0,
             likedBy: [this.$store.state.user.userUID],
           })
           .then(function (data) {
-            console.log('Document successfully written!', data)
+            console.log("Document successfully written!", data);
           })
           .catch(function (error) {
-            console.error('Error writing document: ', error)
-          })
-        this.positivecomment = ''
-        this.showModalPositive = false
-      } else {
-        console.log('👎', ' You must login to make a comment❗️')
-        this.$router.push('/')
-      }
+            console.error("Error writing document: ", error);
+          });
+        this.positivecomment = "";
+        this.showModalPositive = false;
+      } 
     },
   },
-}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -40,44 +40,39 @@
 
     <h4 class="subtitle">Available Countries</h4>
     <div class="links">
-      <nuxt-link to="/newzealand" class="button--green">New Zealand</nuxt-link>
-      <nuxt-link to="/turkey" class="button--green">Türkiye</nuxt-link>
-      <nuxt-link to="/germany" class="button--green">Deutschland</nuxt-link>
-      <!-- Its not ready yet -->
-      <!-- <nuxt-link to="/bulgaria" class="button--green">Bulgaria</nuxt-link> -->
+      <nuxt-link :to="localePath('/newzealand')" class="button--green">New Zealand</nuxt-link>
+      <nuxt-link :to="localePath('/turkey')" class="button--green">Türkiye</nuxt-link>
+      <nuxt-link :to="localePath('/germany')" class="button--green">Deutschland</nuxt-link>
+      <nuxt-link :to="localePath('/bulgaria')" class="button--green">Bulgaria</nuxt-link>
     </div>
-    <Authentication v-show="!this.$store.state.user.userUID" />
+
+    <Authentication />
+    
     <p style="margin-top: 5em; font-family: Quicksand">
       We are unleashing the power of the technology and human ingenuity to
       achieve new victories in the fight against knotty democracy. Join us and
       have a global impact.
     </p>
+
   </div>
 </template>
 
 <script>
-import { fireAuth, fireDb } from '@/plugins/firebaseConfig.js'
+// import { fireAuth } from "@/plugins/firebaseConfig.js";
 export default {
   data() {
-    return {}
+    return {};
   },
   mounted() {
-    // if (window.location.hostname === 'localhost') {
-    //   // this.$store.dispatch('user/anonymousUser')
-    // }
-    if (window.location.hostname == 'localhost') {
-      console.log('localhost detected!')
-      fireDb.settings({ ssl: false, host: 'localhost:8080' })
-    }
-    window.location.hostname === 'localhost' ? this.$store.dispatch('user/anonymousUser') : '';
-  },
-}
+    // window.location.hostname === "localhost" ? this.$store.dispatch("user/anonymousUser") : "";
+  }
+};
 </script>
 
 <style lang="scss" scoped>
 .container {
   margin: auto;
-  min-height: 100vh;
+  // min-height: 100vh;
   text-align: center;
   max-width: 1000px;
 }
@@ -86,7 +81,7 @@ export default {
   max-width: 900px;
   text-align: center;
   margin: 2em auto;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-size: 1em;
   font-weight: 500;
   color: #2d333f;
@@ -104,11 +99,11 @@ export default {
   color: #526488;
   word-spacing: 5px;
   margin: 1em 0;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 }
 
 .links {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   display: flexbox;
   flex-direction: row wrap;
 }
@@ -118,7 +113,7 @@ export default {
   color: #1d2129;
   word-spacing: 2px;
   font-size: 1em;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-weight: 400;
   color: #2d333f;
   word-spacing: 2px;

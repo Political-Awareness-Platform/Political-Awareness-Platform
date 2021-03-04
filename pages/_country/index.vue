@@ -1,0 +1,134 @@
+<template>
+  <div class="container">
+
+    <div class="country_details">
+      <div class="country_flag">
+        <img width="100%" :src="require(`~/assets/flags/${this.country.partyDetails.country}.svg`)" alt="country-flag">
+      </div>
+      <div class="country_stats">
+        <p><b>{{ $t('CountryPage.ActivePoliticParties') }} : </b>{{this.country.partyDetails.active_parties}}</p>
+        <p><b>{{ $t('CountryPage.PartiesinParlament') }} : </b>{{this.country.partyDetails.parties_in_parlament}}</p>
+        <p><b>{{ $t('CountryPage.NumberofVoters') }} : </b>{{this.country.partyDetails.number_of_voters}}</p>
+        <p><b>{{ $t('CountryPage.ContributiontoElection') }} : </b>{{this.country.partyDetails.contribution}}</p>
+      </div>
+    </div>
+
+    <div class="parties_list">
+      <div v-for="party in this.partylistforthiscountry" :key="party.partyInfo.name" class="party_box">
+        <nuxt-link class="party_link" :to="{ path: `${party.partyDetails.country}/${party.partyInfo.name}/?partyname=${party.partyInfo.name}&partydbcode=${party.partyDetails.dbcode}`}">{{ party.partyInfo.name }}</nuxt-link>
+      </div>
+    </div>
+
+    <h3 style="text-align:center; margin-top: 1em; font-family: Quicksand;"> {{ $t('CountryPage.IdealImaginaryPartySectionTitle') }} </h3>
+    
+    <div class="comment_sections">
+      <div class="positive_comment_section">
+        <PositiveCommentSection :partyDetails="this.country.partyDetails" />
+      </div>
+      <div class="negative_comment_section">
+         <NegativeCommentSection :partyDetails="this.country.partyDetails" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import { countriesDetails } from "~/assets/countryDetails/countrydetails.js";
+export default {
+  data() {
+    return {
+      country: null,
+      partylistforthiscountry: null,
+    };
+  },
+  async fetch() {
+    await countriesDetails.find( oneofthecountry => {
+      if (this.$route.params.country === oneofthecountry.partyDetails.country) {
+        this.country = oneofthecountry;
+        this.partylistforthiscountry = oneofthecountry.parties;
+        return 
+      }
+    });
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.container {
+  
+  margin: 0px;
+
+  .country_details { 
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .country_flag {
+      img { border-radius: 12px;}
+    }
+
+    .country_stats {
+      p { font-family: "Quicksand"; }
+    }
+  }
+
+  .parties_list {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+
+
+    @media screen and (max-width: 600px) {
+    overflow: auto hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    }
+
+    .party_box {
+      display: flex;
+      justify-content: center;
+    }
+
+    .party_link {
+      padding: 0.8rem;
+      text-decoration: none;
+      color: rgb(96, 111, 123); 
+      margin: 1rem;
+      font-family: "Quicksand";
+      width: 160px;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      background: #ffffff;
+      box-shadow:  6px 6px 16px #e0e0e0, -6px -6px 16px #ffffff;
+
+      @media screen and (max-width: 400px) {
+        width: 280px;
+      }
+    }
+  }
+
+  .comment_sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .positive_comment_section{
+      flex: 1 1 150px;
+      margin: 4px;
+    }
+
+    .negative_comment_section{
+      flex: 1 1 150px;
+      margin: 4px;
+    }
+  }
+}
+</style>

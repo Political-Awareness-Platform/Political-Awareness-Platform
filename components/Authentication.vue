@@ -86,6 +86,7 @@ export default {
       padding: 10px 30px;
       font-family: 'Quicksand';
       font-size: 0.8em;
+      background-color: #fff;
     }
 
     button:hover {

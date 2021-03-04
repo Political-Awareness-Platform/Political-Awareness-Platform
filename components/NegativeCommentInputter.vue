@@ -1,50 +1,24 @@
 <template>
   <div class="comment-input-section">
-    <button
-      class="negative-comment-button"
-      v-show="!showModalNegative"
-      @click="showModalNegative = true"
-    >
-      {{ this.MainButtonText }}
-    </button>
 
-    <textarea
-      v-show="showModalNegative"
-      class="negative-comment-textarea"
-      type="text"
-      minlength="5"
-      maxlength="1000"
-      v-model="negativecomment"
-    />
+    <Authentication v-show="showModalNegative === true && !this.$store.state.user.userUID" />
+
+    <button class="negative-comment-button" v-show="!showModalNegative" @click="showModalNegative = true" > {{ $t('NegativeCommentSection.InputterButtonMessage')}} </button>
+
+    <textarea v-show="showModalNegative && this.$store.state.user.userUID" class="negative-comment-textarea" type="text" minlength="5" maxlength="1000" v-model="negativecomment" />
 
     <div class="buttons">
-      <button
-        class="small-buttons"
-        type="submit"
-        v-show="showModalNegative"
-        @click="submitNegativeComment(), (showModalNegative = false)"
-      >
-        {{ this.SubmitButtonText }}
-      </button>
-      <button
-        class="small-buttons"
-        v-show="showModalNegative"
-        @click="showModalNegative = false"
-      >
-        {{ this.CloseButtonText }}
-      </button>
+      <button class="small-buttons" v-show="showModalNegative && this.$store.state.user.userUID" type="submit"  @click="submitNegativeComment(), (showModalNegative = false)" > {{ $t('NegativeCommentSection.InputterSubmitButton')}} </button>
+      <button class="small-buttons" v-show="showModalNegative && this.$store.state.user.userUID" @click="showModalNegative = false" > {{ $t('NegativeCommentSection.InputterCloseButton')}} </button>
     </div>
   </div>
 </template>
 
 <script>
-import { fireDb, fireAuth, fireFunc } from '@/plugins/firebaseConfig.js'
+import { fireDB } from '@/plugins/firebaseConfig.js'
 export default {
   props: {
     partyDetails: { type: Object, required: true },
-    MainButtonText: { type: String, required: true },
-    SubmitButtonText: { type: String, required: true },
-    CloseButtonText: { type: String, required: true },
   },
   data() {
     return {
@@ -54,21 +28,12 @@ export default {
   },
   methods: {
     submitNegativeComment() {
-      if (this.positivecomment.length < 2) {
-        this.$notify({
-          message: 'No empty comment please!',
-          type: 'success',
-          top: true,
-          closeDelay: 1500,
-          hideIcon: true,
-        })
+      if (this.negativecomment.length < 2) {
+        console.log("You better write something");
       } else if (this.$store.state.user.userUID) {
   
-        fireDb
-          .collection(this.partyDetails.country)
-          .doc(this.partyDetails.dbcode)
-          .collection('negativeComments')
-          .add({
+        fireDB.collection(this.partyDetails.country).doc(this.partyDetails.dbcode).collection('negativeComments')
+        .add({
             negativecomment: this.negativecomment,
             like: 0,
             likedBy: [this.$store.state.user.userUID],
@@ -81,10 +46,7 @@ export default {
           })
         this.negativecomment = ''
         this.showModalNegative = false
-      } else {
-        console.log('👎', ' You must loggin to make a comment❗️')
-        this.$router.push('/')
-      }
+      } 
     },
   },
 }
