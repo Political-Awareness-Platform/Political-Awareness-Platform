@@ -46,7 +46,7 @@
       <nuxt-link :to="localePath('/bulgaria')" class="button--green">Bulgaria</nuxt-link>
     </div>
 
-    <Authentication />
+    <Authentication v-show="!this.$store.state.user.userUID" />
     
     <p style="margin-top: 5em; font-family: Quicksand">
       We are unleashing the power of the technology and human ingenuity to
