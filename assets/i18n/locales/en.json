@@ -1,0 +1,39 @@
+{
+    "HomePage": {
+        "PageName": "Political Awareness Platform"
+    },
+    "CountryPage": {
+        "ActivePoliticParties": "Active Politic Parties",
+        "PartiesinParlament": "Parties in Parlament",
+        "NumberofVoters": "Number of Voters",
+        "ContributiontoElection": "Contribution to Election",
+        "IdealImaginaryPartySectionTitle":"Ideal / Imaginary Party"
+    },
+    "PartyPage": {
+        "PartyName":"Party Name",
+        "ShortName":"Short Name",
+        "Established":"Established",
+        "Founder":"Founder",
+        "President":"President",
+        "PublicRelation":"Public Relation",
+        "CurrentMember":"Current Member",
+        "PhoneNumber":"Phone Number",
+        "Address":"Address",
+        "PartyPurposesTitle":"Party Purposes",
+        "CommentSectionTitle":"Comments"
+    },
+    "PositiveCommentSection": {
+        "TheTopDesireListTitle":"The Top Desires",
+        "DesiredList":"Desires from a Political Party",
+        "InputterButtonMessage":"What is the party must do best?",
+        "InputterSubmitButton":"Submit",
+        "InputterCloseButton": "Close"
+    },
+    "NegativeCommentSection": {
+        "TheTopDesireListTitle": "Top 5 Must Avoid Things for a Political Party",
+        "DesiredList": "Avoids for a Political Party",
+        "InputterButtonMessage": "What is the party must avoid most?",
+        "InputterSubmitButton": "Submit",
+        "InputterCloseButton": "Close"
+    }
+}

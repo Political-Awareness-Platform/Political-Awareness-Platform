@@ -1,0 +1,39 @@
+{
+    "HomePage": {
+        "PageName": "Politik Farkindalik Platformu"
+    },
+    "CountryPage": {
+        "ActivePoliticParties": "Aktif Politik Partiler",
+        "PartiesinParlament": "Meclisteki Parti Sayisi",
+        "NumberofVoters": "Secmen Sayisi",
+        "ContributiontoElection": "Secime Katilim",
+        "IdealImaginaryPartySectionTitle": "Ideal / Hayali Parti"
+    },
+    "PartyPage": {
+        "PartyName": "Parti Ismi",
+        "ShortName": "Kisa Isim",
+        "Established": "Kurulus Tarihi",
+        "Founder": "Kurucu",
+        "President": "Baskani",
+        "PublicRelation": "Iletisim Sozcusu",
+        "CurrentMember": "Uye Sayisi",
+        "PhoneNumber": "Telefon Numarasi",
+        "Address": "Adres",
+        "PartyPurposesTitle": "Partinin Amaclari",
+        "CommentSectionTitle": "Yorumlar"
+    },
+    "PositiveCommentSection": {
+        "TheTopDesireListTitle": "En cok istenen 5 sey",
+        "DesiredList": "Isteneler",
+        "InputterButtonMessage": "Sizce bir partinin en iyi yapmasi gereken sey nedir?",
+        "InputterSubmitButton": "Gonder",
+        "InputterCloseButton": "Kapat"
+    },
+    "NegativeCommentSection": {
+        "TheTopDesireListTitle": "Asla yapilmamasi gerekli 5 sey",
+        "DesiredList": "Yapilmasi Istenmeyenler",
+        "InputterButtonMessage": "Sizce bir partinin en uzak durmasi gereken sey nedir?",
+        "InputterSubmitButton": "Gonder",
+        "InputterCloseButton": "Kapat"
+    }
+}

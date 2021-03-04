@@ -1,15 +1,16 @@
 <template>
-  <div class="window">
+  <div class="container">
     <nav>
-      <nuxt-link to="/" class="home-page-link">Political Awareness Platform</nuxt-link>
+      <nuxt-link :to="localePath('/')" class="home-page-link">{{ $t('HomePage.PageName') }}</nuxt-link> 
     </nav>
-    <div class="content">
+    <section class="content">
       <Nuxt />
-    </div>
+    </section>
+     <Footer />
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 // General Settings
 html {
@@ -30,7 +31,7 @@ html {
   margin: 0;
 }
 
-.window {
+.container {
   nav {
     display: flex;
     justify-content: center;
@@ -63,8 +64,9 @@ html {
   }
 
   .content {
-    margin: 0;
-    padding: 0 1em;
+    margin: 8px;
+    padding: 0;
   }
+  
 }
 </style>
