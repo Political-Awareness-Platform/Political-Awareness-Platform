@@ -3,8 +3,8 @@
     <input type="email" name="email" placeholder="Email" v-model="email" />
     <input type="password" name="password" placeholder="Password" v-model="password" />
     <div class="button-section">
-      <button @click="SignIn">Sign In</button>
-      <button @click="SignUp">Sign Up</button>
+      <button @click="SignIn"> {{ $t('AuthenticationComponent.SignIn') }} </button>
+      <button @click="SignUp"> {{ $t('AuthenticationComponent.SignUp') }} </button>
     </div>
   </div>
 </template>
