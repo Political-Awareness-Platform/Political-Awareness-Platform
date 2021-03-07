@@ -4,16 +4,18 @@
       <div v-if="logo" class="party_flag">
         <img width="100%" :src="require(`~/assets/logos/${this.party.partyDetails.country}/${this.party.partyDetails.dbcode}.jpg`)"/>
         <div class="social_links">
-          <a :href="this.party.partyInfo.internet_address" target="_blank"><img src="~assets/logos/world-wide-web.svg" alt="website-icon" class="icon" width="32px" height="32px" /></a>
-          <a :href="this.party.partyInfo.facebook" target="_blank"><img src="~assets/logos/facebookicon.svg" alt="facebook-icon" class="icon" width="32px" height="32px" /></a>
-          <a :href="this.party.partyInfo.twitter" target="_blank"><img src="~assets/logos/twittericon.svg" alt="twitter-icon" class="icon" width="32px" height="32px" /></a>
+          <a :href="this.party.partyInfo.internet_address" target="_blank"><img src="~assets/logos/world-wide-web.svg" alt="website-icon" class="icon" width="42px" height="42px" /></a>
+          <a :href="this.party.partyInfo.facebook" target="_blank"><img src="~assets/logos/facebookicon.svg" alt="facebook-icon" class="icon" width="42px" height="42px" /></a>
+          <a :href="this.party.partyInfo.twitter" target="_blank"><img src="~assets/logos/twittericon.svg" alt="twitter-icon" class="icon" width="42px" height="42px" /></a>
         </div>
       </div>
-      <div class="no_flag_display" v-else> <p>There is no LOGO for this party</p> </div>
+      <div class="no_flag_display" v-else> 
+        <p>🤷‍♂ No Image</p>
+      </div>
       <div class="party_stats">
         <div class="block">
           <p><b>{{ $t('PartyPage.PartyName') }} </b><br /> {{ this.party.partyInfo.name }}</p>
-          <p><b>{{ $t('PartyPage.ShortName') }} </b><br /> {{ this.party.partyInfo.shortname }}</p>
+          <p v-if="this.party.partyInfo.shortname"><b>{{ $t('PartyPage.ShortName') }} </b><br /> {{ this.party.partyInfo.shortname }}</p>
           <p v-if="this.party.partyInfo.established"><b>{{ $t('PartyPage.Established') }} </b><br /> {{ this.party.partyInfo.established }}</p>
           <p v-if="this.party.partyInfo.founder"><b>{{ $t('PartyPage.Founder') }} </b><br /> {{ this.party.partyInfo.founder }}</p>
           <p v-if="this.party.partyInfo.president"><b>{{ $t('PartyPage.President') }} </b><br /> {{ this.party.partyInfo.president }}</p>
@@ -29,7 +31,7 @@
       <p>{{purpose.description}}</p>
     </div>
 
-    <h2 style="text-align:center; font-family: Quicksand;"> {{ $t('PartyPage.CommentSectionTitle') }} </h2>
+    <h2 style="text-align:center; margin-top:16px; font-family: Quicksand;"> {{ $t('PartyPage.CommentSectionTitle') }} </h2>
     
     <div class="comment_sections">
       <div class="positive_comment_section">
@@ -152,10 +154,12 @@ export default {
   }
 
   .comment_sections {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    @media only screen and (max-width: 800px) {
+      grid-template-columns: auto;
+    }
   }
 }
 </style>

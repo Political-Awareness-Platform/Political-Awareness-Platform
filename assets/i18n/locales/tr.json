@@ -1,39 +1,49 @@
 {
     "HomePage": {
-        "PageName": "Politik Farkindalik Platformu"
+        "PageName": "Politik Farkındalık Platformu",
+        "PlatformGoal": "Bu platform, vatandaşlar ile siyasetçiler / siyasi partiler arasındaki ilişki sorununu iyileştirmek için oluşturulmuştur. Umarım bu platform vatandaşların ve siyasi partilerin birbirlerini daha iyi anlamalarına yardımcı olabilir.",
+        "Goal1": "Her bir tarafın amacını anlamak. Vatandaşların çoğu yalnızca birkaç siyasi partinin adını verebiliryor, ancak genellikle oy verebilecekleri kayıtlı partilerden daha fazlası var. Bu nedenle, bu platform vatandaşların seçim söz konusu olduğunda her seçeneği tanımasına yardımcı olmayı amaçlamaktadır. Pek çok insan siyaseti sevmiyor ve hiçbir partiye oy vermek istemiyor çünkü popüler partileri sevmiyorlar veya medyanın etkisiyle popüler olmayan partileri bilmiyorlar. Dolayısıyla bu platformda her parti eşit olarak betimlenecek ve umarız vatandaşlar tanınmayan partilerin bilgilerine de ulaşacaktır.",
+        "Goal2": "Bu platform aynı zamanda insanların her bir parti hakkında olumlu ve olumsuz olarak ne düşündüğünü öğrenmeyi amaçlamaktadır. Dolayısıyla vatandaşlara göre hangi partilerin hangi konuda iyi veya kötü olduğunu görebiliyoruz. Böylece partileri kolayca karşılaştırabiliriz ve politikacılar da vatandaşların genel olarak onlar hakkında ne düşündüğünü anlamasını sağlayabiliriz.",
+        "Goal3": "Bu platform aynı zamanda vatandaşların hayali bir siyasi partiden beklentilerini ve endişelerini paylaşmalarını sağlayarak, vatandaların hangi konuları değerli bulduğunu göstermeyi amaçlamaktadır.",
+        "AvailableCountries": "Mecvut Ülkeler",
+        "TheMessage": "Düğümlü demokrasiye karşı mücadelede yeni zaferler elde etmek için teknolojinin ve insan zekasının gücünü açığa çıkarıyoruz. Bize katılın ve küresel bir etki yaratın."
     },
     "CountryPage": {
         "ActivePoliticParties": "Aktif Politik Partiler",
-        "PartiesinParlament": "Meclisteki Parti Sayisi",
-        "NumberofVoters": "Secmen Sayisi",
-        "ContributiontoElection": "Secime Katilim",
-        "IdealImaginaryPartySectionTitle": "Ideal / Hayali Parti"
+        "PartiesinParlament": "Meclisteki Parti Sayısı",
+        "NumberofVoters": "Seçmen Sayısı",
+        "ContributiontoElection": "Seçime Katılım",
+        "IdealImaginaryPartySectionTitle": "İdeal / Hayali Parti"
     },
     "PartyPage": {
-        "PartyName": "Parti Ismi",
-        "ShortName": "Kisa Isim",
+        "PartyName": "Parti İsmi",
+        "ShortName": "Kısa İsim",
         "Established": "Kurulus Tarihi",
         "Founder": "Kurucu",
-        "President": "Baskani",
-        "PublicRelation": "Iletisim Sozcusu",
-        "CurrentMember": "Uye Sayisi",
-        "PhoneNumber": "Telefon Numarasi",
+        "President": "Baskanı",
+        "PublicRelation": "İletisim Sözcüsü",
+        "CurrentMember": "Üye Sayısı",
+        "PhoneNumber": "Telefon Numarası",
         "Address": "Adres",
-        "PartyPurposesTitle": "Partinin Amaclari",
+        "PartyPurposesTitle": "Partinin Amaçları",
         "CommentSectionTitle": "Yorumlar"
     },
     "PositiveCommentSection": {
-        "TheTopDesireListTitle": "En cok istenen 5 sey",
-        "DesiredList": "Isteneler",
-        "InputterButtonMessage": "Sizce bir partinin en iyi yapmasi gereken sey nedir?",
-        "InputterSubmitButton": "Gonder",
+        "TheTopDesireListTitle": "En çok istenen 5 şey",
+        "DesiredList": "İsteneler",
+        "InputterButtonMessage": "Sizce bir partinin en iyi yapması gereken şey nedir?",
+        "InputterSubmitButton": "Gönder",
         "InputterCloseButton": "Kapat"
     },
     "NegativeCommentSection": {
-        "TheTopDesireListTitle": "Asla yapilmamasi gerekli 5 sey",
-        "DesiredList": "Yapilmasi Istenmeyenler",
-        "InputterButtonMessage": "Sizce bir partinin en uzak durmasi gereken sey nedir?",
-        "InputterSubmitButton": "Gonder",
+        "TheTopDesireListTitle": "Asla yapılmaması gerekli 5 şey",
+        "DesiredList": "Yapılması İstenmeyenler",
+        "InputterButtonMessage": "Sizce bir partinin en uzak durması gereken şey nedir?",
+        "InputterSubmitButton": "Gönder",
         "InputterCloseButton": "Kapat"
+    },
+    "AuthenticationComponent": {
+        "SignIn": "Giriş yap",
+        "SignUp": "Kayıt ol"
     }
 }

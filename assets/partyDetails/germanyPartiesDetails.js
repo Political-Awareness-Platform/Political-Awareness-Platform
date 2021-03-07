@@ -374,10 +374,7 @@ const germanyPartiesDetails = [
         ],
     },
     {
-        partyDetails: {
-            country: 'germany',
-            dbcode: 'deutschekommunistischepartei',
-        },
+        partyDetails: { country: 'germany', dbcode: 'deutschekommunistischepartei' },
         partyInfo: {
             name: 'Deutsche Kommunistische Partei',
             shortname: 'DKP',
@@ -528,7 +525,7 @@ const germanyPartiesDetails = [
     {
         partyDetails: { country: 'germany', dbcode: 'diegrünen' },
         partyInfo: {
-            name: 'Bündnis 90/Die Grünen',
+            name: 'Bündnis 90 Die Grünen',
             shortname: 'Grüne',
             established: '13/01/1991',
             founder: '',

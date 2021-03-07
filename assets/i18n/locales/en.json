@@ -1,6 +1,12 @@
 {
     "HomePage": {
-        "PageName": "Political Awareness Platform"
+        "PageName": "Political Awareness Platform",
+        "PlatformGoal": "This platform is created to heal the relationship problem between citizens and politicians / political parties. Hopefully, this platform may help citizens and political parties to understand each other better.",
+        "Goal1": "Understanding each party's purpose. Most of the citizens can only name a few political parties however there are usually more than thier acknowlegde registered parties to vote on. Therefore, this platform aims to help citizens to get to know every single option when it comes to voting. Many people do not like politics and do not feel like voting for any party at all because they do not like the popular parties or do not know of the unpopular parties because of the media influence. Therefore, in this platform every party will be portrayed equally and hopefully, citizens will gain access to knowledge of not well-known parties as well.",
+        "Goal2": "This platform also aims to find out what people think about each party, positively and negatively. Therefore we can see what parties good and bad at according to the citizens. Then we can easily compare parties, and politicians can also understand what citizens think about them in general.",
+        "Goal3": "Eventually, this platform will also help citizens to express their ideas or desires from an imaginary political party, what to focus on, and what to avoid the most. Therefore, political parties can see what citizens care about the most and the least.",
+        "AvailableCountries": "Available Countries",
+        "TheMessage": "We are unleashing the power of the technology and human ingenuity to achieve new victories in the fight against knotty democracy. Join us and have a global impact."
     },
     "CountryPage": {
         "ActivePoliticParties": "Active Politic Parties",
@@ -35,5 +41,9 @@
         "InputterButtonMessage": "What is the party must avoid most?",
         "InputterSubmitButton": "Submit",
         "InputterCloseButton": "Close"
+    },
+    "AuthenticationComponent" : {
+        "SignIn": "Sign In",
+        "SignUp": "Sign Up"
     }
 }
