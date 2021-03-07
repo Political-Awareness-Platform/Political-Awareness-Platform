@@ -12,7 +12,7 @@ export default {}
 <style lang="scss" scoped>
 .lang-dropdown {
 
-  margin-bottom: 10px;
+  margin: 8px;
 
   select {
     padding: 8px;

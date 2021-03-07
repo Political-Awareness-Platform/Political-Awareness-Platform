@@ -71,7 +71,12 @@ export default {
     }
 
     .country_stats {
+
       p { font-family: "Quicksand"; }
+      
+      @media only screen and (max-width: 800px) {
+        margin-top: 10px;
+      }
     }
   }
 
@@ -102,33 +107,27 @@ export default {
       color: rgb(96, 111, 123); 
       margin: 1rem;
       font-family: "Quicksand";
-      width: 160px;
+      width: 180px;
       display: grid;
       place-items: center;
       border-radius: 12px;
       background: #ffffff;
       box-shadow:  6px 6px 16px #e0e0e0, -6px -6px 16px #ffffff;
 
-      @media screen and (max-width: 400px) {
+      @media only screen and (max-width: 500px) {
         width: 280px;
       }
     }
   }
 
   .comment_sections {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+      display: grid;
+      grid-template-columns: 50% 50%;
 
-    .positive_comment_section{
-      flex: 1 1 150px;
-      margin: 4px;
-    }
+      @media only screen and (max-width: 800px) {
+      grid-template-columns: auto;
+      }
 
-    .negative_comment_section{
-      flex: 1 1 150px;
-      margin: 4px;
-    }
   }
 }
 </style>

@@ -616,7 +616,7 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'devaparti' },
+        partyDetails: { country: 'turkey', dbcode: 'devapartisi' },
         partyInfo: {
             name: 'Demokrasi ve Atılım Partisi',
             shortname: 'DEVA',

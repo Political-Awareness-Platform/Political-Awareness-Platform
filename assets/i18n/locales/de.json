@@ -1,6 +1,12 @@
 {
     "HomePage": {
-        "PageName": "Plattform für politisches Bewusstsein"
+        "PageName": "Plattform für politisches Bewusstsein",
+        "PlatformGoal": "Diese Plattform wurde geschaffen, um das Beziehungsproblem zwischen Bürgern und Politikern / politischen Parteien zu heilen. Hoffentlich kann diese Plattform den Bürgern und den politischen Parteien helfen, sich besser zu verstehen.",
+        "Goal1": "Verstehen Sie den Zweck jeder Partei. Die meisten Bürgerinnen und Bürger können nur einige wenige politische Parteien nennen, jedoch gibt es in der Regel mehr als die von ihnen anerkannten registrierten Parteien, die sie wählen können. Daher soll diese Plattform den Bürgern helfen, jede einzelne Option kennenzulernen, wenn es um die Wahl geht. Viele Menschen mögen Politik nicht und haben keine Lust, überhaupt eine Partei zu wählen, weil sie die beliebten Parteien nicht mögen oder die unbeliebten Parteien aufgrund des Medieneinflusses nicht kennen. Deshalb wird auf dieser Plattform jede Partei gleichwertig dargestellt und die Bürger erhalten hoffentlich auch Zugang zu Wissen über nicht bekannte Parteien.",
+        "Goal2": "Diese Plattform zielt auch darauf ab, herauszufinden, was die Menschen über jede Partei denken, positiv und negativ. Daher können wir sehen, welche Parteien laut den Bürgern gut und schlecht sind. Dann können wir Parteien leicht vergleichen, und Politiker können auch verstehen, was die Bürger über sie im Allgemeinen denken.",
+        "Goal3": "Letztendlich wird diese Plattform auch den Bürgern helfen, ihre Ideen oder Wünsche an eine imaginäre politische Partei zu äußern, worauf sie sich konzentrieren und was sie am meisten vermeiden sollten. Daher können die politischen Parteien sehen, was den Bürgern am meisten und am wenigsten am Herzen liegt.",
+        "AvailableCountries": "Verfügbare Länder",
+        "TheMessage": "Wir entfesseln die Kraft der Technologie und den menschlichen Einfallsreichtum, um neue Siege im Kampf gegen die knorrige Demokratie zu erzielen. Schließen Sie sich uns an und haben Sie einen globalen Einfluss."
     },
     "CountryPage": {
         "ActivePoliticParties": "Aktive politische Parteien",
@@ -35,5 +41,9 @@
         "InputterButtonMessage": "Was muss die Partei am meisten vermeiden?",
         "InputterSubmitButton": "Einreichen",
         "InputterCloseButton": "Schließen"
+    },
+    "AuthenticationComponent": {
+        "SignIn": "Einloggen",
+        "SignUp": "Anmeldung"
     }
 }
