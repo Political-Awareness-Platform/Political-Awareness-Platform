@@ -1,7 +1,10 @@
-# Political-Awareness-Platform
+# Political Awareness Platform
 
-## Development Setup ( In Progress )
+## Tech Stack
 
+Nuxtjs - Firebase - Netlify
+## Development Setup ( In Progress for a better developer experience)
+You still need to set up Firestore, Firebase Auth and Firebase Functions. @emretinaz still working on firebase local development setup. 
 ```bash
 # install dependencies
 $ npm install
@@ -17,24 +20,23 @@ $ npm run start
 $ npm run generate
 ```
 
-## For code or design contribution
+## We are pleased you are on this page and willing to contribute to this platform and make it even better. 
 
-We are pleased you are on this page and willing to contribute this platform to make it even better. 
-
-### Developers: 
-We use GitHub public repository to make this platform accessible to open source contributors. We hope to have at least one developer who is responsible for one country page and it’s related parties’ maintenance and required updates from political parties.
+## Developer Contributions: 
+We use GitHub public repository to make this platform accessible to open source contributors. We hope to have at least one developer who is responsible for one country and its related parties maintenance and required updates from political parties.
 
 Admin: @emretinaz
 
-### Designers: 
-Figma is our design tool to keep everyone up to date with current design and discuss future design concepts. You are most welcome to share your design concepts with us. 
+## Design Contributions: 
+Figma can be the best candidate for our design tool to keep everyone up to date with current design and discuss future design concepts. You are most welcome to share your design concepts with us. 
 
-Link : 
+## Translation Contributions: 
+You still can help translation of the platform even you don't how to how to code or design. Because the translation is as important as the code and design of the platform. ( Please ask @emretinaz for guidance)
 
-## For sponsorship and donations 
+## For sponsorship and donations  ( In Progress, not happening yet )
 
-As an NGO, we have great support from individuals who works on this project to make it better for citizens and political parties. There are also dedicated employees who work enormously to make the platform better, accessible and reaching to everyone. For the sustainability of the project, we need donations and sponsors to cover our expenses and expenses of our platform contributors.  
+As an NGO (not yet), we receive enormous support from individuals who work on this project to make it better for citizens and political parties. There are also dedicated employees who work enormously to develop the platform better, accessible and striking everyone. For the sustainability of the project, we need donations and sponsors to cover our expenses and the expenses of our platform contributors.  
 
-We take transparency very seriously and work with OpenCollective to make our finance public. 
+We encounter transparency very seriously and work with OpenCollective to make our finance public. 
 
-We are happy to have our sponsors and donators logo to our platform respectively and make public know who cares/supports the sustainability of the platform. 
+We are delighted to support our sponsors and donators logo on our platform respectively and represent the public know who cares/supports the sustainability of the platform.
