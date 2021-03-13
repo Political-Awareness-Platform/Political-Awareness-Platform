@@ -3,9 +3,6 @@ name: Build and deploy
 on:
   push:
     branches: [ development ]
-    
-  # Run workflow manually
-  workflow_dispatch:
 
 jobs:
   build:
