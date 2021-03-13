@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Development Continues Always</h1>
+    <h1>Development Continues Always </h1>
     <p class="platform-purpose"> {{ $t('HomePage.PlatformGoal') }} </p>
     <br />
 
