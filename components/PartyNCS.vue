@@ -8,7 +8,9 @@
       </li>
     </ul>
     </div>
-    <NegativeCommentInputter :partyDetails="partyDetails" />
+    
+    <NegativeCommentInputter :country="this.countryofParty" :dbcode="this.dbofParty" />
+
     <h4 style="margin: 1em auto; text-align: center">{{ $t('NegativeCommentSection.DesiredList')}}</h4>
     <ul class="comment-list">
       <span v-show="alert" class="double-like-alert">You already liked it</span>
@@ -23,21 +25,25 @@
 import { fireDB, fireFunc } from '@/plugins/firebaseConfig.js'
 export default {
   props: {
-    partyDetails: {
       country: { type: String, required: true },
-      dbcode: { type: String, required: true },
-    },
+      dbcode: { type: String, required: true }
   },
   data() {
     return {
       negativecommentList: [],
       negativecommentListTop: [],
+      countryofParty: '',
+      dbofParty: '',
       alert: false
     }
   },
   async fetch() {
 
-    this.negativecommentList = await fireDB.collection(this.partyDetails.country).doc(this.partyDetails.dbcode).collection('negativeComments')
+    this.countryofParty = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyDetails.country;
+    this.dbofParty = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyDetails.dbcode;
+
+    if (this.countryofParty && this.dbofParty) {
+      this.negativecommentList = await fireDB.collection(this.countryofParty).doc(this.dbofParty).collection('negativeComments')
       .onSnapshot((snapshot) => {
         this.negativecommentList = []
         this.negativecommentListTop = []
@@ -47,6 +53,12 @@ export default {
         })
         this.negativecommentListTop = this.negativecommentListTop.sort((a, b) => b.doc.like - a.doc.like).slice(0, 5)
       })
+    } else {
+      console.log("country and dbcode not found");
+    }
+
+    console.log('Country of the Party: ',this.countryofParty, 'DB of the Party: ', this.dbofParty);
+
   },
   fetchOnServer: false,
   methods: {
@@ -56,8 +68,8 @@ export default {
 
       commentLikeIncrementer({
         commentID: commentID,
-        commentCountry: this.partyDetails.country,
-        commentPartyDBCode: this.partyDetails.dbcode,
+        commentCountry: this.country,
+        commentPartyDBCode: this.dbcode,
         commentType: commentType,
       }).catch((error) => {
         console.log(error.message)

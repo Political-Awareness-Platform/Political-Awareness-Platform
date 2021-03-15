@@ -17,8 +17,9 @@
 <script>
 import { fireDB } from '@/plugins/firebaseConfig.js'
 export default {
-  props: {
-    partyDetails: { type: Object, required: true },
+  props: { 
+    country: { type: String, required: true }, 
+    dbcode: { type: String, required: true } 
   },
   data() {
     return {
@@ -32,7 +33,7 @@ export default {
         console.log("You better write something");
       } else if (this.$store.state.user.userUID) {
   
-        fireDB.collection(this.partyDetails.country).doc(this.partyDetails.dbcode).collection('negativeComments')
+        fireDB.collection(this.country).doc(this.dbcode).collection('negativeComments')
         .add({
             negativecomment: this.negativecomment,
             like: 0,

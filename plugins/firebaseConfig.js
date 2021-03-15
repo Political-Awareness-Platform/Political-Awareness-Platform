@@ -13,8 +13,16 @@ if (!firebase.apps.length) {
   // firebase.analytics();
 }
 
+
 const fireDB = firebase.firestore()
 const fireAuth = firebase.auth()
 const fireFunc = firebase.functions()
+
+if (process.client && window.location.hostname === "localhost") {
+  fireDB.useEmulator("localhost", 8080);
+  fireAuth.useEmulator("http://localhost:9099");
+  fireFunc.useEmulator("localhost", 5001);
+}
+
 
 export { fireDB, fireAuth, fireFunc }

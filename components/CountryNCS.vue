@@ -1,26 +1,23 @@
 <template>
   <section class="comments-section">
-
     <div class="top-comments">
-      <h4 style=" margin: 1em auto; text-align:center;">{{ $t('PositiveCommentSection.TheTopDesireListTitle') }}</h4>
-      <ul class="top-comment-list">
-        <li class="comment" v-for="comment in positivecommentListTop" :key="comment.id">
-          <span class="votes">🤞 {{ comment.doc.like }}</span> {{ comment.doc.positivecomment }}
-        </li>
-      </ul>
-    </div>
-   
-    <PositiveCommentInputter :partyDetails="partyDetails" />
-
-    <h4 style="margin: 2em auto; text-align: center">{{ $t('PositiveCommentSection.DesiredList') }}</h4>
-    
-    <ul class="comment-list">
-      <span v-show="alert" class="double-like-alert">You already liked it</span>
-      <li class="comment" v-for="comment in positivecommentList" :key="comment.id" @dblclick="commentLikeIncrementer(comment.id, 'positiveComments')" >
-        <span class="votes">🤞 {{ comment.doc.like }}</span> {{ comment.doc.positivecomment }}
+    <h4 style=" margin: 1em auto; text-align:center;">{{ $t('NegativeCommentSection.TheTopDesireListTitle') }}</h4>
+    <ul class="top-comment-list">
+      <li class="comment" v-for="comment in negativecommentListTop" :key="comment.id">
+        <span class="votes">⛔️  {{ comment.doc.like }}</span> {{ comment.doc.negativecomment}}
       </li>
     </ul>
+    </div>
 
+    <NegativeCommentInputter :country="this.partyDetails.country" :dbcode="this.partyDetails.dbcode" />
+    
+    <h4 style="margin: 1em auto; text-align: center">{{ $t('NegativeCommentSection.DesiredList')}}</h4>
+    <ul class="comment-list">
+      <span v-show="alert" class="double-like-alert">You already liked it</span>
+      <li class="comment" v-for="comment in negativecommentList" :key="comment.id" @dblclick="commentLikeIncrementer(comment.id, 'negativeComments')" >
+        <span class="votes">⛔️ {{ comment.doc.like }}</span> {{ comment.doc.negativecomment }}
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -35,29 +32,33 @@ export default {
   },
   data() {
     return {
-      positivecommentList: [],
-      positivecommentListTop: [],
+      negativecommentList: [],
+      negativecommentListTop: [],
       alert: false
     }
   },
   async fetch() {
 
-    this.positivecommentList = await fireDB.collection(this.partyDetails.country).doc(this.partyDetails.dbcode).collection('positiveComments')
+    if (this.partyDetails.country && this.partyDetails.dbcode) {
+      this.negativecommentList = await fireDB.collection(this.partyDetails.country).doc(this.partyDetails.dbcode).collection('negativeComments')
       .onSnapshot((snapshot) => {
-        this.positivecommentList = []
-        this.positivecommentListTop = []
+        this.negativecommentList = []
+        this.negativecommentListTop = []
         snapshot.forEach((doc) => {
-          this.positivecommentList.push({ id: doc.id, doc: doc.data() })
-          this.positivecommentListTop.push({ id: doc.id, doc: doc.data() })
+          this.negativecommentList.push({ id: doc.id, doc: doc.data() })
+          this.negativecommentListTop.push({ id: doc.id, doc: doc.data() })
         })
-        this.positivecommentListTop = this.positivecommentListTop.sort((a, b) => b.doc.like - a.doc.like).slice(0, 5)
+        this.negativecommentListTop = this.negativecommentListTop.sort((a, b) => b.doc.like - a.doc.like).slice(0, 5)
       })
+    } else {
+      window.location.hostname === "localhost" ? console.log("country and dbcode not found") : "";
+    }
   },
   fetchOnServer: false,
   methods: {
     commentLikeIncrementer(commentID, commentType) {
-
-      const commentLikeIncrementer = fireFunc.httpsCallable('commentLikeIncrementer')
+      
+      const commentLikeIncrementer = fireFunc.httpsCallable('commentLikeIncrementer');
 
       commentLikeIncrementer({
         commentID: commentID,
@@ -66,7 +67,7 @@ export default {
         commentType: commentType,
       }).catch((error) => {
         console.log(error.message)
-        if (error.message === "already-liked") {
+        if (error.message == 'already-liked') {
           this.alert = true;
           setTimeout( () => this.alert = false, 2000);
         }
@@ -82,6 +83,7 @@ export default {
 
   .top-comments {
   margin-top: 1em;
+
   .top-comment-list {
     margin: 0;
     padding: 4px;
@@ -128,12 +130,13 @@ export default {
       }
 
     }
-      .double-like-alert {
+
+    .double-like-alert {
         border: 2px red solid;
         padding: 4px;
         background-color: yellow;
         border-radius: 4px;
-      }
+    }
   }
 }
 </style>

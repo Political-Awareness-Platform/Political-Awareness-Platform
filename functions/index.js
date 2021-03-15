@@ -27,7 +27,7 @@ exports.commentLikeIncrementer = functions.https.onCall((data, context) => {
             'already-exists',
             'already-liked'
           )
-          console.info("User Already Liked the Comment")
+          // console.info("User Already Liked the Comment")
         } else {
           admin
             .firestore()

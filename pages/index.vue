@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    
+  
     <p class="platform-purpose"> {{ $t('HomePage.PlatformGoal') }} </p>
     <br />
 

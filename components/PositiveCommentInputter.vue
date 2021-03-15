@@ -17,8 +17,9 @@
 <script>
 import { fireDB } from "@/plugins/firebaseConfig.js";
 export default {
-  props: {
-    partyDetails: { type: Object, required: true }
+  props: { 
+    country: { type: String, required: true }, 
+    dbcode: { type: String, required: true } 
   },
   data() {
     return {
@@ -32,7 +33,7 @@ export default {
   
       } else if (this.$store.state.user.userUID) {
         
-        fireDB.collection(this.partyDetails.country).doc(this.partyDetails.dbcode).collection("positiveComments")
+        fireDB.collection(this.country).doc(this.dbcode).collection("positiveComments")
           .add({
             positivecomment: this.positivecomment,
             like: 0,
