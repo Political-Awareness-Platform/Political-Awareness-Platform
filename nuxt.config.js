@@ -52,19 +52,11 @@ export default {
     ['nuxt-i18n',
       {
         defaultLocale: 'en',
+        detectBrowserLanguage: { useCookie: true, cookieKey: 'i18n_redirected', onlyOnRoot: true },
         locales: [
-          {
-            code: 'en',
-            name: 'English'
-          },
-          {
-            code: 'tr',
-            name: 'Turkce'
-          },
-          {
-            code: 'de',
-            name: 'Deutsche'
-          }
+          { code: 'en', name: 'English' },
+          { code: 'tr', name: 'Türkçe' },
+          { code: 'de', name: 'Deutsche' }
         ],
         vueI18n: i18n
       }

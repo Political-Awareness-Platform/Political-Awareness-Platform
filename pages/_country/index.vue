@@ -14,8 +14,8 @@
     </div>
 
     <div class="parties_list">
-      <div v-for="party in this.partylistforthiscountry" :key="party.partyInfo.name" class="party_box">
-        <nuxt-link class="party_link" :to="{ path: `${party.partyDetails.country}/${party.partyInfo.name}/?partyname=${party.partyInfo.name}&partydbcode=${party.partyDetails.dbcode}`}">{{ party.partyInfo.name }}</nuxt-link>
+      <div v-for="party in this.country.parties" :key="party.partyInfo.name" class="party_box">
+       <nuxt-link class="party_link" :to="localePath({ name: 'country-party', params: { party: party.partyInfo.name } })"> {{ party.partyInfo.name }} </nuxt-link>
       </div>
     </div>
 
@@ -23,10 +23,10 @@
     
     <div class="comment_sections">
       <div class="positive_comment_section">
-        <PositiveCommentSection :partyDetails="this.country.partyDetails" />
+        <CountryPCS :partyDetails="this.country.partyDetails" />
       </div>
       <div class="negative_comment_section">
-         <NegativeCommentSection :partyDetails="this.country.partyDetails" />
+        <CountryNCS :partyDetails="this.country.partyDetails" />
       </div>
     </div>
   </div>
@@ -37,16 +37,13 @@ import { countriesDetails } from "~/assets/countryDetails/countrydetails.js";
 export default {
   data() {
     return {
-      country: null,
-      partylistforthiscountry: null,
+      country: {},
     };
   },
   async fetch() {
     await countriesDetails.find( oneofthecountry => {
       if (this.$route.params.country === oneofthecountry.partyDetails.country) {
-        this.country = oneofthecountry;
-        this.partylistforthiscountry = oneofthecountry.parties;
-        return 
+        return this.country = oneofthecountry;
       }
     });
   },
