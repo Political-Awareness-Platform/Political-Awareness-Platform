@@ -2,11 +2,11 @@
   <div class="container">
     <div class="party_details">
       <div v-if="logo" class="party_flag">
-        <img width="100%" :src="require(`~/assets/logos/${this.party.partyDetails.country}/${this.party.partyDetails.dbcode}.jpg`)"/>
+        <img width="100%" :src="require(`~/assets/logos/${this.countryofParty}/${this.dbofParty}.jpg`)"/>
         <div class="social_links">
-          <a :href="this.party.partyInfo.internet_address" target="_blank"><img src="~assets/logos/world-wide-web.svg" alt="website-icon" class="icon" width="42px" height="42px" /></a>
-          <a :href="this.party.partyInfo.facebook" target="_blank"><img src="~assets/logos/facebookicon.svg" alt="facebook-icon" class="icon" width="42px" height="42px" /></a>
-          <a :href="this.party.partyInfo.twitter" target="_blank"><img src="~assets/logos/twittericon.svg" alt="twitter-icon" class="icon" width="42px" height="42px" /></a>
+          <a v-show="partyInternetAddress" :href="partyInternetAddress" target="_blank"><img src="~assets/logos/world-wide-web.svg" alt="website-icon" class="icon" width="42px" height="42px" /></a>
+          <a v-show="partyFacebook" :href="partyFacebook" target="_blank"><img src="~assets/logos/facebookicon.svg" alt="facebook-icon" class="icon" width="42px" height="42px" /></a>
+          <a v-show="partyTwitter" :href="partyTwitter" target="_blank"><img src="~assets/logos/twittericon.svg" alt="twitter-icon" class="icon" width="42px" height="42px" /></a>
         </div>
       </div>
       <div class="no_flag_display" v-else> 
@@ -14,20 +14,20 @@
       </div>
       <div class="party_stats">
         <div class="block">
-          <p><b>{{ $t('PartyPage.PartyName') }} </b><br /> {{ this.party.partyInfo.name }}</p>
-          <p v-if="this.party.partyInfo.shortname"><b>{{ $t('PartyPage.ShortName') }} </b><br /> {{ this.party.partyInfo.shortname }}</p>
-          <p v-if="this.party.partyInfo.established"><b>{{ $t('PartyPage.Established') }} </b><br /> {{ this.party.partyInfo.established }}</p>
-          <p v-if="this.party.partyInfo.founder"><b>{{ $t('PartyPage.Founder') }} </b><br /> {{ this.party.partyInfo.founder }}</p>
-          <p v-if="this.party.partyInfo.president"><b>{{ $t('PartyPage.President') }} </b><br /> {{ this.party.partyInfo.president }}</p>
-          <p v-if="this.party.partyInfo.public_relation"><b>{{ $t('PartyPage.PublicRelation') }} </b><br /> {{ this.party.partyInfo.public_relation }}</p>
-          <p v-if="this.party.partyInfo.current_member"><b>{{ $t('PartyPage.CurrentMember') }} </b><br /> {{ this.party.partyInfo.current_member }}</p>
-          <p v-if="this.party.partyInfo.phone"><b>{{ $t('PartyPage.PhoneNumber') }} </b><br /> {{ this.party.partyInfo.phone }}</p>
-          <p v-if="this.party.partyInfo.address"><b>{{ $t('PartyPage.Address') }} </b><br /> {{ this.party.partyInfo.address }}</p>
+          <p><b>{{ $t('PartyPage.PartyName') }} </b><br /> {{ partyName }}</p>
+          <p v-show="partyShortName"><b>{{ $t('PartyPage.ShortName') }} </b><br /> {{ partyShortName }}</p>
+          <p v-show="partyEstablished"><b>{{ $t('PartyPage.Established') }} </b><br /> {{ partyEstablished }}</p>
+          <p v-show="partyFounder"><b>{{ $t('PartyPage.Founder') }} </b><br /> {{ partyFounder }}</p>
+          <p v-show="partyPresident"><b>{{ $t('PartyPage.President') }} </b><br /> {{ partyPresident }}</p>
+          <p v-show="partyPublicRelation"><b>{{ $t('PartyPage.PublicRelation') }} </b><br /> {{ partyPublicRelation }}</p>
+          <p v-show="partyCurrentMember"><b>{{ $t('PartyPage.CurrentMember') }} </b><br /> {{ partyCurrentMember }}</p>
+          <p v-show="partyPhone"><b>{{ $t('PartyPage.PhoneNumber') }} </b><br /> {{ partyPhone }}</p>
+          <p v-show="partyAddress"><b>{{ $t('PartyPage.Address') }} </b><br /> {{ partyAddress }}</p>
         </div>
       </div>
     </div> 
     <h3 style="text-align:center; font-family: Quicksand;">{{ $t('PartyPage.PartyPurposesTitle') }}</h3>
-    <div class="party_purposes" v-for="purpose in this.party.partyPurposes" :key="purpose.description">
+    <div class="party_purposes" v-for="purpose in partyPurposes" :key="purpose.description">
       <p>{{purpose.description}}</p>
     </div>
 
@@ -35,10 +35,10 @@
     
     <div class="comment_sections">
       <div class="positive_comment_section">
-        <PositiveCommentSection :partyDetails="this.party.partyDetails" />
+        <PartyPCS :country="countryofParty" :dbcode="dbofParty" />
       </div>
       <div class="negative_comment_section">
-         <NegativeCommentSection :partyDetails="this.party.partyDetails" />
+        <PartyNCS :country="countryofParty" :dbcode="dbofParty" />
       </div>
     </div>
   </div>
@@ -48,28 +48,50 @@
 export default {
   data() {
     return {
-      party: null,
+      countryofParty: '',
+      dbofParty: '',
+      partyPurposes: [],
+      partyName : '',
+      partyShortName : '',
+      partyEstablished : '',
+      partyFounder : '',
+      partyPresident : '',
+      partyPublicRelation : '',
+      partyCurrentMember : '',
+      partyPhone : '',
+      partyAddress : '',
+      partyInternetAddress : '',
+      partyFacebook : '',
+      partyTwitter : '',
       logo : false
     };
   },
   async fetch() {
-    const allparties = this.$store.state.AllPartiesDetails.AllPartiesDetails;
-    await allparties.forEach((oneparty) => {
-      if (this.$route.query.partydbcode === oneparty.partyDetails.dbcode) {
-        try {
-          (require(`~/assets/logos/${oneparty.partyDetails.country}/${oneparty.partyDetails.dbcode}.jpg`) != null) ? (this.logo = true) : this.logo = false;
-        } catch (error) {
-          this.logo = false;
-        }
-        this.party = oneparty;
-        return;
-      }
-    });
+    this.countryofParty = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyDetails.country;
+    this.dbofParty = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyDetails.dbcode;
+    this.partyName = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.name;
+    this.partyShortName = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.shortname;
+    this.partyEstablished = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.established;
+    this.partyFounder = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.founder;
+    this.partPresident = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.president;
+    this.partyPublicRelation = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.public_relation;
+    this.partyCurrentMember = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.current_member;
+    this.partyPhone = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.phone;
+    this.partyInternetAddress = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.internet_address;
+    this.partyAddress = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.address;
+    this.partyFacebook = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.facebook;
+    this.partyTwitter = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.twitter;
+    this.partyPurposes = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyPurposes
+
+    try { (require(`~/assets/logos/${this.countryofParty}/${this.dbofParty}.jpg`) != null) ? this.logo = true : this.logo = false;}
+    catch (error) { this.logo = false; }
+
   },
+  fetchOnServer: true,
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped> 
 .container {
   margin: auto;
   max-width: 1400px;
