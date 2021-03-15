@@ -3,7 +3,7 @@
 
     <div class="country_details">
       <div class="country_flag">
-        <img width="100%" :src="require(`~/assets/flags/${this.country.partyDetails.country}.svg`)" alt="country-flag">
+        <img width="100%" :src="require(`~/assets/flags/${this.country.partyDetails.country}.jpg`)" alt="country-flag">
       </div>
       <div class="country_stats">
         <p><b>{{ $t('CountryPage.ActivePoliticParties') }} : </b>{{this.country.partyDetails.active_parties}}</p>
