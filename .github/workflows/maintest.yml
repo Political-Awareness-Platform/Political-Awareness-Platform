@@ -28,10 +28,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install dependencies
         run: npm ci
-      - name: Install Nuxt Gloabally
-        run: npm install -g nuxt
+      - name: Npm install 
+        run: npm install
       - name: Generate Pages
-        run: nuxt generate
+        run: npm run generate
 
       # Runs a set of commands using the runners shell
       - name: This is the End
