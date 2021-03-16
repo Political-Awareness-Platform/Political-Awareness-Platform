@@ -64,6 +64,8 @@ export default {
     justify-content: space-evenly;
 
     .country_flag {
+      max-width: 320px;
+      
       img { border-radius: 12px;}
     }
 
