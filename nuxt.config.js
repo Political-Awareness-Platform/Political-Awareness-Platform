@@ -48,7 +48,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/svg', '@nuxtjs/pwa', 
+  buildModules: ['@nuxtjs/style-resources', '@nuxtjs/svg',
     ['nuxt-i18n',
       {
         defaultLocale: 'en',
@@ -83,11 +83,4 @@ export default {
     host: '0.0.0.0', // default: localhost,
     timing: false
   },
-  pwa: {
-    manifest: {
-      name: "Political Awareness Platform",
-      short_name: "PAP",
-      display: "standalone",
-    }
-  }
 }
