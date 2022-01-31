@@ -3,7 +3,7 @@
 
     <Authentication v-show="showModalNegative === true && !this.$store.state.user.userUID" />
 
-    <button class="negative-comment-button" v-show="!showModalNegative" @click="showModalNegative = true" > {{ $t('NegativeCommentSection.InputterButtonMessage')}} </button>
+    <button class="negative-comment-button" v-show="!showModalNegative" @click="showModalNegative = true" > {{ $t('PartyPCS.InputterButtonMessage')}} </button>
 
     <textarea v-show="showModalNegative && this.$store.state.user.userUID" class="negative-comment-textarea" type="text" minlength="5" maxlength="1000" v-model="negativecomment" />
 
