@@ -3,13 +3,13 @@
      
     <Authentication v-show="showModalPositive === true && !this.$store.state.user.userUID" />
     
-    <button class="positive-comment-button" v-show="!showModalPositive" @click="showModalPositive = true" > {{ this.question }} </button>
+    <button class="positive-comment-button" v-show="!showModalPositive" @click="showModalPositive = true" > {{ $t('PartyPCS.InputterButtonMessage')}} </button>
 
     <textarea v-show="showModalPositive && this.$store.state.user.userUID" class="positive-comment-textarea" type="text" minlength="5" maxlength="1000" v-model="positivecomment" />
 
     <div class="buttons">
-      <button class="small-buttons" v-show="showModalPositive && this.$store.state.user.userUID" @click="submitPositiveComment(), (showModalPositive = false)" type="submit" > {{ $t('PositiveCommentSection.InputterSubmitButton')}} </button>
-      <button class="small-buttons" v-show="showModalPositive && this.$store.state.user.userUID" @click="showModalPositive = false" > {{ $t('PositiveCommentSection.InputterCloseButton')}} </button>
+      <button class="small-buttons" v-show="showModalPositive && this.$store.state.user.userUID" @click="submitPositiveComment(), (showModalPositive = false)" type="submit" > {{ $t('PartyPCS.InputterSubmitButton')}} </button>
+      <button class="small-buttons" v-show="showModalPositive && this.$store.state.user.userUID" @click="showModalPositive = false" > {{ $t('PartyPCS.InputterCloseButton')}} </button>
     </div>
   </div>
 </template>

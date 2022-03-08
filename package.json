@@ -13,19 +13,19 @@
   "dependencies": {
     "@nuxt/components": "^2.1.1",
     "autoprefixer": "^10.4.2",
-    "firebase": "^8.2.9",
+    "firebase": "^8.10.1",
     "firebase-admin": "^10.0.2",
     "firebase-functions": "^3.11.0",
-    "node-fetch": "^2.6.1",
-    "nuxt": "^2.2.0",
+    "node-fetch": "^2.6.7",
+    "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.21.0"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
-    "@nuxtjs/svg": "^0.0.0",
+    "@nuxtjs/svg": "^0.4.0",
     "nuxt-netlify-cache": "^1.0.2",
     "sass": "^1.32.8",
-    "sass-loader": "^10.1.1",
+    "sass-loader": "^10.2.1",
     "webpack": "^5.68.0"
   }
 }

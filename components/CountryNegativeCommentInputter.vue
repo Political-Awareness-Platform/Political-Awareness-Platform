@@ -3,13 +3,13 @@
 
     <Authentication v-show="showModalNegative === true && !this.$store.state.user.userUID" />
 
-    <button class="negative-comment-button" v-show="!showModalNegative" @click="showModalNegative = true" > {{ $t('PartyPCS.InputterButtonMessage')}} </button>
+    <button class="negative-comment-button" v-show="!showModalNegative" @click="showModalNegative = true" > {{ $t('CountryNCS.InputterButtonMessage')}} </button>
 
     <textarea v-show="showModalNegative && this.$store.state.user.userUID" class="negative-comment-textarea" type="text" minlength="5" maxlength="1000" v-model="negativecomment" />
 
     <div class="buttons">
-      <button class="small-buttons" v-show="showModalNegative && this.$store.state.user.userUID" type="submit"  @click="submitNegativeComment(), (showModalNegative = false)" > {{ $t('NegativeCommentSection.InputterSubmitButton')}} </button>
-      <button class="small-buttons" v-show="showModalNegative && this.$store.state.user.userUID" @click="showModalNegative = false" > {{ $t('NegativeCommentSection.InputterCloseButton')}} </button>
+      <button class="small-buttons" v-show="showModalNegative && this.$store.state.user.userUID" type="submit"  @click="submitNegativeComment(), (showModalNegative = false)" > {{ $t('CountryNCS.InputterSubmitButton')}} </button>
+      <button class="small-buttons" v-show="showModalNegative && this.$store.state.user.userUID" @click="showModalNegative = false" > {{ $t('CountryNCS.InputterCloseButton')}} </button>
     </div>
   </div>
 </template>
