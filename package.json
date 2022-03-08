@@ -26,6 +26,6 @@
     "nuxt-netlify-cache": "^1.0.2",
     "sass": "^1.32.8",
     "sass-loader": "^10.2.1",
-    "webpack": "^5.68.0"
+    "webpack": "^4.46.0"
   }
 }
