@@ -65,7 +65,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-netlify-cache'],
+  modules: [],
 
   /*
    ** Build configuration
