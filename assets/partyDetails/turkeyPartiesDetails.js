@@ -16,7 +16,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -36,7 +36,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -49,7 +49,7 @@ const turkeyPartiesDetails = [
             address: 'Söğütözü Caddesi No 6 Çankaya, Ankara',
             internet_address: 'https://www.akparti.org.tr/',
             public_relation: 'Ömer Çelik',
-            current_member: '10,195,904',
+            current_member: '11.089.543',
             president: 'Recep Tayyip Erdoğan',
             facebook: 'https://www.facebook.com/akparti',
             twitter: 'https://twitter.com/akparti',
@@ -139,7 +139,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -159,7 +159,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -179,7 +179,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -199,7 +199,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -219,7 +219,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -239,7 +239,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -259,7 +259,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-          
+
         ],
     },
     {
@@ -279,7 +279,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -299,7 +299,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -382,7 +382,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -402,7 +402,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -422,7 +422,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -525,7 +525,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -545,7 +545,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -565,7 +565,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -585,7 +585,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -660,7 +660,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -680,7 +680,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -700,7 +700,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-         
+
         ],
     },
     {
@@ -720,7 +720,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -740,7 +740,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -760,7 +760,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -780,7 +780,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -800,7 +800,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -820,7 +820,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -840,7 +840,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -860,7 +860,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -880,7 +880,7 @@ const turkeyPartiesDetails = [
             phone: '425 36 23',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -900,7 +900,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -920,7 +920,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -940,7 +940,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -960,7 +960,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -980,7 +980,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1000,7 +1000,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1020,7 +1020,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1040,7 +1040,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1060,7 +1060,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1080,7 +1080,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1100,7 +1100,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1120,7 +1120,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1191,7 +1191,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1234,7 +1234,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1254,7 +1254,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1274,7 +1274,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1317,7 +1317,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1396,7 +1396,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1416,7 +1416,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1436,7 +1436,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1456,7 +1456,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1530,7 +1530,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1550,7 +1550,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-          
+
         ],
     },
     {
@@ -1570,7 +1570,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1590,7 +1590,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1610,7 +1610,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1653,7 +1653,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1719,7 +1719,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1739,7 +1739,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1759,7 +1759,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1779,7 +1779,7 @@ const turkeyPartiesDetails = [
             phone: '0312 417 29 68',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1799,7 +1799,7 @@ const turkeyPartiesDetails = [
             phone: '337 82 10',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1819,7 +1819,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1839,7 +1839,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1859,7 +1859,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1879,7 +1879,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1930,7 +1930,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -1950,7 +1950,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1970,7 +1970,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-           
+
         ],
     },
     {
@@ -1990,7 +1990,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -2010,7 +2010,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -2030,7 +2030,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -2050,7 +2050,7 @@ const turkeyPartiesDetails = [
             phone: '',
         },
         partyPurposes: [
-            
+
         ],
     },
     {
@@ -2393,7 +2393,554 @@ const turkeyPartiesDetails = [
 
         ],
     },
-    
+    {
+        partyDetails: { country: 'turkey', dbcode: 'sevgivesaygipartisi' },
+        partyInfo: {
+            name: 'SEVGİ VE SAYGI PARTİSİ',
+            shortname: '',
+            established: '23.03.2021',
+            founder: 'Ahmet Fatih ERDİLLİ',
+            address: 'Tuzluçayır mah. 588 sk. No: 4 / 12 Mamak/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '0',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'doguspartisi' },
+        partyInfo: {
+            name: 'DOĞUŞ PARTİSİ',
+            shortname: '',
+            established: '05.04.2021',
+            founder: 'Mahmut KARALAR',
+            address: 'Meşrutiyet mah. Atatürk bulvarı cd. No: 103 66 Çankaya/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '355',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'cumhuriyetveadaletpartisi' },
+        partyInfo: {
+            name: 'Cumhuriyet ve Adalet Partisi',
+            shortname: '',
+            established: '15.04.2021',
+            founder: 'Ahmet SEVİM',
+            address: 'İvedik organize mah. 1354 cd. No: 85 / 3 Yenimahalle/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '3.031',
+            president: 'Ahmet SEVİM',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'memleketpartisi' },
+        partyInfo: {
+            name: 'MEMLEKET PARTİSİ',
+            shortname: 'MEMLEKET',
+            established: '17.05.2021',
+            founder: 'Muharrem İNCE',
+            address: 'Yukarı Öveçler, 1290. Sk. No:4, 06460 Çankaya/Ankara',
+            internet_address: 'https://www.memleketpartisi.org.tr/',
+            public_relation: '',
+            current_member: '20.636',
+            president: 'Muharrem İnce',
+            facebook: '',
+            twitter: 'https://twitter.com/memleketimparti',
+            phone: '0312 888 0888',
+        },
+        partyPurposes: [
+            {
+                description: 'Türkiye Cumhuriyeti Devleti’nin kuruluş esaslarını belirleyen, Anayasanın değiştirilemez hükümlerinin tartışmaya açılamayacağını kayıtsız şartsız kabul etmek'
+            },
+            {
+                description: 'Üzerinde yaşadığımız toprakların binlerce yıllık geçmişine, tarih ve milli kültür mirasına gurur ve onurla sahip çıkmak'
+            },
+            {
+                description: '“Yurtta barış, dünyada barış” ilkesi doğrultusunda onurlu ve ulusal çıkarlarımızı gözeten bir anlayış ile hareket etmek; bölgesel sorunların çözümünde anahtar rol oynayan, ülkemizin dünyadaki etkinliğini artıran bir dış politika oluşturmak'
+            },
+            {
+                description: '“Anavatan, Yavruvatan, Mavivatan, Gökvatan bir bütündür, parçalanamaz!” ilkesini savunmak'
+            },
+            {
+                description: 'Vatan için can veren şehitlerimizin yakınlarına ve gazilerimize hak ettikleri değeri vermek, haklarını korumak ve geliştirmek'
+            },
+            {
+                description: 'Ulusal egemenliğin kayıtsız şartsız millete ait olduğu gerçeğinden hareketle, millet iradesinin tek belirleyici güç olduğuna inanmak ve bu yönde siyaset yapmak'
+            },
+            {
+                description: 'Lozan Barış Antlaşması’nın Türkiye Cumhuriyeti’nin tapu senedi olduğunu benimseyerek, bağımsız, özgür, eşit ve egemen bir ülke olarak ulus - üniter devlet ilkesini korumak'
+            },
+            {
+                description: 'Tam bağımsızlığın temelini ekonomik bağımsızlık ve kalkınmanın oluşturduğunu benimsemek'
+            },
+            {
+                description: 'Hak, hukuk, adalet kavramlarını özümseyerek her alanda hâkim kılmak, insan haklarını savunmak'
+            },
+            {
+                description: '“Siyasi partiler demokratik siyasi hayatın vazgeçilmezidir, parti içi demokrasi partimizin vazgeçilmezidir.” ilkesine kayıtsız şartsız bağlı kalmak'
+            },
+            {
+                description: 'Devletin temelinin adalet olduğu inancıyla; hukukun üstünlüğünü, yargı bağımsızlığını, kuvvetler ayrılığını benimsemek ve hukuk devleti idealini gerçekleştirmek'
+            },
+            {
+                description: 'Düşünce ve ifade özgürlüğünü akademi, medya ve sosyal medya başta olmak üzere toplumsal yaşamın her alanında korumak, farklı yaşam tarzlarına, inanç biçimlerine saygı duymak'
+            },
+            {
+                description: 'Başta cinsiyetçi ayrımcılık olmak üzere her türden ayrımcılığa karşı çıkmak, mücadele etmek, kadın haklarını her alanda koşulsuz korumak ve savunmak'
+            },
+            {
+                description: 'Toplumun en önemli görevinin çocukları korumak ve yetiştirmek gerçeğinden hareket ederek, evrensel çocuk hakları doğrultusunda politikalar geliştirmek'
+            },
+            {
+                description: 'Çağdaş ve bilimsel eğitim politikalarının, geleceğimizin teminatı gençliğin yetişmesinde en önemli unsur olduğunu bilmek; genç kuşakların, yaşamın her alanında başarılı olabilmeleri için gerekli politika ve düzenlemeleri hayata geçirmek'
+            },
+            {
+                description: 'Gelişmenin ve kalkınmanın bilim, teknoloji ve inovasyon ile gerçekleşeceğini bilmek ve buna uygun sürdürülebilir ekonomi ve kalkınma stratejileri uygulamak'
+            },
+            {
+                description: 'Liyakat ilkesini kamu yönetiminin merkezine almak'
+            },
+            {
+                description: 'Devletin planlayıcı rolünüartırmak'
+            },
+            {
+                description: 'Katılımcı ve şeffaf bir yerel yönetim anlayışı geliştirmek'
+            },
+            {
+                description: 'Üniversitelerin idari, mali ve akademik özerkliğini sağlamak'
+            },
+            {
+                description: 'Gençlerin karşısına çıkan fiziksel, ekonomik, toplumsal ve dijital engelleri, internet ortamındaki sansür ve yasakları kaldırmak'
+            },
+            {
+                description: 'Bilim, kültür, sanat ve spora hak ettiği değeri vermek'
+            },
+            {
+                description: 'Dezavantajlı bireyler ve sosyal gruplar için devletin sosyal hizmet veren kurumlarını güçlendirmek'
+            },
+            {
+                description: 'Gezegeni ve ekosistemi korumak'
+            },
+            {
+                description: 'Küresel iklim değişikliğiyle mücadelede aktif rol üstlenmek ve yenilenebilir enerji kaynaklarına öncelik tanımak'
+            },
+            {
+                description: 'Öngörülemeyen koşullar(pandemi, deprem, kaza vb.) karşısında yurttaşlarını güvencesiz bırakmayacak sosyal politikalar geliştirmektir'
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkiyealtincagpartisi' },
+        partyInfo: {
+            name: 'TÜRKİYE ALTIN ÇAĞ PARTİSİ',
+            shortname: 'TAÇ',
+            established: '31.05.2021',
+            founder: 'Mehmet Sadık İZOL',
+            address: 'İlkbahar mah. 606 sk. Turan Güneş Bulvarı sit. No: 13 / B Çankaya/ANKARA',
+            internet_address: 'https://tacparti.org.tr/',
+            public_relation: '',
+            current_member: '28',
+            president: 'Mehmet Sadık İZOL',
+            facebook: '',
+            twitter: '',
+            phone: '03124901921',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'yenidendirilispartisi' },
+        partyInfo: {
+            name: 'YENİDEN DİRİLİŞ PARTİSİ',
+            shortname: '',
+            established: '08.06.2021',
+            founder: 'Nihat KARATAŞ',
+            address: 'Gazi Mustafa Kemal Bulvarı No: 29/13 Kızılay Çankaya/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '0',
+            president: 'Nihat KARATAŞ',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'tugrapartisi' },
+        partyInfo: {
+            name: 'TUĞRA PARTİSİ',
+            shortname: 'TP',
+            established: '28.06.2021',
+            founder: 'Hatice ÇELİK İLKÖZEN',
+            address: 'Oğuzlar Mah. Barış Manço Cad. 1388. Sok. No: 52/5-6 Balgat Çankaya/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '94',
+            president: 'Hatice ÇELİK İLKÖZEN',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'aydinlikdemokrasipartisi' },
+        partyInfo: {
+            name: 'AYDINLIK DEMOKRASİ PARTİSİ',
+            shortname: '',
+            established: '03.08.2021',
+            founder: 'Salih Önel',
+            address: 'Cumhuriyet Mahallesi Tuna Caddesi No:8/21 Çankaya/ANKARA',
+            internet_address: 'https://www.adp.com.tr/',
+            public_relation: '',
+            current_member: '162',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'zaferpartisi' },
+        partyInfo: {
+            name: 'ZAFER PARTİSİ',
+            shortname: '',
+            established: '26.08.2021',
+            founder: 'Ümit ÖZDAĞ',
+            address: 'Nasuh Akar Mahallesi 1400. Cadde No:10 Çankaya/ANKARA',
+            internet_address: 'https://zaferpartisi.org.tr/',
+            public_relation: '',
+            current_member: '2381',
+            president: 'Ümit ÖZDAĞ',
+            facebook: 'https://www.facebook.com/ZaferPartisi/',
+            twitter: 'https://twitter.com/zaferpartisi',
+            phone: '0312 285 17 70',
+        },
+        partyPurposes: [
+            {
+                description: "Türk Milleti’nin ülkesi ve devleti ile bölünmez bütünlüğünün Atatürk çizgisinde Türk milliyetçiliği çerçevesinde her ne koşulda olursa olsun korunmasını ilke edinir."
+            },
+            {
+                description: "Mustafa Kemal Atatürk’ün ilke ve inkılaplarının esas alınmasını, Mustafa Kemal Atatürk’ün temel hedefi olan Türkiye Cumhuriyeti Devleti’ni muasır medeniyetler seviyesine çıkarmayı amaçlar."
+            },
+            {
+                description: "Türkiye Cumhuriyeti Devleti Anayasası’nın ilk dört maddesini koruduğu değerlerin vazgeçilmez olduğu bilinciyle, Anayasa’nın öngördüğü demokratik,laik ve sosyal bir hukuk devleti olarak, din ve vicdan hürriyetine sahip kişilerden oluşan toplumun refah içerisinde yaşamasını temin eden, kanun önünde eşitlik ve insan haklarına dayalı yönetim ilkelerini benimser"
+            },
+            {
+                description: "Kanun önünde eşitlik ilkesini Parti içerisinde koşulsuz olarak uygulayarak, özellikle kadınların ve gençlerin Parti içerisinde aktif rol alabilmelerini sağlamak amacıyla gerekli tedbirler alınır."
+            },
+            {
+                description: "Cumhuriyetin ve demokrasinin vazgeçilmez olduğunu düşünür, bu bağlamda egemenliğin kayıtsız şartsız Türk Milleti’ne ait olduğunu, egemenlik yetkisinin ise kuvvetler ayrılığı ilkesine uygun olarak kullanılmasını savunur."
+            },
+            {
+                description: "Yargı organlarının bağımsızlığı ve tarafsızlığını Türkiye Cumhuriyeti Devleti’nin varlığını sürdürülebilmesi açısından zorunlu unsurlar olarak görür"
+            },
+            {
+                description: "Demokratik toplumun gereklerini yerine getirebilmek amacıyla, öncelikle Parti içi demokrasinin uygulanmasını temin eder"
+            },
+            {
+                description: "Türk Milleti’nin ortak kültür mirasının korunması en temel amaçları arasındadır.Bunun için, bu konuyla ilgili geçmişte yapılmış çalışmaları korur, bu çalışmaların geliştirilmesi ve iyileştirilmesi için çaba sarf eder.Ortak mirasın korunması maksadıyla günümüzde yapılan ve gelecekte yapılacak çalışmaları destekler."
+            },
+            {
+                description: "Bilim, sanat gibi değerleri Türk Milleti’nin asırlardır taşıdığı kıymet hükümlerini esas alarak Türkiye Cumhuriyeti Devleti’ni muasır medeniyetler seviyesine yükseltecek vazgeçilmez unsurlar olarak görür."
+            },
+            {
+                description: "İnsanın onurlu bir yaşam sürmesi için refah içerisinde yaşamasını bir zorunluluk kabul ederek refah seviyesinin artması için gerekli tüm ekonomik ve siyasi önlemlerin alınmasını temel alır.Bu hususu ise sosyal devlet ilkesine uygun olarak gerçekleştirir."
+            },
+            {
+                description: "İnsan Hakları Evrensel Beyannamesi ile Avrupa İnsan Hakları Sözleşmesindeki temel hakları tanır, bu hakların kişilere tanınması, korunması için mücadele eder."
+            },
+            {
+                description: "Mustafa Kemal Atatürk’ün “Yurtta barış,dünyada barış!” sözünü şiar edinir.Bu çerçevede, öncelikle Türk Dünyası olmak üzere, komşuları ve eğer ülkelerle iyi ilişkiler geliştirmeyi amaçlar."
+            },
+            {
+                description: "Engellilerin ve dezavantajlı grupların haklarını korur ve bu kişilerin toplumsal hayata katılmalarını teşvik eder."
+            },
+            {
+                description: "Tüm seçimlerinde ve işlemlerinde liyakate önem verir.Toplumun değişik kesimlerinden insanları temsil eden sivil toplum kuruluşları ile görüşmeler gerçekleştirerek, alacağı kararlarda bu kuruluşların görüşlerini göz önünde bulundurur."
+            },
+            {
+                description: "Gençliğin demokratik ve siyasal haklarını kullanabilmesi için Partinin tüm kademelerinde aktif rol almasını teşvik ederek, karşı karşıya kaldıkları işsizlik gibi her türlü sorunlarına çözüm üretmek, çocukların ve gençlerin, teknolojiden en üst seviyede yararlanacakları şekilde, bilimsel ve kaliteli bir eğitim almalarını sağlayarak, tüm topluma katkıda bulunabilmeleri adına bilim üretmelerini teşvik edecek her türlü desteği sağlamayı amaç edinir. Bu çerçevede gençlerin refah seviyesinin artmasını hedefleyerek, beyin göçünü engellemek, tüm milli değerlerimizin bilincinde, geçmişe saygıyla, geleceğe umutla bakan gençlerin yetişmesi için tüm düzenlemeleri hayata geçirerek, çocuklara karşı uygulanan şiddeti ve çocukların istismarını ve cinsel tacizini kesin olarak önlemek amacıyla gerekli tüm çalışmaları yapmayı amaçlar"
+            },
+            {
+                description: "Doğanın korunmasının insanı koruma olduğunun bilinciyle, başta rant için doğanın talan edilmesinin engellenmesi olmak üzere, doğa için mücadele vermek, hayvanların yaşama ve eziyet görmeme haklarının doğal haklar olduğu hususunu tüm topluma yaymaya çalışır ve bu hakların korunması amacıyla gerekli tüm tedbirlerin uygulanmasını sağlar."
+            },
+            {
+                description: "Yalnızca kadın cinsiyetine mensup olmaktan kaynaklı uygulanan ayrımcılıkla mücadele ederek, kadına karşı şiddet, cinsel taciz ve istismarın toplum nezdinde bitirilebilmesi için çalışmalar yapar, bu çerçevede Partinin tüm organlarında kadınların aktif olarak görev almasını teşvik eder."
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'bagimsizlikpartisi' },
+        partyInfo: {
+            name: 'BAĞIMSIZLIK PARTİSİ',
+            shortname: 'BAP',
+            established: '07.09.2021',
+            founder: 'MUSTAFA SABRİ SİPAHİOĞLU',
+            address: 'Kızılay Mah. GMK Cd. Esetel Apt. Sit. No:18/15 Çankaya/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '33',
+            president: 'MUSTAFA SABRİ SİPAHİOĞLU',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'liberalparti' },
+        partyInfo: {
+            name: 'LİBERAL PARTİ',
+            shortname: 'LP',
+            established: '08.09.2021',
+            founder: 'SÜLEYMAN HALİD SOYSAL',
+            address: 'Kocatepe Mahallesi Meşrutiyet Caddesi No:23/4 Kızılay/Çankaya/Ankara',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: 'SÜLEYMAN HALİD SOYSAL',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'millibirlikvegelisimpartisi' },
+        partyInfo: {
+            name: 'MİLLİ BİRLİK VE GELİŞİM PARTİSİ',
+            shortname: '',
+            established: '14.09.2021',
+            founder: 'Turgut Cumhur ŞANLI',
+            address: 'Kızılay Mahallesi Necatibey Caddesi No: 51/6 Kat 3 Çankaya Ankara',
+            internet_address: '',
+            public_relation: '',
+            current_member: '67',
+            president: 'Turgut Cumhur ŞANLI',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'adaletinaydinligipartisi' },
+        partyInfo: {
+            name: 'ADALETİN AYDINLIĞI PARTİSİ',
+            shortname: '',
+            established: '16.09.2021',
+            founder: 'Altuğ ERGÜZEL',
+            address: 'Demetlale Mah. İvedik Cd. No: 87/C Yenimahalle/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: 'Altuğ ERGÜZEL',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'vatansevenlerpartisi' },
+        partyInfo: {
+            name: 'VATAN SEVERLER PARTİSİ',
+            shortname: 'ADAY',
+            established: '20.09.2021',
+            founder: 'YILMAZ GÜLÜMSER',
+            address: 'Ehlibeyt Mahallesi Ceyhun Atuf Kansu Caddesi No:129/2 Balgat Çankaya/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: 'YILMAZ GÜLÜMSER',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'alsancakpartisi' },
+        partyInfo: {
+            name: 'AL SANCAK PARTİSİ',
+            shortname: 'AL SANCAK',
+            established: '30.09.2021',
+            founder: 'Nuri ÇELEBİ',
+            address: 'Oğuzlar Mah. 1397. Cd. No:11/1 Çankaya/ANKARA',
+            internet_address: 'https://alsancak.org.tr/',
+            public_relation: '',
+            current_member: '98',
+            president: 'Nuri ÇELEBİ',
+            facebook: 'https://www.facebook.com/AlSancakPartisi',
+            twitter: 'https://twitter.com/AlSancakPartisi',
+            phone: '0850 777 1453',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'yukselispartisi' },
+        partyInfo: {
+            name: 'YÜKSELİŞ PARTİSİ',
+            shortname: 'YÜKSELİŞ',
+            established: '21.10.2021',
+            founder: 'NAİL ÇAKIR',
+            address: 'MALTEPE MAH. GMK BLV. NO: 67 / 4 ÇANKAYA/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: 'NAİL ÇAKIR',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkiyegenclikpartisi' },
+        partyInfo: {
+            name: 'TÜRKİYE GENÇLİK PARTİSİ',
+            shortname: '',
+            established: '03.11.2021',
+            founder: 'Mesut KAPAR',
+            address: 'NASUH AKAR MAH. 1403 SK. NO: 6 / 2 ÇANKAYA/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: 'Mesut KAPAR',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'dayatmasizyasampartisi' },
+        partyInfo: {
+            name: 'DAYATMASIZ YAŞAM PARTİSİ',
+            shortname: '',
+            established: '17.11.2021',
+            founder: 'Hacı Ali ÖZHAN',
+            address: 'MEŞRUTİYET MAH. SELANİK CD. NO: 48/10 ÇANKAYA/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: 'Hacı Ali ÖZHAN',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'adaletveozgurlukpartisi' },
+        partyInfo: {
+            name: 'ADALET VE ÖZGÜRLÜK PARTİSİ',
+            shortname: '',
+            established: '18.11.2021',
+            founder: 'Abdülcelil Gülap',
+            address: 'ANAFARTALAR MAH. RÜZGARLI CD. NO: 7 / 30 ALTINDAĞ/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: 'Abdülcelil Gülap',
+            facebook: 'https://www.facebook.com/adaletveozgurlukpartisi/',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'milliyolpartisi' },
+        partyInfo: {
+            name: 'MİLLİ YOL PARTİSİ',
+            shortname: 'MİLLİ YOL',
+            established: '14.12.2021',
+            founder: 'Remzi ÇAYIR',
+            address: 'ZÜBEYDE HANIM MAH. AKÇAY CAD. NO: 13 ALTINDAĞ/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '489',
+            president: 'Remzi ÇAYIR',
+            facebook: '',
+            twitter: '',
+            phone: '0312 543 58 44',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'sahlanispartisi' },
+        partyInfo: {
+            name: 'ŞAHLANIŞ PARTİSİ',
+            shortname: '',
+            established: '10.01.2022',
+            founder: 'Murat ALTUN',
+            address: 'AYYILDIZ MAH. 1631 CAD. NO: 3/13 ELVANKENT ETİMESGUT/ANKARA',
+            internet_address: 'http://www.sahlanishareketi.com/',
+            public_relation: '',
+            current_member: '',
+            president: 'Mehmet Mahmut YILDIZ',
+            facebook: 'https://www.facebook.com/T%C3%BCrkiye-%C5%9Eahlan%C4%B1%C5%9F-Hareketi-562060387243045',
+            twitter: '',
+            phone: '0541 904 52 52',
+        },
+        partyPurposes: [
+
+        ],
+    },
+
 ]
 
 export { turkeyPartiesDetails };
