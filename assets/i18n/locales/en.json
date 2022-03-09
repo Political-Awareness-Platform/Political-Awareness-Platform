@@ -28,17 +28,31 @@
         "PartyPurposesTitle":"Party Purposes",
         "CommentSectionTitle":"Comments"
     },
-    "PositiveCommentSection": {
+    "CountryPCS": {
         "TheTopDesireListTitle":"The Top Desires",
         "DesiredList":"Desires from a Political Party",
         "InputterButtonMessage":"What is the party must do best?",
         "InputterSubmitButton":"Submit",
         "InputterCloseButton": "Close"
     },
-    "NegativeCommentSection": {
+    "CountryNCS": {
         "TheTopDesireListTitle": "Top 5 Must Avoid Things for a Political Party",
         "DesiredList": "Avoids for a Political Party",
         "InputterButtonMessage": "What is the party must avoid most?",
+        "InputterSubmitButton": "Submit",
+        "InputterCloseButton": "Close"
+    },
+    "PartyPCS": {
+        "TheTopDesireListTitle": "Top 5 Positive Comments",
+        "DesiredList": "Positive Comments",
+        "InputterButtonMessage": "What does the best thing this party do?",
+        "InputterSubmitButton": "Submit",
+        "InputterCloseButton": "Close"
+    },
+    "PartyNCS": {
+        "TheTopDesireListTitle": "Top 5 Negative Comments",
+        "DesiredList": "Negative Comments",
+        "InputterButtonMessage": "What does the worst thing this party do?",
         "InputterSubmitButton": "Submit",
         "InputterCloseButton": "Close"
     },

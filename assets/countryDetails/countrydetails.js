@@ -13,7 +13,7 @@ const countriesDetails = [
         parties: bulgariaPartiesDetails
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'imaginary', active_parties: 83, parties_in_parlament: 11, number_of_voters: '57.058.636', contribution: '84.67%' },
+        partyDetails: { country: 'turkey', dbcode: 'imaginary', active_parties: 120, parties_in_parlament: 11, number_of_voters: '57.058.636', contribution: '84.67%' },
         parties: turkeyPartiesDetails
     },
     {

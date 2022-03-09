@@ -9,7 +9,7 @@
           <a v-show="partyTwitter" :href="partyTwitter" target="_blank"><img src="~assets/logos/twittericon.svg" alt="twitter-icon" class="icon" width="42px" height="42px" /></a>
         </div>
       </div>
-      <div class="no_flag_display" v-else> 
+      <div v-else class="no_flag_display"> 
         <p>🤷‍♂ No Image</p>
       </div>
       <div class="party_stats">

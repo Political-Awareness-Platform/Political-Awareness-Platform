@@ -28,17 +28,31 @@
         "PartyPurposesTitle": "Partinin Amaçları",
         "CommentSectionTitle": "Yorumlar"
     },
-    "PositiveCommentSection": {
+    "CountryPCS": {
         "TheTopDesireListTitle": "En çok istenen 5 şey",
         "DesiredList": "İsteneler",
         "InputterButtonMessage": "Sizce bir partinin en iyi yapması gereken şey nedir?",
         "InputterSubmitButton": "Gönder",
         "InputterCloseButton": "Kapat"
     },
-    "NegativeCommentSection": {
+    "CountryNCS": {
         "TheTopDesireListTitle": "Asla yapılmaması gerekli 5 şey",
         "DesiredList": "Yapılması İstenmeyenler",
         "InputterButtonMessage": "Sizce bir partinin en uzak durması gereken şey nedir?",
+        "InputterSubmitButton": "Gönder",
+        "InputterCloseButton": "Kapat"
+    },
+    "PartyPCS": {
+        "TheTopDesireListTitle": "En Pozitif 5 Yorum",
+        "DesiredList": "Pozitif Yorumlar",
+        "InputterButtonMessage": "Sizce bu partinin en iyi yaptığı şey nedir?",
+        "InputterSubmitButton": "Gönder",
+        "InputterCloseButton": "Kapat"
+    },
+    "PartyNCS": {
+        "TheTopDesireListTitle": "En Negatif 5 Yorum",
+        "DesiredList": "Negatif Yorumlar",
+        "InputterButtonMessage": "Sizce bu partinin en kötü yaptığı şey nedir?",
         "InputterSubmitButton": "Gönder",
         "InputterCloseButton": "Kapat"
     },

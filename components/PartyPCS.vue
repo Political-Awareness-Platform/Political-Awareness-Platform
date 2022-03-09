@@ -2,7 +2,7 @@
   <section class="comments-section">
 
     <div class="top-comments">
-      <h4 style=" margin: 1em auto; text-align:center;">{{ $t('PositiveCommentSection.TheTopDesireListTitle') }}</h4>
+      <h4 style=" margin: 1em auto; text-align:center;">{{ $t('PartyPCS.TheTopDesireListTitle') }}</h4>
       <ul class="top-comment-list">
         <li class="comment" v-for="comment in positivecommentListTop" :key="comment.id">
           <span class="votes">🤞 {{ comment.doc.like }}</span> {{ comment.doc.positivecomment }}
@@ -10,9 +10,9 @@
       </ul>
     </div>
    
-    <PositiveCommentInputter :country="this.countryofParty" :dbcode="this.dbofParty" />
+    <PartyPositiveCommentInputter :country="this.countryofParty" :dbcode="this.dbofParty"  />
 
-    <h4 style="margin: 2em auto; text-align: center">{{ $t('PositiveCommentSection.DesiredList') }}</h4>
+    <h4 style="margin: 2em auto; text-align: center">{{ $t('PartyPCS.DesiredList') }}</h4>
     
     <ul class="comment-list">
       <span v-show="alert" class="double-like-alert">You already liked it</span>
@@ -37,7 +37,9 @@ export default {
       positivecommentListTop: [],
       countryofParty: '',
       dbofParty: '',
-      alert: false
+      alert: false,
+      showModalPositive: false,
+      positivecomment: "",
     }
   },
   async fetch() {

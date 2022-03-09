@@ -18,11 +18,11 @@ const fireDB = firebase.firestore()
 const fireAuth = firebase.auth()
 const fireFunc = firebase.functions()
 
-if (process.client && window.location.hostname === "localhost") {
+if (process.client && (window.location.hostname === "localhost" || window.location.hostname.includes("192.168"))) {
   fireDB.useEmulator("localhost", 8080);
   fireAuth.useEmulator("http://localhost:9099");
   fireFunc.useEmulator("localhost", 5001);
 }
 
 
-export { fireDB, fireAuth, fireFunc }
+export { firebase, fireDB, fireAuth, fireFunc }

@@ -90,3 +90,5 @@ sw.*
 *.swp
 
 # Firebase files
+firebase-emulator-development-mock-data/auth_export
+firebase-emulator-development-mock-data/firestore_export
