@@ -1,10 +1,9 @@
-# Political Awareness Platform
-
+#[Political Awareness Platform](https://politicalawarenessplatform.com/)
 ## Tech Stack
 
 Nuxtjs - Firebase - Netlify
 ## Development Setup ( In Progress for a better developer experience)
-You still need to set up Firestore, Firebase Auth and Firebase Functions. @emretinaz still working on firebase local development setup. 
+You may use Firebase Emulator for local development setup.
 ```bash
 # install dependencies
 $ npm install
@@ -18,6 +17,9 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# to run Firebase Emulator
+$ npm run dev-fes
 ```
 
 ## We are pleased you are on this page and willing to contribute to this platform and make it even better. 
@@ -37,6 +39,6 @@ You still can help translation of the platform even you don't how to how to code
 
 As an NGO (not yet), we receive enormous support from individuals who work on this project to make it better for citizens and political parties. There are also dedicated employees who work enormously to develop the platform better, accessible and striking everyone. For the sustainability of the project, we need donations and sponsors to cover our expenses and the expenses of our platform contributors.  
 
-We encounter transparency very seriously and work with OpenCollective to make our finance public. 
+We encounter transparency very seriously and work with [OpenCollective - Political Awareness Platform](https://opencollective.com/political-awareness-platform)  to make our finance public. 
 
 We are delighted to support our sponsors and donators logo on our platform respectively and represent the public know who cares/supports the sustainability of the platform.

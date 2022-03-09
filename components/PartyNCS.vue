@@ -1,7 +1,7 @@
 <template>
   <section class="comments-section">
     <div class="top-comments">
-    <h4 style=" margin: 1em auto; text-align:center;">{{ $t('NegativeCommentSection.TheTopDesireListTitle') }}</h4>
+    <h4 style=" margin: 1em auto; text-align:center;">{{ $t('PartyNCS.TheTopDesireListTitle') }}</h4>
     <ul class="top-comment-list">
       <li class="comment" v-for="comment in negativecommentListTop" :key="comment.id">
         <span class="votes">⛔️  {{ comment.doc.like }}</span> {{ comment.doc.negativecomment}}
@@ -9,9 +9,9 @@
     </ul>
     </div>
     
-    <NegativeCommentInputter :country="this.countryofParty" :dbcode="this.dbofParty" />
+    <PartyNegativeCommentInputter :country="this.countryofParty" :dbcode="this.dbofParty" />
 
-    <h4 style="margin: 1em auto; text-align: center">{{ $t('NegativeCommentSection.DesiredList')}}</h4>
+    <h4 style="margin: 1em auto; text-align: center">{{ $t('PartyNCS.DesiredList')}}</h4>
     <ul class="comment-list">
       <span v-show="alert" class="double-like-alert">You already liked it</span>
       <li class="comment" v-for="comment in negativecommentList" :key="comment.id" @dblclick="commentLikeIncrementer(comment.id, 'negativeComments')" >

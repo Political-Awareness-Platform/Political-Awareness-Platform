@@ -28,17 +28,31 @@
         "PartyPurposesTitle": "Politische Parteizwecke",
         "CommentSectionTitle": "Bemerkungen"
     },
-    "PositiveCommentSection": {
+    "CountryPCS": {
         "TheTopDesireListTitle": "Top 5 der gewünschten Dinge einer politischen Partei",
         "DesiredList": "Gewünschte Dinge von einer politischen Partei",
         "InputterButtonMessage": "Was muss die Partei am besten?",
         "InputterSubmitButton": "Einreichen",
         "InputterCloseButton": "Schließen"
     },
-    "NegativeCommentSection": {
+    "CountryNCS": {
         "TheTopDesireListTitle": "Top 5 müssen Dinge für eine politische Partei vermeiden",
         "DesiredList": "Dinge für eine politische Partei",
         "InputterButtonMessage": "Was muss die Partei am meisten vermeiden?",
+        "InputterSubmitButton": "Einreichen",
+        "InputterCloseButton": "Schließen"
+    },
+    "PartyPCS": {
+        "TheTopDesireListTitle": "Top 5 Positive Kommentare",
+        "DesiredList": "Positive Kommentare",
+        "InputterButtonMessage": "Was ist das Beste, was diese Partei macht?",
+        "InputterSubmitButton": "Einreichen",
+        "InputterCloseButton": "Schließen"
+    },
+    "PartyNCS": {
+        "TheTopDesireListTitle": "Top 5 Negative Kommentare",
+        "DesiredList": "Negative Kommentare",
+        "InputterButtonMessage": "Was ist das Schlimmste, was diese politische Partei tut?",
         "InputterSubmitButton": "Einreichen",
         "InputterCloseButton": "Schließen"
     },
