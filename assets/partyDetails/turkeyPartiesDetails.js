@@ -1,428 +1,191 @@
 const turkeyPartiesDetails = [
     {
-        partyDetails: { country: 'turkey', dbcode: 'adaletbirlikpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'demokratparti' },
         partyInfo: {
-            name: 'Adalet Birlik Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
+            name: 'DEMOKRAT PARTİ',
+            shortname: 'DP',
+            established: '23.06.1983',
+            founder: 'Gültekin UYSAL',
+            address: 'DR.SADIK AHMET CADDESİ N0:3 BALGAT/ANKARA',
+            internet_address: 'https://www.dp.org.tr/',
             public_relation: '',
-            current_member: '',
+            current_member: '402.194',
             president: '',
             facebook: '',
             twitter: '',
-            phone: '',
+            phone: '0248 86 00',
         },
         partyPurposes: [
-
+            {
+                description: "Türkiye Cumhuriyeti Devleti’nin vatan ve millet bütünlüğüne sahip çıkmak ve korumak"
+            },
+            {
+                description: "Toplumun huzuru, milli dayanışma ve adalet anlayışı içinde, insan haklarına dayalı olarak demokratik, laik ve sosyal bir hukuk devleti olan Türkiye Cumhuriyeti’ni korumaya ve yüceltmeye çalışmak"
+            },
+            {
+                description: "Atatürk ilke ve inkılâplarını korumak ve yaşatmak"
+            },
+            {
+                description: "“Egemenlik Kayıtsız Şartsız Milletindir” ilkesini bütün unsurları ile hâkim kılmayı, çok partili demokrasiyi korumayı ve yaşatmayı temel görev bilmek"
+            },
+            {
+                description: "Cumhuriyetimizi ve hür demokratik düzeni, her türlü yıkıcı, ayırıcı ve bölücü akımlara karşı korumaya ve güçlendirmeye çalışmak"
+            },
+            {
+                description: "Milletimizin çağdaş uygarlık düzeyine ulaşması için, hürriyet içinde kalkınmayı medeniyetçi, hamleci ve ıslahatçı bir ruhla gerçekleştirmek"
+            },
+            {
+                description: "Milli refahı yükseltmek yükselen milli refahtan, her yurttaşın faydalanabilmesini sağlayacak sosyal adalet ve sosyal güvenlik sistemlerini gerçekleştirmek, işsizliği, fakirliği, çaresizliği ve cehaleti ortadan kaldırmak"
+            },
+            {
+                description: "Milletimizin, Türkiye Cumhuriyeti Anayasası, İnsan Hakları Beyannamesi ve Avrupa İnsan Hakları Sözleşmesinde ifadesini bulan temel hak ve hürriyetler ile tarihi, milli ve manevi değerlerini korumak, geliştirmek ve güçlendirmek"
+            },
+            {
+                description: "Türk milletinin demokrasiye olan inancını ve bağlılığını koruyup geliştirmek ve Devletin bu inanç ve bağlılıktan kaynaklanan demokratik otoritesini sağlamlaştırmak, "
+            },
+            {
+                description: "Bu tüzük ve parti programında yazılı diğer hususları gerçekleştirmek, amacı ile kurulmuştur"
+            },
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'adaletpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'milliyetcihareketparti' },
         partyInfo: {
-            name: 'Adalet Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'adaletvekalkinmapartisi' },
-        partyInfo: {
-            name: 'Adalet ve Kalkinma Partisi',
-            shortname: 'AK Parti',
-            established: 'August 14, 2001',
-            founder: 'Recep Tayyip Erdoğan',
-            address: 'Söğütözü Caddesi No 6 Çankaya, Ankara',
-            internet_address: 'https://www.akparti.org.tr/',
-            public_relation: 'Ömer Çelik',
-            current_member: '11.089.543',
-            president: 'Recep Tayyip Erdoğan',
-            facebook: 'https://www.facebook.com/akparti',
-            twitter: 'https://twitter.com/akparti',
-            phone: '(0312) 204 50 00',
+            name: 'Milliyetci Hareket Partisi',
+            shortname: 'MHP',
+            established: '07.07.1983',
+            founder: 'Basbug Alparslan Turkes',
+            address: 'Ceyhun Atuf Kansu Caddesi No: 128 Balgat, Ankara',
+            internet_address: 'http://www.mhp.org.tr',
+            public_relation: '?',
+            current_member: '479.199',
+            president: 'Devlet Bahceli',
+            facebook: 'http://www.facebook.com/milliyetcihareketpartisi',
+            twitter: 'http://twitter.com/#!/dbdevletbahceli',
+            phone: '+90 312 472 55 55',
         },
         partyPurposes: [
             {
                 description:
-                    'Türk Milleti’nin en önemli yönetim kazanımının, Cumhuriyet olduğuna ve egemenliğin, kayıtsız ve şartsız milletimize ait bulunduğuna inanır. “Milli irade”nin tek belirleyici güç olduğunu kabul eder. Millet adına egemenlik yetkisi kullanan kurumların ve kişilerin gözetmeleri gereken en üstün gücün ise, hukukun üstünlüğü ilkesi olduğunu savunur. Akıl, bilim ve tecrübenin yol gösterici olduğunu benimser. Milli irade, hukukun üstünlüğü, akıl, bilim, tecrübe, demokrasi, bireyin temel hak ve özgürlükleri ve ahlakiliği, siyasi yönetim anlayışının temel referansları olarak kabul eder.',
+                    'Meşruiyeti milli irade olan, insan odaklı, seviyeli, ilkeli, dürüst bir siyaset anlayışı ile adaleti ve hakkaniyeti esas alan bir yönetim anlayışını tesis etmek; toplumsal barış ve huzuru hâkim kılmak',
             },
             {
                 description:
-                    'Türk Milleti’nin Ülkesi ve Devletiyle bölünmez bütünlüğünü savunur. Geçmişten gelen değerlerimizi koruyarak, Cumhuriyetimizin kurucusu Mustafa Kemal Atatürk’ün gösterdiği muasır medeniyet seviyesine ulaşmak ve hatta onu aşabilmek için ikinci maddede açıklanan normlar ve genel kabullere uygun faaliyetlerde bulunmayı, siyasi hayatın zemini kabul eder.',
+                    'Yüce Türk Milletinin milli ve manevi değerleri ile tarihi ve kültürel zenginliklerine sahip çıkmak',
             },
             {
                 description:
-                    '“insan” merkezli siyasi bir Partidir. En üstün hizmetin, insana hizmet olduğuna inanır. İnsanın mutluluğu, huzuru, güveni ve sağlığı çalışmalarının hedefini teşkil eder. Bütün insanlarımızı, “Türkiye” coğrafyasında kurulu “Türkiye Cumhuriyeti Devleti” ismi altında büyük bir aile, diğer devletleri kendi sınırları içinde komşu aileler olarak kabul eder. Sulh içinde bir arada yaşamanın, insana verilen değerle mümkün olacağına inanır',
+                    'Devletin, ülkesi ve milletiyle bölünmez bütünlüğünü, hak ve menfaatlerini korumak,',
             },
             {
                 description:
-                    ' insanların farklı inanç, düşünce, ırk, dil, ifade etme, örgütlenme ve yaşama gibi doğuştan var olan tüm haklara sahip olduklarını bilir ve saygı duyar. Farklı olmanın ayrışma değil, pekiştirici kültürel zenginliğimiz olduğunu kabul eder',
+                    'İnançlı, yüksek ahlaklı ve çağın gerektirdiği niteliklere sahip nesiller yetiştirmek',
             },
             {
                 description:
-                    'birey-devlet ilişkilerinde, demokratik toplum olmanın gereklerine uygun düşmeyen yaklaşımları ve her türlü ayırımcılığı reddeder. Devleti, bireye hizmet için, bireylerin oluşturduğu etkin bir hizmet kurumu olarak kabul eder',
+                    'Temel insan hak ve hürriyetlerini geliştirmek, hukukun üstünlüğünü hâkim kılmak, demokratik standartları yükseltmek,',
             },
             {
                 description:
-                    'milli iradenin egemen olabilmesinin, bütün siyasal hakların ancak özgür kullanımı ile mümkün olabileceğine, özgür siyasal hak kullanımının ise, çoğulcu ve katılımcı hür demokratik düzen içinde hayat bulabileceğine inanır.',
+                    'Hürriyet, adalet, hakkaniyet ve fırsat eşitliğini esas alan, milli, insani ve ahlaki değerlerin ön plana çıktığı siyasi ve toplumsal düzen ile kültürel iklimi tesis etmek',
             },
             {
                 description:
-                    ' millet adına egemenlik yetkisi kullanan yasama, yürütme ve yargı erkleri ile devlet şeması içinde kamusal işlev gören bütün kişi, kurum ve kuruluşların; yetki kullanımlarında ve görev ifa etmelerinde, ikinci maddede atıf yapılan belgelerde yer alan hukuk devleti normlarına uygunluğu gözetir olmaları gereğini vurgular ve bu gerekliliğe uygunluğu, meşruiyetin esası kabul eder.',
+                    'Kardeşlik hukukunu ve dayanışma kültürünü geliştirmek, milli birlik ve bütünlüğü tesis etmek',
             },
             {
                 description:
-                    ' bireylerin inandıkları gibi yaşama, düşündükleri gibi ifade etme haklarının tartışılamaz olduğunu, inanç ve düşüncenin hukuka uygun olarak tanıtım ve propagandasının, bireylere ve sivil toplum kuruluşlarına ait bir hak ve yetki olduğunu, her bireyin her kurumda ve yaşamın her alanında eşit ve ortak hakları bulunduğunu, dolayısıyla devletin, hiç bir inanç ve düşünceden yana veya karşı tutum sergilememesi gerektiğini, Anayasa’da yer alan laiklik ve kanun önünde eşitlik ilkelerinin, bu anlayış ve bakışın güvencesini teşkil ettiğini vurgular. Devletin ve Parti tüzel kişiliğinin bu alanda yüklenebileceği işlevin, sadece hak kullanımlarını sağlayıcı ve güvence altına alıcı özgür ortam hazırlamaktan ibaret olması gereğini kabul eder. Temel hak ve özgürlüklerin, oylama konusu olamayacağını savunur',
+                    'Türk milletinin maddi ve manevi gelişmesi önündeki engelleri kaldırmak; dengeli ve adaletli bölüşüm sistemine dayanan bir gelir dağılımı oluşturmak,',
             },
             {
                 description:
-                    ' insanın, insanca yaşamasının yöntemi olan sosyal devlet anlayışının hayata geçirilmesine özel önem verir',
+                    'Yatırım ve istihdam kapasitesi yüksek, ileri teknolojiyi ve teşebbüs hürriyetini esas alan, uluslar arası rekabet gücüne sahip sürdürülebilir büyümeyi gerçekleştirecek bir ekonomi tesis etmek',
             },
             {
                 description:
-                    'ekonomik gelişmenin kaynağı ve hedefi olarak insanı esas kabul eder. Piyasa ekonomisinin, tüm kurum ve kurallarıyla tesisini amaçlar. Devletin ekonomi içindeki rolünü, düzenleyici ve gözetici fonksiyonları ile tanımlar. Gelir dağılımındaki dengesizliği ve işsizliği, ülkemizin en önemli sosyo ekonomik sorunu olarak görür. Küreselleşmenin meydana getirdiği fırsatlardan yararlanmak ve beraberinde getirdiği olumsuzluklardan korunmak amacıyla gereken yapısal dönüşümlerin gerçekleştirilmesini savunur.',
-            },
-            {
-                description:
-                    'aileyi Türk toplumunun temeli kabul eder. Geçmişle gelecek arasında köprü görevini yerine getiren aile kurumunun; milli değerlerimizin, duygularımızın, düşüncelerimizin ve ülkemize has adet ve geleneklerimizin yeni kuşaklara aktarılmasında en temel, en vazgeçilmez sosyal bir kurum olduğuna inanır.',
-            },
-            {
-                description:
-                    'herkesin ve özellikle gençliğin; güven içinde, gelişmiş, kalkınmış, refah düzeyi yüksek, her yönden güvenli bir Türkiye sevdalısı olma ülküsüne bağlı, moral değerlerle bezenmiş bireyler olmalarını önemser. Bu nedenle her düzeyde özgür, bilgi toplumu olma yolunda bilimsel araçlarla ve ilmi verilerle donatılmış bir eğitim, öğretim ve öğrenim anlayışını pratiğe geçirmeyi amaçlar.',
-            },
-            {
-                description:
-                    ' temsili demokrasinin çoğulcu, katılımcı, yarışmacı niteliğini önemser. Bu özelliklerin hayata geçirilmesinde verimli, kaliteli ve denetimli bir kamu yönetiminin kurulmasında, sürdürülmesinde, sivil toplum örgütlerinin önemine ve vazgeçilmezliğine inanır.',
-            },
-            {
-                description:
-                    'referandumu, halkımızın yönetim sürecine katılımını temin için etkili bir yöntem olarak benimser',
-            },
-            {
-                description:
-                    ' içte ve dışta güçlü duruşun adaletle mümkün olacağına inanır. Hukukun “güç”ten değil, “güç”ün hukuktan kaynaklandığı inancı ile her iş ve faaliyette doğrunun ve haklının egemen olmasını önleyici engelleri ortadan kaldırmayı, adil yargılanma hakkını ve hak arama özgürlüğünü bütün unsurları ile gerçekleştirmeyi, ülkemizi, onun sahibi insanlarımız için yaşanılır hale getirmeyi, her halükarda milletin ülkesini ve devletinin bağımsızlığını ve üniter yapısını korumayı amaçlar',
-            },
-            {
-                description:
-                    ' köklü devlet geleneğimizin üzerine bina edildiği “insanı yaşat ki devlet yaşasın” ilkesini, siyasetinin merkezi olarak görür. Milletin tüm fertleri, hiç bir ayrım gözetilmeksizin ülkemizin birinci sınıf vatandaşlarıdır. Türkiye Cumhuriyeti’nin tüm vatandaşları tek bir milleti teşkil eder. Bayrağımız bağımsızlığımızın ortak sembolüdür. Şehitlerimizin emaneti olan, milletimizin üzerinde yaşadığı, bayrağımızın özgürce dalgalandığı toprak, vatanımızdır. Devlet, milletimizin ortak eseridir. AK PARTİ, yukarda belirtilen temel amaç ve hedefler doğrultusunda, Tek Millet, Tek Bayrak, Tek Vatan, Tek Devlet anlayışını sarsılmaz bir ilke olarak kabul eder.',
+                    'Barış, mutluluk ve adaletin hâkim olduğu bir Dünya nizamının tesisinde ülkemizin söz sahibi olmasını sağlamak, suretiyle milletimizi çağın kudretli, itibarlı ve önder toplumlarından biri yapmak ve tarih sahnesinde ebedi kılmaktır.',
             }
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'anadolubirligipartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'milletpartisi' },
         partyInfo: {
-            name: 'Anadolu Birligi Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'anavatanpartisi' },
-        partyInfo: {
-            name: 'Anavatan Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'asparti' },
-        partyInfo: {
-            name: 'As Parti',
-            shortname: 'ASP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'aydinlikgeleceginpartisi' },
-        partyInfo: {
-            name: 'Aydinlik Gelecegin Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'ayyildizpartisi' },
-        partyInfo: {
-            name: 'Ayyildiz Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'bagimsizcumhuriyetpartisi' },
-        partyInfo: {
-            name: 'Bagimsiz Cumhuriyet Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'bagimsizturkiyepartisi' },
-        partyInfo: {
-            name: 'Bagimsiz Turkiye Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'barisveesitlikpartisi' },
-        partyInfo: {
-            name: 'Baris ve Esitlik Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'birlesikdevrimciparti' },
-        partyInfo: {
-            name: 'Birlesik Devrimci Parti',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'buyukbirlikpartisi' },
-        partyInfo: {
-            name: 'Büyük Birlik Partisi',
-            shortname: 'BBP',
-            established: '29 Ocak 1993',
-            founder: 'Muhsin Yazıcıoğlu',
-            address: 'Gazi Mah. Silahtar Cad. No: 90 Yenimahalle/Ankara',
-            internet_address: 'http://www.bbp.org.tr/',
-            public_relation: 'ÜNSAL KARABULUT',
-            current_member: '28.839',
-            president: 'Mustafa Destici',
-            facebook: 'https://www.facebook.com/BBPGenelMerkez/',
-            twitter: 'https://twitter.com/bbpgenelmerkez',
-            phone: '+90 312 434 09 20',
+            name: 'Millet Partisi',
+            shortname: 'MİLLET',
+            established: '23 November 1992',
+            founder: 'Aykut Edibali',
+            address: 'Atatürk Bulvarı No:72/37 Kat:10 Kızılay - Ankara',
+            internet_address: 'http://www.milletpartisi.org.tr/',
+            public_relation: '?',
+            current_member: '4,052',
+            president: 'Aykut Edibali',
+            facebook: 'https://www.facebook.com/milletpartisi',
+            twitter: 'https://twitter.com/milletpartisi',
+            phone: '312 419 40 60',
         },
         partyPurposes: [
             {
                 description:
-                    'Büyük Birlik Partisi, Türkiye Cumhuriyeti’nin temel değerlerine; Atatürk\'ün onurlu, tam bağımsızlıkçı ilkesine bağlı; evrensel hukuk çerçevesinde, temel insan hak ve ürriyetlerini kabul eden, demokratik meşruiyet anlayışı içerisinde, milli kültüre dayalı milliyetçiliği esas alan bir ülke ve devlet idaresini gaye edinmiştir.',
+                    'Parti, Anayasa ve kanunlara uygun olarak; milletvekili ve mahalli seçimler yoluyla, program ve tüzüğünde belirtilen görüşler doğrultusunda çalışma ve açık propaganda ile milli iradenin oluşmasını sağlamak, demokratik devlet ve toplum düzeni içinde ileri, mutlu ve çağdaş, çağdaş medeniyet seviyesini aşmış, müreffeh, mamur “Muhteşem Türkiye” hedefini gerçekleştirmek üzere kamu faaliyetlerini yönetmek, denetlemek ve etkilemek amacındadır.',
+            }
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'demokratiksolparti' },
+        partyInfo: {
+            name: 'Demokratik Sol Parti',
+            shortname: 'DSP',
+            established: '14 November 1985',
+            founder: 'Rahşan ve Bulent Ecevit',
+            address: 'Mareşal Fevzi Çakmak Cad.17, Beşevler - Ankara',
+            internet_address: 'https://www.dsp.org.tr/',
+            public_relation: '?',
+            current_member: '34,266',
+            president: 'Önder AKSAKAL',
+            facebook: 'https://www.facebook.com/dspgenelmerkez/',
+            twitter: 'https://twitter.com/DSPGenelMerkez',
+            phone: '+90 312 212 49 50',
+        },
+        partyPurposes: [
+            {
+                description:
+                    'Demokratik Sol Parti, insanca ve hakça gelişmeyi dirlik düzen içinde hızlandırarak, Türkiye’yi Atatürk Devrimi ve İlkeleri doğrultusunda çağdaş uygarlık düzeyinin üstüne eriştirmeyi; demokrasiye her alanda geçerlilik kazandırmayı; insan haklarını ve özgürlükleri sağlam güvencelere dayandırarak genişletmeyi; halk katılımının her alanda sürekli ve etkili olmasını sağlayarak ulusal egemenliği pekiştirmeyi amaçlayan; hukukun ve emeğin üstünlüğünü; toplumda ve uluslararasında eşitliği, adaleti ve dayanışmayı; ulusal bağımsızlığı ve Türkiye Cumhuriyeti Devleti’nin ulusu ve ülkesiyle bölünmez bütünlüğünü gözeten; yurtta ve dünyada barış için çalışan; ve gücünü halktan alan bir siyasal Kuruluştur,',
             },
             {
                 description:
-                    'Millî, demokratik, laik ve sosyal bir hukuk devleti olan Türkiye Cumhuriyeti’nin, birlik ve bütünlük içinde gelişmesini, sosyal devlet anlayışıyla, milletin devletiyle bütünleşmiş olduğu çağdaş, akılcı ve bilime dayalı bir yönetim yapısına kavuşturulmasını savunur. Demokrasi anlayışımız, siyasi manada millet iradesinin üzerinde hiçbir iradenin tanınmamasını esas alır.',
-            },
-            {
-                description:
-                    'İktisadî karar ve uygulamaların "Milli İktisat Siyaseti" anlayışıyla, ülkenin ve dünyanın gelişen ve değişen ekonomik dengelerini gözeterek,  üretim ekonomisine dayalı bir model öngörür. Milli gelirin hakça paylaşıldığı, sosyal devlet ilkesinin en geniş anlamda uygulandığı bir toplumun inşasını hedef alır. Dışarıdan müdahalelerle İktisadî ve sosyal yapımızın tahrip edilmesine izin verilemez.',
-            },
-            {
-                description:
-                    'Dış Siyasette, Türk Devletleri ile iktisadî, sosyal ve kültürel birlikler kurmayı esas alan; İslam coğrafyası ve bölge ülkeleriyle yakın işbirliği ve bütün dünya ile barışçı ilişkiler içinde olmayı kabul eden, milli menfaatler doğrultusunda siyasî coğrafyamızın imkânlarını değerlendiren çok yönlü işbirliklerinden yanadır. Dış politikada teslimiyetçi tavırlar kabul edilemez.',
-            },
-            {
-                description:
-                    'Büyük Birlik Partisi olarak; Türk milleti, Türk yurdu ve bütün ülkelerle barış içerinde yaşamayı savunan yeni bir siyaset anlayışına inanıyoruz.',
-            },
-            {
-                description:
-                    'Bizler aileyi Türk toplumunun temeli kabul ediyoruz. Bu çerçevede insanı merkeze alan bir siyaset anlayışıyla, bireylerin güvenlik içinde, özgürce ve refaha ulaşmış mutlu, düşünen, üreten bir Türkiye ülküsüne bağlı vatandaşlar olmasını arzuluyoruz.',
-            },
-            {
-                description:
-                    'Toplumun geleceğinin;  iyi eğitim almış, yetişmiş, ülkesine ve milletine hizmet etme sorumluluğu taşıyan nesillerde olduğunun bilinci içinde, eğitimde fırsat eşitliğinin sağlanmasına inanıyoruz.',
-            },
-            {
-                description:
-                    'Gençlik Milletin geleceğidir.  Milli ve manevi değerlere bağlı, akılcı; duyarlı, bilimi kendine rehber edinmiş, yüksek sorumluluk sahibi bir gençlik BBP’nin arzuladığı gençliktir.',
-            },
-            {
-                description:
-                    'Halkın iradesinin mutlak olduğu,  siyasi manada halkın iradesi üzerinde hiçbir iradenin olamayacağı, demokrasinin bütün kurum ve kurulları ile devletin bekası ve milletin mutluluğunu esas alacağı, temel hak ve özgürlüklerin teminat altında olduğu bir demokrasi anlayışı BBP’nin demokrasi anlayışının temelidir.',
-            },
-            {
-                description:
-                    'Büyük Birik Hareketi, dünyada ve Türkiye’de huzuru, barışı ve kardeşliği tesis etmenin, hukukun üstünlüğüne dayalı, temel insan hak ve hürriyetlerinin sağlanması ile mümkün olacağına inanan, bu anlayışı siyasetin merkezine almış, siyasette esas amacın milletin birlik ve beraberliği ile refah ve saadetini tesis etmek olduğuna inanan bir siyasi harekettir.',
-            },
-            {
-                description:
-                    'Partimizin ilkesi özetle; Dik duracağız, Düz Yürüyeceğiz ve Doğru söyleyeceğiz. İktidarımızda “Güçlü Türkiye” hedefine, Hakk’a dayanarak ve halkla bütünleşerek başaracağız.',
+                    'Halkın siyasete ve yönetime sürekli ve etkili katılımını öncelikle kendi yapısında ve isleyişinde gerçekleştirir',
             },
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'buyukturkiyepartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'vatanpartisi' },
         partyInfo: {
-            name: 'Buyuk Turkiye Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            name: 'Vatan Partisi',
+            shortname: 'Vatan Partisi',
+            established: '10 July 1992',
+            founder: 'Doğu Perinçek',
+            address: 'Toros Sokak 9, 06430 Sıhhiye, Çankaya, Ankara',
+            internet_address: 'http://vatanpartisi.org.tr/',
+            public_relation: '?',
+            current_member: '20,487',
+            president: 'Doğu Perinçek',
+            facebook: 'https://www.facebook.com/VatanPartisi',
+            twitter: 'https://twitter.com/vatan_partisi',
+            phone: '0312 231 81 11',
         },
         partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'cihanpartisi' },
-        partyInfo: {
-            name: 'Cihan Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'cogulcudemokrasipartisi' },
-        partyInfo: {
-            name: 'Cogulcu Demokrasi Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
+            {
+                description:
+                    'Vatan Partisi’nin yakın amacı, Meşrutiyetlerle başlayıp Kemalist Devrim’le en büyük atılımını gerçekleştiren millî demokratik devrimimizi tamamlayarak, millî devleti ve halk yönetimini yeniden kurmak, emperyalizmin baskı ve denetimine son vermek, Ortaçağ kalıntısı bütün ilişki ve kurumları hayatın her alanından temizlemek, halkı özgürlüğe, esenliğe ve aydınlığa kavuşturmaktır.',
+            },
+            {
+                description:
+                    'Vatan Partisi, Türkiyemizin bugün Asya’dan yükselen çağdaş ve toplumcu uygarlığın önündeki seçkin yerini alması için, artık mafyalaşan kapitalizmin her tür sömürü ve baskısını arasız devrimlerle ortadan kaldırmayı ve imtiyazsız, sınıfsız, kaynaşmış bir toplum kurmayı hedefler.',
+            },
+            {
+                description:
+                    'İstiklâl Marşımızda belirtildiği gibi, “tek dişi kalmış canavar” olan bugünkü Batı merkezli mafya-tarikat sisteminin, insanın insana kulluğuna, kadın ile erkek arasındaki eşitsizliğe, yabancılaşmaya, yozlaşma ve çürümeye yol açan kurum ve ilişkileri, bütün siyasal, ekonomik ve toplumsal temelleriyle birlikte temizlenecektir. İnsan ve doğa yıkımdan kurtarılacaktır. Bencilliğe ve özel çıkara değil, kamu yararına öncelik veren yeni toplumun kurulmasında, halkımızın güçbirliği, elbirliği, kardeşlik ve dayanışma geleneği, en büyük itici güç olarak harekete geçirilecektir.',
+            },
         ],
     },
     {
@@ -509,10 +272,133 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'degisimvedemokrasipartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'gencparti' },
         partyInfo: {
-            name: 'Degisim ve Demokrasi Partisi',
-            shortname: '',
+            name: 'Genç Parti',
+            shortname: 'GENÇPARTİ',
+            established: '26 Kasım 1992',
+            founder: 'Cem Uzan',
+            address: 'Cumhuriyet Mah.Mithat Paşa Cad. No: 26/11 Çankaya/Ankara',
+            internet_address: '?',
+            public_relation: 'Melek Dingaz',
+            current_member: '37.275',
+            president: 'Murat Hakan UZAN',
+            facebook: 'https://www.facebook.com/gencpartigenelmerkez/',
+            twitter: 'https://twitter.com/gp_genel_merkez',
+            phone: '425 36 23',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkiyesosyalistiscipartisi' },
+        partyInfo: {
+            name: 'TÜRKİYE SOSYALİST İŞÇİ PARTİSİ',
+            shortname: 'TSİP',
+            established: '16.06.1974',
+            founder: 'Ahmet Kaçmaz',
+            address: 'Meşrutiyet, Karanfil Sk. No:24, 06640 Çankaya/Ankara',
+            internet_address: 'http://www.tsip1974.com/',
+            public_relation: '',
+            current_member: '70',
+            president: 'Turgut Koçak',
+            facebook: 'https://www.facebook.com/TsipGenelMerkezi',
+            twitter: 'https://twitter.com/tipgenelmerkez',
+            phone: '337 82 10',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'buyukbirlikpartisi' },
+        partyInfo: {
+            name: 'Büyük Birlik Partisi',
+            shortname: 'BBP',
+            established: '29 Ocak 1993',
+            founder: 'Muhsin Yazıcıoğlu',
+            address: 'Gazi Mah. Silahtar Cad. No: 90 Yenimahalle/Ankara',
+            internet_address: 'http://www.bbp.org.tr/',
+            public_relation: 'ÜNSAL KARABULUT',
+            current_member: '28.839',
+            president: 'Mustafa Destici',
+            facebook: 'https://www.facebook.com/BBPGenelMerkez/',
+            twitter: 'https://twitter.com/bbpgenelmerkez',
+            phone: '+90 312 434 09 20',
+        },
+        partyPurposes: [
+            {
+                description:
+                    'Büyük Birlik Partisi, Türkiye Cumhuriyeti’nin temel değerlerine; Atatürk\'ün onurlu, tam bağımsızlıkçı ilkesine bağlı; evrensel hukuk çerçevesinde, temel insan hak ve ürriyetlerini kabul eden, demokratik meşruiyet anlayışı içerisinde, milli kültüre dayalı milliyetçiliği esas alan bir ülke ve devlet idaresini gaye edinmiştir.',
+            },
+            {
+                description:
+                    'Millî, demokratik, laik ve sosyal bir hukuk devleti olan Türkiye Cumhuriyeti’nin, birlik ve bütünlük içinde gelişmesini, sosyal devlet anlayışıyla, milletin devletiyle bütünleşmiş olduğu çağdaş, akılcı ve bilime dayalı bir yönetim yapısına kavuşturulmasını savunur. Demokrasi anlayışımız, siyasi manada millet iradesinin üzerinde hiçbir iradenin tanınmamasını esas alır.',
+            },
+            {
+                description:
+                    'İktisadî karar ve uygulamaların "Milli İktisat Siyaseti" anlayışıyla, ülkenin ve dünyanın gelişen ve değişen ekonomik dengelerini gözeterek,  üretim ekonomisine dayalı bir model öngörür. Milli gelirin hakça paylaşıldığı, sosyal devlet ilkesinin en geniş anlamda uygulandığı bir toplumun inşasını hedef alır. Dışarıdan müdahalelerle İktisadî ve sosyal yapımızın tahrip edilmesine izin verilemez.',
+            },
+            {
+                description:
+                    'Dış Siyasette, Türk Devletleri ile iktisadî, sosyal ve kültürel birlikler kurmayı esas alan; İslam coğrafyası ve bölge ülkeleriyle yakın işbirliği ve bütün dünya ile barışçı ilişkiler içinde olmayı kabul eden, milli menfaatler doğrultusunda siyasî coğrafyamızın imkânlarını değerlendiren çok yönlü işbirliklerinden yanadır. Dış politikada teslimiyetçi tavırlar kabul edilemez.',
+            },
+            {
+                description:
+                    'Büyük Birlik Partisi olarak; Türk milleti, Türk yurdu ve bütün ülkelerle barış içerinde yaşamayı savunan yeni bir siyaset anlayışına inanıyoruz.',
+            },
+            {
+                description:
+                    'Bizler aileyi Türk toplumunun temeli kabul ediyoruz. Bu çerçevede insanı merkeze alan bir siyaset anlayışıyla, bireylerin güvenlik içinde, özgürce ve refaha ulaşmış mutlu, düşünen, üreten bir Türkiye ülküsüne bağlı vatandaşlar olmasını arzuluyoruz.',
+            },
+            {
+                description:
+                    'Toplumun geleceğinin;  iyi eğitim almış, yetişmiş, ülkesine ve milletine hizmet etme sorumluluğu taşıyan nesillerde olduğunun bilinci içinde, eğitimde fırsat eşitliğinin sağlanmasına inanıyoruz.',
+            },
+            {
+                description:
+                    'Gençlik Milletin geleceğidir.  Milli ve manevi değerlere bağlı, akılcı; duyarlı, bilimi kendine rehber edinmiş, yüksek sorumluluk sahibi bir gençlik BBP’nin arzuladığı gençliktir.',
+            },
+            {
+                description:
+                    'Halkın iradesinin mutlak olduğu,  siyasi manada halkın iradesi üzerinde hiçbir iradenin olamayacağı, demokrasinin bütün kurum ve kurulları ile devletin bekası ve milletin mutluluğunu esas alacağı, temel hak ve özgürlüklerin teminat altında olduğu bir demokrasi anlayışı BBP’nin demokrasi anlayışının temelidir.',
+            },
+            {
+                description:
+                    'Büyük Birik Hareketi, dünyada ve Türkiye’de huzuru, barışı ve kardeşliği tesis etmenin, hukukun üstünlüğüne dayalı, temel insan hak ve hürriyetlerinin sağlanması ile mümkün olacağına inanan, bu anlayışı siyasetin merkezine almış, siyasette esas amacın milletin birlik ve beraberliği ile refah ve saadetini tesis etmek olduğuna inanan bir siyasi harekettir.',
+            },
+            {
+                description:
+                    'Partimizin ilkesi özetle; Dik duracağız, Düz Yürüyeceğiz ve Doğru söyleyeceğiz. İktidarımızda “Güçlü Türkiye” hedefine, Hakk’a dayanarak ve halkla bütünleşerek başaracağız.',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkiyekomunistpartisi' },
+        partyInfo: {
+            name: 'TÜRKİYE KOMÜNİST PARTİSİ',
+            shortname: 'TKP',
+            established: '16.08.1993',
+            founder: '?',
+            address: 'Kızılırmak Caddesi 13/4 Ankara',
+            internet_address: 'http://www.tkp.org.tr/anasayfa',
+            public_relation: 'Kemal Okuyan',
+            current_member: '2.271',
+            president: 'Kemal Okuyan',
+            facebook: 'https://www.facebook.com/TurkiyeKomunistPartisi/',
+            twitter: 'https://twitter.com/tkpninsesi/',
+            phone: '0312 417 29 68',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'solparti' },
+        partyInfo: {
+            name: 'Sol Parti',
+            shortname: '08.06.1994',
             established: '',
             founder: '',
             address: '',
@@ -529,11 +415,11 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'demokrasizamanipartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'liberaldemokratparti' },
         partyInfo: {
-            name: 'Demokrasi Zamani Partisi',
-            shortname: '',
-            established: '',
+            name: 'Liberal Demokrat Parti',
+            shortname: 'LDP',
+            established: '26.07.1994',
             founder: '',
             address: '',
             internet_address: '',
@@ -549,106 +435,11 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'demokratikbolgelerpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'emekpartisi' },
         partyInfo: {
-            name: 'Demokratik Bolgeler Partisi',
-            shortname: 'DBP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'demokratikgencparti' },
-        partyInfo: {
-            name: 'Demokratik Genc Parti',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'demokratiksolparti' },
-        partyInfo: {
-            name: 'Demokratik Sol Parti',
-            shortname: 'DSP',
-            established: '14 November 1985',
-            founder: 'Rahşan ve Bulent Ecevit',
-            address: 'Mareşal Fevzi Çakmak Cad.17, Beşevler - Ankara',
-            internet_address: 'https://www.dsp.org.tr/',
-            public_relation: '?',
-            current_member: '34,266',
-            president: 'Önder AKSAKAL',
-            facebook: 'https://www.facebook.com/dspgenelmerkez/',
-            twitter: 'https://twitter.com/DSPGenelMerkez',
-            phone: '+90 312 212 49 50',
-        },
-        partyPurposes: [
-            {
-                description:
-                    'Demokratik Sol Parti, insanca ve hakça gelişmeyi dirlik düzen içinde hızlandırarak, Türkiye’yi Atatürk Devrimi ve İlkeleri doğrultusunda çağdaş uygarlık düzeyinin üstüne eriştirmeyi; demokrasiye her alanda geçerlilik kazandırmayı; insan haklarını ve özgürlükleri sağlam güvencelere dayandırarak genişletmeyi; halk katılımının her alanda sürekli ve etkili olmasını sağlayarak ulusal egemenliği pekiştirmeyi amaçlayan; hukukun ve emeğin üstünlüğünü; toplumda ve uluslararasında eşitliği, adaleti ve dayanışmayı; ulusal bağımsızlığı ve Türkiye Cumhuriyeti Devleti’nin ulusu ve ülkesiyle bölünmez bütünlüğünü gözeten; yurtta ve dünyada barış için çalışan; ve gücünü halktan alan bir siyasal Kuruluştur,',
-            },
-            {
-                description:
-                    'Halkın siyasete ve yönetime sürekli ve etkili katılımını öncelikle kendi yapısında ve isleyişinde gerçekleştirir',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'devapartisi' },
-        partyInfo: {
-            name: 'Demokrasi ve Atılım Partisi',
-            shortname: 'DEVA',
-            established: 'March 9, 2020',
-            founder: ' Ali Babacan',
-            address:
-                'Yukarı Öveçler Mahallesi, 1235. Cadde, No:9/22, 06410 Çankaya, Ankara',
-            internet_address: 'https://devapartisi.org/',
-            public_relation: '?',
-            current_member: '?',
-            president: ' Ali Babacan',
-            facebook: 'https://www.facebook.com/devapartisi/',
-            twitter: 'https://twitter.com/devapartisi',
-            phone: '?',
-        },
-        partyPurposes: [
-            {
-                description:
-                    'Demokrasi ve Atılım Partisinin amacı, parti programında yer alan politikaların gerçekleştirilmesi suretiyle; kuvvetler ayrılığı esasına ve hukukun üstünlüğüne dayanan; yargının tarafsız ve bağımsızlığı ile hukuk güvenliğinin en üst düzeyde sağlandığı; katılımcı ve çoğulcu demokrasinin hakim olduğu; uluslararası sözleşmeler ve evrensel değerler çerçevesinde temel insan haklarının ve başta ifade ile basın özgürlüğü olmak üzere tüm özgürlüklerin garanti altına alındığı; şiddet, korku, baskı, ötekileştirme, ayrıştırma ve ayrımcılığın yaşanmadığı; hukuka bağlı, vatandaş odaklı, katılımcı, tarafsız, saydam, hesap verebilir, denetlenebilir, etkili ve verimli bir kamu yönetiminin hayata geçirildiği; herkesin insan onuruna yaraşır yaşam ve refah standartlarına ulaştığı; çocuklarımızın ve gençlerimizin geleceğe umutla baktığı, milletimizin barış ve huzur içinde yaşayacağı, saygın ve güçlü bir Türkiye idealini gerçekleştirmektir.',
-            },
-            {
-                description:
-                    'Partimiz tüm politika oluşturma, karar alma ve uygulamalarında; şeffaflık, hesap verebilirlik, dürüstlük, çoğulculuk, katılımcılık, kurumsallaşma, her alanda liyakatı esas alma, işi ehline verme, istişareye ve ortak akla dayalı yönetim, vatandaşlarımız arasında hiçbir ayrım yapmama, her koşulda gelişmiş bir demokrasiyi, insan haklarını, özgürlükleri ve hukukun üstünlüğünü savunma,  toplumun değerlerine, ihtiyaç ve taleplerine duyarlı olma, kendini değerlendirmede tevazu ve ahlakı temel alma, politika uygulamalarında tutarlılık, öngörülebilirlik ve bütüncül yaklaşımı esas alma ilkelerine bağlı kalacaktır.',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'devrimciiscipartisi' },
-        partyInfo: {
-            name: 'Devrimci Isci Partisi',
-            shortname: '',
-            established: '',
+            name: 'Emek Partisi',
+            shortname: 'EMEP',
+            established: '25..11.1994',
             founder: '',
             address: '',
             internet_address: '',
@@ -668,6 +459,160 @@ const turkeyPartiesDetails = [
         partyInfo: {
             name: 'Devrimci Sosyalist Isci Partisi',
             shortname: 'DSIP',
+            established: '25.04.1997',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'ilkparti' },
+        partyInfo: {
+            name: 'Ilk Parti',
+            shortname: 'ILK PARTI',
+            established: '23.10.1998',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'saadetparti' },
+        partyInfo: {
+            name: 'Saadet Parti',
+            shortname: 'SAADET',
+            established: '20 Temmuz 2001',
+            founder: 'Necmettin Erbakan',
+            address: 'Nasuh Akar Mahallesi, 1419. Sk. No:3, 06520 Balgat, Çankaya / Ankara',
+            internet_address: 'http://saadet.org.tr/',
+            public_relation: '?',
+            current_member: '222.239',
+            president: 'Temel Karamollaoğlu',
+            facebook: 'https://www.facebook.com/SaadetPartisi',
+            twitter: 'https://twitter.com/SaadetPartisi',
+            phone: '+90 312 284 88 00',
+        },
+        partyPurposes: [
+            {
+                description:
+                    'Evrensel İnsan Hakları Beyannamesi ve Avrupa İnsan Hakları Sözleşmesi’ndeki kıstasların, Anayasanın 2. Maddesinde yazılı temel niteliklerin, bireysel hak ve hürriyetlerin gerçek manasıyla ve evrensel esaslara uygun olarak uygulanmasına ve ülkemizin maddi ve manevi kalkınmasının “Önce Ahlak ve Maneviyat” anlayışıyla sağlanmasına gayret gösterir.'
+            },
+            {
+                description:
+                    'Milletin huzur, saadet ve özgürlüğünü, refah ve itibarını artırmaya gayret eder',
+            },
+            {
+                description:
+                    'Adaletin mülkün temeli olduğu ilkesi doğrultusunda gerçek bir hukuk devletinin oluşmasını hedefler.',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'adaletvekalkinmapartisi' },
+        partyInfo: {
+            name: 'Adalet ve Kalkinma Partisi',
+            shortname: 'AK Parti',
+            established: 'August 14, 2001',
+            founder: 'Recep Tayyip Erdoğan',
+            address: 'Söğütözü Caddesi No 6 Çankaya, Ankara',
+            internet_address: 'https://www.akparti.org.tr/',
+            public_relation: 'Ömer Çelik',
+            current_member: '11.089.543',
+            president: 'Recep Tayyip Erdoğan',
+            facebook: 'https://www.facebook.com/akparti',
+            twitter: 'https://twitter.com/akparti',
+            phone: '(0312) 204 50 00',
+        },
+        partyPurposes: [
+            {
+                description:
+                    'Türk Milleti’nin en önemli yönetim kazanımının, Cumhuriyet olduğuna ve egemenliğin, kayıtsız ve şartsız milletimize ait bulunduğuna inanır. “Milli irade”nin tek belirleyici güç olduğunu kabul eder. Millet adına egemenlik yetkisi kullanan kurumların ve kişilerin gözetmeleri gereken en üstün gücün ise, hukukun üstünlüğü ilkesi olduğunu savunur. Akıl, bilim ve tecrübenin yol gösterici olduğunu benimser. Milli irade, hukukun üstünlüğü, akıl, bilim, tecrübe, demokrasi, bireyin temel hak ve özgürlükleri ve ahlakiliği, siyasi yönetim anlayışının temel referansları olarak kabul eder.',
+            },
+            {
+                description:
+                    'Türk Milleti’nin Ülkesi ve Devletiyle bölünmez bütünlüğünü savunur. Geçmişten gelen değerlerimizi koruyarak, Cumhuriyetimizin kurucusu Mustafa Kemal Atatürk’ün gösterdiği muasır medeniyet seviyesine ulaşmak ve hatta onu aşabilmek için ikinci maddede açıklanan normlar ve genel kabullere uygun faaliyetlerde bulunmayı, siyasi hayatın zemini kabul eder.',
+            },
+            {
+                description:
+                    '“insan” merkezli siyasi bir Partidir. En üstün hizmetin, insana hizmet olduğuna inanır. İnsanın mutluluğu, huzuru, güveni ve sağlığı çalışmalarının hedefini teşkil eder. Bütün insanlarımızı, “Türkiye” coğrafyasında kurulu “Türkiye Cumhuriyeti Devleti” ismi altında büyük bir aile, diğer devletleri kendi sınırları içinde komşu aileler olarak kabul eder. Sulh içinde bir arada yaşamanın, insana verilen değerle mümkün olacağına inanır',
+            },
+            {
+                description:
+                    ' insanların farklı inanç, düşünce, ırk, dil, ifade etme, örgütlenme ve yaşama gibi doğuştan var olan tüm haklara sahip olduklarını bilir ve saygı duyar. Farklı olmanın ayrışma değil, pekiştirici kültürel zenginliğimiz olduğunu kabul eder',
+            },
+            {
+                description:
+                    'birey-devlet ilişkilerinde, demokratik toplum olmanın gereklerine uygun düşmeyen yaklaşımları ve her türlü ayırımcılığı reddeder. Devleti, bireye hizmet için, bireylerin oluşturduğu etkin bir hizmet kurumu olarak kabul eder',
+            },
+            {
+                description:
+                    'milli iradenin egemen olabilmesinin, bütün siyasal hakların ancak özgür kullanımı ile mümkün olabileceğine, özgür siyasal hak kullanımının ise, çoğulcu ve katılımcı hür demokratik düzen içinde hayat bulabileceğine inanır.',
+            },
+            {
+                description:
+                    ' millet adına egemenlik yetkisi kullanan yasama, yürütme ve yargı erkleri ile devlet şeması içinde kamusal işlev gören bütün kişi, kurum ve kuruluşların; yetki kullanımlarında ve görev ifa etmelerinde, ikinci maddede atıf yapılan belgelerde yer alan hukuk devleti normlarına uygunluğu gözetir olmaları gereğini vurgular ve bu gerekliliğe uygunluğu, meşruiyetin esası kabul eder.',
+            },
+            {
+                description:
+                    ' bireylerin inandıkları gibi yaşama, düşündükleri gibi ifade etme haklarının tartışılamaz olduğunu, inanç ve düşüncenin hukuka uygun olarak tanıtım ve propagandasının, bireylere ve sivil toplum kuruluşlarına ait bir hak ve yetki olduğunu, her bireyin her kurumda ve yaşamın her alanında eşit ve ortak hakları bulunduğunu, dolayısıyla devletin, hiç bir inanç ve düşünceden yana veya karşı tutum sergilememesi gerektiğini, Anayasa’da yer alan laiklik ve kanun önünde eşitlik ilkelerinin, bu anlayış ve bakışın güvencesini teşkil ettiğini vurgular. Devletin ve Parti tüzel kişiliğinin bu alanda yüklenebileceği işlevin, sadece hak kullanımlarını sağlayıcı ve güvence altına alıcı özgür ortam hazırlamaktan ibaret olması gereğini kabul eder. Temel hak ve özgürlüklerin, oylama konusu olamayacağını savunur',
+            },
+            {
+                description:
+                    ' insanın, insanca yaşamasının yöntemi olan sosyal devlet anlayışının hayata geçirilmesine özel önem verir',
+            },
+            {
+                description:
+                    'ekonomik gelişmenin kaynağı ve hedefi olarak insanı esas kabul eder. Piyasa ekonomisinin, tüm kurum ve kurallarıyla tesisini amaçlar. Devletin ekonomi içindeki rolünü, düzenleyici ve gözetici fonksiyonları ile tanımlar. Gelir dağılımındaki dengesizliği ve işsizliği, ülkemizin en önemli sosyo ekonomik sorunu olarak görür. Küreselleşmenin meydana getirdiği fırsatlardan yararlanmak ve beraberinde getirdiği olumsuzluklardan korunmak amacıyla gereken yapısal dönüşümlerin gerçekleştirilmesini savunur.',
+            },
+            {
+                description:
+                    'aileyi Türk toplumunun temeli kabul eder. Geçmişle gelecek arasında köprü görevini yerine getiren aile kurumunun; milli değerlerimizin, duygularımızın, düşüncelerimizin ve ülkemize has adet ve geleneklerimizin yeni kuşaklara aktarılmasında en temel, en vazgeçilmez sosyal bir kurum olduğuna inanır.',
+            },
+            {
+                description:
+                    'herkesin ve özellikle gençliğin; güven içinde, gelişmiş, kalkınmış, refah düzeyi yüksek, her yönden güvenli bir Türkiye sevdalısı olma ülküsüne bağlı, moral değerlerle bezenmiş bireyler olmalarını önemser. Bu nedenle her düzeyde özgür, bilgi toplumu olma yolunda bilimsel araçlarla ve ilmi verilerle donatılmış bir eğitim, öğretim ve öğrenim anlayışını pratiğe geçirmeyi amaçlar.',
+            },
+            {
+                description:
+                    ' temsili demokrasinin çoğulcu, katılımcı, yarışmacı niteliğini önemser. Bu özelliklerin hayata geçirilmesinde verimli, kaliteli ve denetimli bir kamu yönetiminin kurulmasında, sürdürülmesinde, sivil toplum örgütlerinin önemine ve vazgeçilmezliğine inanır.',
+            },
+            {
+                description:
+                    'referandumu, halkımızın yönetim sürecine katılımını temin için etkili bir yöntem olarak benimser',
+            },
+            {
+                description:
+                    ' içte ve dışta güçlü duruşun adaletle mümkün olacağına inanır. Hukukun “güç”ten değil, “güç”ün hukuktan kaynaklandığı inancı ile her iş ve faaliyette doğrunun ve haklının egemen olmasını önleyici engelleri ortadan kaldırmayı, adil yargılanma hakkını ve hak arama özgürlüğünü bütün unsurları ile gerçekleştirmeyi, ülkemizi, onun sahibi insanlarımız için yaşanılır hale getirmeyi, her halükarda milletin ülkesini ve devletinin bağımsızlığını ve üniter yapısını korumayı amaçlar',
+            },
+            {
+                description:
+                    ' köklü devlet geleneğimizin üzerine bina edildiği “insanı yaşat ki devlet yaşasın” ilkesini, siyasetinin merkezi olarak görür. Milletin tüm fertleri, hiç bir ayrım gözetilmeksizin ülkemizin birinci sınıf vatandaşlarıdır. Türkiye Cumhuriyeti’nin tüm vatandaşları tek bir milleti teşkil eder. Bayrağımız bağımsızlığımızın ortak sembolüdür. Şehitlerimizin emaneti olan, milletimizin üzerinde yaşadığı, bayrağımızın özgürce dalgalandığı toprak, vatanımızdır. Devlet, milletimizin ortak eseridir. AK PARTİ, yukarda belirtilen temel amaç ve hedefler doğrultusunda, Tek Millet, Tek Bayrak, Tek Vatan, Tek Devlet anlayışını sarsılmaz bir ilke olarak kabul eder.',
+            }
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'bagimsizturkiyepartisi' },
+        partyInfo: {
+            name: 'Bagimsiz Turkiye Partisi',
+            shortname: '25.09.2001',
             established: '',
             founder: '',
             address: '',
@@ -684,10 +629,61 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'dogruyolpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'hakveozgurluklerpartisi' },
         partyInfo: {
-            name: 'Dogruyol Partisi',
-            shortname: 'DYP',
+            name: 'HAK VE ÖZGÜRLÜKLER PARTİSİ',
+            shortname: 'HAK-PAR',
+            established: '11.02.2002',
+            founder: 'Abdullatif EPÖZDEMİR',
+            address: 'Mithatpaşa Cad.No:24/11 K:6 Kızılay/ANKARA',
+            internet_address: 'http://hakpar.org.tr/',
+            public_relation: '',
+            current_member: '1450',
+            president: 'Nurettin Basut',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+            {
+                description: "Dünya birçok evrelerden geçerek; idari, siyasi, toplumsal ve kültürel olarak yeniden çoğulcu demokratik toplum projesinin normları içinde yapılanıyor, değişiyor. Etnik, ulusal, kültürel ve toplumsal topluluklar, çoğul-cu bir idari sistem içinde; kendilerini yönetme hakkı dahil, tüm hak ve özgürlüklere kavuşuyor."
+            },
+            {
+                description: "Soğuk savaşın son bulmasıyla birlikte, dünyadaki sorunların karşılıklı diyalog, toplumsal uzlaşma ve karşı-lıklı görüşmeler yoluyla çözümü ön plana çıkmakta: Otoriter ve totaliter yönetim anlayışları hızla aşınmakta; demokratik, çoğulcu, insan hak ve özgürlüklerine dayalı özgürlükçü kültür dünyada yer bulmaktadır."
+            },
+            {
+                description: "Dünyadaki toplumsal gelişmeler, bilim ve kültürdeki hızlı evrenselleşme; ulusal devlet modelini ve buna bağlı sistemleri, toplumsal gelişmelerin ve dünyanın bütünleşmesi önünde ayak bağı haline getirmektedir. Ge-lişmiş, çoğulcu demokrasiyi sistemleştiren ülkeler, yaşadıkları sorunları çözmede hızlı adımlar atmak için kendi aralarında ulus-üstü birlikler yoluna giderek çok uluslu, çok dilli, çok kültürlü yapılanmalar oluşturmaktadır. Türkiye’nin aday üye olduğu Avrupa Birliği, bu konuda en gelişkin model görünümündedir."
+            },
+            {
+                description: "Dünyanın önemli bölgelerinden birinde bulunan TÜRKİYE, dünyayla bütünleşmek ve Avrupa Birliği’ne (AB’ye) üye olmak istediği halde; çoğulcu demokratik bir devlet yapısını oluşturmamak; toplumsal çoğulculuğu dışlamak için tekçi, otoriter devlet yapısında ısrar ediyor. Bu konuda, imzaladığı ilgili uluslar arası sözleşmeleri hiçe sayıyor.Bu yapısından dolayı, Türkiye, temel sorunu olan Kürt sorununu çözemiyor, çoğulcu demokrasiyi yapılandıramıyor; toplumsal, siyasal ve ekonomik sorunları krizlere sokuyor.Partimiz, Türkiye’yi, idari, siyasi, toplumsal ve ekonomik olarak; evrensel demokratik hukukun normları içinde, Kürt ve Türk halkının eşitliği temelinde, demokratik ve federal tarzda yeniden yapılandıracak.Kürt sorununu hak eşitliği temelinde toplumsal uzlaşma ile çözecektir."
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'yurtpartisi' },
+        partyInfo: {
+            name: 'Yurt Partisi',
+            shortname: 'YURT-P',
+            established: '14.03.2002',
+            founder: 'Sadettin TANTAN',
+            address: 'MEŞRUTİYET  CAD BAYINDIR 2 SOK 59/5 KIZILAY',
+            internet_address: '',
+            public_relation: '',
+            current_member: '74',
+            president: 'Sadettin TANTAN',
+            facebook: '',
+            twitter: '',
+            phone: '0418 90 34',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'bagimsizcumhuriyetpartisi' },
+        partyInfo: {
+            name: 'Bagimsiz Cumhuriyet Partisi',
+            shortname: '',
             established: '',
             founder: '',
             address: '',
@@ -704,10 +700,30 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'ebedinizampartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'sagduyupartisi' },
         partyInfo: {
-            name: 'Ebedi Nizam Partisi',
-            shortname: 'ENPA',
+            name: 'Sag Duyu Partisi',
+            shortname: '',
+            established: '',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'ayyildizpartisi' },
+        partyInfo: {
+            name: 'Ayyildiz Partisi',
+            shortname: '',
             established: '',
             founder: '',
             address: '',
@@ -744,266 +760,6 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'emekpartisi' },
-        partyInfo: {
-            name: 'Emek Partisi',
-            shortname: 'EMEP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'engelsizturkiyepartisi' },
-        partyInfo: {
-            name: 'Engelsiz Turkiye Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'esnafveciftcipartisi' },
-        partyInfo: {
-            name: 'Esnaf ve Ciftci Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'ezilenlerinsosyalistpartisi' },
-        partyInfo: {
-            name: 'Ezilenlerin Sosyalist Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'gelecekpartisi' },
-        partyInfo: {
-            name: 'Gelecek Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'gencanadolupartisi' },
-        partyInfo: {
-            name: 'Genc Anadolu Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'gencparti' },
-        partyInfo: {
-            name: 'Genç Parti',
-            shortname: 'GENÇPARTİ',
-            established: '26 Kasım 1992',
-            founder: 'Cem Uzan',
-            address: 'Cumhuriyet Mah.Mithat Paşa Cad. No: 26/11 Çankaya/Ankara',
-            internet_address: '?',
-            public_relation: 'Melek Dingaz',
-            current_member: '37.275',
-            president: 'Murat Hakan UZAN',
-            facebook: 'https://www.facebook.com/gencpartigenelmerkez/',
-            twitter: 'https://twitter.com/gp_genel_merkez',
-            phone: '425 36 23',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'gucbirligipartisi' },
-        partyInfo: {
-            name: 'Gucbirligi partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'guvenadaletveaydinlikpartisi' },
-        partyInfo: {
-            name: 'Guven Adalet ve Aydinlik Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'hakveadaletpartisi' },
-        partyInfo: {
-            name: 'Hak ve Adalet Partisi',
-            shortname: 'HAP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'hakvehakikatpartisi' },
-        partyInfo: {
-            name: 'Hak ve Hakikat Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'hakvehuzurpartisi' },
-        partyInfo: {
-            name: 'Hak ve Huzur Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'hakveozgurluklerpartisi' },
-        partyInfo: {
-            name: 'Hak ve Ozgurlukler Partisi',
-            shortname: 'HAK-PAR',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
         partyDetails: { country: 'turkey', dbcode: 'halkinkurtuluspartisi' },
         partyInfo: {
             name: 'Halkin Kurtulus Partisi',
@@ -1024,70 +780,10 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'halklarindemokratikpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'mudafaaihukukhareketipartisi' },
         partyInfo: {
-            name: 'Halklarin Demokratik Partisi',
-            shortname: 'HDP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'hurdavapartisi' },
-        partyInfo: {
-            name: 'Hur Dava Partisi',
-            shortname: 'HUDA-PAR',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'ilkparti' },
-        partyInfo: {
-            name: 'Ilk Parti',
-            shortname: 'ILK PARTI',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'iscidemokrasisipartisi' },
-        partyInfo: {
-            name: 'Isci Demokrasisi Partisi',
-            shortname: 'IDP',
+            name: 'Mudafaai Hukuk Hareketi Partisi',
+            shortname: '',
             established: '',
             founder: '',
             address: '',
@@ -1109,6 +805,778 @@ const turkeyPartiesDetails = [
             name: 'Iscinin Kendi Partisi',
             shortname: 'IKEP',
             established: '',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'yucedirilispartisi' },
+        partyInfo: {
+            name: 'Yuce Dirilis Partisi',
+            shortname: '',
+            established: '',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'dogruyolpartisi' },
+        partyInfo: {
+            name: 'Dogruyol Partisi',
+            shortname: 'DYP',
+            established: '',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'devrimciiscipartisi' },
+        partyInfo: {
+            name: 'Devrimci Isci Partisi',
+            shortname: '',
+            established: '',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'ebedinizampartisi' },
+        partyInfo: {
+            name: 'Ebedi Nizam Partisi',
+            shortname: 'ENPA',
+            established: '',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'demokratikbolgelerpartisi' },
+        partyInfo: {
+            name: 'Demokratik Bolgeler Partisi',
+            shortname: 'DBP',
+            established: '',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'hakvehakikatpartisi' },
+        partyInfo: {
+            name: 'Hak ve Hakikat Partisi',
+            shortname: 'HAK PARTİ',
+            established: '29.07.2008',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'yenidunyapartisi' },
+        partyInfo: {
+            name: 'Yenidunya Partisi',
+            shortname: 'YENİ DÜNYA',
+            established: '16.11.2009',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'ezilenlerinsosyalistpartisi' },
+        partyInfo: {
+            name: 'Ezilenlerin Sosyalist Partisi',
+            shortname: 'ESP',
+            established: '05.02.2010',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'ulusalparti' },
+        partyInfo: {
+            name: 'Ulusal Parti',
+            shortname: 'ULUSAL PARTİ',
+            established: '15.03.2010',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'sosyalistcumhuriyetpartisi' },
+        partyInfo: {
+            name: 'SOSYALİST CUMHURİYET PARTİSİ',
+            shortname: 'SCP',
+            established: '18.06.2010',
+            founder: 'Mehmet Bedri GÜLTEKİN',
+            address: 'Mithatpaşa Cad. No: 36/3 Çankaya/Ankara',
+            internet_address: '',
+            public_relation: '',
+            current_member: '378',
+            president: 'Mehmet Bedri GÜLTEKİN',
+            facebook: '',
+            twitter: '',
+            phone: '419 16 56',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'anavatanpartisi' },
+        partyInfo: {
+            name: 'Anavatan Partisi',
+            shortname: 'ANAVATAN',
+            established: '07.09.2011',
+            founder: '',
+            address: 'Turgut Özal Bulvarı 107. cd. No:100 Mamak/ANKARA',
+            internet_address: '',
+            public_relation: '',
+            current_member: '24.886',
+            president: 'İbrahim ÇELEBİ',
+            facebook: '',
+            twitter: '',
+            phone: '440 71 10',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'ozgurlukvesosyalizmpartisi' },
+        partyInfo: {
+            name: 'Ozgurluk ve Sosyalizm Partisi',
+            shortname: 'ÖSP',
+            established: '21.12.2011',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+            {
+                description:
+                    '',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'toplumcukurtuluspartisi' },
+        partyInfo: {
+            name: 'Toplumcu Kurtulus Partisi',
+            shortname: '1920 TKP',
+            established: '07.02.2012',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'hakveadaletpartisi' },
+        partyInfo: {
+            name: 'Hak ve Adalet Partisi',
+            shortname: 'HAP',
+            established: '27.04.2012',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'halklarindemokratikpartisi' },
+        partyInfo: {
+            name: 'Halklarin Demokratik Partisi',
+            shortname: 'HDP',
+            established: '15.10.2012',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkbirligipartisi' },
+        partyInfo: {
+            name: 'Turk Birligi Partisi',
+            shortname: 'TBP',
+            established: '07.11.2012',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+            {
+                description:
+                    '',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'yesillervesolgelecekpartisi' },
+        partyInfo: {
+            name: 'Yesiller ve Sol Gelecek Partisi',
+            shortname: '',
+            established: '30.11.2012',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    }, 
+    {
+        partyDetails: { country: 'turkey', dbcode: 'hurdavapartisi' },
+        partyInfo: {
+            name: 'Hur Dava Partisi',
+            shortname: 'HUDA-PAR',
+            established: '19.12.2012',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'muhafazakaryukselispartisi' },
+        partyInfo: {
+            name: 'Muhafazakar Yukselis Partisi',
+            shortname: 'MYP',
+            established: '08.02.2013',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'sosyalistyenidenkuruluspartisi' },
+        partyInfo: {
+            name: 'Sosyalist Yeniden Kurulus Partisi',
+            shortname: 'SYKP',
+            established: '26.06.2013',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'kadinpartisi' },
+        partyInfo: {
+            name: 'Kadin Partisi',
+            shortname: 'KP',
+            established: '26.06.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turanhareketipartisi' },
+        partyInfo: {
+            name: 'Turan Hareketi Partisi',
+            shortname: 'TURAN',
+            established: '02.07.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'merkezparti' },
+        partyInfo: {
+            name: 'Merkez Parti',
+            shortname: 'MEP',
+            established: '07.07.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'hakvehuzurpartisi' },
+        partyInfo: {
+            name: 'Hak ve Huzur Partisi',
+            shortname: 'HHP',
+            established: '15.07.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'komunistparti' },
+        partyInfo: {
+            name: 'Komunist Parti',
+            shortname: '',
+            established: '17.07.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+            {
+                description:
+                    '',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'cihanpartisi' },
+        partyInfo: {
+            name: 'Cihan Partisi',
+            shortname: 'CİHAN PARTİSİ',
+            established: '06.08.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'cogulcudemokrasipartisi' },
+        partyInfo: {
+            name: 'Cogulcu Demokrasi Partisi',
+            shortname: '',
+            established: '15.08.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkiyeekonomivekalkinmapartisi' },
+        partyInfo: {
+            name: 'Turkiye Ekonomi ve Kalkinma partisi',
+            shortname: '',
+            established: '01.09.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+            {
+                description:
+                    '',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'millimucadelepartisi' },
+        partyInfo: {
+            name: 'Milli Mucadele Partisi',
+            shortname: 'MMP',
+            established: '24.11.2014',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'asparti' },
+        partyInfo: {
+            name: 'As Parti',
+            shortname: 'ASP',
+            established: '03.02.2015',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'iscidemokrasisipartisi' },
+        partyInfo: {
+            name: 'Isci Demokrasisi Partisi',
+            shortname: 'IDP',
+            established: '21.08.2015',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkiyekomunisthareketi' },
+        partyInfo: {
+            name: 'Turkiye Komunist Hareketi',
+            shortname: 'TKH',
+            established: '21.08.2015',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'birlesikdevrimciparti' },
+        partyInfo: {
+            name: 'Birlesik Devrimci Parti',
+            shortname: '',
+            established: '07.09.2015',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'adaletpartisi' },
+        partyInfo: {
+            name: 'Adalet Partisi',
+            shortname: 'AP',
+            established: '03.10.2015',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'sosyalistemekcilerpartisi' },
+        partyInfo: {
+            name: 'Sosyalist Emekciler Partisi',
+            shortname: 'SEP',
+            established: '21.04.2016',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'demokrasizamanipartisi' },
+        partyInfo: {
+            name: 'Demokrasi Zamani Partisi',
+            shortname: '',
+            established: '09.05.2016',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'osmanlipartisi' },
+        partyInfo: {
+            name: 'Osmanli Partisi',
+            shortname: '',
+            established: '31.08.2016',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'guvenadaletveaydinlikpartisi' },
+        partyInfo: {
+            name: 'Guven Adalet ve Aydinlik Partisi',
+            shortname: 'GAAP',
+            established: '03.10.2017',
             founder: '',
             address: '',
             internet_address: '',
@@ -1175,256 +1643,11 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'kadinpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'turkiyeiscipartisi' },
         partyInfo: {
-            name: 'Kadin Partisi',
-            shortname: 'KP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'komunistparti' },
-        partyInfo: {
-            name: 'Komunist Parti',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-            {
-                description:
-                    '',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'liberaldemokratparti' },
-        partyInfo: {
-            name: 'Liberal Demokrat Parti',
-            shortname: 'LDP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'merkezanapartisi' },
-        partyInfo: {
-            name: 'Merkez Ana Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'merkezparti' },
-        partyInfo: {
-            name: 'Merkez Parti',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'milletpartisi' },
-        partyInfo: {
-            name: 'Millet Partisi',
-            shortname: 'MİLLET',
-            established: '23 November 1992',
-            founder: 'Aykut Edibali',
-            address: 'Atatürk Bulvarı No:72/37 Kat:10 Kızılay - Ankara',
-            internet_address: 'http://www.milletpartisi.org.tr/',
-            public_relation: '?',
-            current_member: '4,052',
-            president: 'Aykut Edibali',
-            facebook: 'https://www.facebook.com/milletpartisi',
-            twitter: 'https://twitter.com/milletpartisi',
-            phone: '312 419 40 60',
-        },
-        partyPurposes: [
-            {
-                description:
-                    'Parti, Anayasa ve kanunlara uygun olarak; milletvekili ve mahalli seçimler yoluyla, program ve tüzüğünde belirtilen görüşler doğrultusunda çalışma ve açık propaganda ile milli iradenin oluşmasını sağlamak, demokratik devlet ve toplum düzeni içinde ileri, mutlu ve çağdaş, çağdaş medeniyet seviyesini aşmış, müreffeh, mamur “Muhteşem Türkiye” hedefini gerçekleştirmek üzere kamu faaliyetlerini yönetmek, denetlemek ve etkilemek amacındadır.',
-            }
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'millimucadelepartisi' },
-        partyInfo: {
-            name: 'Milli Mucadele Partisi',
-            shortname: 'MMP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'milliyetcihareketparti' },
-        partyInfo: {
-            name: 'Milliyetci Hareket Partisi',
-            shortname: 'MHP',
-            established: '1969',
-            founder: 'Basbug Alparslan Turkes',
-            address: 'Ceyhun Atuf Kansu Caddesi No: 128 Balgat, Ankara',
-            internet_address: 'http://www.mhp.org.tr',
-            public_relation: '?',
-            current_member: '479.199',
-            president: 'Devlet Bahceli',
-            facebook: 'http://www.facebook.com/milliyetcihareketpartisi',
-            twitter: 'http://twitter.com/#!/dbdevletbahceli',
-            phone: '+90 312 472 55 55',
-        },
-        partyPurposes: [
-            {
-                description:
-                    'Meşruiyeti milli irade olan, insan odaklı, seviyeli, ilkeli, dürüst bir siyaset anlayışı ile adaleti ve hakkaniyeti esas alan bir yönetim anlayışını tesis etmek; toplumsal barış ve huzuru hâkim kılmak',
-            },
-            {
-                description:
-                    'Yüce Türk Milletinin milli ve manevi değerleri ile tarihi ve kültürel zenginliklerine sahip çıkmak',
-            },
-            {
-                description:
-                    'Devletin, ülkesi ve milletiyle bölünmez bütünlüğünü, hak ve menfaatlerini korumak,',
-            },
-            {
-                description:
-                    'İnançlı, yüksek ahlaklı ve çağın gerektirdiği niteliklere sahip nesiller yetiştirmek',
-            },
-            {
-                description:
-                    'Temel insan hak ve hürriyetlerini geliştirmek, hukukun üstünlüğünü hâkim kılmak, demokratik standartları yükseltmek,',
-            },
-            {
-                description:
-                    'Hürriyet, adalet, hakkaniyet ve fırsat eşitliğini esas alan, milli, insani ve ahlaki değerlerin ön plana çıktığı siyasi ve toplumsal düzen ile kültürel iklimi tesis etmek',
-            },
-            {
-                description:
-                    'Kardeşlik hukukunu ve dayanışma kültürünü geliştirmek, milli birlik ve bütünlüğü tesis etmek',
-            },
-            {
-                description:
-                    'Türk milletinin maddi ve manevi gelişmesi önündeki engelleri kaldırmak; dengeli ve adaletli bölüşüm sistemine dayanan bir gelir dağılımı oluşturmak,',
-            },
-            {
-                description:
-                    'Yatırım ve istihdam kapasitesi yüksek, ileri teknolojiyi ve teşebbüs hürriyetini esas alan, uluslar arası rekabet gücüne sahip sürdürülebilir büyümeyi gerçekleştirecek bir ekonomi tesis etmek',
-            },
-            {
-                description:
-                    'Barış, mutluluk ve adaletin hâkim olduğu bir Dünya nizamının tesisinde ülkemizin söz sahibi olmasını sağlamak, suretiyle milletimizi çağın kudretli, itibarlı ve önder toplumlarından biri yapmak ve tarih sahnesinde ebedi kılmaktır.',
-            }
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'mudafaaihukukhareketipartisi' },
-        partyInfo: {
-            name: 'Mudafaai Hukuk Hareketi Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'muhafazakaryukselispartisi' },
-        partyInfo: {
-            name: 'Muhafazakar Yukselis Partisi',
-            shortname: 'MYP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'osmanlipartisi' },
-        partyInfo: {
-            name: 'Osmanli Partisi',
-            shortname: '',
-            established: '',
+            name: 'Turkiye Isci Partisi',
+            shortname: 'TIP',
+            established: '07.11.2017',
             founder: '',
             address: '',
             internet_address: '',
@@ -1444,7 +1667,7 @@ const turkeyPartiesDetails = [
         partyInfo: {
             name: 'Otuken Birligi Partisi',
             shortname: '',
-            established: '',
+            established: '20.12.2017',
             founder: '',
             address: '',
             internet_address: '',
@@ -1460,465 +1683,11 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'ozgurlukvesosyalizmpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'adaletbirlikpartisi' },
         partyInfo: {
-            name: 'Ozgurluk ve Sosyalizm Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-            {
-                description:
-                    '',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'saadetparti' },
-        partyInfo: {
-            name: 'Saadet Parti',
-            shortname: 'SAADET',
-            established: '20 Temmuz 2001',
-            founder: 'Necmettin Erbakan',
-            address: 'Nasuh Akar Mahallesi, 1419. Sk. No:3, 06520 Balgat, Çankaya / Ankara',
-            internet_address: 'http://saadet.org.tr/',
-            public_relation: '?',
-            current_member: '222.239',
-            president: 'Temel Karamollaoğlu',
-            facebook: 'https://www.facebook.com/SaadetPartisi',
-            twitter: 'https://twitter.com/SaadetPartisi',
-            phone: '+90 312 284 88 00',
-        },
-        partyPurposes: [
-            {
-                description:
-                    'Evrensel İnsan Hakları Beyannamesi ve Avrupa İnsan Hakları Sözleşmesi’ndeki kıstasların, Anayasanın 2. Maddesinde yazılı temel niteliklerin, bireysel hak ve hürriyetlerin gerçek manasıyla ve evrensel esaslara uygun olarak uygulanmasına ve ülkemizin maddi ve manevi kalkınmasının “Önce Ahlak ve Maneviyat” anlayışıyla sağlanmasına gayret gösterir.'
-            },
-            {
-                description:
-                    'Milletin huzur, saadet ve özgürlüğünü, refah ve itibarını artırmaya gayret eder',
-            },
-            {
-                description:
-                    'Adaletin mülkün temeli olduğu ilkesi doğrultusunda gerçek bir hukuk devletinin oluşmasını hedefler.',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'sagduyupartisi' },
-        partyInfo: {
-            name: 'Sag Duyu Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'solparti' },
-        partyInfo: {
-            name: 'Sol Parti',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'sosyalistemekcilerpartisi' },
-        partyInfo: {
-            name: 'Sosyalist Emekciler Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'sosyalistyenidenkuruluspartisi' },
-        partyInfo: {
-            name: 'Sosyalist Yeniden Kurulus Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'toplumcukurtuluspartisi' },
-        partyInfo: {
-            name: 'Toplumcu Kurtulus Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'toplumsalozgurlukpartisi' },
-        partyInfo: {
-            name: 'Toplumsal Ozgurluk Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-            {
-                description:
-                    '',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turanhareketipartisi' },
-        partyInfo: {
-            name: 'Turan Hareketi Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkbirligipartisi' },
-        partyInfo: {
-            name: 'Turk Birligi Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-            {
-                description:
-                    '',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkiyeekonomivekalkinmapartisi' },
-        partyInfo: {
-            name: 'Turkiye Ekonomi ve Kalkinma partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-            {
-                description:
-                    '',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkiyeiscikoylupartisi' },
-        partyInfo: {
-            name: 'Turkiye Isci Koylu Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkiyeiscipartisi' },
-        partyInfo: {
-            name: 'Turkiye Isci Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkiyekomunisthareketi' },
-        partyInfo: {
-            name: 'Turkiye Komunist Hareketi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkiyekomunistpartisi' },
-        partyInfo: {
-            name: 'TÜRKİYE KOMÜNİST PARTİSİ',
-            shortname: 'TKP',
-            established: '16.08.1993',
-            founder: '?',
-            address: 'Kızılırmak Caddesi 13/4 Ankara',
-            internet_address: 'http://www.tkp.org.tr/anasayfa',
-            public_relation: 'Kemal Okuyan',
-            current_member: '2.271',
-            president: 'Kemal Okuyan',
-            facebook: 'https://www.facebook.com/TurkiyeKomunistPartisi/',
-            twitter: 'https://twitter.com/tkpninsesi/',
-            phone: '0312 417 29 68',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkiyesosyalistiscipartisi' },
-        partyInfo: {
-            name: 'TÜRKİYE SOSYALİST İŞÇİ PARTİSİ',
-            shortname: 'TSİP',
-            established: '16 Haziran 1974',
-            founder: 'Ahmet Kaçmaz',
-            address: 'Meşrutiyet, Karanfil Sk. No:24, 06640 Çankaya/Ankara',
-            internet_address: 'http://www.tsip1974.com/',
-            public_relation: '',
-            current_member: '70',
-            president: 'Turgut Koçak',
-            facebook: 'https://www.facebook.com/TsipGenelMerkezi',
-            twitter: 'https://twitter.com/tipgenelmerkez',
-            phone: '337 82 10',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'turkvedunyabirligipartisi' },
-        partyInfo: {
-            name: 'Turk ve Dunya Birligi Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'ulkempartisi' },
-        partyInfo: {
-            name: 'Ulkem Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'ulusalparti' },
-        partyInfo: {
-            name: 'Ulusal Parti',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'umutpartisi' },
-        partyInfo: {
-            name: 'Umut Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'vatanpartisi' },
-        partyInfo: {
-            name: 'Vatan Partisi',
-            shortname: 'Vatan Partisi',
-            established: '10 July 1992',
-            founder: 'Doğu Perinçek',
-            address: 'Toros Sokak 9, 06430 Sıhhiye, Çankaya, Ankara',
-            internet_address: 'http://vatanpartisi.org.tr/',
-            public_relation: '?',
-            current_member: '20,487',
-            president: 'Doğu Perinçek',
-            facebook: 'https://www.facebook.com/VatanPartisi',
-            twitter: 'https://twitter.com/vatan_partisi',
-            phone: '0312 231 81 11',
-        },
-        partyPurposes: [
-            {
-                description:
-                    'Vatan Partisi’nin yakın amacı, Meşrutiyetlerle başlayıp Kemalist Devrim’le en büyük atılımını gerçekleştiren millî demokratik devrimimizi tamamlayarak, millî devleti ve halk yönetimini yeniden kurmak, emperyalizmin baskı ve denetimine son vermek, Ortaçağ kalıntısı bütün ilişki ve kurumları hayatın her alanından temizlemek, halkı özgürlüğe, esenliğe ve aydınlığa kavuşturmaktır.',
-            },
-            {
-                description:
-                    'Vatan Partisi, Türkiyemizin bugün Asya’dan yükselen çağdaş ve toplumcu uygarlığın önündeki seçkin yerini alması için, artık mafyalaşan kapitalizmin her tür sömürü ve baskısını arasız devrimlerle ortadan kaldırmayı ve imtiyazsız, sınıfsız, kaynaşmış bir toplum kurmayı hedefler.',
-            },
-            {
-                description:
-                    'İstiklâl Marşımızda belirtildiği gibi, “tek dişi kalmış canavar” olan bugünkü Batı merkezli mafya-tarikat sisteminin, insanın insana kulluğuna, kadın ile erkek arasındaki eşitsizliğe, yabancılaşmaya, yozlaşma ve çürümeye yol açan kurum ve ilişkileri, bütün siyasal, ekonomik ve toplumsal temelleriyle birlikte temizlenecektir. İnsan ve doğa yıkımdan kurtarılacaktır. Bencilliğe ve özel çıkara değil, kamu yararına öncelik veren yeni toplumun kurulmasında, halkımızın güçbirliği, elbirliği, kardeşlik ve dayanışma geleneği, en büyük itici güç olarak harekete geçirilecektir.',
-            },
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'yenidenbirlikpartisi' },
-        partyInfo: {
-            name: 'Yeniden Birlik Partisi',
-            shortname: '',
-            established: '',
+            name: 'Adalet Birlik Partisi',
+            shortname: 'AB PARTİ',
+            established: '06.06.2018',
             founder: '',
             address: '',
             internet_address: '',
@@ -1938,7 +1707,7 @@ const turkeyPartiesDetails = [
         partyInfo: {
             name: 'Yeniden Refah Partisi',
             shortname: '',
-            established: '',
+            established: '23.11.2018',
             founder: '',
             address: '',
             internet_address: '',
@@ -1954,11 +1723,222 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'yenidunyapartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'ulkempartisi' },
         partyInfo: {
-            name: 'Yenidunya Partisi',
+            name: 'Ulkem Partisi',
             shortname: '',
-            established: '',
+            established: '09.05.2019',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'turkvedunyabirligipartisi' },
+        partyInfo: {
+            name: 'Turk ve Dunya Birligi Partisi',
+            shortname: '',
+            established: '12.09.2019',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'gelecekpartisi' },
+        partyInfo: {
+            name: 'Gelecek Partisi',
+            shortname: '',
+            established: '12.12.2019',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'anadolubirligipartisi' },
+        partyInfo: {
+            name: 'Anadolu Birligi Partisi',
+            shortname: '',
+            established: '02.01.2020',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'aydinlikgeleceginpartisi' },
+        partyInfo: {
+            name: 'Aydinlik Gelecegin Partisi',
+            shortname: '',
+            established: '10.02.2020',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'merkezanapartisi' },
+        partyInfo: {
+            name: 'Merkez Ana Partisi',
+            shortname: '',
+            established: '10.02.2020',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'barisveesitlikpartisi' },
+        partyInfo: {
+            name: 'Baris ve Esitlik Partisi',
+            shortname: 'BEP',
+            established: '10.02.2020',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'gucbirligipartisi' },
+        partyInfo: {
+            name: 'Gucbirligi partisi',
+            shortname: 'GBP',
+            established: '24.02.2020',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'devapartisi' },
+        partyInfo: {
+            name: 'Demokrasi ve Atılım Partisi',
+            shortname: 'DEVA',
+            established: 'March 9, 2020',
+            founder: ' Ali Babacan',
+            address:
+                'Yukarı Öveçler Mahallesi, 1235. Cadde, No:9/22, 06410 Çankaya, Ankara',
+            internet_address: 'https://devapartisi.org/',
+            public_relation: '?',
+            current_member: '?',
+            president: ' Ali Babacan',
+            facebook: 'https://www.facebook.com/devapartisi/',
+            twitter: 'https://twitter.com/devapartisi',
+            phone: '?',
+        },
+        partyPurposes: [
+            {
+                description:
+                    'Demokrasi ve Atılım Partisinin amacı, parti programında yer alan politikaların gerçekleştirilmesi suretiyle; kuvvetler ayrılığı esasına ve hukukun üstünlüğüne dayanan; yargının tarafsız ve bağımsızlığı ile hukuk güvenliğinin en üst düzeyde sağlandığı; katılımcı ve çoğulcu demokrasinin hakim olduğu; uluslararası sözleşmeler ve evrensel değerler çerçevesinde temel insan haklarının ve başta ifade ile basın özgürlüğü olmak üzere tüm özgürlüklerin garanti altına alındığı; şiddet, korku, baskı, ötekileştirme, ayrıştırma ve ayrımcılığın yaşanmadığı; hukuka bağlı, vatandaş odaklı, katılımcı, tarafsız, saydam, hesap verebilir, denetlenebilir, etkili ve verimli bir kamu yönetiminin hayata geçirildiği; herkesin insan onuruna yaraşır yaşam ve refah standartlarına ulaştığı; çocuklarımızın ve gençlerimizin geleceğe umutla baktığı, milletimizin barış ve huzur içinde yaşayacağı, saygın ve güçlü bir Türkiye idealini gerçekleştirmektir.',
+            },
+            {
+                description:
+                    'Partimiz tüm politika oluşturma, karar alma ve uygulamalarında; şeffaflık, hesap verebilirlik, dürüstlük, çoğulculuk, katılımcılık, kurumsallaşma, her alanda liyakatı esas alma, işi ehline verme, istişareye ve ortak akla dayalı yönetim, vatandaşlarımız arasında hiçbir ayrım yapmama, her koşulda gelişmiş bir demokrasiyi, insan haklarını, özgürlükleri ve hukukun üstünlüğünü savunma,  toplumun değerlerine, ihtiyaç ve taleplerine duyarlı olma, kendini değerlendirmede tevazu ve ahlakı temel alma, politika uygulamalarında tutarlılık, öngörülebilirlik ve bütüncül yaklaşımı esas alma ilkelerine bağlı kalacaktır.',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'toplumsalozgurlukpartisi' },
+        partyInfo: {
+            name: 'Toplumsal Ozgurluk Partisi',
+            shortname: 'TÖP',
+            established: '09.03.2020',
+            founder: '',
+            address: '',
+            internet_address: '',
+            public_relation: '',
+            current_member: '',
+            president: '',
+            facebook: '',
+            twitter: '',
+            phone: '',
+        },
+        partyPurposes: [
+            {
+                description:
+                    '',
+            },
+        ],
+    },
+    {
+        partyDetails: { country: 'turkey', dbcode: 'yenidenbirlikpartisi' },
+        partyInfo: {
+            name: 'Yeniden Birlik Partisi',
+            shortname: 'YBP',
+            established: '31.03.2020',
             founder: '',
             address: '',
             internet_address: '',
@@ -1977,8 +1957,8 @@ const turkeyPartiesDetails = [
         partyDetails: { country: 'turkey', dbcode: 'yeniyolpartisi' },
         partyInfo: {
             name: 'Yeniyol Partisi',
-            shortname: '',
-            established: '',
+            shortname: 'YYP',
+            established: '04.05.2020',
             founder: '',
             address: '',
             internet_address: '',
@@ -1994,51 +1974,11 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'yesillervesolgelecekpartisi' },
+        partyDetails: { country: 'turkey', dbcode: 'degisimvedemokrasipartisi' },
         partyInfo: {
-            name: 'Yesiller ve Sol Gelecek Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'yucedirilispartisi' },
-        partyInfo: {
-            name: 'Yuce Dirilis Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'yurtpartisi' },
-        partyInfo: {
-            name: 'Yurt Partisi',
-            shortname: '',
-            established: '',
+            name: 'Degisim ve Demokrasi Partisi',
+            shortname: 'DDP',
+            established: '03.06.2020',
             founder: '',
             address: '',
             internet_address: '',
@@ -2058,7 +1998,7 @@ const turkeyPartiesDetails = [
         partyInfo: {
             name: 'Yenilik Partisi',
             shortname: 'YP',
-            established: '',
+            established: '20.07.2020',
             founder: '',
             address: '',
             internet_address: '',
@@ -2098,26 +2038,6 @@ const turkeyPartiesDetails = [
         partyInfo: {
             name: 'GÜZEL PARTİ',
             shortname: '',
-            established: '10.08.2020',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
-        },
-        partyPurposes: [
-
-        ],
-    },
-    {
-        partyDetails: { country: 'turkey', dbcode: 'cesurdusuncepartisi' },
-        partyInfo: {
-            name: 'CESUR DÜŞÜNCE PARTİSİ',
-            shortname: 'CESUR DÜŞÜNCE',
             established: '10.08.2020',
             founder: '',
             address: '',
@@ -2174,11 +2094,11 @@ const turkeyPartiesDetails = [
         ],
     },
     {
-        partyDetails: { country: 'turkey', dbcode: 'bizimparti' },
+        partyDetails: { country: 'turkey', dbcode: 'buyukturkiyepartisi' },
         partyInfo: {
-            name: 'BİZİM PARTİ',
-            shortname: '16.09.2020',
-            established: '',
+            name: 'Buyuk Turkiye Partisi',
+            shortname: '',
+            established: '16.09.2020',
             founder: '',
             address: '',
             internet_address: '',
