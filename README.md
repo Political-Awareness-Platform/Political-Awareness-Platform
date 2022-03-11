@@ -1,4 +1,7 @@
-#[Political Awareness Platform](https://politicalawarenessplatform.com/)
+# [Political Awareness Platform](https://politicalawarenessplatform.com/)
+
+## Project Goal
+This platform is created to heal the relationship problem between citizens and politicians / political parties. Hopefully, this platform may help citizens and political parties to understand each other better.
 ## Tech Stack
 
 Nuxtjs - Firebase - Netlify
@@ -42,3 +45,8 @@ As an NGO (not yet), we receive enormous support from individuals who work on th
 We encounter transparency very seriously and work with [OpenCollective - Political Awareness Platform](https://opencollective.com/political-awareness-platform)  to make our finance public. 
 
 We are delighted to support our sponsors and donators logo on our platform respectively and represent the public know who cares/supports the sustainability of the platform.
+
+## Licence
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2018-present
