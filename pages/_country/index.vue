@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <h3 style="text-align:center; margin-top: 1em; font-family: Quicksand;"> {{ $t('CountryPage.IdealImaginaryPartySectionTitle') }} </h3>
+    <h3 style="text-align:center; margin-top: 3em; font-family: Quicksand;"> {{ $t('CountryPage.IdealImaginaryPartySectionTitle') }} </h3>
     
     <div class="comment_sections">
       <div class="positive_comment_section">
@@ -53,7 +53,9 @@ export default {
 <style lang="scss" scoped>
 .container {
   
-  margin: 0px;
+  margin: auto;
+  text-align: center;
+  max-width: 1200px;
 
   .country_details { 
 
