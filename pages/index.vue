@@ -19,7 +19,7 @@
       <nuxt-link :to="localePath('/newzealand')" class="button--green">New Zealand</nuxt-link>
       <nuxt-link :to="localePath('/turkey')" class="button--green">Türkiye</nuxt-link>
       <nuxt-link :to="localePath('/germany')" class="button--green">Deutschland</nuxt-link>
-      <nuxt-link :to="localePath('/bulgaria')" class="button--green">Bulgaria</nuxt-link>
+      <!-- <nuxt-link :to="localePath('/bulgaria')" class="button--green">Bulgaria</nuxt-link> -->
     </div>
 
     <Authentication v-show="!this.$store.state.user.userUID" />
