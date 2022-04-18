@@ -50,7 +50,7 @@ We are delighted to support our sponsors and donators logo on our platform respe
 
 Via email: politicalawarenessplatform@gmail.com
 
-or 
+or even better
 
 New issue: https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/issues/new
 
