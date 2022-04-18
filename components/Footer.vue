@@ -8,6 +8,7 @@
         <LanguageInput />
       </div>
     </div>
+    
     <div class="footer-info">
       <div>
         <a
@@ -41,6 +42,9 @@
         >
       </div>
     </div>
+    
+    <div style="text-align: center;">&copy; 2018-present</div>
+
   </footer>
 </template>
 
