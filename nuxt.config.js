@@ -56,7 +56,7 @@ export default {
         locales: [
           { code: 'en', name: 'English' },
           { code: 'tr', name: 'Türkçe' },
-          { code: 'de', name: 'Deutsche' }
+          { code: 'de', name: 'Deutsch' }
         ],
         vueI18n: i18n
       }
