@@ -100,6 +100,7 @@ export default {
     .comment {
       padding: 12px 8px;
       margin: 8px auto;
+      text-align: left;
       list-style-type: none;
       background: white;
       border-radius: 10px;
@@ -127,6 +128,7 @@ export default {
     .comment {
       padding: 12px 8px;
       margin: 8px auto;
+      text-align: left;
       list-style-type: none;
       background: white;
       border-radius: 10px;

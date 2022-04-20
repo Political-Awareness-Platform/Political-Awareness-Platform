@@ -1,31 +1,37 @@
 <template>
   <div class="container">
-  
-    <p class="platform-purpose"> {{ $t('HomePage.PlatformGoal') }} </p>
+    <p class="platform-purpose">{{ $t("HomePage.PlatformGoal") }}</p>
     <br />
 
-    <h3>Goal I</h3>
-    <p class="goal-text"> {{ $t('HomePage.Goal1') }}</p>
+    <h3>{{ $t("HomePage.GoalTitle1") }}</h3>
+    <p class="goal-text">{{ $t("HomePage.Goal1") }}</p>
     <br />
-    <h3>Goal II</h3>
-    <p class="goal-text"> {{ $t('HomePage.Goal2') }} </p>
+    <h3>{{ $t("HomePage.GoalTitle2") }}</h3>
+    <p class="goal-text">{{ $t("HomePage.Goal2") }}</p>
     <br />
-    <h3>Goal III</h3>
-    <p class="goal-text"> {{ $t('HomePage.Goal3') }} </p>
+    <h3>{{ $t("HomePage.GoalTitle3") }}</h3>
+    <p class="goal-text">{{ $t("HomePage.Goal3") }}</p>
 
-    <h4 class="subtitle"> {{ $t('HomePage.AvailableCountries') }} </h4>
+    <h4 class="subtitle">{{ $t("HomePage.AvailableCountries") }}</h4>
 
     <div class="links">
-      <nuxt-link :to="localePath('/newzealand')" class="button--green">New Zealand</nuxt-link>
-      <nuxt-link :to="localePath('/turkey')" class="button--green">Türkiye</nuxt-link>
-      <nuxt-link :to="localePath('/germany')" class="button--green">Deutschland</nuxt-link>
+      <nuxt-link :to="localePath('/newzealand')" class="button--green"
+        >New Zealand</nuxt-link
+      >
+      <nuxt-link :to="localePath('/turkey')" class="button--green"
+        >Türkiye</nuxt-link
+      >
+      <nuxt-link :to="localePath('/germany')" class="button--green"
+        >Deutschland</nuxt-link
+      >
       <!-- <nuxt-link :to="localePath('/bulgaria')" class="button--green">Bulgaria</nuxt-link> -->
     </div>
 
     <Authentication v-show="!this.$store.state.user.userUID" />
-    
-    <p style="margin-top: 5em; font-family: Quicksand"> {{ $t('HomePage.TheMessage') }} </p>
 
+    <p style="margin-top: 5em; font-family: Quicksand">
+      {{ $t("HomePage.TheMessage") }}
+    </p>
   </div>
 </template>
 
@@ -37,7 +43,7 @@ export default {
   },
   mounted() {
     // window.location.hostname === "localhost" ? this.$store.dispatch("user/anonymousUser") : "";
-  }
+  },
 };
 </script>
 

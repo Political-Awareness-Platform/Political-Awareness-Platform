@@ -38,13 +38,21 @@ Figma can be the best candidate for our design tool to keep everyone up to date 
 ## Translation Contributions: 
 You still can help translation of the platform even you don't how to how to code or design. Because the translation is as important as the code and design of the platform. ( Please ask @emretinaz for guidance)
 
-## For sponsorship and donations  ( In Progress, not happening yet )
+## For sponsorship and donations
 
 As an NGO (not yet), we receive enormous support from individuals who work on this project to make it better for citizens and political parties. There are also dedicated employees who work enormously to develop the platform better, accessible and striking everyone. For the sustainability of the project, we need donations and sponsors to cover our expenses and the expenses of our platform contributors.  
 
 We encounter transparency very seriously and work with [OpenCollective - Political Awareness Platform](https://opencollective.com/political-awareness-platform)  to make our finance public. 
 
 We are delighted to support our sponsors and donators logo on our platform respectively and represent the public know who cares/supports the sustainability of the platform.
+
+## Contact
+
+Via email: politicalawarenessplatform@gmail.com
+
+or even better
+
+New issue: https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/issues/new
 
 ## Licence
 [MIT](https://opensource.org/licenses/MIT)
