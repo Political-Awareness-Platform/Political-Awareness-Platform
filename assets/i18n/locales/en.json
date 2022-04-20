@@ -28,6 +28,7 @@
         "CurrentMember":"Current Member",
         "PhoneNumber":"Phone Number",
         "Address":"Address",
+        "partyEmailAddress":"Email Address",
         "PartyPurposesTitle":"Party Purposes",
         "CommentSectionTitle":"Comments"
     },

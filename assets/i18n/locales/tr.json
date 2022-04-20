@@ -28,6 +28,7 @@
         "CurrentMember": "Üye Sayısı",
         "PhoneNumber": "Telefon Numarası",
         "Address": "Adres",
+        "partyEmailAddress": "Email Adresi",
         "PartyPurposesTitle": "Partinin Amaçları",
         "CommentSectionTitle": "Yorumlar"
     },

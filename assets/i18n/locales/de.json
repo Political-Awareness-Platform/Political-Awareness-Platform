@@ -28,6 +28,7 @@
         "CurrentMember": "Derzeitiges Mitglied",
         "PhoneNumber": "Telefonnummer",
         "Address": "Adresse",
+        "partyEmailAddress": "Email Addresse",
         "PartyPurposesTitle": "Politische Parteizwecke",
         "CommentSectionTitle": "Bemerkungen"
     },

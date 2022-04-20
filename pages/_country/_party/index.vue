@@ -23,10 +23,11 @@
           <p v-show="partyCurrentMember"><b>{{ $t('PartyPage.CurrentMember') }} </b><br /> {{ partyCurrentMember }}</p>
           <p v-show="partyPhone"><b>{{ $t('PartyPage.PhoneNumber') }} </b><br /> {{ partyPhone }}</p>
           <p v-show="partyAddress"><b>{{ $t('PartyPage.Address') }} </b><br /> {{ partyAddress }}</p>
+          <p v-show="partyEmailAddress"><b>{{ $t('PartyPage.partyEmailAddress') }} </b><br /> {{ partyEmailAddress }}</p>
         </div>
       </div>
     </div> 
-    <h3 style="text-align:center; font-family: Quicksand;">{{ $t('PartyPage.PartyPurposesTitle') }}</h3>
+    <h2 style="text-align:center; font-family: Quicksand;">{{ $t('PartyPage.PartyPurposesTitle') }}</h2>
     <div class="party_purposes" v-for="purpose in partyPurposes" :key="purpose.description">
       <p>{{purpose.description}}</p>
     </div>
@@ -61,6 +62,7 @@ export default {
       partyPhone : '',
       partyAddress : '',
       partyInternetAddress : '',
+      partyEmailAddress : '',
       partyFacebook : '',
       partyTwitter : '',
       logo : false
@@ -78,6 +80,7 @@ export default {
     this.partyCurrentMember = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.current_member;
     this.partyPhone = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.phone;
     this.partyInternetAddress = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.internet_address;
+    this.partyEmailAddress = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.email_address;
     this.partyAddress = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.address;
     this.partyFacebook = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.facebook;
     this.partyTwitter = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.twitter;
