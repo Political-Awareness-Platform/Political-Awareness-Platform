@@ -407,20 +407,23 @@ const turkeyPartiesDetails = [
         partyDetails: { country: 'turkey', dbcode: 'solparti' },
         partyInfo: {
             name: 'Sol Parti',
-            shortname: '08.06.1994',
-            established: '',
+            shortname: 'Sol Parti',
+            established: '8 Haziran 1994 ',
             founder: '',
-            address: '',
-            internet_address: '',
+            address: 'Kültür Mahallesi Mithatpaşa Caddesi No:45/15 Çankaya / Ankara',
+            internet_address: 'https://solparti.org/',
+            email_address: 'bilgi@solparti.org',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '5.556',
+            president: 'Önder İŞLEYEN',
+            facebook: 'https://www.facebook.com/SOLpartibilgi',
+            twitter: 'https://twitter.com/solpartibilgi',
+            phone: '0312 419 73 18',
         },
         partyPurposes: [
-
+            {
+                description: "Sınıflı toplumların ortaya çıkışından bu yana, işçi ve emekçi sınıfların pratiğinde kendini yeniden üreten eşit, özgür, sömürüsüz ve sınıfsız bir dünya arayışı insanlığın özlemidir. Bu evrensel ve tarihsel özlemin taşıyıcısı olan SOL Parti; kapitalizmin ve onun insanlığa dayattığı bütün baskı, sömürü, şiddet ve eşitsizlik biçimlerinin ortadan kalkmasını savunur. SOL Parti, özgürlükçü, özyönetimci, enternasyonalist, demokratik planlamacı, doğa-insan ilişkilerini yeniden tanımlayan, militarizm karşıtı ve cinsiyetçi olmayan bir sosyalizm doğrultusunda, sermaye güçlerinin egemenliğini, emperyalizmin tahakkümünü ortadan kaldırarak, emek güçlerinin siyasi iktidarının kurulmasını amaçlar. Üretenlerin yönettiği, ezen ve ezilenlerin olmadığı, toplumun üzerindeki askeri, polisiye ve bürokratik baskı ve denetimin ortadan kalktığı, ekonomik karar ve planlama süreçlerinin çalışan ve üreten çoğunluğun iradesine dayandığı bir dünyayı hedefler."
+            }
         ],
     },
     {
@@ -430,17 +433,41 @@ const turkeyPartiesDetails = [
             shortname: 'LDP',
             established: '26.07.1994',
             founder: '',
-            address: '',
-            internet_address: '',
+            address: 'Yüzüncü Yıl Mahallesi Hülya Sokak No:35/1 Gazi Osman Paşa Çankaya/ANKARA',
+            internet_address: 'https://www.ldp.org.tr/',
+            email_address: 'admin@ldp.org',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '4.867',
+            president: 'Gültekin TIRPANCI',
+            facebook: 'https://www.facebook.com/LiberalDemokrat/',
+            twitter: 'https://twitter.com/liberaLDP',
+            phone: '419 00 82',
         },
         partyPurposes: [
-
+            {
+                description: 'T.C. Devletinin bölünmez bütünlüğünü, ulusun huzur ve mutluluğunu, insan hakları çerçevesinde korumayı.'
+            },
+            {
+                description: 'T.C. Devleti Anayasası’nın temel ilkelerine bağlı, din ve devlet işlerini birbirinden ayrı tutma prensibi ile vicdan özgürlüğünden yana, din ve dil özgürlüğünde bağnazlığa karşı, kişisel inançlar ve liberal demokrasiye saygılı olmayı.'
+            },
+            {
+                description: 'Türkiye’nin çağdaş uygarlık seviyesine ulaşmasını, liberal ve atılımcı bir ruhla gerçekleştirmeyi, bu amaçla bireyin refah, mutluluk ve hürriyeti için yeniden yapılanmayı.'
+            },
+            {
+                description: '“Egemenlik kayıtsız, şartsız milletindir” ilkesine tam anlamı ile hâkim ve çok partili demokratik sistemi korumayı ve yaşatmayı, bağımsız hukuk devleti olan T.C. yüceltmeyi.'
+            },
+            {
+                description: 'Bireylerin huzuru için gerekli, temiz çevre temiz toplum, dürüst yönetim ve ulusal güvenlik öğeleri olan temel gereksinimleri, liberal anlayışla işleyip Türkiye’yi özenilen bir ülke haline getirmeyi.'
+            },
+            {
+                description: 'Türk ulusunun liberal demokrasiye ve ekonomiye inancını geliştirmeyi,'
+            },
+            {
+                description: 'Türkiye’nin ekonomik kaynaklarını, liberal bir çerçeve içinde yüceltmeyi ve ulaşılacak yüksek refah düzeyinin bireylere dengeli dağılımını sağlamayı.'
+            },
+            {
+                description: '2000’li yıllarda, Türkiye’nin ileri ülkeler arasında yer almasını, girişimci sektörün, silahlı kuvvetlerin, sendikaların, basın, üniversite ve diğer anayasal kuruluşların liberal değişim programından aynı ölçüde yararlanılmasını, yenilikçi ve köklü bir değişim programı ile gerçekleştirmeyi amaçlayan bir siyasi partidir.'
+            },
         ],
     },
     {
@@ -448,36 +475,40 @@ const turkeyPartiesDetails = [
         partyInfo: {
             name: 'Emek Partisi',
             shortname: 'EMEP',
-            established: '25..11.1994',
+            established: '25.11.1994',
             founder: '',
-            address: '',
-            internet_address: '',
+            address: 'FEVZİ ÇAKMAK SOK NO: 15/5 KIZILAY/ANKARA',
+            internet_address: 'https://www.emep.org/',
+            email_address: 'emekpartisi@emep.org',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '5.256',
+            president: 'Ercüment AKDENİZ',
+            facebook: 'https://www.facebook.com/emekpartisi',
+            twitter: 'https://twitter.com/emekpartisi',
+            phone: '232 41 97-98',
         },
         partyPurposes: [
-
+            {
+                description: 'EMEP Türk, Kürt ve her milliyetten Türkiye işçi sınıfının partisidir. Amacı; tüm sınıfların, bütün biçimleriyle baskı ve sömürünün kaldırıldığı sınıfsız toplumun kurulmasıdır.'
+            }
         ],
     },
     {
         partyDetails: { country: 'turkey', dbcode: 'devrimcisosyalistiscipartisi' },
         partyInfo: {
-            name: 'Devrimci Sosyalist Isci Partisi',
+            name: 'Devrimci Sosyalist İsci Partisi',
             shortname: 'DSIP',
             established: '25.04.1997',
             founder: '',
-            address: '',
-            internet_address: '',
+            address: 'Konur 1 Sok 14/13 Kızılay/Ankara',
+            internet_address: 'https://www.dsip.org.tr/',
+            email_address: 'iletisim@dsip.org.tr',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '93',
+            president: 'TUNA EMREN',
+            facebook: 'https://www.facebook.com/devrimcisosyalistiscipartisi/',
+            twitter: 'https://twitter.com/DSiP_',
+            phone: '0312 231 31 66',
         },
         partyPurposes: [
 
@@ -486,18 +517,19 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'ilkparti' },
         partyInfo: {
-            name: 'Ilk Parti',
-            shortname: 'ILK PARTI',
+            name: 'İlk Parti',
+            shortname: 'İLK PARTI',
             established: '23.10.1998',
             founder: '',
-            address: '',
-            internet_address: '',
+            address: 'Kavaklıdere Mah. Tunus Cad. No:9 Daire:8 Kavaklıdere/Ankara',
+            internet_address: 'https://twitter.com/ilkparti',
+            email_address: 'iletisim@ilkparti.org.tr',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '992',
+            president: 'Süleyman YAĞCIOĞLU',
+            facebook: 'https://www.facebook.com/ilkpartigm',
+            twitter: 'https://twitter.com/ilkparti',
+            phone: '0 (312) 417 43 33',
         },
         partyPurposes: [
 
@@ -512,7 +544,8 @@ const turkeyPartiesDetails = [
             founder: 'Necmettin Erbakan',
             address: 'Nasuh Akar Mahallesi, 1419. Sk. No:3, 06520 Balgat, Çankaya / Ankara',
             internet_address: 'http://saadet.org.tr/',
-            public_relation: '?',
+            email_address: 'info@saadet.org.tr',
+            public_relation: 'BİROL AYDIN',
             current_member: '222.239',
             president: 'Temel Karamollaoğlu',
             facebook: 'https://www.facebook.com/SaadetPartisi',
@@ -537,12 +570,13 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'adaletvekalkinmapartisi' },
         partyInfo: {
-            name: 'Adalet ve Kalkinma Partisi',
+            name: 'Adalet ve Kalkınma Partisi',
             shortname: 'AK Parti',
-            established: 'August 14, 2001',
+            established: 'August 14 2001',
             founder: 'Recep Tayyip Erdoğan',
             address: 'Söğütözü Caddesi No 6 Çankaya, Ankara',
             internet_address: 'https://www.akparti.org.tr/',
+            email_address: '?',
             public_relation: 'Ömer Çelik',
             current_member: '11.089.543',
             president: 'Recep Tayyip Erdoğan',
@@ -620,21 +654,24 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'bagimsizturkiyepartisi' },
         partyInfo: {
-            name: 'Bagimsiz Turkiye Partisi',
-            shortname: '25.09.2001',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            name: 'Bağımsız Türkiye Partisi',
+            shortname: 'BTP',
+            established: '25.09.2001',
+            founder: 'Haydar Baş',
+            address: 'Esat Caddesi No:11 (Akay Yokuşu) Çankaya / ANKARA',
+            internet_address: 'https://btp.org.tr/',
+            email_address: 'btp@btp.org.tr',
+            public_relation: 'Emre Polat',
+            current_member: '9.771',
+            president: 'Hüseyin Baş',
+            facebook: 'https://www.facebook.com/BTP.BagimsizTurkiyePartisi',
+            twitter: 'https://twitter.com/BTP_Parti',
+            phone: '0 (312) 212 22 12',
         },
         partyPurposes: [
-
+            {
+                description: 'Türkiye Cumhuriyetinin varlık ve bağımsızlığına, Devletin ülkesi ve milleti ile bölünmez bütünlüğüne, Toplumun milli ve manevi değerleri ile Anayasanın Genel Esaslar kısmında yer alan ilkelere, demokratik kurallara ve kişi haklarına sahip çıkarak korumak ve ülkemizin her alanda en ileri düzeye ulaşması için tüzük ve programında belirtilen hususları gerçekleştirmektir.'
+            }
         ],
     },
     {
@@ -646,12 +683,13 @@ const turkeyPartiesDetails = [
             founder: 'Abdullatif EPÖZDEMİR',
             address: 'Mithatpaşa Cad.No:24/11 K:6 Kızılay/ANKARA',
             internet_address: 'http://hakpar.org.tr/',
+            email_address: 'info@hakpar.org.tr',
             public_relation: '',
             current_member: '1450',
             president: 'Nurettin Basut',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            facebook: 'https://www.facebook.com/HAKPAR2002',
+            twitter: 'https://twitter.com/HAK_PAR',
+            phone: '434 35 01',
         },
         partyPurposes: [
             {
@@ -678,10 +716,10 @@ const turkeyPartiesDetails = [
             address: 'MEŞRUTİYET  CAD BAYINDIR 2 SOK 59/5 KIZILAY',
             internet_address: '',
             public_relation: '',
-            current_member: '74',
+            current_member: '78',
             president: 'Sadettin TANTAN',
             facebook: '',
-            twitter: '',
+            twitter: 'https://twitter.com/yurt_parti',
             phone: '0418 90 34',
         },
         partyPurposes: [
@@ -691,38 +729,42 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'bagimsizcumhuriyetpartisi' },
         partyInfo: {
-            name: 'Bagimsiz Cumhuriyet Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
+            name: 'BAĞIMSIZ CUMHURİYET PARTİSİ',
+            shortname: 'BCP',
+            established: '24.07.2002',
+            founder: 'Mümtaz Soysal’',
+            address: 'BAYINDIR 1 SOKAK 15/13 KIZILAY',
+            internet_address: 'https://bcp.org.tr/',
+            email_address: 'bilgi@bcp.org.tr',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
+            current_member: '7',
+            president: 'Hakkı KARĞIN',
+            facebook: 'https://www.facebook.com/groups/768406277228591',
             twitter: '',
-            phone: '',
+            phone: '442 59 45',
         },
         partyPurposes: [
-
+            {
+                description: '“Milli Mücadele” ruhuyla; Yön duygusu gelişmiş; Kendine güvenen ve kendi aklının ve emeğinin gücüyle kurtulacağına inanan; Sürekli özgürleşme, gelişme ve çağdaşlaşma hedefine yürüyen; Güçlü bir demokratik sosyal hukuk devletinin yönlendiriciliğinde; Refahı, mutluluğu hak ettiğine inanan ve onun için çaba gösteren; Kültürel çeşitliliği ve renkliliğiyle birlik, bütünlük ve barış içinde yaşamaya azmetmiş; Eşitlik, hak, adalet ve kardeşlik duyguları gelişmiş özgür bireylerden oluşan bir toplum yaratarak, Türkiye Cumhuriyeti’ ni çağdaş uygarlık düzeyine ulaştırmaktır.'
+            }
         ],
     },
     {
         partyDetails: { country: 'turkey', dbcode: 'sagduyupartisi' },
         partyInfo: {
-            name: 'Sag Duyu Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
+            name: 'SAĞDUYU PARTİSİ',
+            shortname: 'SAGDUYU',
+            established: '04.09.2002',
+            founder: 'Muharrem Nureddin Coşan',
+            address: 'STRAZBURG CAD N0:28/8 SIHHIYE/ANKARA',
+            internet_address: 'https://sagduyu.global/',
+            email_address: '',
+            public_relation: 'Metin Alex',
+            current_member: '0',
+            president: 'Mehmet Yücel Ağargün',
             facebook: '',
-            twitter: '',
-            phone: '',
+            twitter: 'https://twitter.com/sagduyum',
+            phone: '230 45 49',
         },
         partyPurposes: [
 
@@ -731,38 +773,42 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'ayyildizpartisi' },
         partyInfo: {
-            name: 'Ayyildiz Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
+            name: 'AYYILDIZ PARTİSİ',
+            shortname: 'AYP',
+            established: '03.09.2003',
+            founder: 'Serap GÜLHAN',
+            address: 'Atatürk Bulvarı 117/24 Kat:6 KIZILAY',
+            internet_address: 'http://www.ayyildizpartisi.org.tr/',
+            email_address: 'irtibat@ayyildizpartisi.org.tr',
             public_relation: '',
-            current_member: '',
+            current_member: '1',
             president: '',
             facebook: '',
             twitter: '',
-            phone: '',
+            phone: '418 06 04',
         },
         partyPurposes: [
-
+            {
+                description: 'Ayyıldız Partisi, insanca ve hakça gelişmeyi, dirlik, düzenlik içinde hızlandırarak, Türkiye’yi Atatürk Devrimi ve ilkeleri doğrultusunda çağdaş uygarlık düzeyinin üstüne eriştirmeyi, demokrasiye her alanda geçerlilik kazandırmayı; insan haklarını ve özgürlüklerini sağlam güvencelere dayandırarak genişletmeyi; halk katılımının her alanda sürekli ve etkili olmasını sağlayarak ulusal egemenliği pekiştirmeyi amaçlayan; hukukun ve emeğin üstünlüğünü; toplumda ve uluslararasında eşitliği, adaleti ve dayanışmayı; ulusal bağımsızlığı ve Türkiye Cumhuriyeti Devleti’nin ulusu ve ülkesiyle bölünmez bütünlüğünü gözeten; yurtta ve dünyada barış için çalışan ve gücünü halktan alan bir siyasal kuruluştur..'
+            }
         ],
     },
     {
         partyDetails: { country: 'turkey', dbcode: 'emekcihareketpartisi' },
         partyInfo: {
-            name: 'Emekci Hareket Partisi',
+            name: 'EMEKÇİ HAREKET PARTİSİ',
             shortname: 'EHP',
-            established: '',
+            established: '05/01/2004',
             founder: '',
-            address: '',
-            internet_address: '',
-            public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            address: 'BAYINDIR SOK 22/16 KIZILAY ANKARA',
+            internet_address: 'https://ehp.org.tr',
+            email_address: 'bilgi@ehp.org.tr',
+            public_relation: 'Özge Akman',
+            current_member: '239',
+            president: 'Hakan ÖZTÜRK',
+            facebook: 'https://www.facebook.com/EmekciHareketPartisi/',
+            twitter: 'https://twitter.com/emekci_hareket',
+            phone: '232 41 97-98',
         },
         partyPurposes: [
 
@@ -771,38 +817,54 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'halkinkurtuluspartisi' },
         partyInfo: {
-            name: 'Halkin Kurtulus Partisi',
+            name: 'HALKIN KURTULUŞ PARTİSİ',
             shortname: 'HKP',
-            established: '',
+            established: '15.06.2005',
             founder: '',
-            address: '',
-            internet_address: '',
+            address: 'Meşrutiyet Caddesi Karanfil Sokak No:24/15 Kızılay/Ankara',
+            internet_address: 'https://www.hkp.org.tr/',
+            email_address: 'hkp@hkp.org.tr',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '567',
+            president: 'Nurullah ANKUT',
+            facebook: 'https://www.facebook.com/hkurtuluspartisi',
+            twitter: 'https://twitter.com/kurtuluspartisi',
+            phone: '0 312 424 06 18',
         },
         partyPurposes: [
-
+            {
+                description: 'Devleti Halk’tan üstün değil, Halk’ı Devlet’ten üstün tutan gerçek özgürlüğü fiilenkurmak ve antidemokratik yasaları ayıklamak.'
+            },
+            {
+                description: 'Müzmin İşsizlik ve azgın Hayat Pahalılığı kanser haline gelmiştir. Bunları köklerinden kazımak için ikinci bir Kuvayimilliye (Kurtuluş Savaşı) seferberliği gerekmektedir. Bu ekonomik seferberliğimizi bilim ve teknolojinin en son aşamasına dayanan ağır sanayitemeline oturtmak.'
+            },
+            {
+                description: 'Ulusal üretim mücadelemizin para maddesini -ne sadakayla ne zorla- ancak UCUZ DEVLET ve BİLİNÇLİ TİCARET yoluyla sağlamak.'
+            },
+            {
+                description: 'Bu kutsal ekonomik Kuvayimilliye seferberliğimizin güdücü ruhunu -başta İşçi Sınıfımız gelmek üzere- cahil, alim, köylü, şehirli… bütün değer yaratan emekçi halkın tamamıyla aşağıdan gelme ve tamamıyla serbest; GİRİŞİM, ÖRGÜTLENME VE DENETİMİNDE bulmak ve bu amaçla bütün organlarda bilfiil üretmenleri çoğunlukta görmek, yarımız olan Kadını ön safta bulmak, Gençliğe sonsuz inanmak.'
+            },
+            {
+                description: 'Bu güdücü ruhu oluşturan her kesimden insanlarımızı, bu yüce davayı gerçekleştirebilmek ve nihai amacına ulaştırabilmek için insan, hayvan, bitki ve doğa sevgisiyle donatarak bencillikten uzak, toplum için her türlü fedakârlığı seve seve yapabilecek hale getirmek için gerekli çalışmayı şimdiden başlatmak.'
+            }
         ],
     },
     {
         partyDetails: { country: 'turkey', dbcode: 'mudafaaihukukhareketipartisi' },
         partyInfo: {
-            name: 'Mudafaai Hukuk Hareketi Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
+            name: 'MÜDAFAA-İ HUKUK HAREKETİ PARTİSİ',
+            shortname: 'MHHP',
+            established: '24.04.2006',
+            founder: ' Ertuğrul Zekai ÖKTE',
+            address: 'Korkut Reis Mahallesi Hanımeli Sokak 21/34 Sıhhiye-Çankaya/ANKARA',
+            internet_address: 'https://www.mudafaaihukuk.org.tr/',
+            email_address: 'info@mudafaaihukuk.org.tr',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '323',
+            president: 'Ufuk Erdüvenci',
+            facebook: 'https://www.facebook.com/mudafaaihukukhareketi',
+            twitter: 'https://twitter.com/mhhpmerkez',
+            phone: '230 85 10',
         },
         partyPurposes: [
 
@@ -811,58 +873,65 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'iscininkendipartisi' },
         partyInfo: {
-            name: 'Iscinin Kendi Partisi',
-            shortname: 'IKEP',
-            established: '',
+            name: 'İŞÇİNİN KENDİ PARTİSİ',
+            shortname: 'İKEP',
+            established: '15/06/2006',
             founder: '',
-            address: '',
-            internet_address: '',
+            address: 'Korkut Reis Mahallesi İlkiz Sokak 12/3 Çankaya/Ankara',
+            internet_address: 'https://iscininkendipartisi.org/',
+            email_address: 'iletisim@iscininkendipartisi.org',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '100',
+            president: 'Cemal BİLGİN',
+            facebook: 'https://www.facebook.com/iscininkendipartisi',
+            twitter: 'https://twitter.com/iscikardesligi',
+            phone: '0535 683 79 23',
         },
         partyPurposes: [
-
+            {
+                description: 'İşçinin Kendi Partisi’nin amacı, Türkiye’de ve dünyada her türlü sömürüye son verecek işçi-yoksul köylü hükümetlerinin kurulmasını sağlayarak bir işçi iktidarına ulaşmaktır.'
+            }
         ],
     },
     {
         partyDetails: { country: 'turkey', dbcode: 'yucedirilispartisi' },
         partyInfo: {
-            name: 'Yuce Dirilis Partisi',
-            shortname: '',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
+            name: 'YÜCE DİRİLİŞ PARTİSİ',
+            shortname: 'YÜCE DİRİ-P',
+            established: '16.04.2007',
+            founder: 'Sezai Karakoç',
+            address: 'GAZİ MUSTAFA KEMAL BULVARI 39/10 ANK',
+            internet_address: 'http://yucedirilis.org.tr/',
+            email_address: 'bilgi@yucedirilis.org.tr',
             public_relation: '',
-            current_member: '',
-            president: '',
-            facebook: '',
-            twitter: '',
-            phone: '',
+            current_member: '141',
+            president: 'Lütfü YILMAZ',
+            facebook: 'https://www.facebook.com/YuceDiriP',
+            twitter: 'https://twitter.com/yuce_dirilis',
+            phone: '230 54 30',
         },
         partyPurposes: [
-
+            {
+                description: 'Yüce Diriliş Partisi, toplumun bağrından doğmuş olma şuuru içinde, iç ve dış tarihî-sosyolojik şartları göz önünde tutmayı ihmal etmeksizin, ülkemiz ve milletimizin, mânen ve maddeten, en iyi, en doğru, en güzel ve en yüce bir güç ve seviyeye ermesi, kimliğinin, bağımsızlığının, bütünlüğünün ve tüm haklarının tam anlamıyla korunması, böylece bugünün ve yarınının güvence altına alınması, insanlığa katkısının, geçmişte olduğu gibi, günümüzde ve gelecekte hiçbir ülkeninkinden geri kalmamak üzere, en yüksek dereceye çıkarılması amacını taşıyan, bu amaca varmak için kişilerin haklarını en geniş kapsamıyla tanımanın ve gelişimlerini sağlamanın mutlak gereğine ve önemine inanan, daima gerçeğe değer vermeyi ilke edinen, bilime dayalı düşünceler çerçevesinde ilerlemeyi metot bilen siyasî bir kuruluştur. Partinin amacı ve bu amaca varmak için izleyeceği yol, programında ayrıntılarıyla açıklanmıştır.'
+            }
         ],
     },
     {
         partyDetails: { country: 'turkey', dbcode: 'dogruyolpartisi' },
         partyInfo: {
-            name: 'Dogruyol Partisi',
+            name: 'DOĞRU YOL PARTİSİ',
             shortname: 'DYP',
-            established: '',
-            founder: '',
-            address: '',
-            internet_address: '',
+            established: '28/05/2007',
+            founder: 'Çetin ÖZAÇIKGÖZ',
+            address: 'GMK Bulvarı 52/18 Maltepe/ANKARA',
+            internet_address: 'http://www.dyp.com.tr/',
+            email_address: 'dyp@dyp.com.tr',
             public_relation: '',
-            current_member: '',
-            president: '',
+            current_member: '1580',
+            president: 'Çetin ÖZAÇIKGÖZ',
             facebook: '',
-            twitter: '',
-            phone: '',
+            twitter: 'https://twitter.com/DYPGenelMerkez',
+            phone: '0312 3909036',
         },
         partyPurposes: [
 
@@ -871,18 +940,19 @@ const turkeyPartiesDetails = [
     {
         partyDetails: { country: 'turkey', dbcode: 'devrimciiscipartisi' },
         partyInfo: {
-            name: 'Devrimci Isci Partisi',
-            shortname: '',
-            established: '',
+            name: 'DEVRİMCİ İŞÇİ PARTİSİ',
+            shortname: 'DİP',
+            established: '07.09.2007',
             founder: '',
-            address: '',
+            address: 'Sağlık Mahallesi Mithat Paşa Caddesi No: 13/21 Çankaya/ANKARA',
             internet_address: '',
+            email_address: 'iletisim@dip.org.tr',
             public_relation: '',
-            current_member: '',
+            current_member: '29',
             president: '',
             facebook: '',
-            twitter: '',
-            phone: '',
+            twitter: 'https://twitter.com/dip_org_tr',
+            phone: '0 530 112 91 09',
         },
         partyPurposes: [
 
@@ -1173,7 +1243,7 @@ const turkeyPartiesDetails = [
         partyPurposes: [
 
         ],
-    }, 
+    },
     {
         partyDetails: { country: 'turkey', dbcode: 'hurdavapartisi' },
         partyInfo: {
