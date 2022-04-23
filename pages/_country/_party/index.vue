@@ -75,7 +75,7 @@ export default {
     this.partyShortName = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.shortname;
     this.partyEstablished = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.established;
     this.partyFounder = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.founder;
-    this.partPresident = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.president;
+    this.partyPresident = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.president;
     this.partyPublicRelation = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.public_relation;
     this.partyCurrentMember = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.current_member;
     this.partyPhone = await this.$store.getters['AllPartiesDetails/getSingleParty'](this.$route.params.party).partyInfo.phone;
