@@ -14,7 +14,7 @@
     "@nuxt/components": "^2.1.1",
     "autoprefixer": "^9.8.6",
     "firebase": "^8.2.9",
-    "firebase-admin": "^9.2.0",
+    "firebase-admin": "^11.4.1",
     "firebase-functions": "^3.11.0",
     "node-fetch": "^2.6.1",
     "nuxt": "^2.15.3",
