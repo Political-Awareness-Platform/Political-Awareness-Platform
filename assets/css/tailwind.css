@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply font-bold text-2xl my-2 text-gray-800;
+  }
+
+  p {
+    @apply font-Inter text-gray-700 antialiased text-lg leading-8;
+  }
+}
+
+@layer components {
+  .navlink {
+    @apply no-underline w-32 text-center float-right py-2 pl-3 pr-4 text-sky-900 text-lg font-semibold font-Inter antialiased rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:py-0 md:pl-0 md:pr-0 md:w-max;
+  }
+
+  .btn {
+    @apply inline-block px-3 py-2 rounded-lg focus:outline-none focus:ring focus:ring-offset-2 focus:ring-sky-900 focus:ring-opacity-50 transform transition tracking-wider font-semibold text-sm no-underline sm:text-base;
+  }
+
+  .btn-primary {
+    @apply shadow-lg bg-sky-800 text-white hover:bg-sky-700 hover:-translate-y-0.5 active:bg-sky-900;
+  }
+
+  .btn-secondary {
+    @apply inline-flex justify-center items-center border shadow-lg text-sky-900 hover:bg-gray-50 hover:-translate-y-0.5 active:bg-gray-100 focus:ring-opacity-0;
+  }
+
+  .genericHamburgerLine {
+    @apply h-1 w-6 my-0.5 rounded-full bg-sky-800 transition transform duration-300;
+  }
+
+  .pressable-button {
+    @apply p-2 h-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-2xl border-gray-300 border-2 border-b-[6px] active:border-b-[2px] active:translate-y-[4px] active:border-[2px];
+  }
+
+  .not-pressable-button {
+    @apply p-2 h-12 text-white font-bold bg-blue-500 rounded-2xl border-gray-300 border-2 border-b-[6px] cursor-no-drop;
+  }
+}

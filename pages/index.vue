@@ -1,140 +1,37 @@
 <template>
-  <div class="container">
-    <p class="platform-purpose">{{ $t("HomePage.PlatformGoal") }}</p>
-    <br />
+  <div>
+    <section class="max-w-5xl mx-auto text-center bg-gray-50 p-8 my-8 rounded-2xl">
+      <p>{{ $t('HomePage.PlatformGoal') }}</p>
+    </section>
 
-    <h3>{{ $t("HomePage.GoalTitle1") }}</h3>
-    <p class="goal-text">{{ $t("HomePage.Goal1") }}</p>
-    <br />
-    <h3>{{ $t("HomePage.GoalTitle2") }}</h3>
-    <p class="goal-text">{{ $t("HomePage.Goal2") }}</p>
-    <br />
-    <h3>{{ $t("HomePage.GoalTitle3") }}</h3>
-    <p class="goal-text">{{ $t("HomePage.Goal3") }}</p>
+    <section class="max-w-6xl mx-auto">
+      <h4 class="text-sky-500 text-2xl font-bold">{{ $t('HomePage.GoalTitle1') }}</h4>
+      <p class="text-base antialiased hover:subpixel-antialiased mb-4 tracking-tight">{{ $t('HomePage.Goal1') }}</p>
 
-    <h4 class="subtitle">{{ $t("HomePage.AvailableCountries") }}</h4>
+      <h4 class="text-sky-600 text-2xl font-bold">{{ $t('HomePage.GoalTitle2') }}</h4>
+      <p class="text-base antialiased hover:subpixel-antialiased mb-4 tracking-tight">{{ $t('HomePage.Goal2') }}</p>
 
-    <div class="links">
-      <nuxt-link :to="localePath('/newzealand')" class="button--green"
-        >New Zealand</nuxt-link
-      >
-      <nuxt-link :to="localePath('/turkey')" class="button--green"
-        >Türkiye</nuxt-link
-      >
-      <nuxt-link :to="localePath('/germany')" class="button--green"
-        >Deutschland</nuxt-link
-      >
-      <!-- <nuxt-link :to="localePath('/bulgaria')" class="button--green">Bulgaria</nuxt-link> -->
-    </div>
+      <h4 class="text-sky-700 text-2xl font-bold">{{ $t('HomePage.GoalTitle3') }}</h4>
+      <p class="text-base antialiased hover:subpixel-antialiased mb-4 tracking-tight">{{ $t('HomePage.Goal3') }}</p>
+    </section>
 
-    <Authentication v-show="!this.$store.state.user.userUID" />
+    <section>
+      <h4 class="text-sky-700 text-2xl font-bold my-8 text-center">{{ $t('HomePage.AvailableCountries') }}</h4>
+      <div class="flex justify-center space-x-12">
+        <ULink :to="localePath('/newzealand')" active-class="text-primary"
+          inactive-class="text-gray-500 border border-gray-200 px-4 py-2 rounded-lg hover:bg-gray-50 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
+          New Zealand
+        </ULink>
+        <ULink :to="localePath('/turkiye')" active-class="text-primary"
+          inactive-class="text-gray-500 border border-gray-200 px-4 py-2 rounded-lg hover:bg-gray-50 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
+          Türkiye
+        </ULink>
+        <ULink :to="localePath('/deutschland')" active-class="text-primary"
+          inactive-class="text-gray-500 border border-gray-200 px-4 py-2 rounded-lg hover:bg-gray-50 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200">
+          Deutschland
+        </ULink>
 
-    <p style="margin-top: 5em; font-family: Quicksand">
-      {{ $t("HomePage.TheMessage") }}
-    </p>
+      </div>
+    </section>
   </div>
 </template>
-
-<script>
-// import { fireAuth } from "@/plugins/firebaseConfig.js";
-export default {
-  data() {
-    return {};
-  },
-  mounted() {
-    // window.location.hostname === "localhost" ? this.$store.dispatch("user/anonymousUser") : "";
-  },
-};
-</script>
-
-<style lang="scss" scoped>
-.container {
-  margin: auto;
-  // min-height: 100vh;
-  text-align: center;
-  max-width: 1000px;
-}
-
-.platform-purpose {
-  max-width: 900px;
-  text-align: center;
-  margin: 2em auto;
-  font-family: "Quicksand";
-  font-size: 1em;
-  font-weight: 500;
-  color: #2d333f;
-  word-spacing: 2px;
-
-  @media only screen and (max-width: 600px) {
-    text-align: left;
-    font-size: 15px;
-  }
-}
-
-.subtitle {
-  font-weight: 400;
-  font-size: 2em;
-  color: #526488;
-  word-spacing: 5px;
-  margin: 1em 0;
-  font-family: "Quicksand";
-}
-
-.links {
-  font-family: "Quicksand";
-  display: flexbox;
-  flex-direction: row wrap;
-}
-
-.goal-text {
-  text-align: left;
-  color: #1d2129;
-  word-spacing: 2px;
-  font-size: 1em;
-  font-family: "Quicksand";
-  font-weight: 400;
-  color: #2d333f;
-  word-spacing: 2px;
-  margin: 0;
-
-  @media only screen and (max-width: 600px) {
-    font-size: 15px;
-  }
-}
-
-h3 {
-  text-align: left;
-  margin: 0px;
-  color: #526488;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-top: 1em;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-</style>
