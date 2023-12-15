@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@formkit/nuxt", "@nuxtjs/i18n","@nuxt/image"],
+  modules: ["@nuxt/ui", "@nuxtjs/i18n","@nuxt/image"],
   colorMode: { preference: "light"},
   app: {
     head: {
@@ -17,10 +17,6 @@ export default defineNuxtConfig({
     },
   },
   tailwindcss: { viewer: false },
-  formkit: {
-    autoImport: true,
-    configFile: "./formkit.config.js",
-  },
   image: {
     dir: 'assets/logos',
   },

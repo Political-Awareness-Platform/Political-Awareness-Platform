@@ -1,6 +1,5 @@
-const FormKitVariants = require('@formkit/themes/tailwindcss')
-
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     'components/**/*.{vue,js,ts}',
@@ -12,8 +11,7 @@ module.exports = {
     'app.{js,ts,vue}',
     'Error.{js,ts,vue}',
     'error.{js,ts,vue}',
-    './public/index.html',
-    './tailwind-theme.js'
+    './public/index.html'
   ],
   theme: {
     extend: {},
@@ -24,7 +22,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    'FormKitVariants'
+    require('@tailwindcss/forms')
   ]
 }
