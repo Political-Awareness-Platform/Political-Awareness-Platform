@@ -52,11 +52,15 @@
       </p>
     </div>
 
+    <div class="flex justify-center">
+      <UButton to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/assets/parties/newzealand.json" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square" >{{ $t('PartyPage.EditThisPage') }}</UButton>
+    </div>
+
   </div>
 </template>
 
 <script setup>
 import data from '~/assets/parties/newzealand.json';
 const { id } = useRoute().params;
-const party = data.find(party => party.partyInfo.dbcode === id);
+const party = data.find( party => party.partyInfo.dbcode === id );
 </script>

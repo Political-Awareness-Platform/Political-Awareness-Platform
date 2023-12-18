@@ -16,7 +16,8 @@
       "PartiesinParlament": "Parties in Parlament",
       "NumberofVoters": "Number of Voters",
       "ContributiontoElection": "Contribution to Election",
-      "IdealImaginaryPartySectionTitle":"Ideal / Imaginary Party"
+      "IdealImaginaryPartySectionTitle":"Ideal / Imaginary Party",
+      "EditThisPage": "Edit this page"
   },
   "PartyPage": {
       "PartyName":"Party Name",
@@ -30,7 +31,8 @@
       "Address":"Address",
       "partyEmailAddress":"Email Address",
       "PartyPurposesTitle":"Party Purposes",
-      "CommentSectionTitle":"Comments"
+      "CommentSectionTitle":"Comments",
+      "EditThisPage": "Edit this page"
   },
   "CountryPCS": {
       "TheTopDesireListTitle":"The Top Desires",
