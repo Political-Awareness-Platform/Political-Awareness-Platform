@@ -52,6 +52,10 @@
       </p>
     </div>
 
+    <div class="flex justify-center">
+      <UButton to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/assets/parties/turkiye.json" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square">{{ $t('PartyPage.EditThisPage') }}</UButton>
+    </div>
+
   </div>
 </template>
 

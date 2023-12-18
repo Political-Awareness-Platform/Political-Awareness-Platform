@@ -16,7 +16,8 @@
       "PartiesinParlament": "Parteien im Parlament",
       "NumberofVoters": "Anzahl der Wähler",
       "ContributiontoElection": "Beitrag zur Wahl",
-      "IdealImaginaryPartySectionTitle": "Ideale / imaginäre politische Partei"
+      "IdealImaginaryPartySectionTitle": "Ideale / imaginäre politische Partei",
+      "EditThisPage": "Diese Seite bearbeiten"
   },
   "PartyPage": {
       "PartyName": "Parteinamen",
@@ -30,7 +31,8 @@
       "Address": "Adresse",
       "partyEmailAddress": "Email Addresse",
       "PartyPurposesTitle": "Politische Parteizwecke",
-      "CommentSectionTitle": "Bemerkungen"
+      "CommentSectionTitle": "Bemerkungen",
+      "EditThisPage": "Diese Seite bearbeiten"
   },
   "CountryPCS": {
       "TheTopDesireListTitle": "Top 5 der gewünschten Dinge einer politischen Partei",

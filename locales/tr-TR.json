@@ -16,7 +16,8 @@
       "PartiesinParlament": "Meclisteki Parti Sayısı",
       "NumberofVoters": "Seçmen Sayısı",
       "ContributiontoElection": "Seçime Katılım",
-      "IdealImaginaryPartySectionTitle": "İdeal / Hayali Parti"
+      "IdealImaginaryPartySectionTitle": "İdeal / Hayali Parti",
+      "EditThisPage": "Bu sayfayı düzenle"
   },
   "PartyPage": {
       "PartyName": "Parti İsmi",
@@ -30,7 +31,8 @@
       "Address": "Adres",
       "partyEmailAddress": "Email Adresi",
       "PartyPurposesTitle": "Partinin Amaçları",
-      "CommentSectionTitle": "Yorumlar"
+      "CommentSectionTitle": "Yorumlar",
+      "EditThisPage": "Bu sayfayı düzenle"
   },
   "CountryPCS": {
       "TheTopDesireListTitle": "En çok istenen 5 şey",
