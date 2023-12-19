@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxtjs/i18n","@nuxt/image"],
+  modules: ["@nuxt/ui", "@nuxtjs/i18n","@nuxt/image", "nuxt-security"],
   colorMode: { preference: "light"},
   app: {
     head: {

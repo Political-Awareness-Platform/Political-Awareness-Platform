@@ -5,7 +5,7 @@
       <TheMobileNav class="block lg:hidden" />
     </nav> -->
     <nav class="flex justify-center">
-      <NuxtLink to="/" class="text-3xl bg-gradient-to-r from-[#0099ff] to-[#41b300] bg-clip-text text-transparent mt-4">
+      <NuxtLink to="/" class="text-3xl text-center font-bold bg-gradient-to-r from-[#0099ff] to-[#41b300] bg-clip-text text-transparent mt-4">
         Political Awareness
         Platform</NuxtLink>
     </nav>

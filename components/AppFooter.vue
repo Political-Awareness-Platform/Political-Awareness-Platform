@@ -1,27 +1,35 @@
 <template>
   <footer class="my-4">
     <hr>
-    <div class="flex justify-center space-x-12 p-4">
+    <div class="flex flex-col text-center md:flex-row md:justify-center md:flex-wrap gap-4 p-4 my-4">
       <div>
         <LangSwitcher />
       </div>
       <div>
-        <a href="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform"
-          rel="noopener nofollow noreferrer" target="_blank" aria-label="See our works on GitHub!"
-          title="See our works on GitHub!">
-          Source code on GitHub
-        </a>
+        <UButton label="Open Source Code on"
+          to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform"
+          aria-label="See our works on GitHub!" title="See our works on GitHub!" target="_blank"
+          rel="noopener nofollow noreferrer" color="gray" variant="solid">
+          <template #trailing>
+            <UAvatar src="/logos/github-mark.png" size="2xs" />
+          </template>
+        </UButton>
       </div>
       <div>
-        <a href="https://opencollective.com/political-awareness-platform" rel="noopener nofollow noreferrer"
-          target="_blank" aria-label="Donation for the project" title="Donation for the project">
-          Donation
-        </a>
+        <UButton label="Donation on" to="https://opencollective.com/political-awareness-platform"
+          aria-label="Donation for the project" title="Donation for the project" target="_blank" color="gray"
+          variant="solid">
+          <template #trailing>
+            <UAvatar src="/logos/open-collective.svg" size="2xs" />
+          </template>
+        </UButton>
       </div>
       <div>
-        <a href="mailto:politicalawarenessplatform@gmail.com" title="politicalawarenessplatform@gmail.com"
-          aria-label="send an email to the project">
-          Contact via email</a>
+        <UButton label="Contact" to="/contact" color="gray" variant="solid">
+          <template #trailing>
+            <UIcon name="i-heroicons-arrow-right-20-solid" />
+          </template>
+        </UButton>
       </div>
     </div>
 
