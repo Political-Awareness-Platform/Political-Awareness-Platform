@@ -65,5 +65,13 @@
   "AuthenticationComponent": {
       "SignIn": "Giriş yap",
       "SignUp": "Kayıt ol"
+  },
+  "ContactPage": {
+      "Title": "İletişim / Geri Bildirim Formu",
+      "SubHeader": "Lütfen platformumuzu nasıl daha iyi hale getirebileceğimizi bize bildirin.",
+      "Name": "İsim",
+      "Email": "Email",
+      "Message": "Mesaj",
+      "SubmitButtonText": "Gönder"
   }
 }
