@@ -65,5 +65,13 @@
   "AuthenticationComponent" : {
       "SignIn": "Sign In",
       "SignUp": "Sign Up"
+  },
+  "ContactPage": {
+    "Title": "Contact / Feedback Form",
+    "SubHeader":"Please let us know how we can make this platform better.",
+    "Name": "Name",
+    "Email":"Email",
+    "Message":"Message",
+    "SubmitButtonText":"Submit"
   }
 }
