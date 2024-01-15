@@ -61,6 +61,13 @@
 
 <script setup>
 import data from '~/assets/parties/turkiye.json';
+
 const { id } = useRoute().params;
 const party = data.find(party => party.partyInfo.dbcode === id);
+const partyName = party.partyInfo.name;
+
+useHead({
+  title: partyName
+})
+
 </script>

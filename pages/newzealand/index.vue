@@ -1,5 +1,14 @@
 <template>
   <div class="p-2 mx-auto">
+
+    <div>
+      <Giscus data-repo="Political-Awareness-Platform/Political-Awareness-Platform"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzMDQ5NTE4Mzk=" data-category="test-openendeddiscussion-category"
+        data-category-id="DIC_kwDOEi0yH84Ccbuk" data-mapping="specific" data-term="newzealand" data-strict="0"
+        data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme"
+        data-lang="en" />
+    </div>
+
     <div class="flex flex-col lg:flex-row lg:flex-col-2 space-y-4 justify-around my-8">
       <div>
         <img width="100%" src="~/assets/flags/newzealand.jpg" alt="country-flag" class="rounded">
@@ -21,8 +30,8 @@
     </div>
 
     <div class="flex justify-center">
-      <UButton as="NuxtLink" :to="pageLink" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square"
-        >{{ $t('CountryPage.EditThisPage') }}</UButton>
+      <UButton as="NuxtLink" :to="pageLink" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square">
+        {{ $t('CountryPage.EditThisPage') }}</UButton>
     </div>
 
   </div>
@@ -30,9 +39,15 @@
 
 <script setup>
 import data from '~/assets/parties/newzealand.json';
-const parties = data;
+import Giscus from '@giscus/vue';
 
+const parties = data;
 const { name } = useRoute();
 const country = name.split('__')[0];
 const pageLink = `https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/pages/${country}/index.vue`;
+
+useHead({
+  title: "NEW ZEALAND",
+  meta: [ { "http-equiv": 'Cross-Origin-Embedder-Policy', "content": 'credentialless' } ]
+})
 </script>

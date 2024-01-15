@@ -1,0 +1,17 @@
+{
+  "origins": [
+    "https://giscus.app",
+    "https://giscus.vercel.app",
+    "https://giscus-component.vercel.app",
+    "https://github.com/Political-Awareness-Platform/Political-Awareness-Platform",
+    "politicalawarenessplatform.com",
+    "http://localhost:3000",
+    "http://localhost:3000/newzealand"
+  ],
+  "originsRegex": [
+    "http://localhost:[0-9]+",
+    "http://localhost:3000",
+    "http://localhost:3000/newzealand"
+  ],
+  "defaultCommentOrder": "oldest"
+}

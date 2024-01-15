@@ -1,6 +1,6 @@
 <template>
-  <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
-    <UButton color="white" :label="locale" trailing-icon="i-heroicons-language" />
+  <UDropdown :items="items"  :popper="{ placement: 'bottom-start' }">
+    <UButton color="white"  :label="locale" trailing-icon="i-heroicons-language" />
   </UDropdown>
 </template>
 
