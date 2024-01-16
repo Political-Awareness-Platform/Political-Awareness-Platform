@@ -2,11 +2,19 @@
   <div class="p-2 mx-auto">
 
     <div>
-      <Giscus data-repo="Political-Awareness-Platform/Political-Awareness-Platform"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzMDQ5NTE4Mzk=" data-category="test-openendeddiscussion-category"
-        data-category-id="DIC_kwDOEi0yH84Ccbuk" data-mapping="specific" data-term="newzealand" data-strict="0"
-        data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme"
-        data-lang="en" />
+      <Giscus
+      repo="Political-Awareness-Platform/Political-Awareness-Platform"
+      repo-id="MDEwOlJlcG9zaXRvcnkzMDQ5NTE4Mzk="
+      category="Announcements"
+      category-id="DIC_kwDOEi0yH84CcVtD"
+      mapping="pathname"
+      strict="0"
+      reactions-enabled="1"
+      emit-metadata="0"
+      input-position="top"
+      theme="light"
+      lang="en"
+  />
     </div>
 
     <div class="flex flex-col lg:flex-row lg:flex-col-2 space-y-4 justify-around my-8">
@@ -48,6 +56,5 @@ const pageLink = `https://github.com/Political-Awareness-Platform/Political-Awar
 
 useHead({
   title: "NEW ZEALAND",
-  meta: [ { "http-equiv": 'Cross-Origin-Embedder-Policy', "content": 'credentialless' } ]
 })
 </script>
