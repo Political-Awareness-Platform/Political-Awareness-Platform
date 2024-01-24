@@ -33,4 +33,9 @@ const parties = data;
 const { name } = useRoute();
 const country = name.split('__')[0];
 const pageLink = `https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/pages/${country}/index.vue`;
+
+useHead({
+  title: "DEUTSCHLAND",
+})
+
 </script>

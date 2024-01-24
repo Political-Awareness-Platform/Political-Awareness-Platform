@@ -1,14 +1,15 @@
 <template>
   <div class="p-2 mx-auto">
+
     <div class="flex flex-col lg:flex-row lg:flex-col-2 space-y-4 justify-around my-8">
       <div>
         <img width="100%" src="~/assets/flags/newzealand.jpg" alt="country-flag" class="rounded">
       </div>
       <div>
         <p><b>{{ $t('CountryPage.ActivePoliticParties') }} : </b>15</p>
-        <p><b>{{ $t('CountryPage.PartiesinParlament') }} : </b>5</p>
-        <p><b>{{ $t('CountryPage.NumberofVoters') }} : </b>3 570 000</p>
-        <p><b>{{ $t('CountryPage.ContributiontoElection') }} : </b>79.8%</p>
+        <p><b>{{ $t('CountryPage.PartiesinParlament') }} : </b>6</p>
+        <p><b>{{ $t('CountryPage.NumberofVoters') }} : </b>2 883 412</p>
+        <p><b>{{ $t('CountryPage.ContributiontoElection') }} : </b>78.2%</p>
       </div>
     </div>
 
@@ -21,8 +22,8 @@
     </div>
 
     <div class="flex justify-center">
-      <UButton as="NuxtLink" :to="pageLink" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square"
-        >{{ $t('CountryPage.EditThisPage') }}</UButton>
+      <UButton as="NuxtLink" :to="pageLink" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square">
+        {{ $t('CountryPage.EditThisPage') }}</UButton>
     </div>
 
   </div>
@@ -30,9 +31,13 @@
 
 <script setup>
 import data from '~/assets/parties/newzealand.json';
-const parties = data;
 
+const parties = data;
 const { name } = useRoute();
 const country = name.split('__')[0];
 const pageLink = `https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/pages/${country}/index.vue`;
+
+useHead({
+  title: "NEW ZEALAND",
+})
 </script>

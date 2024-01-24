@@ -6,7 +6,7 @@
     <DevOnly>
       <p class="mt-7">{{error.message}}</p>
     </DevOnly>
-    <button class="mt-5 pressable-button" @click="handleError">Go Home...</button>
+    <button class="mt-5 pressable-button" @click="handleError">Go Home Page</button>
   </div>
 </template>
 
