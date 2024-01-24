@@ -1,31 +1,15 @@
 <template>
   <div class="p-2 mx-auto">
 
-    <div>
-      <Giscus
-      repo="Political-Awareness-Platform/Political-Awareness-Platform"
-      repo-id="MDEwOlJlcG9zaXRvcnkzMDQ5NTE4Mzk="
-      category="Announcements"
-      category-id="DIC_kwDOEi0yH84CcVtD"
-      mapping="pathname"
-      strict="0"
-      reactions-enabled="1"
-      emit-metadata="0"
-      input-position="top"
-      theme="light"
-      lang="en"
-  />
-    </div>
-
     <div class="flex flex-col lg:flex-row lg:flex-col-2 space-y-4 justify-around my-8">
       <div>
         <img width="100%" src="~/assets/flags/newzealand.jpg" alt="country-flag" class="rounded">
       </div>
       <div>
         <p><b>{{ $t('CountryPage.ActivePoliticParties') }} : </b>15</p>
-        <p><b>{{ $t('CountryPage.PartiesinParlament') }} : </b>5</p>
-        <p><b>{{ $t('CountryPage.NumberofVoters') }} : </b>3 570 000</p>
-        <p><b>{{ $t('CountryPage.ContributiontoElection') }} : </b>79.8%</p>
+        <p><b>{{ $t('CountryPage.PartiesinParlament') }} : </b>6</p>
+        <p><b>{{ $t('CountryPage.NumberofVoters') }} : </b>2 883 412</p>
+        <p><b>{{ $t('CountryPage.ContributiontoElection') }} : </b>78.2%</p>
       </div>
     </div>
 
@@ -47,7 +31,6 @@
 
 <script setup>
 import data from '~/assets/parties/newzealand.json';
-import Giscus from '@giscus/vue';
 
 const parties = data;
 const { name } = useRoute();
