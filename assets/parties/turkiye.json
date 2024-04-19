@@ -2735,8 +2735,648 @@
       "internet_address": "https://www.turkiyeninsesipartisi.org/",
       "email_address": "ses@turkiyeninsesipartisi.org",
       "public_relation": "",
-      "current_member": "",
+      "current_member": "1.252",
       "president": "Ayhan Bilgen",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "adaletvedemokrasipartisi",
+      "name": "ADALET VE DEMOKRASİ PARTİSİ",
+      "shortname": "ADEPE",
+      "established": "05.05.2022",
+      "founder": "Yusuf DİRİL",
+      "address": "BALGAT MAH. ZİYABEY CD. NO: 14 / 3 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "0",
+      "president": "Yusuf DİRİL",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "milliyetciturkiyepartisi",
+      "name": "MİLLİYETÇİ TÜRKİYE PARTİSİ",
+      "shortname": "MTP",
+      "established": "27.02.2023",
+      "founder": "Ahmet Yılmaz YILMAZ",
+      "address": "REŞİT GALİP CD. NO: 7/1 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "0",
+      "president": "Ahmet Yılmaz YILMAZ",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "kizilelmapartisi",
+      "name": "KIZILELMA PARTİSİ",
+      "shortname": "KP",
+      "established": "06.03.2023",
+      "founder": "Yalçın DURSUN",
+      "address": "SÖĞÜTÖZÜ MAH. YAŞAM CAD. AKPLAZA BLOK NO: 7 / 17 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Yalçın DURSUN",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "ulusunpartisi",
+      "name": "ULUSUN PARTİSİ",
+      "shortname": "UP",
+      "established": "13.03.2023",
+      "founder": "Tuba KOYLAN",
+      "address": "DİL DEVRİMİ CD. DOĞANKAYA SİTESİ SİT. ERYAMAN EVLERİ A8 BLOK DAİRE:27 ETİMESGUT/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "0",
+      "president": "Tuba KOYLAN",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "merkezsagparti",
+      "name": "MERKEZ SAĞ PARTİ",
+      "shortname": "",
+      "established": "22.03.2023",
+      "founder": "Ömer BİLGİN",
+      "address": "Bahçekapı Mh. Eraslan Sit. 2492. Cd. No: 11 Şaşmaz Etimesgut/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "968",
+      "president": "Ömer BİLGİN",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "milliyetcisolparti",
+      "name": "MİLLİYETÇİ SOL PARTİ",
+      "shortname": "MİLLİ SOL",
+      "established": "19.04.2023",
+      "founder": "Hüseyin ALPAY",
+      "address": "",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "Bahçelievler Mah. 46. Sok. No: 81/2 Çankaya/ANKARA",
+      "president": "Hüseyin ALPAY",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "milliberaberlikpartisi",
+      "name": "MİLLİ BERABERLİK PARTİSİ",
+      "shortname": "",
+      "established": "26.04.2023",
+      "founder": "Peyami Sefa Atıcı",
+      "address": "Prof. Dr. Turan Güven Cad. Huzur Apt. No: 2/6 Demetevler Yenimahalle/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "163",
+      "president": "Peyami Sefa Atıcı",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "anayolpartisi",
+      "name": "ANA YOL PARTİSİ",
+      "shortname": "Ana Yol",
+      "established": "05.05.2023",
+      "founder": "Ali KARAKURT",
+      "address": "Aşağı Öveçler Mahallesi 1322 Cadde No:79 Çankaya-Ankara",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "0",
+      "president": "Ali KARAKURT",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "buyukiktidarpartisi",
+      "name": "BÜYÜK İKTİDAR PARTİSİ",
+      "shortname": "Bİ PARTİ",
+      "established": "22.05.2023",
+      "founder": "Selamettin TELLİOĞLU",
+      "address": "KOCATEPE MAH. BAYINDIR 2 SK. NO: 54 / 3 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "0",
+      "president": "Selamettin TELLİOĞLU",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "adaletvehurriyetpartisi",
+      "name": "ADALET VE HÜRRİYET PARTİSİ",
+      "shortname": "AHP",
+      "established": "21.06.2023",
+      "founder": "İdris MENTEŞ",
+      "address": "Kızılay Mah. Sümer-1 Cad. Kılıç Apt. No: 9/29 Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "81",
+      "president": "İdris MENTEŞ",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "ataparti",
+      "name": "ATA PARTİ",
+      "shortname": "ATA PARTİ",
+      "established": "28.07.2023",
+      "founder": "Namık Kemal ZEYBEK",
+      "address": "ÜMİT MAH. 2526 SK. NO: 16 (06810) ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "0",
+      "president": "Namık Kemal ZEYBEK",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "yerlivemilliparti",
+      "name": "YERLİ VE MİLLİ PARTİ",
+      "shortname": "YMP",
+      "established": "28.07.2023",
+      "founder": "Teoman MUTLU",
+      "address": "AZİZİYE MAH. PİYADE SK. NO: 27 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "10229",
+      "president": "Teoman MUTLU",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "",
+      "name": "İNSAN VE ÖZGÜRLÜK PARTİSİ",
+      "shortname": "",
+      "established": "28.07.2023",
+      "founder": "Davut GÜLER - Ahmet KAYA",
+      "address": "FİDANLIK MAH. SAĞLIK 1 SK. YILDIZ APT. KAT:1 NO: 36/6 KIZILAY ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Davut GÜLER - Ahmet KAYA",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "adilturkiyepartisi",
+      "name": "ADİL TÜRKİYE PARTİSİ",
+      "shortname": "ATP",
+      "established": "14.08.2023",
+      "founder": "Ata Barlas AŞKAR",
+      "address": "TUZLU ÇAYIR MAH. SÜLEYMAN AYTEN CAD. ÇİÇEK İŞ MERKEZİ NO:37/7 MAMAK/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "198",
+      "president": "Ata Barlas AŞKAR",
+      "facebook": "",
+      "twitter": "",
+      "phone": "0542 277 09 60"
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "sosyalistcumhuriyetpartisi",
+      "name": "SOSYALİST CUMHURİYET PARTİSİ",
+      "shortname": "SCP",
+      "established": "14.08.2023",
+      "founder": "Yılmaz ERSEZER",
+      "address": "Cumhuriyet Mah. Mithatpaşa Cad. No: 36/3 Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "876",
+      "president": "Yılmaz ERSEZER",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "umudayuruyuspartisi",
+      "name": "UMUDA YÜRÜYÜŞ PARTİSİ",
+      "shortname": "UYP",
+      "established": "27/09/2023",
+      "founder": "Adnan İLDEMİR",
+      "address": "Mustafa Kemal Mah. 2124. Sok. No: 10/A Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Adnan İLDEMİR",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "halkinsesipartisi",
+      "name": "HALKIN SESİ PARTİSİ",
+      "shortname": "",
+      "established": "27/09/2023",
+      "founder": "Banu SEVİM",
+      "address": "Beytepe Mah. Kanuni Sultan Süleyman Bulvarı 5387. Cad. Mira Ofis Kat:4 Daire:15 Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Banu SEVİM",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "turkiyeuyanispartisi",
+      "name": "TÜRKİYE UYANIŞ PARTİSİ",
+      "shortname": "TUP",
+      "established": "05/10/2023",
+      "founder": "Ahmet İMREK",
+      "address": "Kızılay Mh. Menekşe 2 Sk. Menekşe Apt. No: 20/2 Kızılay Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Ahmet İMREK",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "anadolumedeniyetpartisi",
+      "name": "ANADOLU MEDENİYET PARTİSİ",
+      "shortname": "ANA PARTİ",
+      "established": "27.10.2023",
+      "founder": "Muzaffer KALA",
+      "address": "Eti Mah. Toros Sk. No: 5 / 3 Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Muzaffer KALA",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "gencturkiyepartisi",
+      "name": "GENÇ TÜRKİYE PARTİSİ",
+      "shortname": "GTP",
+      "established": "08.11.2023",
+      "founder": "Ali ALEMDAROĞLU",
+      "address": "Menekşe 1 Sk. Menekşe İş Hanı No: 6/11 Kızılay Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Ali ALEMDAROĞLU",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "turkiyeguvenpartisi",
+      "name": "TÜRKİYE GÜVEN PARTİSİ",
+      "shortname": "TGP",
+      "established": "09.11.2023",
+      "founder": "Mehmet Ali KUMRU",
+      "address": "KIZILAY MAH. FEV ÇAKMAK 1 SK. NO: 13 / 6 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Mehmet Ali KUMRU",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "turkiyeemeklilerpartisi",
+      "name": "TÜRKİYE EMEKLİLER PARTİSİ",
+      "shortname": "TEP",
+      "established": "14.11.2023",
+      "founder": "Ahmet DUMAN",
+      "address": "Fidanlık Mah. Ataç 1 Sk. No: 29/8 Çankaya/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Ahmet DUMAN",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "turanpartisi",
+      "name": "TURAN PARTİSİ",
+      "shortname": "TURAN PARTİSİ",
+      "established": "21.11.2023",
+      "founder": "Cengiz ÇİFTÇİ",
+      "address": "GÜZEL TEPE MAH. AHMET RASİM SK. NO: 25 / 6 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Cengiz ÇİFTÇİ",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "buyukparti",
+      "name": "BÜYÜK PARTİ",
+      "shortname": "BP",
+      "established": "23.11.2023",
+      "founder": "Mikdat ERTEM",
+      "address": "İLKER MAH. 787 CD. NO: 15 / 6 DİKMEN ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Mikdat ERTEM",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "kureseladaletveliyakatpartisi",
+      "name": "KÜRESEL ADALET VE LİYAKAT PARTİSİ",
+      "shortname": "KALP PARTİSİ",
+      "established": "29.11.2023",
+      "founder": "Volkan SIRMA",
+      "address": "ÇIKRIKÇILAR CD. KAYALAR İŞ MERKEZİ SİT. NO: 68 ALTINDAĞ/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Volkan SIRMA",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "turkiyempartisi",
+      "name": "TÜRKİYE'M PARTİSİ",
+      "shortname": "TÜRKİYE’M",
+      "established": "29.11.2023",
+      "founder": "Önder GENÇ",
+      "address": "MEŞRUTİYET MAH. ATATÜRK BLV. NO: 117 / 10 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Önder GENÇ",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "cumhuriyetpartisi",
+      "name": "CUMHURİYET PARTİSİ",
+      "shortname": "",
+      "established": "28.12.2023",
+      "founder": "Osman Karakuş",
+      "address": "Yüzüncü Yıl İşçi Blokları 1532. Sokak No:123/5 Çankaya-ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Osman Karakuş",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "turkiyeemeklilervecalisanlarpartisi",
+      "name": "TÜRKİYE EMEKLİLER VE ÇALIŞANLAR PARTİSİ",
+      "shortname": "TEÇP",
+      "established": "08.01.2024",
+      "founder": "Cengiz ERTEN",
+      "address": "TEPEALTI MAH. GÜRLER SK. NO: 118 / 1 YENİMAHALLE/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Cengiz ERTEN",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "toplumcukurtuluspartisi",
+      "name": "TOPLUMCU KURTULUŞ PARTİSİ",
+      "shortname": "1920 TKP",
+      "established": "18.01.2024",
+      "founder": "İsmail KAPLAN",
+      "address": "SELANİK 1 CD. LİMONCUOĞLU İŞHANI SİT. NO: 23 KIZILAY/ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "İsmail KAPLAN",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "yeniyuzyilpartisi",
+      "name": "YENİ YÜZYIL PARTİSİ",
+      "shortname": "YENİ YÜZYIL",
+      "established": "02.02.2024",
+      "founder": "Hasan Fatih YUMAK",
+      "address": "HACETTEPE MAH. UZUN KAVAK SK. NO: 12 ALTINDAĞ/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Hasan Fatih YUMAK",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "evrenselmedeniyetpartisi",
+      "name": "EVRENSEL MEDENİYET PARTİSİ",
+      "shortname": "EMP",
+      "established": "14.02.2024",
+      "founder": "Burhan EROL",
+      "address": "İVEDİK OSB mah. 1469 CD. NO: 18 Kat:3 YENİMAHALLE/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Burhan EROL",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "gucluturkiyepartisi",
+      "name": "GÜÇLÜ TÜRKİYE PARTİSİ",
+      "shortname": "",
+      "established": "13.03.2024",
+      "founder": "Muharrem GÖZKAYA",
+      "address": "KÜLTÜR MAH. YÜKSEL CD. NO: 30 / 6 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Muharrem GÖZKAYA",
       "facebook": "",
       "twitter": "",
       "phone": ""
