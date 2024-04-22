@@ -7,7 +7,7 @@
       <div>
         <p><b>{{ $t('CountryPage.ActivePoliticParties') }} : </b> <a target="_blank"
             href="https://www.yargitaycb.gov.tr/icerik/1093/siyasi-parti-genel-bilgileri"
-            class="underline text-sky-800">137</a></p>
+            class="underline text-sky-800">139</a></p>
         <p><b>{{ $t('CountryPage.PartiesinParlament') }} : </b>15</p>
         <p><b>{{ $t('CountryPage.NumberofVoters') }} : </b>64 191 285</p>
         <p><b>{{ $t('CountryPage.ContributiontoElection') }} : </b> <a target="_blank"
