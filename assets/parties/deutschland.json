@@ -980,5 +980,27 @@
       "Gleichstellung aller Geschlechter",
       "Abschaffung der Zeitumstellung"
     ]
+  },
+  {
+    "partyInfo": {
+      "country": "germany",
+      "dbcode": "bündnisfürinnovationgerechtigkeit",
+      "name": "Bündnis für Innovation & Gerechtigkeit",
+      "shortname": "BIG",
+      "established": "21.02.2010",
+      "founder": "Haluk Yıldız",
+      "address": "Mainzer Landstr. 351 60326 Frankfurt am Main",
+      "internet_address": "https://bigpartei.de",
+      "public_relation": "Haluk Yıldız",
+      "current_member": "",
+      "president": "Haluk Yıldız",
+      "facebook": "https://www.facebook.com/BIGParteiDeutschland",
+      "twitter": "https://x.com/big_partei_de",
+      "phone": "(0 69) 15 32 2849"
+    },
+    "partyPurposes": [
+      "Das Bündnis für Innovation & Gerechtigkeit ist eine politische Partei auf der Grundlage   des Grundgesetzes und des Parteiengesetzes der Bundesrepublik Deutschland, die dem   Gemeinwohl verpflichtet ist. Sie vertritt die Interessen der Bürger der Bundesrepublik   Deutschland. Der Name der Partei gibt das Verständnis ihrer Gründer vom wichtigsten   politischen Ziel wieder.",
+      "Die Bundespartei Bündnis für Innovation & Gerechtigkeit ist die Zusammenfassung aller   Mitglieder der BIG in der Bundesrepublik Deutschland. Sie hat den Zweck, insbesondere   durch Teilnahme mit eigenen Wahlvorschlägen im Bundesgebiet, bei der politischen   Willensbildung mitzuwirken."
+    ]
   }
 ]
