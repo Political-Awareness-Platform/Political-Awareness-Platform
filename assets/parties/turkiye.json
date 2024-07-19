@@ -3382,5 +3382,85 @@
       "phone": ""
     },
     "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "milliulusalparti",
+      "name": "MİLLİ ULUSAL PARTİ",
+      "shortname": "MUP",
+      "established": "03.05.2024",
+      "founder": "Turgay AKBAŞ",
+      "address": "AHİ MESUT MAH. 1890 CD. NO: 10 / 35 ETİMESGUT/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "Turgay AKBAŞ",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "cumhuriyetcisolparti",
+      "name": "CUMHURİYETÇİ SOL PARTİ",
+      "shortname": "CSP",
+      "established": "12.06.2024",
+      "founder": "",
+      "address": "MEŞRUTİYET MAH. KONUR 1 SK. NO: 12 / 6 KIZILAY/ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "sosyaldemokrathalkciparti",
+      "name": "SOSYAL DEMOKRAT HALKÇI PARTİ",
+      "shortname": "SHP",
+      "established": "28.06.2024",
+      "founder": "",
+      "address": "MEŞRUTİYET MAH. KARANFİL SK. NO: 4 / 91 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "",
+      "name": "SOSYALİSTLER PARTİSİ",
+      "shortname": "SOLDEP",
+      "established": "10.07.2024",
+      "founder": "",
+      "address": "MEŞRUTİYET MAH. KARANFİL CD. NO: 18 / 3 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
   }
 ]
