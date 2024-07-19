@@ -3422,5 +3422,45 @@
       "phone": ""
     },
     "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "sosyaldemokrathalkciparti",
+      "name": "SOSYAL DEMOKRAT HALKÇI PARTİ",
+      "shortname": "SHP",
+      "established": "28.06.2024",
+      "founder": "",
+      "address": "MEŞRUTİYET MAH. KARANFİL SK. NO: 4 / 91 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
+  },
+  {
+    "partyInfo": {
+      "country": "turkey",
+      "dbcode": "",
+      "name": "SOSYALİSTLER PARTİSİ",
+      "shortname": "SOLDEP",
+      "established": "10.07.2024",
+      "founder": "",
+      "address": "MEŞRUTİYET MAH. KARANFİL CD. NO: 18 / 3 ÇANKAYA/ANKARA",
+      "internet_address": "",
+      "email_address": "",
+      "public_relation": "",
+      "current_member": "",
+      "president": "",
+      "facebook": "",
+      "twitter": "",
+      "phone": ""
+    },
+    "partyPurposes": []
   }
 ]
