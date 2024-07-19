@@ -21,9 +21,9 @@
       </div>
     </div>
 
-    <div class="flex flex-col gap-4 justify-around my-8 lg:flex-row lg:flex-col-2">
+    <!-- <div class="flex flex-col gap-4 justify-around my-8 lg:flex-row lg:flex-col-2"> -->
       <!-- Positive Imaginary Party Comment -->
-      <UCard :ui="{ header: { padding: 'px-2 py-3 sm:px-2' }, body: { padding: 'p-3' } }" class="w-full">
+      <!-- <UCard :ui="{ header: { padding: 'px-2 py-3 sm:px-2' }, body: { padding: 'p-3' } }" class="w-full">
         <template #header>
           <h2 class="text-md text-sky-500 font-extrabold text-center hover:text-sky-600">What should be the foremost
             priority of a
@@ -38,11 +38,11 @@
             variant="solid" class="mt-2" @click="sendPositiveComment" />
         </div>
 
-      </UCard>
+      </UCard> -->
 
 
       <!-- Negative Imaginary Party Comment -->
-      <UCard :ui="{ header: { padding: 'px-2 py-3 sm:px-2' }, body: { padding: 'p-3' } }" class="w-full">
+      <!-- <UCard :ui="{ header: { padding: 'px-2 py-3 sm:px-2' }, body: { padding: 'p-3' } }" class="w-full">
         <template #header>
           <h2 class="text-md text-orange-500 font-extrabold text-center hover:text-orange-600">What is the most critical
             topic a political
@@ -58,9 +58,9 @@
             variant="solid" class="mt-2" @click="sendNegativeComment" />
         </div>
 
-      </UCard>
+      </UCard> -->
 
-    </div>
+    <!-- </div> -->
 
     <div class="flex justify-center">
       <UButton as="NuxtLink" :to="pageLink" target="_blank" color="gray" variant="solid"
