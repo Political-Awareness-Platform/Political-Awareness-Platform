@@ -1,10 +1,10 @@
 <template>
-  <div class="p-4">
+  <div v-if="party" class="p-4">
 
     <div class="flex flex-col gap-6 lg:flex-row">
       <div class="w-full lg:flex-auto lg:w-1/4">
         <div>
-          <img class="w-full rounded" :src="`/logos/turkiye/${party.partyInfo.dbcode}.jpg`" alt="party-logo" />
+          <img class="w-full rounded" :src="`/logos/newzealand/${party.partyInfo.dbcode}.jpg`" alt="party-logo" />
         </div>
         <!-- Social Media Links -->
         <div class="flex flex-row flex-wrap justify-around mt-8">
@@ -53,21 +53,22 @@
     </div>
 
     <div class="flex justify-center">
-      <UButton to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/assets/parties/turkiye.json" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square">{{ $t('PartyPage.EditThisPage') }}</UButton>
+      <UButton to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/assets/parties/newzealand.json" target="_blank" color="gray" variant="solid" icon="i-heroicons-pencil-square" >{{ $t('PartyPage.EditThisPage') }}</UButton>
     </div>
 
+  </div>
+  <div v-else class="p-4 text-center">
+    <UCard>
+      <h2 class="text-xl font-bold mb-4">{{ $t('PartyPage.PartyNotFound') || 'Party not found' }}</h2>
+      <p class="mb-4">{{ $t('PartyPage.PartyNotFoundMessage') || 'The requested party could not be found.' }}</p>
+      <UButton to="/newzealand" color="primary">{{ $t('PartyPage.BackToCountry') || 'Back to New Zealand' }}</UButton>
+    </UCard>
   </div>
 </template>
 
 <script setup>
-import data from '~/assets/parties/turkiye.json';
+import data from "~/assets/parties/newzealand.json";
 
 const { id } = useRoute().params;
-const party = data.find(party => party.partyInfo.dbcode === id);
-const partyName = party.partyInfo.name;
-
-useHead({
-  title: partyName
-})
-
+const party = data.find((p) => p.partyInfo.dbcode === id);
 </script>

@@ -1,8 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
+  ssr: true,
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/"],
+    },
+  },
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxtjs/i18n","@nuxt/image", "nuxt-security"],
-  colorMode: { preference: "light"},
+  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/image", "nuxt-security"],
+  css: ["~/assets/css/main.css"],
+  colorMode: { preference: "light" },
   app: {
     head: {
       title: "Political Awareness Platform",
@@ -16,21 +27,20 @@ export default defineNuxtConfig({
       ],
     },
   },
-  tailwindcss: { viewer: false },
   image: {
-    dir: 'assets/logos',
+    dir: "assets/logos",
   },
   i18n: {
-    lazy: true,
-    langDir: "locales",
+    lazy: false,
+    langDir: "../locales",
     strategy: "prefix_except_default",
     detectBrowserLanguage: {
       useCookie: false,
-      redirectOn: "root", // recommended
+      redirectOn: "root",
     },
     locales: [
       {
-        code: "en-GB",
+        code: "en",
         iso: "en-GB",
         name: "🇬🇧 English (UK)",
         file: "en-GB.json",
@@ -48,6 +58,6 @@ export default defineNuxtConfig({
         file: "tr-TR.json",
       },
     ],
-    defaultLocale: "en-GB",
-  }
+    defaultLocale: "en",
+  },
 });

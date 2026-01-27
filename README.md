@@ -6,15 +6,32 @@ Nuxtjs - Firebase - Netlify
 ## Development Setup ( In Progress for a better developer experience)
 
 ```bash
-# install dependencies
+# install dependencies (using pnpm - recommended)
+$ pnpm install
+
+# alternatively with npm
 $ npm install
+
 # serve with hot reload at localhost:3000
+$ pnpm run dev
+# or with npm
 $ npm run dev
+
 # build for production and launch server
-$ npm run build
-$ npm run start
+$ pnpm run build
+$ pnpm run start
+
 # generate static project
-$ npm run generate
+$ pnpm run generate
+
+# format code with Biome
+$ pnpm run format
+
+# lint code with Biome
+$ pnpm run lint
+
+# check and fix code issues
+$ pnpm run check
 ```
 ## We are pleased you are on this page and willing to contribute to this platform and make it even better. 
 ## Developer Contributions: 

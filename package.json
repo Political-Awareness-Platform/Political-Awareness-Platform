@@ -8,18 +8,20 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "format": "biome format --write . --format-with-errors=true",
+    "lint": "biome lint --write .",
+    "check": "biome check ."
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.3.9",
-    "@nuxtjs/i18n": "^8.3.1",
-    "nuxt": "^3.12.4",
-    "nuxt-security": "^2.0.0-rc.9",
-    "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "@biomejs/biome": "^2.3.13",
+    "@nuxt/devtools": "^3.1.1",
+    "@nuxtjs/i18n": "^9.5.6",
+    "nuxt": "^4.0.0",
+    "nuxt-security": "^2.0.0-rc.9"
   },
   "dependencies": {
-    "@nuxt/image": "^1.7.0",
-    "@nuxt/ui": "^2.17.0"
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^4.4.0"
   }
 }
