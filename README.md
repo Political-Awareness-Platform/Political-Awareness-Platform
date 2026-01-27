@@ -56,4 +56,4 @@ New issue: https://github.com/Political-Awareness-Platform/Political-Awareness-P
 
 ## Licence
 [MIT](https://opensource.org/licenses/MIT)
-Copyright (c) 2018-present
+Copyright (c) 2024 Political Awareness Platform

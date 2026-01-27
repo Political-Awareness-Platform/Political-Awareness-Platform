@@ -15,9 +15,24 @@ Please delete options that are not relevant.
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
+## Screenshots (if applicable)
+
+If your changes include visual updates, please include before/after screenshots.
+
 ## How Has This Been Tested?
 
 Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce.
+
+- [ ] Test A
+- [ ] Test B
+- [ ] Test C
+
+## Dependencies
+
+Does this PR depend on any other PRs or external dependencies?
+
+- [ ] No dependencies
+- [ ] Depends on #PR_NUMBER
 
 ## Checklist:
 
@@ -28,3 +43,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] My changes generate no new warnings
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
+- [ ] I have checked that this PR is not a duplicate of any other PR
+
+## Additional Notes
+
+Any additional information or context that reviewers should be aware of.
