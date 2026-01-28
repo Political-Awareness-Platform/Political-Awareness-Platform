@@ -36,7 +36,7 @@ import parties from "~/assets/parties/turkiye.json";
 const localePath = useLocalePath();
 const { name } = useRoute();
 const country = name.split("__")[0];
-const _pageLink = `https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/pages/${country}/index.vue`;
+const _pageLink = `https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/app/pages/${country}/index.vue`;
 
 useHead({
   title: "TÜRKİYE",

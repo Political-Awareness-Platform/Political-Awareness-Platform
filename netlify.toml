@@ -1,0 +1,32 @@
+[build]
+  command = "npm run generate"
+  publish = ".output/public"
+
+# Redirect all requests to index.html for SPA fallback (per locale)
+[[redirects]]
+  from = "/de-DE/*"
+  to = "/de-DE/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/tr-TR/*"
+  to = "/tr-TR/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for caching and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/_nuxt/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
