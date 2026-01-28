@@ -1,5 +1,5 @@
 <template>
-  <div v-if="party">
+  <div v-if="party" class="p-4">
     <div class="flex flex-col gap-6 lg:flex-row">
       <div class="w-full lg:w-1/4">
         <div>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="flex justify-center">
-      <UButton to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/assets/parties/turkiye.json" target="_blank" color="neutral" variant="solid" icon="i-heroicons-pencil-square">
+      <UButton to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform/blob/development/app/assets/parties/turkiye.json" target="_blank" color="neutral" variant="solid" icon="i-heroicons-pencil-square">
         {{ $t('PartyPage.EditThisPage') }}
       </UButton>
     </div>
