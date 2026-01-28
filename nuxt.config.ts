@@ -3,11 +3,13 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  compatibilityDate: "2026-01-28",
   ssr: true,
   nitro: {
+    preset: "static",
     prerender: {
       crawlLinks: true,
-      routes: ["/"],
+      routes: ["/", "/turkiye", "/deutschland", "/newzealand"],
     },
   },
   devtools: { enabled: true },
@@ -32,6 +34,9 @@ export default defineNuxtConfig({
   },
   i18n: {
     lazy: false,
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
     langDir: "../locales",
     strategy: "prefix_except_default",
     detectBrowserLanguage: {
