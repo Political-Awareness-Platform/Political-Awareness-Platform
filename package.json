@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.13",
+    "@iconify-json/simple-icons": "^1.2.68",
     "@nuxt/devtools": "^3.1.1",
     "@nuxtjs/i18n": "^9.5.6",
     "nuxt": "^4.0.0",
