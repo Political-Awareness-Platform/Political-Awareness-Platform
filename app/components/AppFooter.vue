@@ -4,7 +4,7 @@
       <LangSwitcher />
     </template>
 
-    <div class="flex items-center gap-3">
+    <div class="flex flex-col sm:flex-row items-center gap-3 px-2 sm:justify-center">
       <UButton
         label="Open Source Code"
         to="https://github.com/Political-Awareness-Platform/Political-Awareness-Platform"
