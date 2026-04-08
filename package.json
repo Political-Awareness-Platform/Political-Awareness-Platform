@@ -19,7 +19,7 @@
     "@nuxt/devtools": "4.0.0-alpha.4",
     "@nuxtjs/i18n": "10.2.4",
     "nuxt": "4.4.2",
-    "nuxt-security": "2.0.0-rc.9"
+    "nuxt-security": "2.5.1"
   },
   "dependencies": {
     "@nuxt/image": "2.0.0",
