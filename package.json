@@ -14,15 +14,15 @@
     "check": "biome check ."
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.8",
-    "@iconify-json/simple-icons": "^1.2.74",
-    "@nuxt/devtools": "4.0.0-alpha.1",
-    "@nuxtjs/i18n": "^10.2.3",
+    "@biomejs/biome": "^2.4.10",
+    "@iconify-json/simple-icons": "^1.2.77",
+    "@nuxt/devtools": "4.0.0-alpha.4",
+    "@nuxtjs/i18n": "^10.2.4",
     "nuxt": "^4.4.2",
     "nuxt-security": "^2.0.0-rc.9"
   },
   "dependencies": {
     "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "^4.5.1"
+    "@nuxt/ui": "^4.6.1"
   }
 }
