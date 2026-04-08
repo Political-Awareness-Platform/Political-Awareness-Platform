@@ -16,21 +16,15 @@
     "test:e2e:headed": "playwright test --headed"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.8",
-    "@iconify-json/simple-icons": "1.2.74",
-    "@nuxt/devtools": "4.0.0-alpha.1",
-    "@nuxt/test-utils": "4.0.0",
-    "@nuxtjs/i18n": "10.2.3",
-    "@playwright/test": "1.58.2",
-    "@vue/test-utils": "2.4.6",
-    "happy-dom": "^20.8.4",
-    "nuxt": "4.4.2",
-    "nuxt-security": "2.5.1",
-    "playwright-core": "1.58.2",
-    "vitest": "4.1.0"
+    "@biomejs/biome": "^2.4.10",
+    "@iconify-json/simple-icons": "^1.2.77",
+    "@nuxt/devtools": "4.0.0-alpha.4",
+    "@nuxtjs/i18n": "^10.2.4",
+    "nuxt": "^4.4.2",
+    "nuxt-security": "^2.0.0-rc.9"
   },
   "dependencies": {
-    "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.5.1"
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^4.6.1"
   }
 }
