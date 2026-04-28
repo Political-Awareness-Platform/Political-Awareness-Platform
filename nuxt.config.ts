@@ -33,9 +33,8 @@ export default defineNuxtConfig({
     dir: "assets/logos",
   },
   i18n: {
-    lazy: false,
     bundle: {
-      optimizeTranslationDirective: false,
+      dropMessageCompiler: true,
     },
     langDir: "../locales",
     strategy: "prefix_except_default",
