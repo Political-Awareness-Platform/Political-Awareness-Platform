@@ -18,7 +18,7 @@
     "@iconify-json/simple-icons": "1.2.79",
     "@nuxt/devtools": "4.0.0-alpha.4",
     "@nuxtjs/i18n": "10.3.0",
-    "nuxt": "4.4.2",
+    "nuxt": "4.4.7",
     "nuxt-security": "2.5.1"
   },
   "dependencies": {
