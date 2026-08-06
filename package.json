@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.7.0"
+    "@nuxt/ui": "4.8.1"
   }
 }
